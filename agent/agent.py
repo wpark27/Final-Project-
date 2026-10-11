@@ -50,7 +50,7 @@ def build_release_agent(model=None) -> Agent[Deps, ReleaseCheck]:
         "it must be the policy decision statement for the stated meeting date. "
         "For elections, it must be the official results (winner and/or seat counts or vote shares) "
         "published by the official election authority for that vote; partial counts => released=false. "
-        "For summits, the official conclusions. "
+        "For summits, the official conclusions. For minutes/summaries of opinions, the publication of those minutes for that meeting. "
         "Put the direct URL of the release in `url` and key figures in `metrics`.",
     )
     _attach_tools(agent)
@@ -58,9 +58,15 @@ def build_release_agent(model=None) -> Agent[Deps, ReleaseCheck]:
 
 
 TOPICS = {
-    "market_report": "market reports, outlooks and research publications (not marketing or podcasts)",
-    "appointment": "official appointments, nominations, confirmations, resignations, dismissals, cabinet or "
-    "minister changes, and leadership changes (e.g. heads of government/state, Commission, ministers)",
+    "market_report": "market reports, outlooks and research publications (not marketing or podcasts); type='report'",
+    "politics": "official appointments, nominations, confirmations, resignations, dismissals, cabinet or minister "
+    "changes (type='appointment') and major official policy announcements, sanctions, treaties or "
+    "government statements (type='announcement')",
+    "leadership": "changes in LEADERSHIP of this central bank only: Governor/Chair/President, deputies, and "
+    "board/MPC/FOMC member appointments, nominations, resignations or retirements; type='leadership'",
+    "conflict": "official updates on the war in Ukraine and on conflicts in the Middle East: ceasefires, "
+    "negotiations, major military or diplomatic developments, humanitarian-access announcements; "
+    "type='conflict_update'. Report only what the page itself states, attributed to that source",
 }
 
 
@@ -82,8 +88,10 @@ async def check_event(agent: Agent[Deps, ReleaseCheck], ev: Event, today: date) 
         f"Today is {today.isoformat()}.\n"
         f"Event: {ev.title}\nEntity: {ev.entity}\nScheduled/projected date: {ev.date.isoformat()}\n"
         f"Official source to start from: {ev.source_url}\n"
-        + ("This date is only projected: if the site announces the real date, return it in confirmed_date.\n"
-           if ev.status == "projected" else "")
+        + ("This date is NOT yet verified. If the official site announces or shows the real date of this "
+           "release (companies typically issue a 'to announce ... results on <date>' notice weeks ahead), return "
+           "it in confirmed_date. If the release already happened, return its actual publication date in `published`.\n"
+           if ev.basis in ("unverified", "estimate") else "")
     )
     res = await agent.run(prompt, deps=Deps(allowed_url=ev.source_url))
     out = res.output

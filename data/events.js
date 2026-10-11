@@ -1,6 +1,5 @@
 window.CALENDAR_DATA = {
  "year": 2026,
- "generated": null,
  "events": [
   {
    "id": "jpmorgan-chase-q4-2025",
@@ -12,7 +11,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-13",
    "title": "JPMorgan Chase Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.jpmorganchase.com/ir/news",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -25,7 +27,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-14",
    "title": "Bank of America Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investor.bankofamerica.com/quarterly-earnings",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -38,7 +43,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-14",
    "title": "Citigroup Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.citigroup.com/global/investors/quarterly-earnings",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -51,7 +59,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-14",
    "title": "Partners Group AuM 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.partnersgroup.com/en/investor-relations/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -64,7 +75,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-14",
    "title": "Wells Fargo Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.wellsfargo.com/about/investor-relations/quarterly-earnings/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -77,7 +91,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-15",
    "title": "Goldman Sachs Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.goldmansachs.com/investor-relations/financials/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -90,7 +107,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-15",
    "title": "Morgan Stanley Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.morganstanley.com/about-us-ir/earnings-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -102,8 +122,11 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-01-18",
    "title": "Portugal presidential election (1st round)",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.eleicoes.mai.gov.pt/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_elections_in_the_European_Union",
+   "last_checked": null,
    "result": null
   },
   {
@@ -116,7 +139,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-20",
    "title": "People's Bank of China (LPR) rate decision",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.pbc.gov.cn/en/3688006/index.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -128,8 +154,11 @@ window.CALENDAR_DATA = {
    "region": "Japan",
    "date": "2026-01-23",
    "title": "Bank of Japan rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -141,8 +170,11 @@ window.CALENDAR_DATA = {
    "region": "Canada",
    "date": "2026-01-28",
    "title": "Bank of Canada rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "verified_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -154,8 +186,11 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-01-28",
    "title": "Federal Reserve (FOMC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -168,7 +203,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-28",
    "title": "Jefferies FQ4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.jefferies.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -181,7 +219,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-28",
    "title": "PJT Partners Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.pjtpartners.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -194,7 +235,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-29",
    "title": "Blackstone Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.blackstone.com/news/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -207,7 +251,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-29",
    "title": "Deutsche Bank Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investor-relations.db.com/reports-and-events/quarterly-results/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -220,7 +267,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-29",
    "title": "EQT Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://eqtgroup.com/shareholders/financial-reports-presentations",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -233,7 +283,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-29",
    "title": "Evercore Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.evercore.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -246,7 +299,10 @@ window.CALENDAR_DATA = {
    "date": "2026-01-29",
    "title": "Houlihan Lokey FQ3 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.hl.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -259,7 +315,26 @@ window.CALENDAR_DATA = {
    "date": "2026-01-29",
    "title": "Lazard Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.lazard.com/investor-relations/",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-japan-minutes-2026-02-02",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-02-02",
+   "title": "BoJ Summary of Opinions (Jan meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -272,7 +347,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-03",
    "title": "KKR Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.kkr.com/news-events/press-releases/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -284,8 +362,11 @@ window.CALENDAR_DATA = {
    "region": "Australia",
    "date": "2026-02-03",
    "title": "Reserve Bank of Australia rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "verified_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -298,7 +379,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-03",
    "title": "UBS Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.ubs.com/global/en/investor-relations/financial-information/quarterly-reporting.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -311,7 +395,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-04",
    "title": "Apollo Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.apollo.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -324,7 +411,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-04",
    "title": "Ares Capital (BDC) Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.arescapitalcorp.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -337,7 +427,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-04",
    "title": "Moelis & Company Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.moelis.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -350,7 +443,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-05",
    "title": "BNP Paribas Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://invest.bnpparibas/en/search/reports/documents/financial-results",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -362,8 +458,11 @@ window.CALENDAR_DATA = {
    "region": "UK",
    "date": "2026-02-05",
    "title": "Bank of England (MPC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "verified_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "last_checked": null,
    "result": null
   },
   {
@@ -376,7 +475,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-05",
    "title": "Blue Owl Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.blueowl.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -389,7 +491,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-05",
    "title": "Carlyle Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.carlyle.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -402,7 +507,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-05",
    "title": "European Central Bank rate decision",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.ecb.europa.eu/press/pr/date/html/index.en.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -415,7 +523,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-05",
    "title": "Hamilton Lane FQ3 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.hamiltonlane.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -428,7 +539,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-05",
    "title": "Perella Weinberg Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.pwpartners.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -441,7 +555,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-06",
    "title": "Ares Management Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.aresmgmt.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -453,8 +570,27 @@ window.CALENDAR_DATA = {
    "region": "India",
    "date": "2026-02-06",
    "title": "Reserve Bank of India rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "verified_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "portugal-2026-02-08",
+   "kind": "election",
+   "entity": "Portugal",
+   "ticker": null,
+   "category": "euro_national",
+   "region": "Europe",
+   "date": "2026-02-08",
+   "title": "Portugal presidential election (runoff)",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://www.eleicoes.mai.gov.pt/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_elections_in_the_European_Union",
+   "last_checked": null,
    "result": null
   },
   {
@@ -467,7 +603,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-10",
    "title": "Barclays FY 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://home.barclays/investor-relations/reports-and-events/latest-financial-results/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -480,7 +619,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-11",
    "title": "StepStone FQ3 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.stepstonegroup.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -493,7 +635,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-12",
    "title": "Brookfield Asset Management Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://bam.brookfield.com/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -506,7 +651,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-12",
    "title": "TPG Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.tpg.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -519,7 +667,26 @@ window.CALENDAR_DATA = {
    "date": "2026-02-18",
    "title": "Blue Owl Capital Corp (BDC) Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.blueowlcapitalcorporation.com/news-events",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "federal-reserve--fomc-minutes-2026-02-18",
+   "kind": "minutes",
+   "entity": "Federal Reserve (FOMC)",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "US",
+   "date": "2026-02-18",
+   "title": "FOMC minutes (Jan 27-28 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -532,7 +699,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-20",
    "title": "People's Bank of China (LPR) rate decision",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.pbc.gov.cn/en/3688006/index.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -545,7 +715,10 @@ window.CALENDAR_DATA = {
    "date": "2026-02-25",
    "title": "FS KKR Capital (BDC) Q4 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.fskkr.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -558,20 +731,26 @@ window.CALENDAR_DATA = {
    "date": "2026-02-25",
    "title": "HSBC FY 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.hsbc.com/investors/results-and-announcements",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "us-primaries---tx--nc--ar-2026-03-03",
+   "id": "us-primaries---ar--nc--tx-2026-03-03",
    "kind": "election",
-   "entity": "US primaries - TX, NC, AR",
+   "entity": "US primaries - AR, NC, TX",
    "ticker": null,
    "category": "us_politics",
    "region": "US",
    "date": "2026-03-03",
-   "title": "US primaries: Texas, North Carolina, Arkansas",
-   "status": "projected",
+   "title": "US primaries: Arkansas, North Carolina, Texas",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
    "result": null
   },
   {
@@ -584,7 +763,10 @@ window.CALENDAR_DATA = {
    "date": "2026-03-04",
    "title": "CVC Capital Partners FY 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.cvc.com/investors/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -596,21 +778,27 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-03-08",
    "title": "Baden-Wuerttemberg state election",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.bundeswahlleiterin.de/en/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_Baden-W%C3%BCrttemberg_state_election",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "bank-of-canada-2026-03-11",
-   "kind": "rate_decision",
-   "entity": "Bank of Canada",
+   "id": "us-primaries---ms-2026-03-10",
+   "kind": "election",
+   "entity": "US primaries - MS",
    "ticker": null,
-   "category": "central_bank",
-   "region": "Canada",
-   "date": "2026-03-11",
-   "title": "Bank of Canada rate decision",
-   "status": "projected",
-   "source_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "category": "us_politics",
+   "region": "US",
+   "date": "2026-03-10",
+   "title": "US primary: Mississippi",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
    "result": null
   },
   {
@@ -623,7 +811,10 @@ window.CALENDAR_DATA = {
    "date": "2026-03-11",
    "title": "Partners Group FY 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.partnersgroup.com/en/investor-relations/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -636,7 +827,26 @@ window.CALENDAR_DATA = {
    "date": "2026-03-12",
    "title": "Rothschild & Co FY 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.rothschildandco.com/en/shareholders/financial-information/",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "france-2026-03-15",
+   "kind": "election",
+   "entity": "France",
+   "ticker": null,
+   "category": "euro_national",
+   "region": "Europe",
+   "date": "2026-03-15",
+   "title": "French municipal elections (1st round)",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://www.interieur.gouv.fr/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_French_municipal_elections",
+   "last_checked": null,
    "result": null
   },
   {
@@ -649,7 +859,10 @@ window.CALENDAR_DATA = {
    "date": "2026-03-17",
    "title": "Bridgepoint FY 2025 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.bridgepoint.eu/investors",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -661,8 +874,11 @@ window.CALENDAR_DATA = {
    "region": "Australia",
    "date": "2026-03-17",
    "title": "Reserve Bank of Australia rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "verified_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -674,8 +890,27 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-03-17",
    "title": "US primary: Illinois",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-canada-2026-03-18",
+   "kind": "rate_decision",
+   "entity": "Bank of Canada",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Canada",
+   "date": "2026-03-18",
+   "title": "Bank of Canada rate decision",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "verified_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -687,8 +922,11 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-03-18",
    "title": "Federal Reserve (FOMC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -700,8 +938,11 @@ window.CALENDAR_DATA = {
    "region": "UK",
    "date": "2026-03-19",
    "title": "Bank of England (MPC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "verified_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "last_checked": null,
    "result": null
   },
   {
@@ -713,8 +954,11 @@ window.CALENDAR_DATA = {
    "region": "Japan",
    "date": "2026-03-19",
    "title": "Bank of Japan rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -727,7 +971,10 @@ window.CALENDAR_DATA = {
    "date": "2026-03-19",
    "title": "European Central Bank rate decision",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.ecb.europa.eu/press/pr/date/html/index.en.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -739,21 +986,11 @@ window.CALENDAR_DATA = {
    "region": "Switzerland",
    "date": "2026-03-19",
    "title": "Swiss National Bank rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
-   "result": null
-  },
-  {
-   "id": "european-council-2026-03-20",
-   "kind": "summit",
-   "entity": "European Council",
-   "ticker": null,
-   "category": "eu_politics",
-   "region": "Europe",
-   "date": "2026-03-20",
-   "title": "European Council summit (Mar)",
-   "status": "projected",
-   "source_url": "https://www.consilium.europa.eu/en/european-council/",
+   "verified_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
+   "last_checked": null,
    "result": null
   },
   {
@@ -766,7 +1003,10 @@ window.CALENDAR_DATA = {
    "date": "2026-03-20",
    "title": "People's Bank of China (LPR) rate decision",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.pbc.gov.cn/en/3688006/index.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -778,8 +1018,11 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-03-22",
    "title": "French municipal elections (2nd round)",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.interieur.gouv.fr/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_French_municipal_elections",
+   "last_checked": null,
    "result": null
   },
   {
@@ -791,8 +1034,11 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-03-22",
    "title": "Rhineland-Palatinate state election",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.bundeswahlleiterin.de/en/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_Rhineland-Palatinate_state_election",
+   "last_checked": null,
    "result": null
   },
   {
@@ -804,8 +1050,43 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-03-22",
    "title": "Slovenia parliamentary election",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.dvk-rs.si/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_elections_in_the_European_Union",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "denmark-2026-03-24",
+   "kind": "election",
+   "entity": "Denmark",
+   "ticker": null,
+   "category": "euro_national",
+   "region": "Europe",
+   "date": "2026-03-24",
+   "title": "Denmark general election",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://valg.im.dk/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_elections_in_the_European_Union",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-japan-minutes-2026-03-25",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-03-25",
+   "title": "BoJ MPM minutes (Jan 22-23 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -818,7 +1099,42 @@ window.CALENDAR_DATA = {
    "date": "2026-03-25",
    "title": "Jefferies FQ1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.jefferies.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-japan-minutes-2026-03-30",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-03-30",
+   "title": "BoJ Summary of Opinions (Mar meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "federal-reserve--fomc-minutes-2026-04-08",
+   "kind": "minutes",
+   "entity": "Federal Reserve (FOMC)",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "US",
+   "date": "2026-04-08",
+   "title": "FOMC minutes (Mar 17-18 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -830,8 +1146,11 @@ window.CALENDAR_DATA = {
    "region": "India",
    "date": "2026-04-08",
    "title": "Reserve Bank of India rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "verified_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "last_checked": null,
    "result": null
   },
   {
@@ -843,8 +1162,11 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-04-12",
    "title": "Hungary parliamentary election",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.valasztas.hu/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_elections_in_the_European_Union",
+   "last_checked": null,
    "result": null
   },
   {
@@ -857,7 +1179,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-13",
    "title": "Goldman Sachs Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.goldmansachs.com/investor-relations/financials/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -870,7 +1195,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-14",
    "title": "Citigroup Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.citigroup.com/global/investors/quarterly-earnings",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -883,7 +1211,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-14",
    "title": "JPMorgan Chase Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.jpmorganchase.com/ir/news",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -896,7 +1227,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-14",
    "title": "Wells Fargo Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.wellsfargo.com/about/investor-relations/quarterly-earnings/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -909,20 +1243,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-15",
    "title": "Bank of America Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investor.bankofamerica.com/quarterly-earnings",
-   "result": null
-  },
-  {
-   "id": "bank-of-canada-2026-04-15",
-   "kind": "rate_decision",
-   "entity": "Bank of Canada",
-   "ticker": null,
-   "category": "central_bank",
-   "region": "Canada",
-   "date": "2026-04-15",
-   "title": "Bank of Canada rate decision",
-   "status": "projected",
-   "source_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -935,7 +1259,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-15",
    "title": "Morgan Stanley Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.morganstanley.com/about-us-ir/earnings-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -948,7 +1275,42 @@ window.CALENDAR_DATA = {
    "date": "2026-04-16",
    "title": "Blackstone Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.blackstone.com/news/",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "swiss-national-bank-minutes-2026-04-16",
+   "kind": "minutes",
+   "entity": "Swiss National Bank",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Switzerland",
+   "date": "2026-04-16",
+   "title": "SNB summary of discussion (Mar assessment)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
+   "verified_url": "https://www.snb.ch/en/publications/communication/summaries/zus_20260416",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bulgaria-2026-04-19",
+   "kind": "election",
+   "entity": "Bulgaria",
+   "ticker": null,
+   "category": "euro_national",
+   "region": "Europe",
+   "date": "2026-04-19",
+   "title": "Bulgaria parliamentary election",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://www.cik.bg/en",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_elections_in_the_European_Union",
+   "last_checked": null,
    "result": null
   },
   {
@@ -961,7 +1323,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-20",
    "title": "People's Bank of China (LPR) rate decision",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.pbc.gov.cn/en/3688006/index.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -974,7 +1339,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-21",
    "title": "Evercore Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.evercore.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -987,7 +1355,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-22",
    "title": "Moelis & Company Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.moelis.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1000,7 +1371,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-23",
    "title": "BNP Paribas Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://invest.bnpparibas/en/search/reports/documents/financial-results",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1013,7 +1387,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-23",
    "title": "EQT Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://eqtgroup.com/shareholders/financial-reports-presentations",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1026,7 +1403,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-23",
    "title": "PJT Partners Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.pjtpartners.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1038,8 +1418,11 @@ window.CALENDAR_DATA = {
    "region": "Japan",
    "date": "2026-04-28",
    "title": "Bank of Japan rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1052,7 +1435,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-28",
    "title": "Barclays Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://home.barclays/investor-relations/reports-and-events/latest-financial-results/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1065,7 +1451,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-28",
    "title": "HSBC Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.hsbc.com/investors/results-and-announcements",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1078,7 +1467,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-28",
    "title": "Lazard Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.lazard.com/investor-relations/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1091,7 +1483,26 @@ window.CALENDAR_DATA = {
    "date": "2026-04-29",
    "title": "Ares Capital (BDC) Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.arescapitalcorp.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-canada-2026-04-29",
+   "kind": "rate_decision",
+   "entity": "Bank of Canada",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Canada",
+   "date": "2026-04-29",
+   "title": "Bank of Canada rate decision",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "verified_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1104,7 +1515,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-29",
    "title": "Deutsche Bank Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investor-relations.db.com/reports-and-events/quarterly-results/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1116,8 +1530,11 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-04-29",
    "title": "Federal Reserve (FOMC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1130,7 +1547,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-29",
    "title": "UBS Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.ubs.com/global/en/investor-relations/financial-information/quarterly-reporting.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1142,8 +1562,11 @@ window.CALENDAR_DATA = {
    "region": "UK",
    "date": "2026-04-30",
    "title": "Bank of England (MPC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "verified_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1156,7 +1579,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-30",
    "title": "Carlyle Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.carlyle.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1169,7 +1595,10 @@ window.CALENDAR_DATA = {
    "date": "2026-04-30",
    "title": "European Central Bank rate decision",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.ecb.europa.eu/press/pr/date/html/index.en.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1182,7 +1611,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-01",
    "title": "Ares Management Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.aresmgmt.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1195,7 +1627,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-05",
    "title": "Apollo Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.apollo.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1208,7 +1643,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-05",
    "title": "KKR Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.kkr.com/news-events/press-releases/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1220,8 +1658,11 @@ window.CALENDAR_DATA = {
    "region": "Australia",
    "date": "2026-05-05",
    "title": "Reserve Bank of Australia rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "verified_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1233,8 +1674,11 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-05-05",
    "title": "US primaries: Indiana, Ohio",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1247,7 +1691,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-06",
    "title": "Blue Owl Capital Corp (BDC) Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.blueowlcapitalcorporation.com/news-events",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1260,7 +1707,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-06",
    "title": "FS KKR Capital (BDC) Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.fskkr.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1273,7 +1723,26 @@ window.CALENDAR_DATA = {
    "date": "2026-05-06",
    "title": "Perella Weinberg Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.pwpartners.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-japan-minutes-2026-05-07",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-05-07",
+   "title": "BoJ MPM minutes (Mar 18-19 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1286,7 +1755,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-07",
    "title": "Blue Owl Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.blueowl.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1299,7 +1771,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-07",
    "title": "Brookfield Asset Management Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://bam.brookfield.com/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1311,8 +1786,11 @@ window.CALENDAR_DATA = {
    "region": "UK",
    "date": "2026-05-07",
    "title": "English local elections",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.electoralcommission.org.uk/who-we-are-and-what-we-do/elections-and-referendums",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_United_Kingdom_local_elections",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1324,8 +1802,11 @@ window.CALENDAR_DATA = {
    "region": "UK",
    "date": "2026-05-07",
    "title": "Scottish Parliament election",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.electoralcommission.org.uk/who-we-are-and-what-we-do/elections-and-referendums",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_Scottish_Parliament_election",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1338,7 +1819,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-07",
    "title": "TPG Q1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.tpg.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1350,8 +1834,27 @@ window.CALENDAR_DATA = {
    "region": "UK",
    "date": "2026-05-07",
    "title": "Senedd Cymru (Welsh Parliament) election",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.electoralcommission.org.uk/who-we-are-and-what-we-do/elections-and-referendums",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_Senedd_election",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-japan-minutes-2026-05-12",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-05-12",
+   "title": "BoJ Summary of Opinions (Apr meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1363,21 +1866,43 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-05-12",
    "title": "US primaries: Nebraska, West Virginia",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "us-primaries---pa--ga--ky--id--or-2026-05-19",
+   "id": "us-primaries---al--ga--id--ky--or--pa-2026-05-19",
    "kind": "election",
-   "entity": "US primaries - PA, GA, KY, ID, OR",
+   "entity": "US primaries - AL, GA, ID, KY, OR, PA",
    "ticker": null,
    "category": "us_politics",
    "region": "US",
    "date": "2026-05-19",
-   "title": "US primaries: Pennsylvania, Georgia, Kentucky, Idaho, Oregon",
-   "status": "projected",
+   "title": "US primaries: Alabama, Georgia, Idaho, Kentucky, Oregon, Pennsylvania",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "federal-reserve--fomc-minutes-2026-05-20",
+   "kind": "minutes",
+   "entity": "Federal Reserve (FOMC)",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "US",
+   "date": "2026-05-20",
+   "title": "FOMC minutes (Apr 28-29 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1390,7 +1915,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-20",
    "title": "ICG FY 2026 (Mar) results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.icgam.com/investors/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1403,7 +1931,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-20",
    "title": "People's Bank of China (LPR) rate decision",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.pbc.gov.cn/en/3688006/index.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1416,7 +1947,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-21",
    "title": "3i Group FY 2026 (Mar) results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.3i.com/investors/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1429,7 +1963,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-21",
    "title": "Hamilton Lane FQ4 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.hamiltonlane.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1442,7 +1979,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-21",
    "title": "Houlihan Lokey FQ4 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.hl.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1455,7 +1995,10 @@ window.CALENDAR_DATA = {
    "date": "2026-05-21",
    "title": "StepStone FQ4 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.stepstonegroup.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1467,34 +2010,43 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-05-24",
    "title": "Cyprus parliamentary election",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.elections.gov.cy/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_elections_in_the_European_Union",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "us-primaries---ca--nj--ia--mt--nm--sd-2026-06-02",
+   "id": "malta-2026-05-30",
    "kind": "election",
-   "entity": "US primaries - CA, NJ, IA, MT, NM, SD",
+   "entity": "Malta",
+   "ticker": null,
+   "category": "euro_national",
+   "region": "Europe",
+   "date": "2026-05-30",
+   "title": "Malta general election",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://electoral.gov.mt/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_elections_in_the_European_Union",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "us-primaries---ca--ia--mt--nm--nj--sd-2026-06-02",
+   "kind": "election",
+   "entity": "US primaries - CA, IA, MT, NM, NJ, SD",
    "ticker": null,
    "category": "us_politics",
    "region": "US",
    "date": "2026-06-02",
-   "title": "US primaries: California, New Jersey, Iowa, Montana, New Mexico, South Dakota",
-   "status": "projected",
+   "title": "US primaries: California, Iowa, Montana, New Mexico, New Jersey, South Dakota",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
-   "result": null
-  },
-  {
-   "id": "bank-of-canada-2026-06-03",
-   "kind": "rate_decision",
-   "entity": "Bank of Canada",
-   "ticker": null,
-   "category": "central_bank",
-   "region": "Canada",
-   "date": "2026-06-03",
-   "title": "Bank of Canada rate decision",
-   "status": "projected",
-   "source_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1506,8 +2058,43 @@ window.CALENDAR_DATA = {
    "region": "India",
    "date": "2026-06-05",
    "title": "Reserve Bank of India rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "verified_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "us-primaries---me--nv--nd--sc-2026-06-09",
+   "kind": "election",
+   "entity": "US primaries - ME, NV, ND, SC",
+   "ticker": null,
+   "category": "us_politics",
+   "region": "US",
+   "date": "2026-06-09",
+   "title": "US primaries: Maine, Nevada, North Dakota, South Carolina",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-canada-2026-06-10",
+   "kind": "rate_decision",
+   "entity": "Bank of Canada",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Canada",
+   "date": "2026-06-10",
+   "title": "Bank of Canada rate decision",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "verified_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1520,7 +2107,10 @@ window.CALENDAR_DATA = {
    "date": "2026-06-11",
    "title": "European Central Bank rate decision",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.ecb.europa.eu/press/pr/date/html/index.en.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1532,8 +2122,11 @@ window.CALENDAR_DATA = {
    "region": "Japan",
    "date": "2026-06-16",
    "title": "Bank of Japan rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1545,8 +2138,11 @@ window.CALENDAR_DATA = {
    "region": "Australia",
    "date": "2026-06-16",
    "title": "Reserve Bank of Australia rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "verified_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1558,8 +2154,11 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-06-17",
    "title": "Federal Reserve (FOMC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1571,8 +2170,11 @@ window.CALENDAR_DATA = {
    "region": "UK",
    "date": "2026-06-18",
    "title": "Bank of England (MPC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "verified_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1584,8 +2186,27 @@ window.CALENDAR_DATA = {
    "region": "Switzerland",
    "date": "2026-06-18",
    "title": "Swiss National Bank rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
+   "verified_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-japan-minutes-2026-06-19",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-06-19",
+   "title": "BoJ MPM minutes (Apr 27-28 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1598,20 +2219,26 @@ window.CALENDAR_DATA = {
    "date": "2026-06-20",
    "title": "People's Bank of China (LPR) rate decision",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.pbc.gov.cn/en/3688006/index.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "us-primaries---ny--ut--ok-2026-06-23",
-   "kind": "election",
-   "entity": "US primaries - NY, UT, OK",
+   "id": "bank-of-japan-minutes-2026-06-24",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
    "ticker": null,
-   "category": "us_politics",
-   "region": "US",
-   "date": "2026-06-23",
-   "title": "US primaries: New York, Utah, Oklahoma",
-   "status": "projected",
-   "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-06-24",
+   "title": "BoJ Summary of Opinions (Jun meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1624,33 +2251,26 @@ window.CALENDAR_DATA = {
    "date": "2026-06-24",
    "title": "Jefferies FQ2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.jefferies.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "european-council-2026-06-26",
-   "kind": "summit",
-   "entity": "European Council",
+   "id": "federal-reserve--fomc-minutes-2026-07-08",
+   "kind": "minutes",
+   "entity": "Federal Reserve (FOMC)",
    "ticker": null,
-   "category": "eu_politics",
-   "region": "Europe",
-   "date": "2026-06-26",
-   "title": "European Council summit (Jun)",
-   "status": "projected",
-   "source_url": "https://www.consilium.europa.eu/en/european-council/",
-   "result": null
-  },
-  {
-   "id": "us-primaries---co-2026-06-30",
-   "kind": "election",
-   "entity": "US primaries - CO",
-   "ticker": null,
-   "category": "us_politics",
+   "category": "central_bank",
    "region": "US",
-   "date": "2026-06-30",
-   "title": "US primary: Colorado",
-   "status": "projected",
-   "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "date": "2026-07-08",
+   "title": "FOMC minutes (Jun 16-17 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1663,7 +2283,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-14",
    "title": "Citigroup Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.citigroup.com/global/investors/quarterly-earnings",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1676,7 +2299,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-14",
    "title": "Goldman Sachs Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.goldmansachs.com/investor-relations/financials/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1689,7 +2315,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-14",
    "title": "JPMorgan Chase Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.jpmorganchase.com/ir/news",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1702,7 +2331,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-14",
    "title": "Partners Group AuM H1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.partnersgroup.com/en/investor-relations/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1715,7 +2347,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-14",
    "title": "Wells Fargo Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.wellsfargo.com/about/investor-relations/quarterly-earnings/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1728,7 +2363,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-15",
    "title": "Bank of America Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investor.bankofamerica.com/quarterly-earnings",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1740,8 +2378,11 @@ window.CALENDAR_DATA = {
    "region": "Canada",
    "date": "2026-07-15",
    "title": "Bank of Canada rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "verified_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1754,7 +2395,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-15",
    "title": "Morgan Stanley Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.morganstanley.com/about-us-ir/earnings-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1767,7 +2411,26 @@ window.CALENDAR_DATA = {
    "date": "2026-07-16",
    "title": "EQT Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://eqtgroup.com/shareholders/financial-reports-presentations",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "swiss-national-bank-minutes-2026-07-16",
+   "kind": "minutes",
+   "entity": "Swiss National Bank",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Switzerland",
+   "date": "2026-07-16",
+   "title": "SNB summary of discussion (Jun assessment)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
+   "verified_url": "https://www.snb.ch/en/publications/communication/summaries/zus_20260716",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1780,7 +2443,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-20",
    "title": "People's Bank of China (LPR) rate decision",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.pbc.gov.cn/en/3688006/index.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1793,7 +2459,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-22",
    "title": "Deutsche Bank Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investor-relations.db.com/reports-and-events/quarterly-results/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1806,7 +2475,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-22",
    "title": "Evercore Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.evercore.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1819,7 +2491,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-22",
    "title": "Moelis & Company Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.moelis.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1832,7 +2507,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-23",
    "title": "BNP Paribas Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://invest.bnpparibas/en/search/reports/documents/financial-results",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1845,7 +2523,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-23",
    "title": "Blackstone Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.blackstone.com/news/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1858,7 +2539,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-23",
    "title": "European Central Bank rate decision",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.ecb.europa.eu/press/pr/date/html/index.en.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1871,7 +2555,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-23",
    "title": "PJT Partners Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.pjtpartners.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1884,7 +2571,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-28",
    "title": "HSBC H1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.hsbc.com/investors/results-and-announcements",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1897,7 +2587,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-28",
    "title": "Lazard Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.lazard.com/investor-relations/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1910,7 +2603,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-29",
    "title": "Ares Capital (BDC) Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.arescapitalcorp.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1923,7 +2619,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-29",
    "title": "Barclays H1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://home.barclays/investor-relations/reports-and-events/latest-financial-results/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1935,8 +2634,11 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-07-29",
    "title": "Federal Reserve (FOMC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1949,7 +2651,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-29",
    "title": "UBS Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.ubs.com/global/en/investor-relations/financial-information/quarterly-reporting.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1961,8 +2666,11 @@ window.CALENDAR_DATA = {
    "region": "UK",
    "date": "2026-07-30",
    "title": "Bank of England (MPC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "verified_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "last_checked": null,
    "result": null
   },
   {
@@ -1975,7 +2683,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-30",
    "title": "Carlyle Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.carlyle.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -1988,7 +2699,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-30",
    "title": "Houlihan Lokey FQ1 2027 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.hl.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2001,7 +2715,10 @@ window.CALENDAR_DATA = {
    "date": "2026-07-31",
    "title": "Ares Management Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.aresmgmt.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2013,8 +2730,11 @@ window.CALENDAR_DATA = {
    "region": "Japan",
    "date": "2026-07-31",
    "title": "Bank of Japan rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2027,7 +2747,10 @@ window.CALENDAR_DATA = {
    "date": "2026-08-04",
    "title": "Apollo Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.apollo.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2040,20 +2763,42 @@ window.CALENDAR_DATA = {
    "date": "2026-08-04",
    "title": "KKR Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.kkr.com/news-events/press-releases/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "us-primaries---mi--mo--ks--wa--az-2026-08-04",
+   "id": "us-primaries---ks--mi--mo--va--wa-2026-08-04",
    "kind": "election",
-   "entity": "US primaries - MI, MO, KS, WA, AZ",
+   "entity": "US primaries - KS, MI, MO, VA, WA",
    "ticker": null,
    "category": "us_politics",
    "region": "US",
    "date": "2026-08-04",
-   "title": "US primaries: Michigan, Missouri, Kansas, Washington, Arizona",
-   "status": "projected",
+   "title": "US primaries: Kansas, Michigan, Missouri, Virginia, Washington",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-japan-minutes-2026-08-05",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-08-05",
+   "title": "BoJ MPM minutes (Jun 15-16 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2066,7 +2811,10 @@ window.CALENDAR_DATA = {
    "date": "2026-08-05",
    "title": "Blue Owl Capital Corp (BDC) Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.blueowlcapitalcorporation.com/news-events",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2079,7 +2827,10 @@ window.CALENDAR_DATA = {
    "date": "2026-08-05",
    "title": "FS KKR Capital (BDC) Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.fskkr.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2092,7 +2843,26 @@ window.CALENDAR_DATA = {
    "date": "2026-08-05",
    "title": "Perella Weinberg Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.pwpartners.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "reserve-bank-of-india-2026-08-05",
+   "kind": "rate_decision",
+   "entity": "Reserve Bank of India",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "India",
+   "date": "2026-08-05",
+   "title": "Reserve Bank of India rate decision",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "verified_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2105,7 +2875,10 @@ window.CALENDAR_DATA = {
    "date": "2026-08-06",
    "title": "Blue Owl Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.blueowl.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2118,7 +2891,10 @@ window.CALENDAR_DATA = {
    "date": "2026-08-06",
    "title": "Brookfield Asset Management Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://bam.brookfield.com/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2131,20 +2907,10 @@ window.CALENDAR_DATA = {
    "date": "2026-08-06",
    "title": "Hamilton Lane FQ1 2027 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.hamiltonlane.com/news-events/press-releases",
-   "result": null
-  },
-  {
-   "id": "reserve-bank-of-india-2026-08-06",
-   "kind": "rate_decision",
-   "entity": "Reserve Bank of India",
-   "ticker": null,
-   "category": "central_bank",
-   "region": "India",
-   "date": "2026-08-06",
-   "title": "Reserve Bank of India rate decision",
-   "status": "projected",
-   "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2157,7 +2923,10 @@ window.CALENDAR_DATA = {
    "date": "2026-08-06",
    "title": "StepStone FQ1 2027 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.stepstonegroup.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2170,7 +2939,58 @@ window.CALENDAR_DATA = {
    "date": "2026-08-06",
    "title": "TPG Q2 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.tpg.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "us-primaries---tn-2026-08-06",
+   "kind": "election",
+   "entity": "US primaries - TN",
+   "ticker": null,
+   "category": "us_politics",
+   "region": "US",
+   "date": "2026-08-06",
+   "title": "US primary: Tennessee",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "us-primaries---hi-2026-08-08",
+   "kind": "election",
+   "entity": "US primaries - HI",
+   "ticker": null,
+   "category": "us_politics",
+   "region": "US",
+   "date": "2026-08-08",
+   "title": "US primary: Hawaii",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-japan-minutes-2026-08-10",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-08-10",
+   "title": "BoJ Summary of Opinions (Jul meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2182,34 +3002,59 @@ window.CALENDAR_DATA = {
    "region": "Australia",
    "date": "2026-08-11",
    "title": "Reserve Bank of Australia rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "verified_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "us-primaries---mn--wi--ct--vt-2026-08-11",
+   "id": "us-primaries---ct--mn--vt--wi-2026-08-11",
    "kind": "election",
-   "entity": "US primaries - MN, WI, CT, VT",
+   "entity": "US primaries - CT, MN, VT, WI",
    "ticker": null,
    "category": "us_politics",
    "region": "US",
    "date": "2026-08-11",
-   "title": "US primaries: Minnesota, Wisconsin, Connecticut, Vermont",
-   "status": "projected",
+   "title": "US primaries: Connecticut, Minnesota, Vermont, Wisconsin",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "us-primaries---fl--ak--wy-2026-08-18",
+   "id": "us-primaries---ak--fl--wy-2026-08-18",
    "kind": "election",
-   "entity": "US primaries - FL, AK, WY",
+   "entity": "US primaries - AK, FL, WY",
    "ticker": null,
    "category": "us_politics",
    "region": "US",
    "date": "2026-08-18",
-   "title": "US primaries: Florida, Alaska, Wyoming",
-   "status": "projected",
+   "title": "US primaries: Alaska, Florida, Wyoming",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "federal-reserve--fomc-minutes-2026-08-19",
+   "kind": "minutes",
+   "entity": "Federal Reserve (FOMC)",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "US",
+   "date": "2026-08-19",
+   "title": "FOMC minutes (Jul 28-29 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2222,7 +3067,10 @@ window.CALENDAR_DATA = {
    "date": "2026-08-20",
    "title": "People's Bank of China (LPR) rate decision",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.pbc.gov.cn/en/3688006/index.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2234,8 +3082,11 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-09-01",
    "title": "US primary: Massachusetts",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2247,8 +3098,11 @@ window.CALENDAR_DATA = {
    "region": "Canada",
    "date": "2026-09-02",
    "title": "Bank of Canada rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "verified_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2260,8 +3114,27 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-09-06",
    "title": "Saxony-Anhalt state election",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.bundeswahlleiterin.de/en/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_Saxony-Anhalt_state_election",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "us-primaries---nh-2026-09-08",
+   "kind": "election",
+   "entity": "US primaries - NH",
+   "ticker": null,
+   "category": "us_politics",
+   "region": "US",
+   "date": "2026-09-08",
+   "title": "US primary: New Hampshire",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2274,7 +3147,10 @@ window.CALENDAR_DATA = {
    "date": "2026-09-09",
    "title": "CVC Capital Partners H1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.cvc.com/investors/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2287,7 +3163,26 @@ window.CALENDAR_DATA = {
    "date": "2026-09-09",
    "title": "Partners Group H1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.partnersgroup.com/en/investor-relations/",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "us-primaries---ri-2026-09-09",
+   "kind": "election",
+   "entity": "US primaries - RI",
+   "ticker": null,
+   "category": "us_politics",
+   "region": "US",
+   "date": "2026-09-09",
+   "title": "US primary: Rhode Island",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2299,8 +3194,11 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-09-10",
    "title": "European Central Bank rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.ecb.europa.eu/press/pr/date/html/index.en.html",
+   "verified_url": "https://www.ecb.europa.eu/press/pr/date/html/index.en.html",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2312,21 +3210,27 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-09-13",
    "title": "Sweden general election (Riksdag)",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.val.se/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_Swedish_general_election",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "us-primaries---nh--de--ri-2026-09-15",
+   "id": "us-primaries---de-2026-09-15",
    "kind": "election",
-   "entity": "US primaries - NH, DE, RI",
+   "entity": "US primaries - DE",
    "ticker": null,
    "category": "us_politics",
    "region": "US",
    "date": "2026-09-15",
-   "title": "US primaries: New Hampshire, Delaware, Rhode Island",
-   "status": "projected",
+   "title": "US primary: Delaware",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.vote411.org/primaries2026",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2338,8 +3242,11 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-09-16",
    "title": "Federal Reserve (FOMC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2351,8 +3258,11 @@ window.CALENDAR_DATA = {
    "region": "UK",
    "date": "2026-09-17",
    "title": "Bank of England (MPC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "verified_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2365,7 +3275,10 @@ window.CALENDAR_DATA = {
    "date": "2026-09-17",
    "title": "Bridgepoint H1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.bridgepoint.eu/investors",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2377,21 +3290,43 @@ window.CALENDAR_DATA = {
    "region": "Japan",
    "date": "2026-09-18",
    "title": "Bank of Japan rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "germany---berlin---mecklenburg-vorpommern-2026-09-20",
+   "id": "germany---berlin-2026-09-20",
    "kind": "election",
-   "entity": "Germany - Berlin / Mecklenburg-Vorpommern",
+   "entity": "Germany - Berlin",
    "ticker": null,
    "category": "euro_national",
    "region": "Europe",
    "date": "2026-09-20",
-   "title": "Berlin and Mecklenburg-Vorpommern state elections",
-   "status": "projected",
+   "title": "Berlin state election",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.bundeswahlleiterin.de/en/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_Berlin_state_election",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "germany---mecklenburg-vorpommern-2026-09-20",
+   "kind": "election",
+   "entity": "Germany - Mecklenburg-Vorpommern",
+   "ticker": null,
+   "category": "euro_national",
+   "region": "Europe",
+   "date": "2026-09-20",
+   "title": "Mecklenburg-Vorpommern state election",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://www.bundeswahlleiterin.de/en/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_Mecklenburg-Vorpommern_state_election",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2404,7 +3339,10 @@ window.CALENDAR_DATA = {
    "date": "2026-09-20",
    "title": "People's Bank of China (LPR) rate decision",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.pbc.gov.cn/en/3688006/index.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2417,7 +3355,10 @@ window.CALENDAR_DATA = {
    "date": "2026-09-23",
    "title": "Jefferies FQ3 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.jefferies.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2430,7 +3371,10 @@ window.CALENDAR_DATA = {
    "date": "2026-09-24",
    "title": "Rothschild & Co H1 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.rothschildandco.com/en/shareholders/financial-information/",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
@@ -2442,8 +3386,27 @@ window.CALENDAR_DATA = {
    "region": "Switzerland",
    "date": "2026-09-24",
    "title": "Swiss National Bank rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
+   "verified_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-japan-minutes-2026-09-28",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-09-28",
+   "title": "BoJ MPM minutes (Jul 30-31 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2455,8 +3418,27 @@ window.CALENDAR_DATA = {
    "region": "Australia",
    "date": "2026-09-29",
    "title": "Reserve Bank of Australia rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "verified_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-japan-minutes-2026-10-01",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-10-01",
+   "title": "BoJ Summary of Opinions (Sep meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2468,8 +3450,11 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-10-03",
    "title": "Latvia Saeima election",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.cvk.lv/en",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_Latvian_parliamentary_election",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2481,8 +3466,27 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-10-04",
    "title": "Bosnia and Herzegovina general election",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.izbori.ba/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_Bosnian_general_election",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "federal-reserve--fomc-minutes-2026-10-07",
+   "kind": "minutes",
+   "entity": "Federal Reserve (FOMC)",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "US",
+   "date": "2026-10-07",
+   "title": "FOMC minutes (Sep 15-16 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2494,8 +3498,11 @@ window.CALENDAR_DATA = {
    "region": "India",
    "date": "2026-10-07",
    "title": "Reserve Bank of India rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "verified_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2505,10 +3512,13 @@ window.CALENDAR_DATA = {
    "ticker": "C",
    "category": "bulge_bank",
    "region": "US",
-   "date": "2026-10-14",
+   "date": "2026-10-13",
    "title": "Citigroup Q3 2026 results",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.citigroup.com/global/investors/quarterly-earnings",
+   "verified_url": "https://247wallst.com/cards/q3-earnings-season-front-loads-everything-into-two-mornings-unh-earnings-calendar-01m4gswtqct7fbk8xh1qmb2pkm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2518,10 +3528,13 @@ window.CALENDAR_DATA = {
    "ticker": "GS",
    "category": "bulge_bank",
    "region": "US",
-   "date": "2026-10-14",
+   "date": "2026-10-13",
    "title": "Goldman Sachs Q3 2026 results",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.goldmansachs.com/investor-relations/financials/",
+   "verified_url": "https://www.akrostec.com/indices/AUL500/events/2026-10-13t00-00-00z-goldman-sachs-group-inc-the-gs-financial-results-7f34f222",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2531,10 +3544,13 @@ window.CALENDAR_DATA = {
    "ticker": "JPM",
    "category": "bulge_bank",
    "region": "US",
-   "date": "2026-10-14",
+   "date": "2026-10-13",
    "title": "JPMorgan Chase Q3 2026 results",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.jpmorganchase.com/ir/news",
+   "verified_url": "https://finviz.com/news/393365/jpmorganchase-to-host-third-quarter-2026-earnings-call",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2544,10 +3560,13 @@ window.CALENDAR_DATA = {
    "ticker": "WFC",
    "category": "bulge_bank",
    "region": "US",
-   "date": "2026-10-14",
+   "date": "2026-10-13",
    "title": "Wells Fargo Q3 2026 results",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.wellsfargo.com/about/investor-relations/quarterly-earnings/",
+   "verified_url": "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-Updates-2026-Earnings-Release-Date-Information/default.aspx",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2557,10 +3576,13 @@ window.CALENDAR_DATA = {
    "ticker": "BAC",
    "category": "bulge_bank",
    "region": "US",
-   "date": "2026-10-15",
+   "date": "2026-10-14",
    "title": "Bank of America Q3 2026 results",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://investor.bankofamerica.com/quarterly-earnings",
+   "verified_url": "https://247wallst.com/cards/q3-earnings-season-front-loads-everything-into-two-mornings-unh-earnings-calendar-01m4gswtqct7fbk8xh1qmb2pkm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2570,10 +3592,45 @@ window.CALENDAR_DATA = {
    "ticker": "MS",
    "category": "bulge_bank",
    "region": "US",
-   "date": "2026-10-15",
+   "date": "2026-10-14",
    "title": "Morgan Stanley Q3 2026 results",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.morganstanley.com/about-us-ir/earnings-releases",
+   "verified_url": "https://www.morganstanley.com/about-us-ir/morgan-stanley-third-quarter-2026-investor-conference-call",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "eqt-q3-2026",
+   "kind": "earnings",
+   "entity": "EQT",
+   "ticker": "EQT.ST",
+   "category": "pe_sponsor",
+   "region": "Europe",
+   "date": "2026-10-15",
+   "title": "EQT Q3 2026 results",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://eqtgroup.com/shareholders/financial-reports-presentations",
+   "verified_url": "https://www.placera.se/pressmeddelanden/eqt-invitation-to-presentation-of-eqt-abs-q3-announcement-2026-20261001",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "european-council-2026-10-16",
+   "kind": "summit",
+   "entity": "European Council",
+   "ticker": null,
+   "category": "eu_politics",
+   "region": "Europe",
+   "date": "2026-10-16",
+   "title": "European Council summit (Oct 15-16)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.consilium.europa.eu/en/european-council/",
+   "verified_url": "https://www.consilium.europa.eu/en/meetings/future-euco-meetings/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2586,46 +3643,26 @@ window.CALENDAR_DATA = {
    "date": "2026-10-20",
    "title": "People's Bank of China (LPR) rate decision",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.pbc.gov.cn/en/3688006/index.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "evercore-q3-2026",
+   "id": "barclays-q3-2026",
    "kind": "earnings",
-   "entity": "Evercore",
-   "ticker": "EVR",
-   "category": "advisory",
-   "region": "US",
-   "date": "2026-10-21",
-   "title": "Evercore Q3 2026 results",
-   "status": "projected",
-   "source_url": "https://investors.evercore.com/news-events/press-releases",
-   "result": null
-  },
-  {
-   "id": "moelis---company-q3-2026",
-   "kind": "earnings",
-   "entity": "Moelis & Company",
-   "ticker": "MC",
-   "category": "advisory",
-   "region": "US",
-   "date": "2026-10-21",
-   "title": "Moelis & Company Q3 2026 results",
-   "status": "projected",
-   "source_url": "https://investors.moelis.com/news-events/press-releases",
-   "result": null
-  },
-  {
-   "id": "bnp-paribas-q3-2026",
-   "kind": "earnings",
-   "entity": "BNP Paribas",
-   "ticker": "BNP.PA",
+   "entity": "Barclays",
+   "ticker": "BARC.L",
    "category": "bulge_bank",
-   "region": "Europe",
+   "region": "UK",
    "date": "2026-10-22",
-   "title": "BNP Paribas Q3 2026 results",
+   "title": "Barclays Q3 2026 results",
    "status": "projected",
-   "source_url": "https://invest.bnpparibas/en/search/reports/documents/financial-results",
+   "basis": "estimate",
+   "source_url": "https://home.barclays/investor-relations/reports-and-events/latest-financial-results/",
+   "verified_url": "https://www.marketscreener.com/quote/stock/BARCLAYS-PLC-9583556/calendar/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2637,21 +3674,27 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-10-22",
    "title": "Blackstone Q3 2026 results",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://ir.blackstone.com/news/",
+   "verified_url": "https://www.blackstone.com/?p=48748",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "eqt-q3-2026",
+   "id": "lazard-q3-2026",
    "kind": "earnings",
-   "entity": "EQT",
-   "ticker": "EQT.ST",
-   "category": "pe_sponsor",
-   "region": "Europe",
+   "entity": "Lazard",
+   "ticker": "LAZ",
+   "category": "advisory",
+   "region": "US",
    "date": "2026-10-22",
-   "title": "EQT Q3 2026 results",
-   "status": "projected",
-   "source_url": "https://eqtgroup.com/shareholders/financial-reports-presentations",
+   "title": "Lazard Q3 2026 results",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.lazard.com/investor-relations/",
+   "verified_url": "https://lazard.com/news-announcements/lazard-to-announce-third-quarter-and-nine-month-2026-financial-results/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2664,20 +3707,58 @@ window.CALENDAR_DATA = {
    "date": "2026-10-22",
    "title": "PJT Partners Q3 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://ir.pjtpartners.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "european-council-2026-10-23",
-   "kind": "summit",
-   "entity": "European Council",
+   "id": "swiss-national-bank-minutes-2026-10-22",
+   "kind": "minutes",
+   "entity": "Swiss National Bank",
    "ticker": null,
-   "category": "eu_politics",
+   "category": "central_bank",
+   "region": "Switzerland",
+   "date": "2026-10-22",
+   "title": "SNB summary of discussion (Sep assessment)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
+   "verified_url": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bulgaria-2026-10-25",
+   "kind": "election",
+   "entity": "Bulgaria",
+   "ticker": null,
+   "category": "euro_national",
    "region": "Europe",
-   "date": "2026-10-23",
-   "title": "European Council summit (Oct)",
-   "status": "projected",
-   "source_url": "https://www.consilium.europa.eu/en/european-council/",
+   "date": "2026-10-25",
+   "title": "Bulgaria presidential election",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://www.cik.bg/en",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_elections_in_the_European_Union",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "ares-capital--bdc-q3-2026",
+   "kind": "earnings",
+   "entity": "Ares Capital (BDC)",
+   "ticker": "ARCC",
+   "category": "credit_sponsor",
+   "region": "US",
+   "date": "2026-10-27",
+   "title": "Ares Capital (BDC) Q3 2026 results",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.arescapitalcorp.com/news-events/press-releases",
+   "verified_url": "https://finviz.com/news/398202/ares-capital-corporation-schedules-earnings-release-for-the-third-quarter-ended-september-30-2026",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2690,20 +3771,26 @@ window.CALENDAR_DATA = {
    "date": "2026-10-27",
    "title": "HSBC Q3 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.hsbc.com/investors/results-and-announcements",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "ares-capital--bdc-q3-2026",
+   "id": "bnp-paribas-q3-2026",
    "kind": "earnings",
-   "entity": "Ares Capital (BDC)",
-   "ticker": "ARCC",
-   "category": "credit_sponsor",
-   "region": "US",
+   "entity": "BNP Paribas",
+   "ticker": "BNP.PA",
+   "category": "bulge_bank",
+   "region": "Europe",
    "date": "2026-10-28",
-   "title": "Ares Capital (BDC) Q3 2026 results",
+   "title": "BNP Paribas Q3 2026 results",
    "status": "projected",
-   "source_url": "https://www.arescapitalcorp.com/news-events/press-releases",
+   "basis": "estimate",
+   "source_url": "https://invest.bnpparibas/en/search/reports/documents/financial-results",
+   "verified_url": "https://ca.marketscreener.com/quote/stock/BNP-PARIBAS-6496/calendar/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2715,21 +3802,11 @@ window.CALENDAR_DATA = {
    "region": "Canada",
    "date": "2026-10-28",
    "title": "Bank of Canada rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
-   "result": null
-  },
-  {
-   "id": "barclays-q3-2026",
-   "kind": "earnings",
-   "entity": "Barclays",
-   "ticker": "BARC.L",
-   "category": "bulge_bank",
-   "region": "UK",
-   "date": "2026-10-28",
-   "title": "Barclays Q3 2026 results",
-   "status": "projected",
-   "source_url": "https://home.barclays/investor-relations/reports-and-events/latest-financial-results/",
+   "verified_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2742,7 +3819,26 @@ window.CALENDAR_DATA = {
    "date": "2026-10-28",
    "title": "Deutsche Bank Q3 2026 results",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://investor-relations.db.com/reports-and-events/quarterly-results/",
+   "verified_url": "https://www.opencapital.sh/stocks/db/earnings/q2-2026",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "evercore-q3-2026",
+   "kind": "earnings",
+   "entity": "Evercore",
+   "ticker": "EVR",
+   "category": "advisory",
+   "region": "US",
+   "date": "2026-10-28",
+   "title": "Evercore Q3 2026 results",
+   "status": "projected",
+   "basis": "estimate",
+   "source_url": "https://investors.evercore.com/news-events/press-releases",
+   "verified_url": "https://www.tipranks.com/stocks/mx:evr/earnings",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2754,21 +3850,91 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-10-28",
    "title": "Federal Reserve (FOMC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "lazard-q3-2026",
+   "id": "houlihan-lokey-fq2-2027",
    "kind": "earnings",
-   "entity": "Lazard",
-   "ticker": "LAZ",
+   "entity": "Houlihan Lokey",
+   "ticker": "HLI",
    "category": "advisory",
    "region": "US",
    "date": "2026-10-28",
-   "title": "Lazard Q3 2026 results",
+   "title": "Houlihan Lokey FQ2 2027 results",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://investors.hl.com/news-events/press-releases",
+   "verified_url": "https://hl.com/about-us/newsroom/houlihan-lokey-announces-release-date-for-second-quarter-results-for-fiscal-year-2027/",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "moelis---company-q3-2026",
+   "kind": "earnings",
+   "entity": "Moelis & Company",
+   "ticker": "MC",
+   "category": "advisory",
+   "region": "US",
+   "date": "2026-10-28",
+   "title": "Moelis & Company Q3 2026 results",
    "status": "projected",
-   "source_url": "https://www.lazard.com/investor-relations/",
+   "basis": "estimate",
+   "source_url": "https://investors.moelis.com/news-events/press-releases",
+   "verified_url": "https://beta.earningswhispers.com/go/x/MC",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "ubs-q3-2026",
+   "kind": "earnings",
+   "entity": "UBS",
+   "ticker": "UBSG.SW",
+   "category": "bulge_bank",
+   "region": "Europe",
+   "date": "2026-10-28",
+   "title": "UBS Q3 2026 results",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.ubs.com/global/en/investor-relations/financial-information/quarterly-reporting.html",
+   "verified_url": "https://ubs.com/calendar",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "ares-management-q3-2026",
+   "kind": "earnings",
+   "entity": "Ares Management",
+   "ticker": "ARES",
+   "category": "credit_sponsor",
+   "region": "US",
+   "date": "2026-10-29",
+   "title": "Ares Management Q3 2026 results",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://ir.aresmgmt.com/news-events/press-releases",
+   "verified_url": "https://finviz.com/news/396797/ares-management-corporation-schedules-earnings-release-and-conference-call-for-the-third-quarter-ending-september-30-2026",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "blue-owl-q3-2026",
+   "kind": "earnings",
+   "entity": "Blue Owl",
+   "ticker": "OWL",
+   "category": "credit_sponsor",
+   "region": "US",
+   "date": "2026-10-29",
+   "title": "Blue Owl Q3 2026 results",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://ir.blueowl.com/news-events/press-releases",
+   "verified_url": "https://finviz.com/news/397615/blue-owl-capital-inc-to-announce-third-quarter-2026-results",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2780,47 +3946,27 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-10-29",
    "title": "European Central Bank rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.ecb.europa.eu/press/pr/date/html/index.en.html",
+   "verified_url": "https://www.ecb.europa.eu/press/pr/date/html/index.en.html",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "houlihan-lokey-fq2-2027",
+   "id": "tpg-q3-2026",
    "kind": "earnings",
-   "entity": "Houlihan Lokey",
-   "ticker": "HLI",
-   "category": "advisory",
+   "entity": "TPG",
+   "ticker": "TPG",
+   "category": "pe_sponsor",
    "region": "US",
    "date": "2026-10-29",
-   "title": "Houlihan Lokey FQ2 2027 results",
-   "status": "projected",
-   "source_url": "https://investors.hl.com/news-events/press-releases",
-   "result": null
-  },
-  {
-   "id": "ubs-q3-2026",
-   "kind": "earnings",
-   "entity": "UBS",
-   "ticker": "UBSG.SW",
-   "category": "bulge_bank",
-   "region": "Europe",
-   "date": "2026-10-29",
-   "title": "UBS Q3 2026 results",
-   "status": "projected",
-   "source_url": "https://www.ubs.com/global/en/investor-relations/financial-information/quarterly-reporting.html",
-   "result": null
-  },
-  {
-   "id": "ares-management-q3-2026",
-   "kind": "earnings",
-   "entity": "Ares Management",
-   "ticker": "ARES",
-   "category": "credit_sponsor",
-   "region": "US",
-   "date": "2026-10-30",
-   "title": "Ares Management Q3 2026 results",
-   "status": "projected",
-   "source_url": "https://ir.aresmgmt.com/news-events/press-releases",
+   "title": "TPG Q3 2026 results",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://ir.tpg.com/news-events/press-releases",
+   "verified_url": "https://finviz.com/news/396426/tpg-to-announce-third-quarter-2026-financial-results-and-host-investor-call",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2832,34 +3978,43 @@ window.CALENDAR_DATA = {
    "region": "Japan",
    "date": "2026-10-30",
    "title": "Bank of Japan rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "denmark-2026-10-31",
-   "kind": "election",
-   "entity": "Denmark",
-   "ticker": null,
-   "category": "euro_national",
-   "region": "Europe",
-   "date": "2026-10-31",
-   "title": "Denmark general election (must be held by this date)",
-   "status": "projected",
-   "source_url": "https://valg.im.dk/",
-   "result": null
-  },
-  {
-   "id": "kkr-q3-2026",
+   "id": "apollo-q3-2026",
    "kind": "earnings",
-   "entity": "KKR",
-   "ticker": "KKR",
+   "entity": "Apollo",
+   "ticker": "APO",
+   "category": "credit_sponsor",
+   "region": "US",
+   "date": "2026-11-03",
+   "title": "Apollo Q3 2026 results",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://ir.apollo.com/news-events/press-releases",
+   "verified_url": "https://ir.apollo.com/news-events/press-releases/detail/652/apollo-to-announce-third-quarter-2026-financial-results-on-november-3-2026",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "hamilton-lane-fq2-2027",
+   "kind": "earnings",
+   "entity": "Hamilton Lane",
+   "ticker": "HLNE",
    "category": "pe_sponsor",
    "region": "US",
    "date": "2026-11-03",
-   "title": "KKR Q3 2026 results",
-   "status": "projected",
-   "source_url": "https://ir.kkr.com/news-events/press-releases/",
+   "title": "Hamilton Lane FQ2 2027 results",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://ir.hamiltonlane.com/news-events/press-releases",
+   "verified_url": "https://finviz.com/news/399061/hamilton-lane-incorporated-to-announce-second-quarter-fiscal-2027-results-on-november-3-2026",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2871,8 +4026,11 @@ window.CALENDAR_DATA = {
    "region": "Australia",
    "date": "2026-11-03",
    "title": "Reserve Bank of Australia rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "verified_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2883,9 +4041,12 @@ window.CALENDAR_DATA = {
    "category": "us_politics",
    "region": "US",
    "date": "2026-11-03",
-   "title": "US House elections (all 435 seats) - midterms",
-   "status": "projected",
+   "title": "US House elections (all 435 seats, midterms)",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2896,22 +4057,44 @@ window.CALENDAR_DATA = {
    "category": "us_politics",
    "region": "US",
    "date": "2026-11-03",
-   "title": "US Senate elections (35 seats incl. specials) - midterms",
-   "status": "projected",
+   "title": "US Senate elections (midterms)",
+   "status": "confirmed",
+   "basis": "reference",
    "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "verified_url": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "apollo-q3-2026",
+   "id": "blue-owl-capital-corp--bdc-q3-2026",
    "kind": "earnings",
-   "entity": "Apollo",
-   "ticker": "APO",
+   "entity": "Blue Owl Capital Corp (BDC)",
+   "ticker": "OBDC",
    "category": "credit_sponsor",
    "region": "US",
    "date": "2026-11-04",
-   "title": "Apollo Q3 2026 results",
+   "title": "Blue Owl Capital Corp (BDC) Q3 2026 results",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.blueowlcapitalcorporation.com/news-events",
+   "verified_url": "https://www.placera.se/pressmeddelanden/blue-owl-capital-blue-owl-capital-corporation-schedules-earnings-release-and-quarterly-earnings-call-to-discuss-its-third-quarter-ended-september-30-2026-financial-results-20261001",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "brookfield-asset-management-q3-2026",
+   "kind": "earnings",
+   "entity": "Brookfield Asset Management",
+   "ticker": "BAM",
+   "category": "pe_sponsor",
+   "region": "Canada",
+   "date": "2026-11-04",
+   "title": "Brookfield Asset Management Q3 2026 results",
    "status": "projected",
-   "source_url": "https://ir.apollo.com/news-events/press-releases",
+   "basis": "estimate",
+   "source_url": "https://bam.brookfield.com/press-releases",
+   "verified_url": "https://uk.marketscreener.com/quote/stock/BROOKFIELD-ASSET-MANAGEME-147562477/calendar/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2924,7 +4107,26 @@ window.CALENDAR_DATA = {
    "date": "2026-11-04",
    "title": "Perella Weinberg Q3 2026 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://investors.pwpartners.com/news-events/press-releases",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "stepstone-fq2-2027",
+   "kind": "earnings",
+   "entity": "StepStone",
+   "ticker": "STEP",
+   "category": "pe_sponsor",
+   "region": "US",
+   "date": "2026-11-04",
+   "title": "StepStone FQ2 2027 results",
+   "status": "projected",
+   "basis": "estimate",
+   "source_url": "https://ir.stepstonegroup.com/news-events/press-releases",
+   "verified_url": "https://bullstory.io/en/stocks/step/earnings/2027-q2",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2936,34 +4138,27 @@ window.CALENDAR_DATA = {
    "region": "UK",
    "date": "2026-11-05",
    "title": "Bank of England (MPC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "verified_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "blue-owl-q3-2026",
-   "kind": "earnings",
-   "entity": "Blue Owl",
-   "ticker": "OWL",
-   "category": "credit_sponsor",
-   "region": "US",
+   "id": "bank-of-japan-minutes-2026-11-05",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
    "date": "2026-11-05",
-   "title": "Blue Owl Q3 2026 results",
-   "status": "projected",
-   "source_url": "https://ir.blueowl.com/news-events/press-releases",
-   "result": null
-  },
-  {
-   "id": "blue-owl-capital-corp--bdc-q3-2026",
-   "kind": "earnings",
-   "entity": "Blue Owl Capital Corp (BDC)",
-   "ticker": "OBDC",
-   "category": "credit_sponsor",
-   "region": "US",
-   "date": "2026-11-05",
-   "title": "Blue Owl Capital Corp (BDC) Q3 2026 results",
-   "status": "projected",
-   "source_url": "https://www.blueowlcapitalcorporation.com/news-events",
+   "title": "BoJ MPM minutes (Sep 17-18 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2975,8 +4170,11 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-11-05",
    "title": "Carlyle Q3 2026 results",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://ir.carlyle.com/news-events/press-releases",
+   "verified_url": "https://finviz.com/news/398743/carlyle-to-announce-third-quarter-2026-financial-results-and-host-investor-conference-call",
+   "last_checked": null,
    "result": null
   },
   {
@@ -2989,72 +4187,42 @@ window.CALENDAR_DATA = {
    "date": "2026-11-05",
    "title": "FS KKR Capital (BDC) Q3 2026 results",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://investors.fskkr.com/news-events/press-releases",
+   "verified_url": "https://beta.earningswhispers.com/go/w/FSK",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "hamilton-lane-fq2-2027",
+   "id": "kkr-q3-2026",
    "kind": "earnings",
-   "entity": "Hamilton Lane",
-   "ticker": "HLNE",
+   "entity": "KKR",
+   "ticker": "KKR",
    "category": "pe_sponsor",
    "region": "US",
-   "date": "2026-11-05",
-   "title": "Hamilton Lane FQ2 2027 results",
-   "status": "projected",
-   "source_url": "https://ir.hamiltonlane.com/news-events/press-releases",
+   "date": "2026-11-09",
+   "title": "KKR Q3 2026 results",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://ir.kkr.com/news-events/press-releases/",
+   "verified_url": "https://secure.businesswire.com/news/home/20260929150919/en/KKR-Co.-Inc.-to-Announce-Third-Quarter-2026-Results",
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "stepstone-fq2-2027",
-   "kind": "earnings",
-   "entity": "StepStone",
-   "ticker": "STEP",
-   "category": "pe_sponsor",
-   "region": "US",
-   "date": "2026-11-05",
-   "title": "StepStone FQ2 2027 results",
-   "status": "projected",
-   "source_url": "https://ir.stepstonegroup.com/news-events/press-releases",
-   "result": null
-  },
-  {
-   "id": "tpg-q3-2026",
-   "kind": "earnings",
-   "entity": "TPG",
-   "ticker": "TPG",
-   "category": "pe_sponsor",
-   "region": "US",
-   "date": "2026-11-05",
-   "title": "TPG Q3 2026 results",
-   "status": "projected",
-   "source_url": "https://ir.tpg.com/news-events/press-releases",
-   "result": null
-  },
-  {
-   "id": "brookfield-asset-management-q3-2026",
-   "kind": "earnings",
-   "entity": "Brookfield Asset Management",
-   "ticker": "BAM",
-   "category": "pe_sponsor",
-   "region": "Canada",
-   "date": "2026-11-06",
-   "title": "Brookfield Asset Management Q3 2026 results",
-   "status": "projected",
-   "source_url": "https://bam.brookfield.com/press-releases",
-   "result": null
-  },
-  {
-   "id": "bulgaria-2026-11-08",
-   "kind": "election",
-   "entity": "Bulgaria",
+   "id": "bank-of-japan-minutes-2026-11-10",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
    "ticker": null,
-   "category": "euro_national",
-   "region": "Europe",
-   "date": "2026-11-08",
-   "title": "Bulgaria presidential election (est.)",
-   "status": "projected",
-   "source_url": "https://www.cik.bg/en",
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-11-10",
+   "title": "BoJ Summary of Opinions (Oct meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3064,10 +4232,13 @@ window.CALENDAR_DATA = {
    "ticker": "ICG.L",
    "category": "credit_sponsor",
    "region": "UK",
-   "date": "2026-11-10",
+   "date": "2026-11-11",
    "title": "ICG H1 FY2027 results",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.icgam.com/investors/",
+   "verified_url": "https://uk.marketscreener.com/quote/stock/ICG-PLC-30403106/calendar/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3080,7 +4251,26 @@ window.CALENDAR_DATA = {
    "date": "2026-11-12",
    "title": "3i Group H1 FY2027 results",
    "status": "projected",
+   "basis": "unverified",
    "source_url": "https://www.3i.com/investors/",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "federal-reserve--fomc-minutes-2026-11-18",
+   "kind": "minutes",
+   "entity": "Federal Reserve (FOMC)",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "US",
+   "date": "2026-11-18",
+   "title": "FOMC minutes (Oct 27-28 meeting)",
+   "status": "projected",
+   "basis": "estimate",
+   "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3093,20 +4283,26 @@ window.CALENDAR_DATA = {
    "date": "2026-11-20",
    "title": "People's Bank of China (LPR) rate decision",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.pbc.gov.cn/en/3688006/index.html",
+   "verified_url": null,
+   "last_checked": null,
    "result": null
   },
   {
-   "id": "us-senate-runoffs-2026-12-01",
+   "id": "spain-2026-11-29",
    "kind": "election",
-   "entity": "US Senate runoffs",
+   "entity": "Spain",
    "ticker": null,
-   "category": "us_politics",
-   "region": "US",
-   "date": "2026-12-01",
-   "title": "Georgia general-election runoff (if required)",
-   "status": "projected",
-   "source_url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+   "category": "euro_national",
+   "region": "Europe",
+   "date": "2026-11-29",
+   "title": "Spain general election",
+   "status": "confirmed",
+   "basis": "reference",
+   "source_url": "https://www.infoelectoral.interior.gob.es/",
+   "verified_url": "https://en.wikipedia.org/wiki/2026_Spanish_general_election",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3118,8 +4314,11 @@ window.CALENDAR_DATA = {
    "region": "India",
    "date": "2026-12-04",
    "title": "Reserve Bank of India rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "verified_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3131,8 +4330,11 @@ window.CALENDAR_DATA = {
    "region": "Australia",
    "date": "2026-12-08",
    "title": "Reserve Bank of Australia rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "verified_url": "https://www.rba.gov.au/monetary-policy/int-rate-decisions/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3144,8 +4346,11 @@ window.CALENDAR_DATA = {
    "region": "Canada",
    "date": "2026-12-09",
    "title": "Bank of Canada rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "verified_url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3157,8 +4362,11 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-12-09",
    "title": "Federal Reserve (FOMC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3170,8 +4378,11 @@ window.CALENDAR_DATA = {
    "region": "Switzerland",
    "date": "2026-12-10",
    "title": "Swiss National Bank rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
+   "verified_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3183,8 +4394,11 @@ window.CALENDAR_DATA = {
    "region": "UK",
    "date": "2026-12-17",
    "title": "Bank of England (MPC) rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "verified_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3196,8 +4410,11 @@ window.CALENDAR_DATA = {
    "region": "Europe",
    "date": "2026-12-17",
    "title": "European Central Bank rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.ecb.europa.eu/press/pr/date/html/index.en.html",
+   "verified_url": "https://www.ecb.europa.eu/press/pr/date/html/index.en.html",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3209,8 +4426,11 @@ window.CALENDAR_DATA = {
    "region": "Japan",
    "date": "2026-12-18",
    "title": "Bank of Japan rate decision",
-   "status": "projected",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3221,9 +4441,12 @@ window.CALENDAR_DATA = {
    "category": "eu_politics",
    "region": "Europe",
    "date": "2026-12-18",
-   "title": "European Council summit (Dec)",
-   "status": "projected",
+   "title": "European Council summit (Dec 17-18)",
+   "status": "confirmed",
+   "basis": "official",
    "source_url": "https://www.consilium.europa.eu/en/european-council/",
+   "verified_url": "https://www.consilium.europa.eu/en/meetings/future-euco-meetings/",
+   "last_checked": null,
    "result": null
   },
   {
@@ -3236,7 +4459,58 @@ window.CALENDAR_DATA = {
    "date": "2026-12-20",
    "title": "People's Bank of China (LPR) rate decision",
    "status": "projected",
+   "basis": "estimate",
    "source_url": "https://www.pbc.gov.cn/en/3688006/index.html",
+   "verified_url": null,
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-japan-minutes-2026-12-23",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-12-23",
+   "title": "BoJ MPM minutes (Oct 29-30 meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "bank-of-japan-minutes-2026-12-28",
+   "kind": "minutes",
+   "entity": "Bank of Japan",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "Japan",
+   "date": "2026-12-28",
+   "title": "BoJ Summary of Opinions (Dec meeting)",
+   "status": "confirmed",
+   "basis": "official",
+   "source_url": "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+   "verified_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+   "last_checked": null,
+   "result": null
+  },
+  {
+   "id": "federal-reserve--fomc-minutes-2026-12-30",
+   "kind": "minutes",
+   "entity": "Federal Reserve (FOMC)",
+   "ticker": null,
+   "category": "central_bank",
+   "region": "US",
+   "date": "2026-12-30",
+   "title": "FOMC minutes (Dec 8-9 meeting)",
+   "status": "projected",
+   "basis": "estimate",
+   "source_url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
+   "verified_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+   "last_checked": null,
    "result": null
   }
  ],

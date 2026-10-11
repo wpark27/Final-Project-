@@ -1,5 +1,13 @@
-"""Builds the 2026 calendar skeleton. Every date here is PROJECTED (issuer pattern / published
-central-bank calendars) until the crawler confirms it from an official source."""
+"""Builds the 2026 calendar skeleton.
+
+Every event records HOW its date was established (`basis`), never presenting a guess as fact:
+  official   - taken from the issuer / central bank / government's own published schedule or notice
+  reference  - from a reputable reference calendar (NCSL, Vote411, Wikipedia) citing official sources
+  estimate   - third-party aggregator estimate; issuer has not announced it
+  unverified - this project's own issuer-cadence guess; the crawler replaces it with the real date
+
+Verification pass done 2026-10-11 against the sources linked in VERIFIED_* below.
+"""
 from __future__ import annotations
 
 import json
@@ -11,7 +19,8 @@ from .sources import CENTRAL_BANKS, COMPANIES
 
 YEAR = 2026
 
-# entity -> [(period label, month-day)] ; typical issuer cadence, to be confirmed by the crawler
+# entity -> [(period label, month-day)]. Dates are issuer-cadence GUESSES (basis=unverified)
+# unless overridden by VERIFIED_EARNINGS below.
 EARNINGS: dict[str, list[tuple[str, str]]] = {
     "Blackstone": [("Q4 2025", "01-29"), ("Q1 2026", "04-16"), ("Q2 2026", "07-23"), ("Q3 2026", "10-22")],
     "KKR": [("Q4 2025", "02-03"), ("Q1 2026", "05-05"), ("Q2 2026", "08-04"), ("Q3 2026", "11-03")],
@@ -53,61 +62,153 @@ EARNINGS: dict[str, list[tuple[str, str]]] = {
     "Rothschild & Co": [("FY 2025", "03-12"), ("H1 2026", "09-24")],
 }
 
-# bank -> list of decision dates (last day of meeting). From each bank's published 2026 calendar.
-RATE_DECISIONS: dict[str, list[str]] = {
-    "Federal Reserve (FOMC)": ["01-28", "03-18", "04-29", "06-17", "07-29", "09-16", "10-28", "12-09"],
-    "European Central Bank": ["02-05", "03-19", "04-30", "06-11", "07-23", "09-10", "10-29", "12-17"],
-    "Bank of England (MPC)": ["02-05", "03-19", "04-30", "06-18", "07-30", "09-17", "11-05", "12-17"],
-    "Bank of Japan": ["01-23", "03-19", "04-28", "06-16", "07-31", "09-18", "10-30", "12-18"],
-    "Bank of Canada": ["01-28", "03-11", "04-15", "06-03", "07-15", "09-02", "10-28", "12-09"],
-    "Reserve Bank of Australia": ["02-03", "03-17", "05-05", "06-16", "08-11", "09-29", "11-03", "12-08"],
-    "Swiss National Bank": ["03-19", "06-18", "09-24", "12-10"],
-    "Reserve Bank of India": ["02-06", "04-08", "06-05", "08-06", "10-07", "12-04"],
-    "People's Bank of China (LPR)": [f"{m:02d}-20" for m in range(1, 13)],
+# (entity, period) -> (month-day, basis, url of the source that established it). Checked 2026-10-11.
+VERIFIED_EARNINGS: dict[tuple[str, str], tuple[str, str, str]] = {
+    # Company announcements
+    ("Blackstone", "Q3 2026"): ("10-22", "official", "https://www.blackstone.com/?p=48748"),
+    ("KKR", "Q3 2026"): ("11-09", "official", "https://secure.businesswire.com/news/home/20260929150919/en/KKR-Co.-Inc.-to-Announce-Third-Quarter-2026-Results"),
+    ("Apollo", "Q3 2026"): ("11-03", "official", "https://ir.apollo.com/news-events/press-releases/detail/652/apollo-to-announce-third-quarter-2026-financial-results-on-november-3-2026"),
+    ("Carlyle", "Q3 2026"): ("11-05", "official", "https://finviz.com/news/398743/carlyle-to-announce-third-quarter-2026-financial-results-and-host-investor-conference-call"),
+    ("Ares Management", "Q3 2026"): ("10-29", "official", "https://finviz.com/news/396797/ares-management-corporation-schedules-earnings-release-and-conference-call-for-the-third-quarter-ending-september-30-2026"),
+    ("TPG", "Q3 2026"): ("10-29", "official", "https://finviz.com/news/396426/tpg-to-announce-third-quarter-2026-financial-results-and-host-investor-call"),
+    ("Blue Owl", "Q3 2026"): ("10-29", "official", "https://finviz.com/news/397615/blue-owl-capital-inc-to-announce-third-quarter-2026-results"),
+    ("Blue Owl Capital Corp (BDC)", "Q3 2026"): ("11-04", "official", "https://www.placera.se/pressmeddelanden/blue-owl-capital-blue-owl-capital-corporation-schedules-earnings-release-and-quarterly-earnings-call-to-discuss-its-third-quarter-ended-september-30-2026-financial-results-20261001"),
+    ("Ares Capital (BDC)", "Q3 2026"): ("10-27", "official", "https://finviz.com/news/398202/ares-capital-corporation-schedules-earnings-release-for-the-third-quarter-ended-september-30-2026"),
+    ("JPMorgan Chase", "Q3 2026"): ("10-13", "official", "https://finviz.com/news/393365/jpmorganchase-to-host-third-quarter-2026-earnings-call"),
+    ("Morgan Stanley", "Q3 2026"): ("10-14", "official", "https://www.morganstanley.com/about-us-ir/morgan-stanley-third-quarter-2026-investor-conference-call"),
+    ("Wells Fargo", "Q3 2026"): ("10-13", "official", "https://newsroom.wf.com/news-releases/news-details/2026/Wells-Fargo-Updates-2026-Earnings-Release-Date-Information/default.aspx"),
+    ("UBS", "Q3 2026"): ("10-28", "official", "https://ubs.com/calendar"),
+    ("Houlihan Lokey", "FQ2 2027"): ("10-28", "official", "https://hl.com/about-us/newsroom/houlihan-lokey-announces-release-date-for-second-quarter-results-for-fiscal-year-2027/"),
+    ("Hamilton Lane", "FQ2 2027"): ("11-03", "official", "https://finviz.com/news/399061/hamilton-lane-incorporated-to-announce-second-quarter-fiscal-2027-results-on-november-3-2026"),
+    ("Lazard", "Q3 2026"): ("10-22", "official", "https://lazard.com/news-announcements/lazard-to-announce-third-quarter-and-nine-month-2026-financial-results/"),
+    ("EQT", "Q3 2026"): ("10-15", "official", "https://www.placera.se/pressmeddelanden/eqt-invitation-to-presentation-of-eqt-abs-q3-announcement-2026-20261001"),
+    # Third-party estimates: issuer has NOT announced these yet
+    ("Goldman Sachs", "Q3 2026"): ("10-13", "estimate", "https://www.akrostec.com/indices/AUL500/events/2026-10-13t00-00-00z-goldman-sachs-group-inc-the-gs-financial-results-7f34f222"),
+    ("Citigroup", "Q3 2026"): ("10-13", "estimate", "https://247wallst.com/cards/q3-earnings-season-front-loads-everything-into-two-mornings-unh-earnings-calendar-01m4gswtqct7fbk8xh1qmb2pkm"),
+    ("Bank of America", "Q3 2026"): ("10-14", "estimate", "https://247wallst.com/cards/q3-earnings-season-front-loads-everything-into-two-mornings-unh-earnings-calendar-01m4gswtqct7fbk8xh1qmb2pkm"),
+    ("Barclays", "Q3 2026"): ("10-22", "estimate", "https://www.marketscreener.com/quote/stock/BARCLAYS-PLC-9583556/calendar/"),
+    ("BNP Paribas", "Q3 2026"): ("10-28", "estimate", "https://ca.marketscreener.com/quote/stock/BNP-PARIBAS-6496/calendar/"),
+    ("Deutsche Bank", "Q3 2026"): ("10-28", "estimate", "https://www.opencapital.sh/stocks/db/earnings/q2-2026"),
+    ("Evercore", "Q3 2026"): ("10-28", "estimate", "https://www.tipranks.com/stocks/mx:evr/earnings"),
+    ("Moelis & Company", "Q3 2026"): ("10-28", "estimate", "https://beta.earningswhispers.com/go/x/MC"),
+    ("StepStone", "FQ2 2027"): ("11-04", "estimate", "https://bullstory.io/en/stocks/step/earnings/2027-q2"),
+    ("FS KKR Capital (BDC)", "Q3 2026"): ("11-05", "estimate", "https://beta.earningswhispers.com/go/w/FSK"),
+    ("ICG", "H1 FY2027"): ("11-11", "estimate", "https://uk.marketscreener.com/quote/stock/ICG-PLC-30403106/calendar/"),
+    ("Brookfield Asset Management", "Q3 2026"): ("11-04", "estimate", "https://uk.marketscreener.com/quote/stock/BROOKFIELD-ASSET-MANAGEME-147562477/calendar/"),
 }
 
-# Political layer: (entity, kind, category, region, date, title, official source). All PROJECTED until confirmed.
+# bank -> decision dates (last day of meeting), basis per date. Checked 2026-10-11 against:
+#  Fed: federalreserve.gov/monetarypolicy/fomccalendars.htm   BoE: bankofengland.co.uk/monetary-policy/upcoming-mpc-dates
+#  BoJ: boj.or.jp/en/mopo/mpmsche_minu/index.htm              ECB: ecb.europa.eu/press/calendars/mgcgc (Oct, Dec; Sep 10 per ECB site)
+#  BoC: bankofcanada.ca (2026 schedule, Aug 2025 notice)       RBA: rba.gov.au media release mr-25-02
+#  SNB: snb.ch assessment pages / event schedule              RBI: rbi.org.in MPC schedule
+RATE_DECISIONS: dict[str, list[tuple[str, str]]] = {
+    "Federal Reserve (FOMC)": [(d, "official") for d in ["01-28", "03-18", "04-29", "06-17", "07-29", "09-16", "10-28", "12-09"]],
+    "European Central Bank": [("02-05", "unverified"), ("03-19", "unverified"), ("04-30", "unverified"), ("06-11", "unverified"),
+                              ("07-23", "unverified"), ("09-10", "official"), ("10-29", "official"), ("12-17", "official")],
+    "Bank of England (MPC)": [(d, "official") for d in ["02-05", "03-19", "04-30", "06-18", "07-30", "09-17", "11-05", "12-17"]],
+    "Bank of Japan": [(d, "official") for d in ["01-23", "03-19", "04-28", "06-16", "07-31", "09-18", "10-30", "12-18"]],
+    "Bank of Canada": [(d, "official") for d in ["01-28", "03-18", "04-29", "06-10", "07-15", "09-02", "10-28", "12-09"]],
+    "Reserve Bank of Australia": [(d, "official") for d in ["02-03", "03-17", "05-05", "06-16", "08-11", "09-29", "11-03", "12-08"]],
+    "Swiss National Bank": [(d, "official") for d in ["03-19", "06-18", "09-24", "12-10"]],
+    "Reserve Bank of India": [(d, "official") for d in ["02-06", "04-08", "06-05", "08-05", "10-07", "12-04"]],
+    # LPR is published on the 20th (next business day if a holiday); PBoC publishes no forward calendar
+    "People's Bank of China (LPR)": [(f"{m:02d}-20", "estimate") for m in range(1, 13)],
+}
+
+# Minutes / accounts / summaries (kind=minutes). Fed dates are the "Released" dates on the Fed's own page;
+# BoJ dates are from its schedule table; SNB from its published summaries / event schedule.
+MINUTES: list[tuple[str, str, str, str, str, str]] = [
+    # (entity, month-day, title, basis, verified_url, note)
+    ("Federal Reserve (FOMC)", "02-18", "FOMC minutes (Jan 27-28 meeting)", "official", "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", ""),
+    ("Federal Reserve (FOMC)", "04-08", "FOMC minutes (Mar 17-18 meeting)", "official", "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", ""),
+    ("Federal Reserve (FOMC)", "05-20", "FOMC minutes (Apr 28-29 meeting)", "official", "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", ""),
+    ("Federal Reserve (FOMC)", "07-08", "FOMC minutes (Jun 16-17 meeting)", "official", "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", ""),
+    ("Federal Reserve (FOMC)", "08-19", "FOMC minutes (Jul 28-29 meeting)", "official", "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", ""),
+    ("Federal Reserve (FOMC)", "10-07", "FOMC minutes (Sep 15-16 meeting)", "official", "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", ""),
+    # Fed has not yet listed these; minutes normally follow three weeks after the meeting
+    ("Federal Reserve (FOMC)", "11-18", "FOMC minutes (Oct 27-28 meeting)", "estimate", "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", "three weeks after meeting"),
+    ("Federal Reserve (FOMC)", "12-30", "FOMC minutes (Dec 8-9 meeting)", "estimate", "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", "three weeks after meeting"),
+    ("Bank of Japan", "03-25", "BoJ MPM minutes (Jan 22-23 meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "05-07", "BoJ MPM minutes (Mar 18-19 meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "06-19", "BoJ MPM minutes (Apr 27-28 meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "08-05", "BoJ MPM minutes (Jun 15-16 meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "09-28", "BoJ MPM minutes (Jul 30-31 meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "11-05", "BoJ MPM minutes (Sep 17-18 meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "12-23", "BoJ MPM minutes (Oct 29-30 meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "02-02", "BoJ Summary of Opinions (Jan meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "03-30", "BoJ Summary of Opinions (Mar meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "05-12", "BoJ Summary of Opinions (Apr meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "06-24", "BoJ Summary of Opinions (Jun meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "08-10", "BoJ Summary of Opinions (Jul meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "10-01", "BoJ Summary of Opinions (Sep meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "11-10", "BoJ Summary of Opinions (Oct meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Bank of Japan", "12-28", "BoJ Summary of Opinions (Dec meeting)", "official", "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm", ""),
+    ("Swiss National Bank", "04-16", "SNB summary of discussion (Mar assessment)", "official", "https://www.snb.ch/en/publications/communication/summaries/zus_20260416", ""),
+    ("Swiss National Bank", "07-16", "SNB summary of discussion (Jun assessment)", "official", "https://www.snb.ch/en/publications/communication/summaries/zus_20260716", ""),
+    ("Swiss National Bank", "10-22", "SNB summary of discussion (Sep assessment)", "official", "https://www.snb.ch/en/services-events/digital-services/event-schedule", ""),
+]
+
+# Political layer. (entity, kind, category, region, month-day, title, official source the crawler reads,
+#                   verified_url, basis). "reference" = NCSL / Vote411 / Wikipedia, which cite official sources.
+_NCSL = "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates"
+_V411 = "https://www.vote411.org/primaries2026"
+_EU = "https://en.wikipedia.org/wiki/2026_elections_in_the_European_Union"
 FEC = "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/"
 ECOM = "https://www.electoralcommission.org.uk/who-we-are-and-what-we-do/elections-and-referendums"
-ECS = "https://www.consilium.europa.eu/en/european-council/"
-POLITICS = [
-    ("US primaries - TX, NC, AR", "election", "us_politics", "US", "03-03", "US primaries: Texas, North Carolina, Arkansas", FEC),
-    ("US primaries - IL", "election", "us_politics", "US", "03-17", "US primary: Illinois", FEC),
-    ("US primaries - IN, OH", "election", "us_politics", "US", "05-05", "US primaries: Indiana, Ohio", FEC),
-    ("US primaries - NE, WV", "election", "us_politics", "US", "05-12", "US primaries: Nebraska, West Virginia", FEC),
-    ("US primaries - PA, GA, KY, ID, OR", "election", "us_politics", "US", "05-19", "US primaries: Pennsylvania, Georgia, Kentucky, Idaho, Oregon", FEC),
-    ("US primaries - CA, NJ, IA, MT, NM, SD", "election", "us_politics", "US", "06-02", "US primaries: California, New Jersey, Iowa, Montana, New Mexico, South Dakota", FEC),
-    ("US primaries - NY, UT, OK", "election", "us_politics", "US", "06-23", "US primaries: New York, Utah, Oklahoma", FEC),
-    ("US primaries - CO", "election", "us_politics", "US", "06-30", "US primary: Colorado", FEC),
-    ("US primaries - MI, MO, KS, WA, AZ", "election", "us_politics", "US", "08-04", "US primaries: Michigan, Missouri, Kansas, Washington, Arizona", FEC),
-    ("US primaries - MN, WI, CT, VT", "election", "us_politics", "US", "08-11", "US primaries: Minnesota, Wisconsin, Connecticut, Vermont", FEC),
-    ("US primaries - FL, AK, WY", "election", "us_politics", "US", "08-18", "US primaries: Florida, Alaska, Wyoming", FEC),
-    ("US primaries - MA", "election", "us_politics", "US", "09-01", "US primary: Massachusetts", FEC),
-    ("US primaries - NH, DE, RI", "election", "us_politics", "US", "09-15", "US primaries: New Hampshire, Delaware, Rhode Island", FEC),
-    ("US Senate", "election", "us_politics", "US", "11-03", "US Senate elections (35 seats incl. specials) - midterms", FEC),
-    ("US House of Representatives", "election", "us_politics", "US", "11-03", "US House elections (all 435 seats) - midterms", FEC),
-    ("US Senate runoffs", "election", "us_politics", "US", "12-01", "Georgia general-election runoff (if required)", FEC),
-    ("Scottish Parliament", "election", "uk_politics", "UK", "05-07", "Scottish Parliament election", ECOM),
-    ("Welsh Senedd", "election", "uk_politics", "UK", "05-07", "Senedd Cymru (Welsh Parliament) election", ECOM),
-    ("English local elections", "election", "uk_politics", "UK", "05-07", "English local elections", ECOM),
-    ("European Council", "summit", "eu_politics", "Europe", "03-20", "European Council summit (Mar)", ECS),
-    ("European Council", "summit", "eu_politics", "Europe", "06-26", "European Council summit (Jun)", ECS),
-    ("European Council", "summit", "eu_politics", "Europe", "10-23", "European Council summit (Oct)", ECS),
-    ("European Council", "summit", "eu_politics", "Europe", "12-18", "European Council summit (Dec)", ECS),
-    ("Portugal", "election", "euro_national", "Europe", "01-18", "Portugal presidential election (1st round)", "https://www.eleicoes.mai.gov.pt/"),
-    ("Germany - Baden-Wuerttemberg", "election", "euro_national", "Europe", "03-08", "Baden-Wuerttemberg state election", "https://www.bundeswahlleiterin.de/en/"),
-    ("France", "election", "euro_national", "Europe", "03-22", "French municipal elections (2nd round)", "https://www.interieur.gouv.fr/"),
-    ("Germany - Rhineland-Palatinate", "election", "euro_national", "Europe", "03-22", "Rhineland-Palatinate state election", "https://www.bundeswahlleiterin.de/en/"),
-    ("Slovenia", "election", "euro_national", "Europe", "03-22", "Slovenia parliamentary election", "https://www.dvk-rs.si/"),
-    ("Hungary", "election", "euro_national", "Europe", "04-12", "Hungary parliamentary election", "https://www.valasztas.hu/"),
-    ("Cyprus", "election", "euro_national", "Europe", "05-24", "Cyprus parliamentary election", "https://www.elections.gov.cy/"),
-    ("Germany - Saxony-Anhalt", "election", "euro_national", "Europe", "09-06", "Saxony-Anhalt state election", "https://www.bundeswahlleiterin.de/en/"),
-    ("Sweden", "election", "euro_national", "Europe", "09-13", "Sweden general election (Riksdag)", "https://www.val.se/"),
-    ("Germany - Berlin / Mecklenburg-Vorpommern", "election", "euro_national", "Europe", "09-20", "Berlin and Mecklenburg-Vorpommern state elections", "https://www.bundeswahlleiterin.de/en/"),
-    ("Latvia", "election", "euro_national", "Europe", "10-03", "Latvia Saeima election", "https://www.cvk.lv/en"),
-    ("Bosnia and Herzegovina", "election", "euro_national", "Europe", "10-04", "Bosnia and Herzegovina general election", "https://www.izbori.ba/"),
-    ("Denmark", "election", "euro_national", "Europe", "10-31", "Denmark general election (must be held by this date)", "https://valg.im.dk/"),
-    ("Bulgaria", "election", "euro_national", "Europe", "11-08", "Bulgaria presidential election (est.)", "https://www.cik.bg/en"),
+BWL = "https://www.bundeswahlleiterin.de/en/"
+_W = "https://en.wikipedia.org/wiki/"
+
+POLITICS: list[tuple] = [
+    # US primaries (NCSL / Vote411). Partial list: NY, CO, UT, OK and Louisiana were not verified and are omitted.
+    ("US primaries - AR, NC, TX", "election", "us_politics", "US", "03-03", "US primaries: Arkansas, North Carolina, Texas", FEC, _V411, "reference"),
+    ("US primaries - MS", "election", "us_politics", "US", "03-10", "US primary: Mississippi", FEC, _V411, "reference"),
+    ("US primaries - IL", "election", "us_politics", "US", "03-17", "US primary: Illinois", FEC, _V411, "reference"),
+    ("US primaries - IN, OH", "election", "us_politics", "US", "05-05", "US primaries: Indiana, Ohio", FEC, _V411, "reference"),
+    ("US primaries - NE, WV", "election", "us_politics", "US", "05-12", "US primaries: Nebraska, West Virginia", FEC, _V411, "reference"),
+    ("US primaries - AL, GA, ID, KY, OR, PA", "election", "us_politics", "US", "05-19", "US primaries: Alabama, Georgia, Idaho, Kentucky, Oregon, Pennsylvania", FEC, _V411, "reference"),
+    ("US primaries - CA, IA, MT, NM, NJ, SD", "election", "us_politics", "US", "06-02", "US primaries: California, Iowa, Montana, New Mexico, New Jersey, South Dakota", FEC, _V411, "reference"),
+    ("US primaries - ME, NV, ND, SC", "election", "us_politics", "US", "06-09", "US primaries: Maine, Nevada, North Dakota, South Carolina", FEC, _V411, "reference"),
+    ("US primaries - KS, MI, MO, VA, WA", "election", "us_politics", "US", "08-04", "US primaries: Kansas, Michigan, Missouri, Virginia, Washington", FEC, _V411, "reference"),
+    ("US primaries - TN", "election", "us_politics", "US", "08-06", "US primary: Tennessee", FEC, _V411, "reference"),
+    ("US primaries - HI", "election", "us_politics", "US", "08-08", "US primary: Hawaii", FEC, _V411, "reference"),
+    ("US primaries - CT, MN, VT, WI", "election", "us_politics", "US", "08-11", "US primaries: Connecticut, Minnesota, Vermont, Wisconsin", FEC, _V411, "reference"),
+    ("US primaries - AK, FL, WY", "election", "us_politics", "US", "08-18", "US primaries: Alaska, Florida, Wyoming", FEC, _V411, "reference"),
+    ("US primaries - MA", "election", "us_politics", "US", "09-01", "US primary: Massachusetts", FEC, _V411, "reference"),
+    ("US primaries - NH", "election", "us_politics", "US", "09-08", "US primary: New Hampshire", FEC, _V411, "reference"),
+    ("US primaries - RI", "election", "us_politics", "US", "09-09", "US primary: Rhode Island", FEC, _V411, "reference"),
+    ("US primaries - DE", "election", "us_politics", "US", "09-15", "US primary: Delaware", FEC, _V411, "reference"),
+    # Federal general election: first Tuesday after the first Monday in November (2 U.S.C. 7). No presidential race in 2026.
+    ("US Senate", "election", "us_politics", "US", "11-03", "US Senate elections (midterms)", FEC, _NCSL, "reference"),
+    ("US House of Representatives", "election", "us_politics", "US", "11-03", "US House elections (all 435 seats, midterms)", FEC, _NCSL, "reference"),
+    # UK
+    ("Scottish Parliament", "election", "uk_politics", "UK", "05-07", "Scottish Parliament election", ECOM, _W + "2026_Scottish_Parliament_election", "reference"),
+    ("Welsh Senedd", "election", "uk_politics", "UK", "05-07", "Senedd Cymru (Welsh Parliament) election", ECOM, _W + "2026_Senedd_election", "reference"),
+    ("English local elections", "election", "uk_politics", "UK", "05-07", "English local elections", ECOM, _W + "2026_United_Kingdom_local_elections", "reference"),
+    # EU institutions: Council note on 2nd-semester 2026 dates (15-16 Oct, 17-18 Dec). H1 summits not verified, omitted.
+    ("European Council", "summit", "eu_politics", "Europe", "10-16", "European Council summit (Oct 15-16)", "https://www.consilium.europa.eu/en/european-council/", "https://www.consilium.europa.eu/en/meetings/future-euco-meetings/", "official"),
+    ("European Council", "summit", "eu_politics", "Europe", "12-18", "European Council summit (Dec 17-18)", "https://www.consilium.europa.eu/en/european-council/", "https://www.consilium.europa.eu/en/meetings/future-euco-meetings/", "official"),
+    # European national elections (Wikipedia, cites national electoral bodies)
+    ("Portugal", "election", "euro_national", "Europe", "01-18", "Portugal presidential election (1st round)", "https://www.eleicoes.mai.gov.pt/", _EU, "reference"),
+    ("Portugal", "election", "euro_national", "Europe", "02-08", "Portugal presidential election (runoff)", "https://www.eleicoes.mai.gov.pt/", _EU, "reference"),
+    ("Germany - Baden-Wuerttemberg", "election", "euro_national", "Europe", "03-08", "Baden-Wuerttemberg state election", BWL, _W + "2026_Baden-W%C3%BCrttemberg_state_election", "reference"),
+    ("France", "election", "euro_national", "Europe", "03-15", "French municipal elections (1st round)", "https://www.interieur.gouv.fr/", _W + "2026_French_municipal_elections", "reference"),
+    ("France", "election", "euro_national", "Europe", "03-22", "French municipal elections (2nd round)", "https://www.interieur.gouv.fr/", _W + "2026_French_municipal_elections", "reference"),
+    ("Germany - Rhineland-Palatinate", "election", "euro_national", "Europe", "03-22", "Rhineland-Palatinate state election", BWL, _W + "2026_Rhineland-Palatinate_state_election", "reference"),
+    ("Slovenia", "election", "euro_national", "Europe", "03-22", "Slovenia parliamentary election", "https://www.dvk-rs.si/", _EU, "reference"),
+    ("Denmark", "election", "euro_national", "Europe", "03-24", "Denmark general election", "https://valg.im.dk/", _EU, "reference"),
+    ("Hungary", "election", "euro_national", "Europe", "04-12", "Hungary parliamentary election", "https://www.valasztas.hu/", _EU, "reference"),
+    ("Bulgaria", "election", "euro_national", "Europe", "04-19", "Bulgaria parliamentary election", "https://www.cik.bg/en", _EU, "reference"),
+    ("Cyprus", "election", "euro_national", "Europe", "05-24", "Cyprus parliamentary election", "https://www.elections.gov.cy/", _EU, "reference"),
+    ("Malta", "election", "euro_national", "Europe", "05-30", "Malta general election", "https://electoral.gov.mt/", _EU, "reference"),
+    ("Germany - Saxony-Anhalt", "election", "euro_national", "Europe", "09-06", "Saxony-Anhalt state election", BWL, _W + "2026_Saxony-Anhalt_state_election", "reference"),
+    ("Sweden", "election", "euro_national", "Europe", "09-13", "Sweden general election (Riksdag)", "https://www.val.se/", _W + "2026_Swedish_general_election", "reference"),
+    ("Germany - Berlin", "election", "euro_national", "Europe", "09-20", "Berlin state election", BWL, _W + "2026_Berlin_state_election", "reference"),
+    ("Germany - Mecklenburg-Vorpommern", "election", "euro_national", "Europe", "09-20", "Mecklenburg-Vorpommern state election", BWL, _W + "2026_Mecklenburg-Vorpommern_state_election", "reference"),
+    ("Latvia", "election", "euro_national", "Europe", "10-03", "Latvia Saeima election", "https://www.cvk.lv/en", _W + "2026_Latvian_parliamentary_election", "reference"),
+    ("Bosnia and Herzegovina", "election", "euro_national", "Europe", "10-04", "Bosnia and Herzegovina general election", "https://www.izbori.ba/", _W + "2026_Bosnian_general_election", "reference"),
+    ("Bulgaria", "election", "euro_national", "Europe", "10-25", "Bulgaria presidential election", "https://www.cik.bg/en", _EU, "reference"),
+    ("Spain", "election", "euro_national", "Europe", "11-29", "Spain general election", "https://www.infoelectoral.interior.gob.es/", _W + "2026_Spanish_general_election", "reference"),
 ]
 
 
@@ -115,49 +216,43 @@ def _slug(s: str) -> str:
     return "".join(c.lower() if c.isalnum() else "-" for c in s).strip("-")
 
 
+def _status(basis: str) -> str:
+    return "confirmed" if basis in ("official", "reference") else "projected"
+
+
 def build_events() -> list[Event]:
     out: list[Event] = []
     for entity, rows in EARNINGS.items():
         ticker, cat, region, url = COMPANIES[entity]
         for period, md in rows:
-            out.append(
-                Event(
-                    id=f"{_slug(entity)}-{_slug(period)}",
-                    kind="earnings",
-                    entity=entity,
-                    ticker=ticker,
-                    category=cat,
-                    region=region,
-                    date=f"{YEAR}-{md}",
-                    title=f"{entity} {period} results",
-                    source_url=url,
-                )
-            )
-    for bank, dates in RATE_DECISIONS.items():
+            md, basis, vurl = VERIFIED_EARNINGS.get((entity, period), (md, "unverified", None))
+            out.append(Event(id=f"{_slug(entity)}-{_slug(period)}", kind="earnings", entity=entity, ticker=ticker,
+                             category=cat, region=region, date=f"{YEAR}-{md}", title=f"{entity} {period} results",
+                             status=_status(basis), basis=basis, source_url=url, verified_url=vurl))
+    for bank, rows in RATE_DECISIONS.items():
         region, url = CENTRAL_BANKS[bank]
-        for md in dates:
-            out.append(
-                Event(
-                    id=f"{_slug(bank)}-{YEAR}-{md}",
-                    kind="rate_decision",
-                    entity=bank,
-                    category="central_bank",
-                    region=region,
-                    date=f"{YEAR}-{md}",
-                    title=f"{bank} rate decision",
-                    source_url=url,
-                )
-            )
-    for entity, kind, cat, region, md, title, url in POLITICS:
-        out.append(Event(id=f"{_slug(entity)}-{YEAR}-{md}", kind=kind, entity=entity, category=cat,
-                         region=region, date=f"{YEAR}-{md}", title=title, source_url=url))
+        for md, basis in rows:
+            out.append(Event(id=f"{_slug(bank)}-{YEAR}-{md}", kind="rate_decision", entity=bank, category="central_bank",
+                             region=region, date=f"{YEAR}-{md}", title=f"{bank} rate decision",
+                             status=_status(basis), basis=basis, source_url=url,
+                             verified_url=None if basis in ("unverified", "estimate") else url))
+    for entity, md, title, basis, vurl, _note in MINUTES:
+        region, url = CENTRAL_BANKS[entity]
+        out.append(Event(id=f"{_slug(entity)}-minutes-{YEAR}-{md}", kind="minutes", entity=entity, category="central_bank",
+                         region=region, date=f"{YEAR}-{md}", title=title, status=_status(basis), basis=basis,
+                         source_url=url, verified_url=vurl))
+    for entity, kind, cat, region, md, title, url, vurl, basis in POLITICS:
+        out.append(Event(id=f"{_slug(entity)}-{YEAR}-{md}", kind=kind, entity=entity, category=cat, region=region,
+                         date=f"{YEAR}-{md}", title=title, status=_status(basis), basis=basis, source_url=url,
+                         verified_url=vurl))
+    ids = [e.id for e in out]
+    assert len(ids) == len(set(ids)), "duplicate event ids"
     return sorted(out, key=lambda e: (e.date, e.entity))
 
 
 def write_data(path: Path, events: list[Event], updates: list[dict] | None = None) -> None:
     payload = {
         "year": YEAR,
-        "generated": None,
         "events": [json.loads(e.model_dump_json()) for e in events],
         "updates": updates or [],
     }

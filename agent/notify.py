@@ -11,7 +11,7 @@ DEFAULT_TO = "winstonpark27@gmail.com"
 
 def render(updates: list[dict]) -> tuple[str, str, str]:
     subject = f"[Sponsor Calendar] {len(updates)} new update{'s' if len(updates) != 1 else ''}"
-    labels = {"released": "RELEASED", "date_confirmed": "DATE CONFIRMED", "new_report": "NEW REPORT", "appointment": "APPOINTMENT"}
+    labels = {"released": "RELEASED", "date_confirmed": "DATE CONFIRMED", "new_report": "NEW REPORT", "appointment": "APPOINTMENT", "announcement": "ANNOUNCEMENT", "leadership": "CENTRAL BANK LEADERSHIP", "conflict_update": "CONFLICT UPDATE"}
     text, rows = [], []
     for u in updates:
         tag = labels.get(u["type"], u["type"])

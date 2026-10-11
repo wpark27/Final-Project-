@@ -87,3 +87,48 @@ APPOINTMENT_PAGES: dict[str, tuple[str, str, str]] = {
     "Italy (Government)": ("euro_national", "Europe", "https://www.governo.it/en"),
     "Spain (La Moncloa)": ("euro_national", "Europe", "https://www.lamoncloa.gob.es/lang/en/Paginas/index.aspx"),
 }
+
+# Central-bank leadership changes (Governor/Chair/President, deputies, board/MPC members)
+LEADERSHIP_PAGES: dict[str, tuple[str, str]] = {
+    "Federal Reserve": ("US", "https://www.federalreserve.gov/newsevents/pressreleases.htm"),
+    "European Central Bank": ("Europe", "https://www.ecb.europa.eu/press/pr/date/html/index.en.html"),
+    "Bank of England": ("UK", "https://www.bankofengland.co.uk/news"),
+    "Bank of Japan": ("Japan", "https://www.boj.or.jp/en/index.htm"),
+    "Bank of Canada": ("Canada", "https://www.bankofcanada.ca/press/press-releases/"),
+    "Reserve Bank of Australia": ("Australia", "https://www.rba.gov.au/media-releases/"),
+    "Swiss National Bank": ("Switzerland", "https://www.snb.ch/en/publications/communication/press-releases"),
+    "Reserve Bank of India": ("India", "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx"),
+    "People's Bank of China": ("China", "https://www.pbc.gov.cn/en/3688006/index.html"),
+}
+
+# Official / UN sources for Ukraine and Middle East developments (ACLED adds event counts, see acled.py)
+CONFLICT_PAGES: dict[str, str] = {
+    "UN News - Europe (Ukraine)": "https://news.un.org/en/news/region/europe",
+    "UN News - Middle East": "https://news.un.org/en/news/region/middle-east",
+    "UN Security Council press": "https://press.un.org/en/content/security-council/meetings-coverage",
+    "Institute for the Study of War": "https://understandingwar.org/research/",
+}
+
+# Running-tab headlines. Headlines + links only (no article text is stored or republished).
+NEWS_FEEDS: dict[str, list[str]] = {
+    "Bloomberg": [
+        "https://feeds.bloomberg.com/markets/news.rss",
+        "https://feeds.bloomberg.com/politics/news.rss",
+    ],
+    "Financial Times": [
+        "https://www.ft.com/rss/home",
+        "https://www.ft.com/world?format=rss",
+    ],
+    "The Economist": [
+        "https://www.economist.com/finance-and-economics/rss.xml",
+        "https://www.economist.com/the-world-this-week/rss.xml",
+    ],
+}
+
+# 10-year government bond yield per central-bank jurisdiction, from official / central-bank data only.
+# Banks with no free, current, official daily feed are listed with a reason instead of a made-up number.
+YIELD_UNAVAILABLE: dict[str, str] = {
+    "Swiss National Bank": "SNB data-portal yield cubes are not currently updated; no verified daily 10y feed.",
+    "Reserve Bank of India": "No free official daily 10y feed (CCIL/FBIL are licensed).",
+    "People's Bank of China (LPR)": "ChinaBond yields are not freely available via an official API.",
+}

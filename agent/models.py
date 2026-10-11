@@ -6,11 +6,20 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
-Kind = Literal["earnings", "rate_decision", "market_report", "election", "summit", "appointment"]
+Kind = Literal[
+    "earnings", "rate_decision", "minutes", "market_report", "leadership",
+    "election", "summit", "appointment", "announcement", "conflict_update",
+]
 Status = Literal["projected", "confirmed", "reported"]
+# How the date was established. Only "official"/"reference" count as verified.
+#   official   - issuer / central bank / government announcement
+#   reference  - reputable secondary calendar (NCSL, Vote411, Wikipedia) that cites official sources
+#   estimate   - third-party aggregator estimate, not announced by the issuer
+#   unverified - this project's own pattern guess; shown as such until the crawler confirms it
+Basis = Literal["official", "reference", "estimate", "unverified"]
 Category = Literal[
     "pe_sponsor", "credit_sponsor", "bulge_bank", "advisory", "central_bank", "research",
-    "us_politics", "uk_politics", "eu_politics", "euro_national",
+    "us_politics", "uk_politics", "eu_politics", "euro_national", "conflict",
 ]
 
 
@@ -35,7 +44,10 @@ class Event(BaseModel):
     date: date
     title: str
     status: Status = "projected"
-    source_url: str
+    basis: Basis = "unverified"
+    source_url: str  # official page the crawler reads
+    verified_url: str | None = None  # page that established the date
+    last_checked: str | None = None
     result: Result | None = None
 
 
@@ -63,6 +75,7 @@ class ReleaseCheck(BaseModel):
 
 
 class DiscoveredReport(BaseModel):
+    type: Literal["report", "appointment", "announcement", "leadership", "conflict_update"] = "report"
     entity: str
     title: str
     url: str

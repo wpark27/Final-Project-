@@ -2,8 +2,15 @@
 
   python -m agent.run                 # normal scheduled run
   python -m agent.run --dry-run       # no writes, no email
-  python -m agent.run --backfill      # also check every past, unverified event this year
   python -m agent.run --only Blackstone
+  python -m agent.run --max-checks 80 # cap on scheduled-event checks per run (cost control)
+
+What it does each run
+  1. Scheduled events: for every event whose date is unverified/estimated (or whose release window has
+     arrived) it reads the official page and records either the real announced date (e.g. a company's
+     "to announce Q3 results on ..." notice), or the published release itself.
+  2. Discovery: scans research, government, central-bank leadership and conflict pages for new items.
+  3. Emails one digest of everything new; anything that fails to send is retried next run.
 """
 from __future__ import annotations
 
@@ -17,11 +24,13 @@ from .agent import build_discovery_agent, build_release_agent, check_event, disc
 from .models import Event, Result
 from .notify import send_email
 from .seed import _slug, write_data
-from .sources import APPOINTMENT_PAGES, RESEARCH_PAGES
+from .sources import APPOINTMENT_PAGES, CONFLICT_PAGES, LEADERSHIP_PAGES, RESEARCH_PAGES
 
 DATA = Path(__file__).resolve().parent.parent / "data" / "events.json"
-LOOKBACK_DAYS = 14   # check events this recent for a release
-CONFIRM_WINDOW = 45  # try to confirm projected dates this far ahead
+LOOKBACK_DAYS = 14      # a verified-date event is checked for its release this long after its date
+CONFIRM_WINDOW = 120    # try to confirm unverified/estimated dates this far ahead
+RECHECK_DAYS = 3        # don't re-read an event's source more often than this when nothing was found
+DISCOVERED = ("market_report", "appointment", "announcement", "leadership", "conflict_update")
 
 
 def load(path: Path) -> tuple[list[Event], list[dict]]:
@@ -29,17 +38,34 @@ def load(path: Path) -> tuple[list[Event], list[dict]]:
     return [Event(**e) for e in raw["events"]], raw.get("updates", [])
 
 
-def due(events: list[Event], today: date, backfill: bool, only: str | None) -> list[Event]:
+def due(events: list[Event], today: date, only: str | None = None) -> list[Event]:
+    """Events worth reading the official source for now, most valuable first."""
     sel = []
     for e in events:
-        if e.status == "reported" or e.kind in ("market_report", "appointment"):
+        if e.status == "reported" or e.kind in DISCOVERED:
             continue
         if only and only.lower() not in e.entity.lower():
             continue
+        if e.last_checked and (today - date.fromisoformat(e.last_checked[:10])).days < RECHECK_DAYS:
+            continue
         d = (e.date - today).days
-        if (-LOOKBACK_DAYS <= d <= 0) or (backfill and d < -LOOKBACK_DAYS) or (0 < d <= CONFIRM_WINDOW and e.status == "projected"):
-            sel.append(e)
-    return sel
+        unverified = e.basis in ("unverified", "estimate")
+        if unverified and d <= CONFIRM_WINDOW:
+            sel.append(e)                       # find the real date / the release itself
+        elif not unverified and d <= 0:
+            sel.append(e)                       # verified date has arrived: has it been published?
+    def tier(e: Event) -> tuple[int, int]:
+        d = (e.date - today).days
+        unverified = e.basis in ("unverified", "estimate")
+        if not unverified and d >= -LOOKBACK_DAYS:
+            return 0, -d    # verified date just arrived: fetch the release
+        if unverified and d >= 0:
+            return 1, d     # upcoming: find the issuer's announced date
+        if unverified:
+            return 2, -d    # past guess: find the real date / release (backfill, most recent first)
+        return 3, -d        # old verified event: backfill its result
+
+    return sorted(sel, key=tier)
 
 
 async def crawl(events: list[Event], updates: list[dict], today: date, args, model=None) -> None:
@@ -48,6 +74,11 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
     release_agent = build_release_agent(model)
     by_id = {e.id: e for e in events}
 
+    def note(ev: Event, typ: str, headline: str, summary: str, url: str, metrics=None) -> None:
+        updates.append(dict(id=f"{ev.id}:{typ}:{ev.date.isoformat()}", event_id=ev.id, type=typ, entity=ev.entity,
+                            headline=headline, summary=summary, metrics=metrics or [], url=url,
+                            detected_at=now, notified=False))
+
     async def one(ev: Event) -> None:
         async with sem:
             try:
@@ -55,69 +86,75 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
             except Exception as exc:  # one bad site must not stop the run
                 print(f"  ! {ev.id}: {type(exc).__name__}: {exc}")
                 return
+        ev.last_checked = now
         if out.released and out.url:
-            ev.status = "reported"
-            ev.result = Result(
-                headline=out.headline or ev.title, summary=out.summary or "", metrics=out.metrics,
-                url=out.url, published=out.published, detected_at=now,
-            )
-            updates.append(dict(id=f"{ev.id}:released", event_id=ev.id, type="released", entity=ev.entity,
-                                headline=ev.result.headline, summary=ev.result.summary,
-                                metrics=out.metrics, url=out.url, detected_at=now, notified=False))
+            if out.published and out.published != ev.date and abs((out.published - ev.date).days) <= 60:
+                ev.date = out.published          # replace a guessed/estimated date with the real one
+            ev.status, ev.basis, ev.verified_url = "reported", "official", out.url
+            ev.result = Result(headline=out.headline or ev.title, summary=out.summary or "", metrics=out.metrics,
+                               url=out.url, published=out.published, detected_at=now)
+            note(ev, "released", ev.result.headline, ev.result.summary, out.url, out.metrics)
             print(f"  + released: {ev.title}")
-        elif out.confirmed_date and ev.status == "projected":
-            ev.date, ev.status = out.confirmed_date, "confirmed"
-            updates.append(dict(id=f"{ev.id}:date", event_id=ev.id, type="date_confirmed", entity=ev.entity,
-                                headline=f"{ev.title} confirmed for {ev.date.isoformat()}",
-                                summary="Date announced on the official investor-relations site.",
-                                metrics=[], url=ev.source_url, detected_at=now, notified=False))
+        elif out.confirmed_date and out.confirmed_date >= today and (
+                ev.basis in ("unverified", "estimate") or out.confirmed_date != ev.date):
+            changed = out.confirmed_date != ev.date
+            ev.date, ev.status, ev.basis = out.confirmed_date, "confirmed", "official"
+            ev.verified_url = out.url or ev.source_url
+            note(ev, "date_confirmed", f"{ev.title}: date announced as {ev.date.isoformat()}"
+                 + (" (changed)" if changed else ""),
+                 "Date announced on the official source.", ev.verified_url)
             print(f"  ~ confirmed: {ev.title} -> {ev.date}")
 
-    todo = due(events, today, args.backfill, args.only)
+    todo = due(events, today, args.only)[: args.max_checks]
     print(f"checking {len(todo)} scheduled events")
     await asyncio.gather(*(one(e) for e in todo))
 
-    if args.discover:
-        known = {e.result.url for e in events if e.result}
-        jobs = [("market_report", ent, "research", "Global", url) for ent, url in RESEARCH_PAGES.items()]
-        jobs += [("appointment", ent, cat, region, url) for ent, (cat, region, url) in APPOINTMENT_PAGES.items()]
-        agents = {k: build_discovery_agent(model, k) for k in ("market_report", "appointment")}
+    if not args.discover:
+        return
+    known = {e.result.url for e in events if e.result}
+    # (topic, entity, category, region, default kind, url)
+    jobs = [("market_report", ent, "research", "Global", "market_report", url) for ent, url in RESEARCH_PAGES.items()]
+    jobs += [("politics", ent, cat, region, "appointment", url) for ent, (cat, region, url) in APPOINTMENT_PAGES.items()]
+    jobs += [("leadership", ent, "central_bank", region, "leadership", url) for ent, (region, url) in LEADERSHIP_PAGES.items()]
+    jobs += [("conflict", ent, "conflict", "Global", "conflict_update", url) for ent, url in CONFLICT_PAGES.items()]
+    agents = {t: build_discovery_agent(model, t) for t in {j[0] for j in jobs}}
 
-        async def scan(kind: str, entity: str, cat: str, region: str, url: str) -> None:
-            async with sem:
-                try:
-                    res = await discover(agents[kind], entity, url, today)
-                except Exception as exc:
-                    print(f"  ! discover {entity}: {type(exc).__name__}: {exc}")
-                    return
-            for r in res.reports:
-                if r.url in known:
-                    continue
-                known.add(r.url)
-                ev = Event(id=f"{_slug(entity)}-{kind}-{_slug(r.title)[:50]}", kind=kind, entity=entity,
-                           category=cat, region=region, date=r.published, title=r.title,
-                           status="reported", source_url=url,
-                           result=Result(headline=r.title, summary=r.summary, url=r.url, published=r.published, detected_at=now))
-                if ev.id in by_id:
-                    continue
-                by_id[ev.id] = ev
-                events.append(ev)
-                updates.append(dict(id=f"{ev.id}:new", event_id=ev.id, type="new_report" if kind == "market_report" else "appointment",
-                                    entity=entity, headline=r.title, summary=r.summary, metrics=[], url=r.url,
-                                    detected_at=now, notified=False))
-                print(f"  + {kind}: {entity}: {r.title}")
+    async def scan(topic, entity, cat, region, default_kind, url) -> None:
+        async with sem:
+            try:
+                res = await discover(agents[topic], entity, url, today)
+            except Exception as exc:
+                print(f"  ! discover {entity}: {type(exc).__name__}: {exc}")
+                return
+        for r in res.reports:
+            if r.url in known:
+                continue
+            known.add(r.url)
+            kind = r.type if (topic == "politics" and r.type in ("appointment", "announcement")) else default_kind
+            ev = Event(id=f"{_slug(entity)}-{kind}-{_slug(r.title)[:50]}", kind=kind, entity=entity, category=cat,
+                       region=region, date=r.published, title=r.title, status="reported", basis="official",
+                       source_url=url, verified_url=r.url,
+                       result=Result(headline=r.title, summary=r.summary, url=r.url, published=r.published, detected_at=now))
+            if ev.id in by_id:
+                continue
+            by_id[ev.id] = ev
+            events.append(ev)
+            typ = {"market_report": "new_report"}.get(kind, kind)
+            updates.append(dict(id=f"{ev.id}:new", event_id=ev.id, type=typ, entity=entity, headline=r.title,
+                                summary=r.summary, metrics=[], url=r.url, detected_at=now, notified=False))
+            print(f"  + {kind}: {entity}: {r.title}")
 
-        await asyncio.gather(*(scan(*j) for j in jobs))
+    await asyncio.gather(*(scan(*j) for j in jobs))
 
 
 def main(argv=None, model=None) -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--dry-run", action="store_true")
-    p.add_argument("--backfill", action="store_true")
     p.add_argument("--no-discover", dest="discover", action="store_false")
     p.add_argument("--only")
     p.add_argument("--data", type=Path, default=DATA)
     p.add_argument("--concurrency", type=int, default=4)
+    p.add_argument("--max-checks", type=int, default=80)
     p.add_argument("--today", type=date.fromisoformat, default=date.today())
     args = p.parse_args(argv)
 

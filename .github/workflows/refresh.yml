@@ -1,0 +1,27 @@
+name: refresh-news-and-yields
+# No LLM and no secrets needed (ACLED optional). Runs hourly: headlines, 10y yields, ACLED counts.
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: refresh
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -r requirements.txt
+      - name: Refresh live data
+        env:
+          ACLED_EMAIL: ${{ secrets.ACLED_EMAIL }}
+          ACLED_PASSWORD: ${{ secrets.ACLED_PASSWORD }}
+        run: python -m agent.refresh
+      - name: Commit
+        run: |
+          git config user.name "calendar-bot"; git config user.email "calendar-bot@users.noreply.github.com"
+          git add data/live.json data/live.js
+          git diff --cached --quiet || (git commit -m "Refresh headlines and yields" && git pull --rebase && git push)
