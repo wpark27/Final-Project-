@@ -36,7 +36,7 @@ def _attach_tools(agent: Agent) -> None:
         if ctx.deps.pages_fetched >= 5:
             return "[refused: page budget exhausted, decide with what you have]"
         ctx.deps.pages_fetched += 1
-        return await fetch_text(url)
+        return await fetch_text(url, ctx.deps.allowed_url)
 
 
 def build_release_agent(model=None) -> Agent[Deps, ReleaseCheck]:
@@ -95,8 +95,10 @@ async def check_event(agent: Agent[Deps, ReleaseCheck], ev: Event, today: date) 
     )
     res = await agent.run(prompt, deps=Deps(allowed_url=ev.source_url))
     out = res.output
-    # Code-level guard: a "release" must point at the issuer's own domain.
-    if out.released and not (out.url and same_site(out.url, ev.source_url)):
+    # Code-level guards: any URL we keep must be on the issuer's own domain (never trust model/page text).
+    if out.url and not same_site(out.url, ev.source_url):
+        out.url = None
+    if out.released and not out.url:
         return ReleaseCheck(released=False)
     return out
 

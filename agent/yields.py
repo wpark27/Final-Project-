@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import csv
 import io
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 
 import httpx
 
@@ -15,6 +15,7 @@ from .crawler import UA
 from .sources import YIELD_UNAVAILABLE
 
 HISTORY_DAYS = 200
+_MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
 def _clean(rows: list[tuple[str, float]]) -> list[tuple[str, float]]:
@@ -22,13 +23,14 @@ def _clean(rows: list[tuple[str, float]]) -> list[tuple[str, float]]:
 
 
 async def us(c: httpx.AsyncClient, today: date):
-    url = (f"https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/"
-           f"{today.year}/all?type=daily_treasury_yield_curve&field_tdr_date_value={today.year}&page&_format=csv")
-    r = await c.get(url); r.raise_for_status()
     rows = []
-    for row in csv.DictReader(io.StringIO(r.text)):
-        if row.get("10 Yr"):
-            rows.append((datetime.strptime(row["Date"], "%m/%d/%Y").date().isoformat(), float(row["10 Yr"])))
+    for year in sorted({(today - timedelta(days=HISTORY_DAYS)).year, today.year}):  # window can span New Year
+        url = ("https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/"
+               f"{year}/all?type=daily_treasury_yield_curve&field_tdr_date_value={year}&page&_format=csv")
+        r = await c.get(url); r.raise_for_status()
+        for row in csv.DictReader(io.StringIO(r.text)):
+            if row.get("10 Yr"):
+                rows.append((datetime.strptime(row["Date"], "%m/%d/%Y").date().isoformat(), float(row["10 Yr"])))
     return _clean(rows), "US Treasury par yield curve, 10 Yr", "https://home.treasury.gov/resource-center/data-chart-center/interest-rates"
 
 
@@ -41,7 +43,8 @@ async def euro_area(c: httpx.AsyncClient, today: date):
 
 
 async def uk(c: httpx.AsyncClient, today: date):
-    start = (today - timedelta(days=HISTORY_DAYS)).strftime("%d/%b/%Y")
+    d0 = today - timedelta(days=HISTORY_DAYS)
+    start = f"{d0.day:02d}/{_MON[d0.month - 1]}/{d0.year}"  # not strftime: %b is locale-dependent
     url = ("https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes"
            f"&Datefrom={start}&Dateto=now&SeriesCodes=IUDMNPY&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N")
     r = await c.get(url); r.raise_for_status()
@@ -112,11 +115,11 @@ async def refresh(previous: dict | None, today: date | None = None) -> dict:
                 hist, series, src = await fn(c, today)
                 if not hist:
                     raise ValueError("feed returned no observations")
-                (d1, v1), (d0, v0) = hist[-1], (hist[-2] if len(hist) > 1 else hist[-1])
+                (d1, v1), (_, v0) = hist[-1], (hist[-2] if len(hist) > 1 else hist[-1])
                 out[bank] = dict(country=country, series=series, source_url=src, value=v1, as_of=d1,
                                  change_1d_bp=round((v1 - v0) * 100, 1) if len(hist) > 1 else None,
                                  history=[{"d": d, "v": v} for d, v in hist[-HISTORY_DAYS:]],
-                                 fetched_at=datetime.utcnow().isoformat(timespec="seconds") + "Z", error=None)
+                                 fetched_at=datetime.now(timezone.utc).isoformat(timespec="seconds"), error=None)
             except Exception as exc:  # keep last good value, flag staleness
                 out[bank] = {**old, "country": country, "error": f"{type(exc).__name__}: {exc}"} if old else \
                     dict(country=country, series=None, value=None, as_of=None, history=[], error=f"{type(exc).__name__}: {exc}")

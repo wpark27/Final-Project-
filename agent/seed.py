@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 import sys
+from datetime import date, timedelta
 from pathlib import Path
 
 from .models import Event
@@ -97,6 +98,14 @@ VERIFIED_EARNINGS: dict[tuple[str, str], tuple[str, str, str]] = {
     ("Brookfield Asset Management", "Q3 2026"): ("11-04", "estimate", "https://uk.marketscreener.com/quote/stock/BROOKFIELD-ASSET-MANAGEME-147562477/calendar/"),
 }
 
+def _lpr_day(month: int) -> str:
+    """20th of the month, rolled to the next weekday (public holidays are not modelled, hence 'estimate')."""
+    d = date(YEAR, month, 20)
+    while d.weekday() >= 5:
+        d += timedelta(days=1)
+    return d.strftime("%m-%d")
+
+
 # bank -> decision dates (last day of meeting), basis per date. Checked 2026-10-11 against:
 #  Fed: federalreserve.gov/monetarypolicy/fomccalendars.htm   BoE: bankofengland.co.uk/monetary-policy/upcoming-mpc-dates
 #  BoJ: boj.or.jp/en/mopo/mpmsche_minu/index.htm              ECB: ecb.europa.eu/press/calendars/mgcgc (Oct, Dec; Sep 10 per ECB site)
@@ -113,7 +122,7 @@ RATE_DECISIONS: dict[str, list[tuple[str, str]]] = {
     "Swiss National Bank": [(d, "official") for d in ["03-19", "06-18", "09-24", "12-10"]],
     "Reserve Bank of India": [(d, "official") for d in ["02-06", "04-08", "06-05", "08-05", "10-07", "12-04"]],
     # LPR is published on the 20th (next business day if a holiday); PBoC publishes no forward calendar
-    "People's Bank of China (LPR)": [(f"{m:02d}-20", "estimate") for m in range(1, 13)],
+    "People's Bank of China (LPR)": [(_lpr_day(m), "estimate") for m in range(1, 13)],
 }
 
 # Minutes / accounts / summaries (kind=minutes). Fed dates are the "Released" dates on the Fed's own page;
@@ -153,6 +162,7 @@ MINUTES: list[tuple[str, str, str, str, str, str]] = [
 #                   verified_url, basis). "reference" = NCSL / Vote411 / Wikipedia, which cite official sources.
 _NCSL = "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates"
 _V411 = "https://www.vote411.org/primaries2026"
+_270 = "https://www.270towin.com/2026-state-primary-calendar/"  # independently matches Vote411 for every date below
 _EU = "https://en.wikipedia.org/wiki/2026_elections_in_the_European_Union"
 FEC = "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/"
 ECOM = "https://www.electoralcommission.org.uk/who-we-are-and-what-we-do/elections-and-referendums"
@@ -160,7 +170,7 @@ BWL = "https://www.bundeswahlleiterin.de/en/"
 _W = "https://en.wikipedia.org/wiki/"
 
 POLITICS: list[tuple] = [
-    # US primaries (NCSL / Vote411). Partial list: NY, CO, UT, OK and Louisiana were not verified and are omitted.
+    # US primaries and runoffs: Vote411 + 270toWin agree on every date (checked 2026-10-11)
     ("US primaries - AR, NC, TX", "election", "us_politics", "US", "03-03", "US primaries: Arkansas, North Carolina, Texas", FEC, _V411, "reference"),
     ("US primaries - MS", "election", "us_politics", "US", "03-10", "US primary: Mississippi", FEC, _V411, "reference"),
     ("US primaries - IL", "election", "us_politics", "US", "03-17", "US primary: Illinois", FEC, _V411, "reference"),
@@ -178,6 +188,19 @@ POLITICS: list[tuple] = [
     ("US primaries - NH", "election", "us_politics", "US", "09-08", "US primary: New Hampshire", FEC, _V411, "reference"),
     ("US primaries - RI", "election", "us_politics", "US", "09-09", "US primary: Rhode Island", FEC, _V411, "reference"),
     ("US primaries - DE", "election", "us_politics", "US", "09-15", "US primary: Delaware", FEC, _V411, "reference"),
+    ("US primaries - LA", "election", "us_politics", "US", "05-16", "US primary: Louisiana (congressional)", FEC, _270, "reference"),
+    ("US primaries - DC, OK", "election", "us_politics", "US", "06-16", "US primaries: District of Columbia, Oklahoma", FEC, _270, "reference"),
+    ("US primaries - MD, NY, UT", "election", "us_politics", "US", "06-23", "US primaries: Maryland, New York, Utah", FEC, _270, "reference"),
+    ("US primaries - CO", "election", "us_politics", "US", "06-30", "US primary: Colorado", FEC, _270, "reference"),
+    ("US primaries - AZ", "election", "us_politics", "US", "07-21", "US primary: Arizona", FEC, _270, "reference"),
+    ("US runoffs - AR", "election", "us_politics", "US", "03-31", "US primary runoff: Arkansas", FEC, _270, "reference"),
+    ("US runoffs - MS", "election", "us_politics", "US", "04-07", "US primary runoff: Mississippi", FEC, _270, "reference"),
+    ("US runoffs - TX", "election", "us_politics", "US", "05-26", "US primary runoff: Texas", FEC, _270, "reference"),
+    ("US runoffs - AL, GA", "election", "us_politics", "US", "06-16", "US primary runoffs: Alabama, Georgia", FEC, _270, "reference"),
+    ("US runoffs - LA", "election", "us_politics", "US", "06-27", "US primary runoff: Louisiana", FEC, _270, "reference"),
+    ("US runoffs - SD", "election", "us_politics", "US", "07-28", "US primary runoff: South Dakota", FEC, _270, "reference"),
+    ("US runoffs - OK", "election", "us_politics", "US", "08-25", "US primary runoff: Oklahoma", FEC, _270, "reference"),
+    ("US general runoff - GA", "election", "us_politics", "US", "12-01", "Georgia general-election runoff (if required)", FEC, _270, "reference"),
     # Federal general election: first Tuesday after the first Monday in November (2 U.S.C. 7). No presidential race in 2026.
     ("US Senate", "election", "us_politics", "US", "11-03", "US Senate elections (midterms)", FEC, _NCSL, "reference"),
     ("US House of Representatives", "election", "us_politics", "US", "11-03", "US House elections (all 435 seats, midterms)", FEC, _NCSL, "reference"),
@@ -250,6 +273,13 @@ def build_events() -> list[Event]:
     return sorted(out, key=lambda e: (e.date, e.entity))
 
 
+def atomic_write(path: Path, text: str) -> None:
+    """Write via a temp file + rename so readers (the API, the browser) never see a half-written file."""
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(text)
+    tmp.replace(path)
+
+
 def write_data(path: Path, events: list[Event], updates: list[dict] | None = None) -> None:
     payload = {
         "year": YEAR,
@@ -258,9 +288,9 @@ def write_data(path: Path, events: list[Event], updates: list[dict] | None = Non
     }
     path.parent.mkdir(parents=True, exist_ok=True)
     text = json.dumps(payload, indent=1)
-    path.write_text(text + "\n")
+    atomic_write(path, text + "\n")
     # also as a script so index.html works when opened straight from disk (file://)
-    path.with_suffix(".js").write_text("window.CALENDAR_DATA = " + text + ";\n")
+    atomic_write(path.with_suffix(".js"), "window.CALENDAR_DATA = " + text + ";\n")
 
 
 if __name__ == "__main__":

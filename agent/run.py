@@ -29,6 +29,8 @@ from .sources import APPOINTMENT_PAGES, CONFLICT_PAGES, LEADERSHIP_PAGES, RESEAR
 DATA = Path(__file__).resolve().parent.parent / "data" / "events.json"
 LOOKBACK_DAYS = 14      # a verified-date event is checked for its release this long after its date
 CONFIRM_WINDOW = 120    # try to confirm unverified/estimated dates this far ahead
+EMAIL_BATCH = 30
+MAX_AHEAD_DAYS = 250    # ignore announced dates further out than this (likely a mistake or injected text)
 RECHECK_DAYS = 3        # don't re-read an event's source more often than this when nothing was found
 DISCOVERED = ("market_report", "appointment", "announcement", "leadership", "conflict_update")
 
@@ -74,8 +76,14 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
     release_agent = build_release_agent(model)
     by_id = {e.id: e for e in events}
 
+    seen = {u["id"] for u in updates}
+
     def note(ev: Event, typ: str, headline: str, summary: str, url: str, metrics=None) -> None:
-        updates.append(dict(id=f"{ev.id}:{typ}:{ev.date.isoformat()}", event_id=ev.id, type=typ, entity=ev.entity,
+        uid = f"{ev.id}:{typ}:{ev.date.isoformat()}"
+        if uid in seen:
+            return
+        seen.add(uid)
+        updates.append(dict(id=uid, event_id=ev.id, type=typ, entity=ev.entity,
                             headline=headline, summary=summary, metrics=metrics or [], url=url,
                             detected_at=now, notified=False))
 
@@ -95,7 +103,7 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
                                url=out.url, published=out.published, detected_at=now)
             note(ev, "released", ev.result.headline, ev.result.summary, out.url, out.metrics)
             print(f"  + released: {ev.title}")
-        elif out.confirmed_date and out.confirmed_date >= today and (
+        elif out.confirmed_date and today <= out.confirmed_date <= today + timedelta(days=MAX_AHEAD_DAYS) and (
                 ev.basis in ("unverified", "estimate") or out.confirmed_date != ev.date):
             changed = out.confirmed_date != ev.date
             ev.date, ev.status, ev.basis = out.confirmed_date, "confirmed", "official"
@@ -127,8 +135,8 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
                 print(f"  ! discover {entity}: {type(exc).__name__}: {exc}")
                 return
         for r in res.reports:
-            if r.url in known:
-                continue
+            if r.url in known or not (today - timedelta(days=30) <= r.published <= today + timedelta(days=1)):
+                continue  # already seen, or the date is implausible for "published in the last 14 days"
             known.add(r.url)
             kind = r.type if (topic == "politics" and r.type in ("appointment", "announcement")) else default_kind
             ev = Event(id=f"{_slug(entity)}-{kind}-{_slug(r.title)[:50]}", kind=kind, entity=entity, category=cat,
@@ -168,16 +176,17 @@ def main(argv=None, model=None) -> int:
     write_data(args.data, events, updates)  # persist BEFORE emailing so findings are never lost
 
     pending = [u for u in updates if not u["notified"]]
-    if pending:
+    for i in range(0, len(pending), EMAIL_BATCH):  # first runs can find many items: several digests, not one huge mail
+        batch = pending[i:i + EMAIL_BATCH]
         try:
-            send_email(pending)
-            for u in pending:
-                u["notified"] = True
-            write_data(args.data, events, updates)
-            print(f"emailed {len(pending)} update(s)")
+            send_email(batch)
         except Exception as exc:  # stays notified=False, retried next run
             print(f"email failed ({exc}); will retry next run")
             return 1
+        for u in batch:
+            u["notified"] = True
+        write_data(args.data, events, updates)
+        print(f"emailed {len(batch)} update(s)")
     return 0
 
 

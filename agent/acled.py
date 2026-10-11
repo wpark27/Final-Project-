@@ -17,6 +17,8 @@ THEATRES = {
     "Middle East": ["Israel", "Palestine", "Lebanon", "Syria", "Iran", "Yemen", "Iraq"],
 }
 WINDOW_DAYS = 7
+PAGE_SIZE = 5000
+MAX_PAGES = 20
 
 
 async def _token(c: httpx.AsyncClient) -> str:
@@ -51,12 +53,20 @@ async def refresh(today: date | None = None) -> dict:
         headers = {"Authorization": f"Bearer {await _token(c)}"}
         for name, countries in THEATRES.items():
             q = ":OR:".join(f"country={x}" for x in countries)
-            url = (f"https://acleddata.com/api/acled/read?_format=json&{q}&event_date={start}|{today}"
-                   f"&event_date_where=BETWEEN&fields=event_date|event_type|country|fatalities&limit=0")
-            r = await c.get(url, headers=headers)
-            r.raise_for_status()
-            body = r.json()
-            if body.get("status") != 200:
-                raise RuntimeError(f"ACLED returned status {body.get('status')}")
-            out["theatres"][name] = summarise(body["data"])
+            rows: list[dict] = []
+            for page in range(1, MAX_PAGES + 1):  # API caps a call at 5000 rows; paginate with &page=N
+                url = (f"https://acleddata.com/api/acled/read?_format=json&{q}&event_date={start}|{today}"
+                       f"&event_date_where=BETWEEN&fields=event_date|event_type|country|fatalities"
+                       f"&limit={PAGE_SIZE}&page={page}")
+                r = await c.get(url, headers=headers)
+                r.raise_for_status()
+                body = r.json()
+                if body.get("status") != 200:
+                    raise RuntimeError(f"ACLED returned status {body.get('status')}")
+                rows += body["data"]
+                if len(body["data"]) < PAGE_SIZE:
+                    break
+            else:
+                out.setdefault("truncated", []).append(name)  # hit MAX_PAGES: counts are a lower bound
+            out["theatres"][name] = summarise(rows)
     return out

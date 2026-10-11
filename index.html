@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
 <title>Sponsor Capital Calendar 2026</title>
 <style>
 :root{--bg:#f6f7f9;--card:#fff;--ink:#14181f;--mute:#667085;--line:#e3e6ec;--accent:#1f4fd8;
@@ -15,8 +16,20 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
 header,main{max-width:1180px;margin:0 auto;padding:0 16px}
 /* running news tab */
-#tape{position:sticky;top:0;z-index:20;background:var(--bar);color:var(--barink);display:flex;align-items:stretch;overflow:hidden;font-size:13px}
-#tape .lbl{flex:none;padding:8px 12px;background:var(--accent);color:#fff;font-weight:700;letter-spacing:.04em}
+#top{position:sticky;top:0;z-index:20}
+#tape,#fx{background:var(--bar);color:var(--barink);display:flex;align-items:stretch;overflow:hidden;font-size:13px}
+#fx{border-top:1px solid #ffffff22}
+#tape .lbl,#fx .lbl{flex:none;padding:8px 12px;background:var(--accent);color:#fff;font-weight:700;letter-spacing:.04em;min-width:58px;text-align:center}
+#fx .lbl{background:#0b7285}
+#fx .pg{flex:1;display:flex;align-items:center;gap:6px;padding:0 10px;overflow:hidden;min-height:34px;transition:opacity .35s}
+#fx .pg.out{opacity:0}
+#fx .it{flex:1;display:flex;gap:8px;align-items:baseline;justify-content:center;white-space:nowrap}
+#fx .it b{font-weight:700}
+#fx .it small{font-size:11px}
+#fx .u{color:#ff8787}#fx .d{color:#3ccf9f}
+#fx .meta{flex:none;display:flex;align-items:center;gap:4px;padding:0 10px;font-size:11px;opacity:.8}
+#fx .meta button{border:0;width:8px;height:8px;border-radius:50%;padding:0;background:#ffffff55;cursor:pointer}
+#fx .meta button.on{background:#fff}
 #tape .vp{flex:1;overflow:hidden;white-space:nowrap;position:relative}
 #tape .track{display:inline-block;padding:8px 0;animation:scroll var(--dur,300s) linear infinite}
 #tape:hover .track{animation-play-state:paused}
@@ -24,7 +37,8 @@ header,main{max-width:1180px;margin:0 auto;padding:0 16px}
 #tape a:hover{text-decoration:underline}
 #tape b{opacity:.65;font-weight:600;margin-right:6px;font-size:11px;text-transform:uppercase}
 @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-@media(prefers-reduced-motion:reduce){#tape .vp{overflow-x:auto}#tape .track{animation:none}}
+@media(prefers-reduced-motion:reduce){#tape .vp{overflow-x:auto}#tape .track{animation:none}#fx .pg{transition:none}}
+@media(max-width:700px){#fx .meta{display:none}#fx .pg{padding:0 6px;gap:4px}#fx .it{gap:5px;font-size:12px}#fx .lbl,#tape .lbl{min-width:48px;padding:8px}}
 h1{margin:22px 0 0;font-size:26px;letter-spacing:-.01em}
 .sub{color:var(--mute);margin:4px 0 14px;max-width:80ch}
 h2.sec{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--mute);margin:18px 0 8px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
@@ -84,7 +98,10 @@ footer{max-width:1180px;margin:30px auto;padding:0 16px;color:var(--mute);font-s
 </style>
 </head>
 <body>
+<div id="top">
 <div id="tape" role="region" aria-label="Running news headlines"><span class="lbl">NEWS</span><div class="vp"><div class="track" id="track">Loading headlines…</div></div></div>
+<div id="fx" role="region" aria-label="Currency exchange rates" aria-live="off"><span class="lbl">FX</span><div class="pg" id="fxpg">Loading rates…</div><div class="meta" id="fxmeta"></div></div>
+</div>
 <header>
   <h1>Sponsor &amp; Private Capital Calendar · 2026</h1>
   <p class="sub">Earnings of listed PE/credit sponsors, bulge-bracket banks and independent advisories; central-bank decisions, minutes and leadership; US/UK/EU elections and appointments; Ukraine and Middle East developments. A crawler agent reads official sources every day and replaces estimated dates with announced ones.</p>
@@ -122,14 +139,14 @@ footer{max-width:1180px;margin:30px auto;padding:0 16px;color:var(--mute);font-s
 </main>
 <footer>
   <p><b>How to read dates.</b> “Confirmed” means the date comes from the issuer’s/central bank’s/government’s own notice, or from a reference calendar (NCSL, Vote411, Wikipedia) that cites official sources. “Estimate” is a third-party aggregator’s guess; “unverified” is this project’s issuer-cadence guess. The daily crawler swaps both for announced dates and, after the event, attaches the official release.</p>
-  <p>Yields: US Treasury, ECB, Bank of England, Bank of Japan/MoF, Bank of Canada and RBA official series; none is shown for the SNB, RBI or PBoC because no free official daily feed exists. News ticker: headline links from Bloomberg, Financial Times and The Economist public RSS feeds; articles open on the publishers’ sites. Conflict counts: ACLED. There is no US presidential or European Parliament election in 2026 (next: Nov 2028, Jun 2029). Nothing here is investment advice.</p>
+  <p>Yields: US Treasury, ECB, Bank of England, Bank of Japan/MoF, Bank of Canada and RBA official series; none is shown for the SNB, RBI or PBoC because no free official daily feed exists. News ticker: headline links from Bloomberg, Financial Times and The Economist public RSS feeds; articles open on the publishers’ sites. FX: ECB euro foreign exchange daily reference rates (one fixing per working day, not live quotes). Conflict counts: ACLED. There is no US presidential or European Parliament election in 2026 (next: Nov 2028, Jun 2029). Nothing here is investment advice.</p>
 </footer>
 <dialog id="dlg"></dialog>
 <script src="data/events.js"></script>
 <script src="data/live.js"></script>
 <script>
 const D = window.CALENDAR_DATA || {events:[],updates:[]};
-const L = window.LIVE_DATA || {news:[],yields:{},conflict:{}};
+let L = window.LIVE_DATA || {news:[],yields:{},conflict:{}};
 const COLOR = {earnings:'var(--earn)',rate_decision:'var(--rate)',minutes:'var(--min)',leadership:'var(--lead)',market_report:'var(--rep)',election:'var(--pol)',summit:'var(--sum)',appointment:'var(--sum)',announcement:'var(--sum)',conflict_update:'var(--war)'};
 const KIND = {earnings:'Earnings',rate_decision:'Rate decision',minutes:'Minutes',leadership:'CB leadership',market_report:'Market report',election:'Election',summit:'EU summit',appointment:'Appointment',announcement:'Announcement',conflict_update:'Conflict update'};
 const POLITICS = new Set(['election','summit','appointment','announcement']);
@@ -147,13 +164,39 @@ let month = new Date().getFullYear() === D.year ? new Date().getMonth() : 0, vie
 const verified = e => e.basis==='official' || e.basis==='reference' || e.status==='reported';
 
 /* ---- news tape ---- */
-(function(){
+function renderNews(){
   const n = (L.news||[]).slice(0,40);
   if(!n.length){ $('track').textContent='No headlines yet — the refresh job has not run.'; return; }
   const html = n.map(i=>`<a href="${esc(safeUrl(i.url))}" target="_blank" rel="noopener"><b>${esc(i.source==='Financial Times'?'FT':i.source==='The Economist'?'Economist':'Bloomberg')}</b>${esc(i.title)}</a>`).join('');
   $('track').innerHTML = html + html;   // duplicated for a seamless loop
   $('track').style.setProperty('--dur', Math.max(120, n.length*9)+'s');
-})();
+}
+
+/* ---- FX rotating banner (ECB daily reference rates) ---- */
+let fxPage = 0, fxTimer = null, fxPaused = false;
+const PER = () => window.innerWidth < 700 ? 2 : 4;
+const fxDec = p => p.quote==='JPY' ? 2 : p.rate>=50 ? 2 : 4;
+function renderFx(){
+  const f = L.fx; clearInterval(fxTimer);
+  if(!f || !f.pairs || !f.pairs.length){ $('fxpg').textContent='FX rates not loaded yet.'; $('fxmeta').innerHTML=''; return; }
+  const per = PER(), pages = Math.ceil(f.pairs.length/per);
+  fxPage = fxPage % pages;
+  const show = () => {
+    const items = f.pairs.slice(fxPage*per, fxPage*per+per);
+    $('fxpg').innerHTML = items.map(p=>{
+      const c=p.change_pct, cls=c>0?'u':c<0?'d':'';
+      return `<div class="it" title="${esc(f.source)}, ${esc(f.as_of)}"><b>${esc(p.pair)}</b><span>${p.rate.toFixed(fxDec(p))}</span>${c==null?'':`<small class="${cls}">${c>0?'▲':c<0?'▼':'■'} ${Math.abs(c).toFixed(2)}%</small>`}</div>`;
+    }).join('');
+    $('fxmeta').innerHTML = `<span>ECB ref. ${esc(f.as_of)}${f.error?' · STALE':''}</span>`+Array.from({length:pages},(_,i)=>`<button class="${i===fxPage?'on':''}" data-fxp="${i}" aria-label="Rates page ${i+1}"></button>`).join('');
+  };
+  const go = i => { const el=$('fxpg'); el.classList.add('out'); setTimeout(()=>{fxPage=i; show(); el.classList.remove('out');}, 350); };
+  show();
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!reduce && pages>1) fxTimer = setInterval(()=>{ if(!fxPaused) go((fxPage+1)%pages); }, 4500);
+  $('fx').onmouseenter = ()=>fxPaused=true; $('fx').onmouseleave = ()=>fxPaused=false;
+  $('fxmeta').onclick = e => { const b=e.target.closest('[data-fxp]'); if(b) go(+b.dataset.fxp); };
+}
+let fxResize; addEventListener('resize',()=>{clearTimeout(fxResize); fxResize=setTimeout(renderFx,200);});
 
 /* ---- yield widget ---- */
 function spark(h, marks){
@@ -259,7 +302,20 @@ $('region').insertAdjacentHTML('afterbegin','<option value="">All regions</optio
 document.addEventListener('click',ev=>{const b=ev.target.closest('[data-id]'); if(b) open(b.dataset.id);});
 ['q','layer','kind','cat','region','status'].forEach(i=>$(i).addEventListener('input',render));
 $('vMonth').onclick=()=>{view='month';render()}; $('vAgenda').onclick=()=>{view='agenda';render()};
-renderYields(); renderStats(); renderFeed(); renderConflict(); render();
+function renderLive(){ renderNews(); renderFx(); renderYields(); renderConflict(); }
+renderLive(); renderStats(); renderFeed(); render();
+// When served by the FastAPI app, pull fresh data from /api (falls back silently to the embedded snapshot).
+async function pull(){
+  if(!/^https?:$/.test(location.protocol)) return;
+  try{
+    const [lv, ev, up] = await Promise.all(['/api/live','/api/events','/api/updates'].map(u=>fetch(u).then(r=>{if(!r.ok) throw 0; return r.json();})));
+    if(lv && lv.updated) L = lv;
+    if(Array.isArray(ev) && ev.length) D.events = ev;
+    if(Array.isArray(up)) D.updates = up;
+    renderLive(); renderStats(); renderFeed(); render();
+  }catch(_){}
+}
+pull(); setInterval(pull, 10*60*1000);
 </script>
 </body>
 </html>

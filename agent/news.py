@@ -6,7 +6,7 @@ to the publisher. Paywalled content is not fetched.
 from __future__ import annotations
 
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import timezone
 from email.utils import parsedate_to_datetime
 
 import httpx
