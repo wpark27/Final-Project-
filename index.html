@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sponsor Earnings Calendar 2026</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#14181f;--mute:#667085;--line:#e3e6ec;--accent:#1f4fd8;
+--earn:#1f4fd8;--rate:#b4540a;--rep:#0f7b5f;--proj:#8a93a3;--conf:#7a3fd1;--pol:#c2255c;--sum:#0b7285;--today:#d92d20}
+@media(prefers-color-scheme:dark){:root{--bg:#0e1116;--card:#171b22;--ink:#e8ebf0;--mute:#98a2b3;--line:#272d38;--accent:#6d93ff;
+--earn:#6d93ff;--rate:#f5a15a;--rep:#3ccf9f;--proj:#7d8696;--conf:#b790f5;--pol:#f06595;--sum:#3bc9db;--today:#ff6b5e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header,main{max-width:1180px;margin:0 auto;padding:0 16px}
+header{padding-top:28px}
+h1{margin:0;font-size:26px;letter-spacing:-.01em}
+.sub{color:var(--mute);margin:4px 0 16px;max-width:75ch}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.bar input,.bar select,.bar button{font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+.bar input{flex:1;min-width:180px}
+button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 4px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 14px}
+.stat b{font-size:20px;display:block}.stat span{color:var(--mute);font-size:12px}
+.legend{display:flex;flex-wrap:wrap;gap:14px;color:var(--mute);font-size:12.5px;margin:6px 0 14px}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:baseline}
+.mnav{display:flex;align-items:center;gap:10px;margin:8px 0}.mnav h2{margin:0;font-size:18px;min-width:150px;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.dow{background:var(--card);padding:6px;font-size:12px;color:var(--mute);text-align:center}
+.cell{background:var(--card);min-height:96px;padding:4px;overflow:hidden}
+.cell.out{opacity:.45}.cell .d{font-size:12px;color:var(--mute)}
+.cell.today .d{color:#fff;background:var(--today);border-radius:10px;padding:0 6px;display:inline-block}
+.chip{display:block;width:100%;text-align:left;border:0;border-left:3px solid var(--c);background:color-mix(in srgb,var(--c) 12%,transparent);color:var(--ink);
+font-size:11px;padding:1px 4px;margin-top:2px;border-radius:3px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chip.projected{border-left-style:dashed}.chip.reported::before{content:"✓ "}
+.more{font-size:11px;color:var(--mute);padding:1px 4px}
+.agenda .day{margin:18px 0 6px;font-weight:600;color:var(--mute);font-size:13px;text-transform:uppercase;letter-spacing:.04em}
+.agenda .day.today{color:var(--today)}
+.row{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);
+border-radius:8px;padding:9px 12px;margin:4px 0;cursor:pointer;width:100%;text-align:left;color:var(--ink);font:inherit}
+.row .t{flex:1}.row small{color:var(--mute)}
+.badge{font-size:11px;padding:2px 8px;border-radius:99px;border:1px solid currentColor;white-space:nowrap}
+.b-projected{color:var(--proj)}.b-confirmed{color:var(--conf)}.b-reported{color:var(--rep)}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);max-width:560px;width:calc(100% - 32px);padding:20px}
+dialog::backdrop{background:#0008}
+dialog h3{margin:0 0 4px}dialog ul{padding-left:18px}dialog a{color:var(--accent)}
+.feed{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:4px 14px;margin:20px 0}
+.feed h2{font-size:16px}.feed .u{padding:8px 0;border-top:1px solid var(--line)}
+footer{max-width:1180px;margin:30px auto;padding:0 16px;color:var(--mute);font-size:12.5px}
+@media(max-width:700px){.cell{min-height:60px}.chip{font-size:0;height:6px;padding:0}.chip::before{content:""!important}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Sponsor &amp; Private Capital Calendar · 2026</h1>
+  <p class="sub">Earnings dates of listed PE and credit sponsors, bulge-bracket banks and independent advisories, plus major central-bank rate decisions — layered with US, UK, EU and European national elections, EU summits and government appointments. A crawler agent checks official investor-relations sites and fills in results once they are actually published.</p>
+  <div class="stats" id="stats"></div>
+  <div class="bar">
+    <input id="q" type="search" placeholder="Search company, ticker, bank…" aria-label="Search">
+    <select id="layer" aria-label="Layer"><option value="">All layers</option><option value="markets">Markets layer</option><option value="politics">Politics layer</option></select>
+    <select id="kind" aria-label="Type"><option value="">All types</option><option value="earnings">Earnings</option><option value="rate_decision">Rate decisions</option><option value="market_report">Market reports</option><option value="election">Elections</option><option value="summit">EU summits</option><option value="appointment">Appointments</option></select>
+    <select id="cat" aria-label="Group"><option value="">All groups</option><option value="pe_sponsor">PE sponsors</option><option value="credit_sponsor">Credit sponsors</option><option value="bulge_bank">Banks</option><option value="advisory">Advisories</option><option value="central_bank">Central banks</option><option value="research">Research</option><option value="us_politics">US politics</option><option value="uk_politics">UK politics</option><option value="eu_politics">EU institutions</option><option value="euro_national">European national</option></select>
+    <select id="region" aria-label="Region"></select>
+    <select id="status" aria-label="Status"><option value="">Any status</option><option value="reported">Reported</option><option value="confirmed">Confirmed</option><option value="projected">Projected</option></select>
+    <button id="vMonth" class="on">Month</button><button id="vAgenda">Agenda</button>
+  </div>
+  <div class="legend">
+    <span><i class="dot" style="background:var(--earn)"></i>Earnings</span>
+    <span><i class="dot" style="background:var(--rate)"></i>Rate decision</span>
+    <span><i class="dot" style="background:var(--rep)"></i>Market report</span>
+    <span><i class="dot" style="background:var(--pol)"></i>Election</span>
+    <span><i class="dot" style="background:var(--sum)"></i>EU summit / appointment</span>
+    <span>Dashed = projected date · Solid = confirmed · ✓ = reported</span>
+  </div>
+</header>
+<main>
+  <div id="month"></div>
+  <div id="agenda" hidden></div>
+  <section class="feed"><h2>Latest updates from the crawler</h2><div id="feed"></div></section>
+</main>
+<footer>
+  Dates marked <b>projected</b> follow each issuer's usual cadence or a central bank's published calendar and are not guaranteed until confirmed on the official site. There is no US presidential or European Parliament election in 2026 (next: Nov 2028 and Jun 2029); appointments, ministerial changes and EU Commission leadership moves are unscheduled, so the crawler adds them as they are announced. Nothing here is investment advice.
+</footer>
+<dialog id="dlg"></dialog>
+<script src="data/events.js"></script>
+<script>
+const D = window.CALENDAR_DATA || {events:[],updates:[]};
+const COLOR = {earnings:'var(--earn)',rate_decision:'var(--rate)',market_report:'var(--rep)',election:'var(--pol)',summit:'var(--sum)',appointment:'var(--sum)'};
+const KIND = {earnings:'Earnings',rate_decision:'Rate decision',market_report:'Market report',election:'Election',summit:'EU summit',appointment:'Appointment'};
+const POLITICS = new Set(['election','summit','appointment']);
+const GROUP = {pe_sponsor:'PE sponsor',credit_sponsor:'Credit sponsor',bulge_bank:'Bank',advisory:'Advisory',central_bank:'Central bank',research:'Research',us_politics:'US politics',uk_politics:'UK politics',eu_politics:'EU institutions',euro_national:'European national'};
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const iso = d => d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const todayISO = iso(new Date());
+const safeUrl = u => /^https?:\/\//.test(u||'') ? u : '#';
+const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+let month = new Date().getFullYear() === D.year ? new Date().getMonth() : 0;
+let view = 'month';
+
+[...new Set(D.events.map(e => e.region))].sort().forEach(r => $('region').insertAdjacentHTML('beforeend', `<option>${esc(r)}</option>`));
+$('region').insertAdjacentHTML('afterbegin','<option value="">All regions</option>'); $('region').value='';
+
+function filtered(){
+  const q = $('q').value.toLowerCase().trim(), k=$('kind').value, ly=$('layer').value, c=$('cat').value, r=$('region').value, s=$('status').value;
+  return D.events.filter(e => (!k||e.kind===k)&&(!ly||(ly==='politics')===POLITICS.has(e.kind))&&(!c||e.category===c)&&(!r||e.region===r)&&(!s||e.status===s)&&
+    (!q || (e.entity+' '+(e.ticker||'')+' '+e.title).toLowerCase().includes(q)));
+}
+function chip(e){ return `<button class="chip ${e.status}" style="--c:${COLOR[e.kind]}" data-id="${esc(e.id)}" title="${esc(e.title)}">${esc(e.ticker||(POLITICS.has(e.kind)?e.title:e.entity.replace(/ \(.*/,'')))} ${e.kind==='rate_decision'?'rate':''}</button>`; }
+
+function renderMonth(list){
+  const y = D.year, first = new Date(y, month, 1), start = new Date(y, month, 1 - first.getDay());
+  let h = `<div class="mnav"><button id="prev">←</button><h2>${MONTHS[month]} ${y}</h2><button id="next">→</button></div><div class="grid">`;
+  h += ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].map(d=>`<div class="dow">${d}</div>`).join('');
+  for(let i=0;i<42;i++){
+    const d = new Date(start); d.setDate(start.getDate()+i); const key = iso(d);
+    const evs = list.filter(e=>e.date===key), shown = evs.slice(0,4);
+    h += `<div class="cell${d.getMonth()!==month?' out':''}${key===todayISO?' today':''}"><span class="d">${d.getDate()}</span>${shown.map(chip).join('')}${evs.length>4?`<div class="more">+${evs.length-4} more</div>`:''}</div>`;
+  }
+  $('month').innerHTML = h + '</div>';
+  $('prev').onclick = () => { month = (month+11)%12; render(); };
+  $('next').onclick = () => { month = (month+1)%12; render(); };
+}
+function renderAgenda(list){
+  let h = '', last = '';
+  for(const e of list){
+    if(e.date!==last){ last=e.date; const d=new Date(e.date+'T12:00'); h+=`<div class="day${e.date===todayISO?' today':''}">${d.toDateString()}${e.date===todayISO?' · today':''}</div>`; }
+    h += `<button class="row" style="--c:${COLOR[e.kind]}" data-id="${esc(e.id)}"><span class="t"><b>${esc(e.entity)}</b> <small>${esc(e.ticker||'')}</small><br><small>${esc(e.title)} · ${esc(GROUP[e.category])} · ${esc(e.region)}</small></span><span class="badge b-${e.status}">${e.status}</span></button>`;
+  }
+  $('agenda').innerHTML = h || '<p class="sub">No events match.</p>';
+}
+function renderStats(){
+  const ev=D.events, up=ev.filter(e=>e.date>=todayISO && e.status!=='reported').length, rep=ev.filter(e=>e.status==='reported').length;
+  const next = ev.filter(e=>e.date>=todayISO).sort((a,b)=>a.date.localeCompare(b.date))[0];
+  $('stats').innerHTML = [[ev.length,'events in 2026'],[up,'upcoming'],[rep,'reported by crawler'],[next?next.date:'—',next?'next: '+next.entity:'']]
+    .map(([a,b])=>`<div class="stat"><b>${esc(a)}</b><span>${esc(b)}</span></div>`).join('');
+}
+function renderFeed(){
+  const u = [...(D.updates||[])].sort((a,b)=>b.detected_at.localeCompare(a.detected_at)).slice(0,15);
+  $('feed').innerHTML = u.length ? u.map(x=>`<div class="u"><b>${esc(x.entity)}</b> — ${esc(x.headline)}<br><small>${esc(x.detected_at.slice(0,10))} · <a href="${esc(safeUrl(x.url))}" target="_blank" rel="noopener">source</a></small></div>`).join('')
+    : '<p class="sub">No updates detected yet. The crawler runs on a schedule (see README) and adds results here once releases actually happen.</p>';
+}
+function render(){
+  const list = filtered().sort((a,b)=>a.date.localeCompare(b.date)||a.entity.localeCompare(b.entity));
+  $('month').hidden = view!=='month'; $('agenda').hidden = view!=='agenda';
+  $('vMonth').classList.toggle('on',view==='month'); $('vAgenda').classList.toggle('on',view==='agenda');
+  if(view==='month') renderMonth(list); else renderAgenda(list.filter(e=>e.date>=todayISO||e.status==='reported'));
+}
+function open(id){
+  const e = D.events.find(x=>x.id===id); if(!e) return;
+  const r = e.result;
+  $('dlg').innerHTML = `<h3>${esc(e.title)}</h3><p class="sub" style="margin:0 0 10px">${esc(KIND[e.kind])} · ${esc(GROUP[e.category])} · ${esc(e.region)} · ${new Date(e.date+'T12:00').toDateString()}
+    <span class="badge b-${e.status}">${e.status}</span></p>` +
+    (r ? `<p><b>${esc(r.headline)}</b></p><p>${esc(r.summary)}</p>${r.metrics?.length?`<ul>${r.metrics.map(m=>`<li>${esc(m)}</li>`).join('')}</ul>`:''}<p><a href="${esc(safeUrl(r.url))}" target="_blank" rel="noopener">Read the official release →</a></p>`
+       : `<p>${e.status==='projected'?'Date is projected and not yet confirmed by the issuer.':'Date confirmed; results not yet published.'} Results will appear here once the crawler detects the official release.</p><p><a href="${esc(safeUrl(e.source_url))}" target="_blank" rel="noopener">Official source →</a></p>`) +
+    `<form method="dialog"><button>Close</button></form>`;
+  $('dlg').showModal();
+}
+document.addEventListener('click', ev => { const b = ev.target.closest('[data-id]'); if(b) open(b.dataset.id); });
+['q','layer','kind','cat','region','status'].forEach(i=>$(i).addEventListener('input',render));
+$('vMonth').onclick=()=>{view='month';render()}; $('vAgenda').onclick=()=>{view='agenda';render()};
+renderStats(); renderFeed(); render();
+</script>
+</body>
+</html>
