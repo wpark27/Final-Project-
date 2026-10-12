@@ -1,9 +1,15 @@
 window.LIVE_DATA = {
- "updated": "2026-10-12T01:16:34+00:00",
+ "updated": "2026-10-12T01:42:23+00:00",
  "news": [
   {
    "source": "Bloomberg",
-   "title": "US Judge Halts Pro-Trump Taxpayer-Funded Television Ads for Now",
+   "title": "Gov. Koike's Next Key Priorities for Tokyo",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-12/gov-koike-s-nest-key-priorities-for-tokyo-video",
+   "published": "2026-10-12T01:16:43+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Judge Halts Taxpayer-Funded TV Ads Lauding Trump for Now",
    "url": "https://www.bloomberg.com/news/articles/2026-10-12/us-judge-halts-pro-trump-taxpayer-funded-television-ads-for-now",
    "published": "2026-10-12T00:47:27+00:00"
   },
@@ -15,7 +21,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Gold Edges Up as Traders Weigh Russia-Ukraine \u2018Energy Ceasefire\u2019",
+   "title": "Gold Edges Up as Lower Oil Prices Pare Rate-Hike Expectations",
    "url": "https://www.bloomberg.com/news/articles/2026-10-12/gold-edges-up-as-traders-weigh-russia-ukraine-energy-ceasefire",
    "published": "2026-10-12T00:38:27+00:00"
   },
@@ -354,12 +360,6 @@ window.LIVE_DATA = {
    "title": "Houthis show military reach with deadly missile strikes on Riyadh",
    "url": "https://www.ft.com/content/bd2c7385-184e-425e-997f-0f5a8c54184e?syn-25a6b1a6=1",
    "published": "2026-10-11T13:04:47+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Mauritania Returns Former GTA Gas Deal Minister to Oil Post",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-11/mauritania-returns-former-gta-gas-deal-minister-to-oil-post",
-   "published": "2026-10-11T11:46:17+00:00"
   }
  ],
  "yields": {
@@ -1152,7 +1152,7 @@ window.LIVE_DATA = {
      "v": 5.24
     }
    ],
-   "fetched_at": "2026-10-12T01:16:55+00:00",
+   "fetched_at": "2026-10-12T01:42:43+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1716,7 +1716,7 @@ window.LIVE_DATA = {
      "v": 3.51918971
     }
    ],
-   "fetched_at": "2026-10-12T01:16:57+00:00",
+   "fetched_at": "2026-10-12T01:42:44+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2268,7 +2268,7 @@ window.LIVE_DATA = {
      "v": 5.3852
     }
    ],
-   "fetched_at": "2026-10-12T01:16:58+00:00",
+   "fetched_at": "2026-10-12T01:42:45+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2808,7 +2808,7 @@ window.LIVE_DATA = {
      "v": 3.089
     }
    ],
-   "fetched_at": "2026-10-12T01:17:01+00:00",
+   "fetched_at": "2026-10-12T01:42:49+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3620,7 +3620,7 @@ window.LIVE_DATA = {
      "v": 3.93
     }
    ],
-   "fetched_at": "2026-10-12T01:17:02+00:00",
+   "fetched_at": "2026-10-12T01:42:50+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4176,7 +4176,7 @@ window.LIVE_DATA = {
      "v": 5.404
     }
    ],
-   "fetched_at": "2026-10-12T01:17:03+00:00",
+   "fetched_at": "2026-10-12T01:42:52+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4209,7 +4209,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-09",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-12T01:17:04+00:00",
+  "fetched_at": "2026-10-12T01:42:53+00:00",
   "error": null,
   "pairs": [
    {

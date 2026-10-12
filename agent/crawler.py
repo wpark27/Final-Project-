@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 
 UA = "Mozilla/5.0 (compatible; SponsorCalendarBot/1.0; +https://github.com/wpark27/final-project-)"
 MAX_CHARS = 24_000
+MIN_TEXT = 150  # below this the page is a JavaScript shell, not content
 _SECOND_LEVEL = {"co", "com", "org", "gov", "ac"}
 
 
@@ -66,7 +67,10 @@ async def fetch_text(url: str, allowed_url: str | None = None, client: httpx.Asy
             ctype = r.headers.get("content-type", "")
             if "html" not in ctype and "text" not in ctype:
                 return f"[non-text content: {ctype}]"
-            return html_to_text(r.text, str(r.url))
+            text = html_to_text(r.text, str(r.url))
+            if len(text.split("\n\nLINKS:")[0].strip()) < MIN_TEXT:
+                return "[fetch failed: page has no readable text (rendered by JavaScript)]"
+            return text
         return "[fetch failed: too many redirects]"
     except httpx.HTTPError as e:
         return f"[fetch failed: {type(e).__name__}: {e}]"

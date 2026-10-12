@@ -89,3 +89,9 @@ class DiscoveredReport(BaseModel):
 
 class DiscoveryResult(BaseModel):
     reports: list[DiscoveredReport] = Field(default_factory=list)
+
+
+class Enrichment(BaseModel):
+    headline: str = Field(description="The release's own headline.")
+    summary: str = Field(description="2-3 factual sentences from the release, no speculation.")
+    metrics: list[str] = Field(default_factory=list, description="Key figures exactly as stated, with period and units.")

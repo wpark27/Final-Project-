@@ -42,10 +42,16 @@ python -m http.server                    # view the site (or open index.html)
 Email goes to winstonpark27@gmail.com (override with `NOTIFY_TO`); unsent emails are retried next run.
 ACLED: set `ACLED_EMAIL` / `ACLED_PASSWORD` (free account) for 7-day event/fatality counts for Ukraine and Middle East.
 
+## Live test results (2026-10-12)
+Run against the real internet from the build sandbox:
+- **SEC EDGAR detection** (no LLM, no key): 89 earnings releases matched to their 8-K/6-K filings; **47 guessed dates were wrong and are now corrected** (up to 21 days off, e.g. KKR Q2 was Jul 30, not Aug 4); no already-verified date moved. 108 events are now `reported` with a link to the filing. Headline figures are filled in by the LLM step once an API key is configured.
+- **Source fetch**: of 105 configured pages, 63 were readable, 35 returned 403 to this network, 7 are JavaScript-only (KKR/Ares IR, Onex...) and now report "no readable text" instead of feeding the model nothing. Fixed 6 wrong/rebranded URLs (Ares -> ares.com, CD&R -> cdr.com, Cyprus, Latvia...). For listed US filers the transaction scan also reads SEC 8-K press releases, which avoids JavaScript and bot-blocking.
+- **Not live-tested**: the LLM steps (no `ANTHROPIC_API_KEY` in the sandbox). They are covered by stub-model tests only. With no key the crawl still runs and does the SEC detection; the page shows "LLM disabled".
+
 ## Running all the time
 Nothing in this sandbox can stay running after the session ends, so continuous operation needs three one-time steps on GitHub:
 1. **Merge this branch to `main`** (scheduled workflows only run from the default branch).
-2. **Add secrets**: `ANTHROPIC_API_KEY`, `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD` (+ optional `ACLED_EMAIL`, `ACLED_PASSWORD`).
+2. **Add secrets**: `ANTHROPIC_API_KEY` (optional but needed for announced-date lookups, discovery and figures), `SEC_USER_AGENT` (e.g. `YourName you@example.com`, SEC asks for a contact), `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD` (+ optional `ACLED_EMAIL`, `ACLED_PASSWORD`).
 3. **Settings > Pages > Source = "GitHub Actions"** to publish the site; `pages.yml` redeploys after every data update.
 
 Then: `refresh.yml` hourly (headlines, yields, FX), `crawl.yml` every 3 h (agent), `healthcheck.yml` weekly (fails and emails you if an official source URL breaks), `pages.yml` on every data change. The page shows when the agent last ran and warns if it is stale (>8h) or if sources were unreachable; `/api/crawler` has the same data. Scan cadence per topic (cost control): scheduled events every run, politics/conflict 6h, leadership 12h, transactions 24h, research weekly.

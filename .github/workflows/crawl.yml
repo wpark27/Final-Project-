@@ -23,6 +23,7 @@ jobs:
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
           NOTIFY_TO: winstonpark27@gmail.com
         run: python -m agent.run
       - name: Commit refreshed calendar data

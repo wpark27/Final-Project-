@@ -43,7 +43,7 @@ def test_on_site_redirect_followed_and_text_extracted():
     def handler(req):
         if req.url.path == "/old":
             return httpx.Response(301, headers={"location": "/new"})
-        return httpx.Response(200, text="<html><body><nav>x</nav><p>Q3 results on <a href='/r'>November 9</a></p></body></html>",
+        return httpx.Response(200, text="<html><body><nav>x</nav><p>" + "Investor relations news. " * 12 + "Q3 results on <a href='/r'>November 9</a></p></body></html>",
                               headers={"content-type": "text/html"})
     out = asyncio.run(fetch_text("https://ir.example.com/old", None, _client(handler)))
     assert "Q3 results on November 9" in out and "https://ir.example.com/r" in out
@@ -119,3 +119,10 @@ def test_discovery_ignores_implausible_dates_and_offsite_urls(tmp_path: Path):
         run.main(["--data", str(data), "--today", "2026-10-11"], model=m)
     titles = [e["title"] for e in json.loads(data.read_text())["events"] if e["kind"] in ("appointment", "announcement")]
     assert titles == ["Good"]
+
+
+def test_javascript_only_page_is_reported_not_shown_to_the_model():
+    shell = httpx.Response(200, text="<html><body><div id='root'></div><script>app()</script></body></html>",
+                           headers={"content-type": "text/html"})
+    out = asyncio.run(fetch_text("https://ir.example.com/", None, _client(lambda r: shell)))
+    assert out.startswith("[fetch failed") and "JavaScript" in out

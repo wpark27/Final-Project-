@@ -51,7 +51,7 @@ _PRIVATE: dict[str, tuple[str, str, str, str, str]] = {
     "Hellman & Friedman": ("US", "private_sponsor", "$115bn (Dec 31, 2025)", "https://altss.com/profile/hellman-friedman.md", "https://www.hf.com/news"),
     "Permira": ("Europe", "private_sponsor", "EUR75bn-90bn+ (sources vary)", "https://en.wikipedia.org/wiki/Permira", "https://www.permira.com/news-and-insights"),
     "Cinven": ("Europe", "private_sponsor", "~EUR44bn (2024)", "https://en.wikipedia.org/wiki/Cinven", "https://www.cinven.com/news-insights/"),
-    "Clayton Dubilier & Rice": ("US", "private_sponsor", "$87.4bn regulatory AUM", "https://www.privatefunddata.com/fund-companies/clayton-dubilier-and-rice-llc/", "https://www.cdr-inc.com/news"),
+    "Clayton Dubilier & Rice": ("US", "private_sponsor", "$87.4bn regulatory AUM", "https://www.privatefunddata.com/fund-companies/clayton-dubilier-and-rice-llc/", "https://www.cdr.com/news"),
     "Apax Partners": ("Europe", "private_sponsor", "~$77bn (aggregators)", "https://privateequitylist.com/investors/apax-partners", "https://www.apax.com/"),
     "BC Partners": ("Europe", "private_sponsor", ">EUR40bn (firm profile, Nov 2022)", "https://boardwave.org/sponsor-profiles/bc-partners", "https://www.bcpartners.com/news"),
     "Clearlake Capital": ("US", "private_sponsor", "~$185bn (firm, Jun 2026)", "https://secure.businesswire.com/news/home/20260609839186/en/Clearlake-Completes-Strategic-Acquisition-of-Pathway-Capital-Management", "https://clearlake.com/news"),

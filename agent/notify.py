@@ -9,6 +9,10 @@ from email.message import EmailMessage
 DEFAULT_TO = "winstonpark27@gmail.com"
 
 
+class EmailNotConfigured(RuntimeError):
+    """SMTP_HOST is unset: updates stay queued (not lost, not marked sent)."""
+
+
 def render(updates: list[dict]) -> tuple[str, str, str]:
     subject = f"[Sponsor Calendar] {len(updates)} new update{'s' if len(updates) != 1 else ''}"
     labels = {"released": "RELEASED", "date_confirmed": "DATE CONFIRMED", "new_report": "NEW REPORT", "appointment": "APPOINTMENT", "announcement": "ANNOUNCEMENT", "leadership": "CENTRAL BANK LEADERSHIP", "conflict_update": "CONFLICT UPDATE", "transaction": "TRANSACTION"}
@@ -30,7 +34,7 @@ def render(updates: list[dict]) -> tuple[str, str, str]:
 def send_email(updates: list[dict]) -> None:
     host = os.environ.get("SMTP_HOST")
     if not host:
-        raise RuntimeError("SMTP_HOST is not set; cannot send email")
+        raise EmailNotConfigured("SMTP_HOST is not set; cannot send email")
     subject, text, body_html = render(updates)
     msg = EmailMessage()
     msg["Subject"] = subject
@@ -38,7 +42,7 @@ def send_email(updates: list[dict]) -> None:
     msg["To"] = os.environ.get("NOTIFY_TO", DEFAULT_TO)
     msg.set_content(text)
     msg.add_alternative(body_html, subtype="html")
-    port = int(os.environ.get("SMTP_PORT", "587"))
+    port = int(os.environ.get("SMTP_PORT") or "587")  # Actions passes unset secrets as ""
     with smtplib.SMTP(host, port, timeout=30) as s:
         s.starttls()
         if os.environ.get("SMTP_USER"):

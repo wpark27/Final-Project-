@@ -17,12 +17,17 @@ from __future__ import annotations
 import argparse
 import asyncio
 import json
+import os
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from .agent import REACHED, UNREACHABLE, build_discovery_agent, build_release_agent, check_event, discover
+from .agent import (REACHED, UNREACHABLE, build_discovery_agent, build_enrich_agent, build_release_agent, check_event,
+                    discover, discover_from_filings, enrich, build_text_discovery_agent)
+from .edgar import CIKS, recent_releases
+from .edgar import apply as edgar_apply
+from .edgar import detect as edgar_detect
 from .models import Event, Result
-from .notify import send_email
+from .notify import EmailNotConfigured, send_email
 from .seed import _slug, write_data
 from .sources import APPOINTMENT_PAGES, CONFLICT_PAGES, LEADERSHIP_PAGES, RESEARCH_PAGES
 from .sponsors import SPONSORS
@@ -75,10 +80,11 @@ def due(events: list[Event], today: date, only: str | None = None) -> list[Event
 
 async def crawl(events: list[Event], updates: list[dict], today: date, args, model=None, state: dict | None = None) -> dict:
     state = state if state is not None else {}
-    stats = dict(checked=0, released=0, dates_confirmed=0, discovered=0, errors=0)
+    stats = dict(checked=0, released=0, dates_confirmed=0, discovered=0, errors=0, edgar=0)
+    llm = model is not None or bool(os.environ.get("ANTHROPIC_API_KEY"))
+    state["llm"] = llm
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     sem = asyncio.Semaphore(args.concurrency)
-    release_agent = build_release_agent(model)
     by_id = {e.id: e for e in events}
 
     seen = {u["id"] for u in updates}
@@ -88,9 +94,11 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
         if uid in seen:
             return
         seen.add(uid)
+        # backfilling something that happened weeks ago is recorded on the page but not emailed
+        stale = ev.date < today - timedelta(days=LOOKBACK_DAYS)
         updates.append(dict(id=uid, event_id=ev.id, type=typ, entity=ev.entity,
                             headline=headline, summary=summary, metrics=metrics or [], url=url,
-                            detected_at=now, notified=False))
+                            detected_at=now, notified=stale))
 
     async def one(ev: Event) -> None:
         async with sem:
@@ -122,6 +130,31 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
                  "Date announced on the official source.", ev.verified_url)
             print(f"  ~ confirmed: {ev.title} -> {ev.date}")
 
+    if args.edgar:  # deterministic: SEC filings prove a release happened and give its real date (no LLM needed)
+        try:
+            hits = await edgar_detect([e for e in events if not args.only or args.only.lower() in e.entity.lower()], today)
+        except Exception as exc:
+            print(f"  ! edgar pass failed: {type(exc).__name__}: {exc}")
+            hits = []
+        enrich_agent = build_enrich_agent(model) if llm else None
+        for ev, f, url, text in hits:
+            r = edgar_apply(ev, f, url, text, now)
+            ev.last_checked = now
+            stats["edgar"] += 1
+            if enrich_agent and text and stats["edgar"] <= args.max_checks:
+                try:
+                    en = await enrich(enrich_agent, ev, text)
+                    r.headline, r.summary, r.metrics = en.headline, en.summary, en.metrics
+                except Exception as exc:
+                    print(f"  ! enrich {ev.id}: {type(exc).__name__}")
+            note(ev, "released", r.headline, r.summary, url, r.metrics)
+        print(f"edgar: {len(hits)} release(s) matched to SEC filings")
+
+    if not llm:
+        print("no ANTHROPIC_API_KEY: LLM checks and discovery skipped (EDGAR detection only)")
+        return stats
+
+    release_agent = build_release_agent(model)  # only built when an LLM is available
     todo = due(events, today, args.only)[: args.max_checks]
     print(f"checking {len(todo)} scheduled events")
     await asyncio.gather(*(one(e) for e in todo))
@@ -170,7 +203,38 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
                                 summary=r.summary, metrics=[], url=r.url, detected_at=now, notified=False))
             print(f"  + {kind}: {entity}: {r.title}")
 
-    await asyncio.gather(*(scan(*j) for j in jobs))
+    async def scan_edgar(entity: str, cat: str, region: str) -> None:
+        try:
+            filings = await recent_releases(entity, today)
+            async with sem:
+                res = await discover_from_filings(text_agent, entity, filings, today)
+        except Exception as exc:
+            print(f"  ! edgar transactions {entity}: {type(exc).__name__}: {exc}")
+            stats["errors"] += 1
+            return
+        for r in res.reports:
+            if r.url in known or not (today - timedelta(days=30) <= r.published <= today + timedelta(days=1)):
+                continue
+            known.add(r.url)
+            stats["discovered"] += 1
+            ev = Event(id=f"{_slug(entity)}-transaction-{_slug(r.title)[:50]}", kind="transaction", entity=entity,
+                       category=cat, region=region, date=r.published, title=r.title, status="reported", basis="official",
+                       source_url=r.url, verified_url=r.url,
+                       result=Result(headline=r.title, summary=r.summary, metrics=r.details, url=r.url,
+                                     published=r.published, detected_at=now))
+            if ev.id in by_id:
+                continue
+            by_id[ev.id] = ev
+            events.append(ev)
+            updates.append(dict(id=f"{ev.id}:new", event_id=ev.id, type="transaction", entity=entity, headline=r.title,
+                                summary=r.summary, metrics=r.details, url=r.url, detected_at=now, notified=False))
+            print(f"  + transaction (SEC): {entity}: {r.title}")
+
+    jobs_edgar = []
+    if "transaction" in topics:
+        text_agent = build_text_discovery_agent(model)
+        jobs_edgar = [scan_edgar(n, sp["category"], sp["region"]) for n, sp in SPONSORS.items() if n in CIKS]
+    await asyncio.gather(*(scan(*j) for j in jobs), *jobs_edgar)
     for t in topics:
         scans[t] = nowdt.isoformat(timespec="seconds")
     return stats
@@ -180,6 +244,7 @@ def main(argv=None, model=None) -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--dry-run", action="store_true")
     p.add_argument("--no-discover", dest="discover", action="store_false")
+    p.add_argument("--no-edgar", dest="edgar", action="store_false")
     p.add_argument("--only")
     p.add_argument("--data", type=Path, default=DATA)
     p.add_argument("--concurrency", type=int, default=4)
@@ -204,6 +269,9 @@ def main(argv=None, model=None) -> int:
         batch = pending[i:i + EMAIL_BATCH]
         try:
             send_email(batch)
+        except EmailNotConfigured:
+            print(f"email not configured (set SMTP_HOST etc.): {len(pending) - i} update(s) stay queued")
+            return 0
         except Exception as exc:  # stays notified=False, retried next run
             print(f"email failed ({exc}); will retry next run")
             return 1
