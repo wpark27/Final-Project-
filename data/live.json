@@ -1,11 +1,71 @@
 {
- "updated": "2026-10-11T23:55:45+00:00",
+ "updated": "2026-10-12T01:16:34+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "US Judge Halts Pro-Trump Taxpayer-Funded Television Ads for Now",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/us-judge-halts-pro-trump-taxpayer-funded-television-ads-for-now",
+   "published": "2026-10-12T00:47:27+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Malaysia Budget Sees Consumer Names Emerge Winners, Analysts Say",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/malaysia-budget-sees-consumer-names-emerge-winners-analysts-say",
+   "published": "2026-10-12T00:43:28+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Gold Edges Up as Traders Weigh Russia-Ukraine \u2018Energy Ceasefire\u2019",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/gold-edges-up-as-traders-weigh-russia-ukraine-energy-ceasefire",
+   "published": "2026-10-12T00:38:27+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "North Korea Fires Suspected Missile After Border Breach Warning",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/north-korea-fires-projectile-off-its-east-coast-south-says",
+   "published": "2026-10-12T00:34:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Korean Bond Rally Seen Faltering as Traders Brace for Rate Hikes",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/korean-bond-rally-seen-faltering-as-traders-brace-for-rate-hikes",
+   "published": "2026-10-12T00:14:05+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Wrightson\u2019s Crandall Ends Weekly Market Missives After 44 Years",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-11/wrightson-s-crandall-ends-weekly-market-missives-after-44-years",
+   "published": "2026-10-11T23:32:41+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "NZ National Party Will Wait for Budget Surplus Before Tax Cuts",
    "url": "https://www.bloomberg.com/news/articles/2026-10-11/nz-national-party-will-wait-for-budget-surplus-before-tax-cuts",
    "published": "2026-10-11T23:15:00+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Burnham to step up UK business outreach amid fears of Budget tax rises",
+   "url": "https://www.ft.com/content/b00db29e-4334-4e04-8f09-a140aafd4b05?syn-25a6b1a6=1",
+   "published": "2026-10-11T23:01:03+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "City of London hits out at Burnham\u2019s plan to scrap non-compete clauses",
+   "url": "https://www.ft.com/content/47b02f06-cbfc-49cb-afb8-1ae015399c4e?syn-25a6b1a6=1",
+   "published": "2026-10-11T23:01:03+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "How to pay for social care",
+   "url": "https://www.ft.com/content/dcdc4427-2104-4b6f-91e5-af9d13bb49a1?syn-25a6b1a6=1",
+   "published": "2026-10-11T23:01:03+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Healey\u2019s Budget will be \u2018fiction\u2019 without plan for \u00a335bn hole in spending, IFS warns",
+   "url": "https://www.ft.com/content/619800ae-b2f2-46e3-b34e-23f0525637da?syn-25a6b1a6=1",
+   "published": "2026-10-11T23:01:03+00:00"
   },
   {
    "source": "Bloomberg",
@@ -15,7 +75,7 @@
   },
   {
    "source": "Bloomberg",
-   "title": "US Stock Futures Advance, Oil Erases Early Gains: Markets Wrap",
+   "title": "US Stock Futures Rise After Crude Oil Declines: Markets Wrap",
    "url": "https://www.bloomberg.com/news/articles/2026-10-11/oil-rises-on-mideast-attacks-dollar-edges-higher-markets-wrap",
    "published": "2026-10-11T22:09:49+00:00"
   },
@@ -51,7 +111,7 @@
   },
   {
    "source": "Financial Times",
-   "title": "Rapha\u00ebl Glucksmann wins nomination for France\u2019s centre-left",
+   "title": "Glucksmann wins presidential nomination for France\u2019s centre-left",
    "url": "https://www.ft.com/content/655af6f3-552f-4f51-aa52-02168cdae4fa?syn-25a6b1a6=1",
    "published": "2026-10-11T20:50:57+00:00"
   },
@@ -300,66 +360,6 @@
    "title": "Mauritania Returns Former GTA Gas Deal Minister to Oil Post",
    "url": "https://www.bloomberg.com/news/articles/2026-10-11/mauritania-returns-former-gta-gas-deal-minister-to-oil-post",
    "published": "2026-10-11T11:46:17+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Europe can fight the \u2018China shock\u2019",
-   "url": "https://www.ft.com/content/eaaf7c65-fc11-41ab-8b83-9a163337fa6b?syn-25a6b1a6=1",
-   "published": "2026-10-11T11:00:08+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Will September inflation cement US interest rate policy for the rest of the year?",
-   "url": "https://www.ft.com/content/eae9d22f-3722-427f-a33b-aebc58fba2c4?syn-25a6b1a6=1",
-   "published": "2026-10-11T11:00:07+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Healey rules out cutting \u2018mansion tax\u2019 threshold to \u00a31.5mn in UK Budget",
-   "url": "https://www.ft.com/content/b1ff2ac0-843d-4b2a-b848-c840a2decfb8?syn-25a6b1a6=1",
-   "published": "2026-10-11T10:38:33+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Smelly seaweed and strong peso hurt tourism at Mexico\u2019s beach resorts",
-   "url": "https://www.ft.com/content/7553fae9-f65a-4101-be93-cdac921d4c2f?syn-25a6b1a6=1",
-   "published": "2026-10-11T10:00:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Missile strike on Riyadh airport kills 12 and injures hundreds",
-   "url": "https://www.ft.com/content/391ddf3f-b233-41fd-819b-fcdbfb0ed010?syn-25a6b1a6=1",
-   "published": "2026-10-11T09:48:24+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Man Accused of Plotting Attack on Poland PM Tusk Is Detained",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-11/poland-probes-possible-attack-planned-on-premier-defense-chief",
-   "published": "2026-10-11T09:41:03+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Pakistan Imposes Emergency in Stronghold of Imran Khan\u2019s Party",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-11/pakistan-imposes-emergency-in-stronghold-of-imran-khan-s-party",
-   "published": "2026-10-11T09:06:42+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Ukraine Hits Third Russian Yandex Data Hub as US Pressure Mounts",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-11/ukraine-hits-third-russian-yandex-data-hub-disrupting-services",
-   "published": "2026-10-11T08:54:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Billionaire Czech Premier\u2019s ANO Party Weakens in Regional Vote",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-11/billionaire-czech-premier-s-ano-party-weakens-in-regional-vote",
-   "published": "2026-10-11T08:51:40+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Deutsche Bank CEO Criticizes Pace, Consistency of German Reforms",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-11/deutsche-bank-ceo-criticizes-pace-consistency-of-german-reforms",
-   "published": "2026-10-11T07:53:30+00:00"
   }
  ],
  "yields": {
@@ -1152,7 +1152,7 @@
      "v": 5.24
     }
    ],
-   "fetched_at": "2026-10-11T23:56:06+00:00",
+   "fetched_at": "2026-10-12T01:16:55+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1163,10 +1163,6 @@
    "as_of": "2026-10-08",
    "change_1d_bp": -1.9,
    "history": [
-    {
-     "d": "2026-03-25",
-     "v": 3.0118479104
-    },
     {
      "d": "2026-03-26",
      "v": 3.0944162751
@@ -1720,7 +1716,7 @@
      "v": 3.51918971
     }
    ],
-   "fetched_at": "2026-10-11T23:56:07+00:00",
+   "fetched_at": "2026-10-12T01:16:57+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -1731,10 +1727,6 @@
    "as_of": "2026-10-07",
    "change_1d_bp": 4.8,
    "history": [
-    {
-     "d": "2026-03-25",
-     "v": 4.7721
-    },
     {
      "d": "2026-03-26",
      "v": 4.8935
@@ -2276,7 +2268,7 @@
      "v": 5.3852
     }
    ],
-   "fetched_at": "2026-10-11T23:56:08+00:00",
+   "fetched_at": "2026-10-12T01:16:58+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2287,10 +2279,6 @@
    "as_of": "2026-10-08",
    "change_1d_bp": -2.2,
    "history": [
-    {
-     "d": "2026-03-25",
-     "v": 2.267
-    },
     {
      "d": "2026-03-26",
      "v": 2.286
@@ -2820,7 +2808,7 @@
      "v": 3.089
     }
    ],
-   "fetched_at": "2026-10-11T23:56:11+00:00",
+   "fetched_at": "2026-10-12T01:17:01+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3632,7 +3620,7 @@
      "v": 3.93
     }
    ],
-   "fetched_at": "2026-10-11T23:56:11+00:00",
+   "fetched_at": "2026-10-12T01:17:02+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -3643,10 +3631,6 @@
    "as_of": "2026-10-07",
    "change_1d_bp": 1.0,
    "history": [
-    {
-     "d": "2026-03-25",
-     "v": 4.954
-    },
     {
      "d": "2026-03-26",
      "v": 5.01
@@ -4192,7 +4176,7 @@
      "v": 5.404
     }
    ],
-   "fetched_at": "2026-10-11T23:56:13+00:00",
+   "fetched_at": "2026-10-12T01:17:03+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4225,7 +4209,7 @@
   "as_of": "2026-10-09",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-11T23:56:14+00:00",
+  "fetched_at": "2026-10-12T01:17:04+00:00",
   "error": null,
   "pairs": [
    {

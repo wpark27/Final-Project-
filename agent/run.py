@@ -20,11 +20,12 @@ import json
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from .agent import build_discovery_agent, build_release_agent, check_event, discover
+from .agent import REACHED, UNREACHABLE, build_discovery_agent, build_release_agent, check_event, discover
 from .models import Event, Result
 from .notify import send_email
 from .seed import _slug, write_data
 from .sources import APPOINTMENT_PAGES, CONFLICT_PAGES, LEADERSHIP_PAGES, RESEARCH_PAGES
+from .sponsors import SPONSORS
 
 DATA = Path(__file__).resolve().parent.parent / "data" / "events.json"
 LOOKBACK_DAYS = 14      # a verified-date event is checked for its release this long after its date
@@ -32,12 +33,14 @@ CONFIRM_WINDOW = 120    # try to confirm unverified/estimated dates this far ahe
 EMAIL_BATCH = 30
 MAX_AHEAD_DAYS = 250    # ignore announced dates further out than this (likely a mistake or injected text)
 RECHECK_DAYS = 3        # don't re-read an event's source more often than this when nothing was found
-DISCOVERED = ("market_report", "appointment", "announcement", "leadership", "conflict_update")
+DISCOVERED = ("market_report", "appointment", "announcement", "leadership", "conflict_update", "transaction")
+# how often each discovery topic is re-scanned (hours): keeps LLM cost bounded while the run itself is frequent
+SCAN_EVERY_HOURS = {"market_report": 168, "politics": 6, "leadership": 12, "conflict": 6, "transaction": 24}
 
 
-def load(path: Path) -> tuple[list[Event], list[dict]]:
+def load(path: Path) -> tuple[list[Event], list[dict], dict]:
     raw = json.loads(path.read_text())
-    return [Event(**e) for e in raw["events"]], raw.get("updates", [])
+    return [Event(**e) for e in raw["events"]], raw.get("updates", []), raw.get("state", {})
 
 
 def due(events: list[Event], today: date, only: str | None = None) -> list[Event]:
@@ -70,7 +73,9 @@ def due(events: list[Event], today: date, only: str | None = None) -> list[Event
     return sorted(sel, key=tier)
 
 
-async def crawl(events: list[Event], updates: list[dict], today: date, args, model=None) -> None:
+async def crawl(events: list[Event], updates: list[dict], today: date, args, model=None, state: dict | None = None) -> dict:
+    state = state if state is not None else {}
+    stats = dict(checked=0, released=0, dates_confirmed=0, discovered=0, errors=0)
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     sem = asyncio.Semaphore(args.concurrency)
     release_agent = build_release_agent(model)
@@ -93,7 +98,9 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
                 out = await check_event(release_agent, ev, today)
             except Exception as exc:  # one bad site must not stop the run
                 print(f"  ! {ev.id}: {type(exc).__name__}: {exc}")
+                stats["errors"] += 1
                 return
+        stats["checked"] += 1
         ev.last_checked = now
         if out.released and out.url:
             if out.published and out.published != ev.date and abs((out.published - ev.date).days) <= 60:
@@ -101,6 +108,7 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
             ev.status, ev.basis, ev.verified_url = "reported", "official", out.url
             ev.result = Result(headline=out.headline or ev.title, summary=out.summary or "", metrics=out.metrics,
                                url=out.url, published=out.published, detected_at=now)
+            stats["released"] += 1
             note(ev, "released", ev.result.headline, ev.result.summary, out.url, out.metrics)
             print(f"  + released: {ev.title}")
         elif out.confirmed_date and today <= out.confirmed_date <= today + timedelta(days=MAX_AHEAD_DAYS) and (
@@ -108,6 +116,7 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
             changed = out.confirmed_date != ev.date
             ev.date, ev.status, ev.basis = out.confirmed_date, "confirmed", "official"
             ev.verified_url = out.url or ev.source_url
+            stats["dates_confirmed"] += 1
             note(ev, "date_confirmed", f"{ev.title}: date announced as {ev.date.isoformat()}"
                  + (" (changed)" if changed else ""),
                  "Date announced on the official source.", ev.verified_url)
@@ -118,14 +127,20 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
     await asyncio.gather(*(one(e) for e in todo))
 
     if not args.discover:
-        return
+        return stats
     known = {e.result.url for e in events if e.result}
     # (topic, entity, category, region, default kind, url)
     jobs = [("market_report", ent, "research", "Global", "market_report", url) for ent, url in RESEARCH_PAGES.items()]
     jobs += [("politics", ent, cat, region, "appointment", url) for ent, (cat, region, url) in APPOINTMENT_PAGES.items()]
     jobs += [("leadership", ent, "central_bank", region, "leadership", url) for ent, (region, url) in LEADERSHIP_PAGES.items()]
     jobs += [("conflict", ent, "conflict", "Global", "conflict_update", url) for ent, url in CONFLICT_PAGES.items()]
-    agents = {t: build_discovery_agent(model, t) for t in {j[0] for j in jobs}}
+    jobs += [("transaction", name, sp["category"], sp["region"], "transaction", sp["news_url"]) for name, sp in SPONSORS.items()]
+    scans = state.setdefault("last_scan", {})
+    nowdt = datetime.now(timezone.utc)
+    topics = {t for t in {j[0] for j in jobs}
+              if not scans.get(t) or nowdt - datetime.fromisoformat(scans[t]) >= timedelta(hours=SCAN_EVERY_HOURS[t])}
+    jobs = [j for j in jobs if j[0] in topics]
+    agents = {t: build_discovery_agent(model, t) for t in topics}
 
     async def scan(topic, entity, cat, region, default_kind, url) -> None:
         async with sem:
@@ -133,16 +148,19 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
                 res = await discover(agents[topic], entity, url, today)
             except Exception as exc:
                 print(f"  ! discover {entity}: {type(exc).__name__}: {exc}")
+                stats["errors"] += 1
                 return
         for r in res.reports:
             if r.url in known or not (today - timedelta(days=30) <= r.published <= today + timedelta(days=1)):
                 continue  # already seen, or the date is implausible for "published in the last 14 days"
             known.add(r.url)
             kind = r.type if (topic == "politics" and r.type in ("appointment", "announcement")) else default_kind
+            stats["discovered"] += 1
             ev = Event(id=f"{_slug(entity)}-{kind}-{_slug(r.title)[:50]}", kind=kind, entity=entity, category=cat,
                        region=region, date=r.published, title=r.title, status="reported", basis="official",
                        source_url=url, verified_url=r.url,
-                       result=Result(headline=r.title, summary=r.summary, url=r.url, published=r.published, detected_at=now))
+                       result=Result(headline=r.title, summary=r.summary, metrics=r.details, url=r.url,
+                                     published=r.published, detected_at=now))
             if ev.id in by_id:
                 continue
             by_id[ev.id] = ev
@@ -153,6 +171,9 @@ async def crawl(events: list[Event], updates: list[dict], today: date, args, mod
             print(f"  + {kind}: {entity}: {r.title}")
 
     await asyncio.gather(*(scan(*j) for j in jobs))
+    for t in topics:
+        scans[t] = nowdt.isoformat(timespec="seconds")
+    return stats
 
 
 def main(argv=None, model=None) -> int:
@@ -166,14 +187,17 @@ def main(argv=None, model=None) -> int:
     p.add_argument("--today", type=date.fromisoformat, default=date.today())
     args = p.parse_args(argv)
 
-    events, updates = load(args.data)
-    asyncio.run(crawl(events, updates, args.today, args, model))
+    events, updates, state = load(args.data)
+    stats = asyncio.run(crawl(events, updates, args.today, args, model, state))
+    state["last_run"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    state["last_stats"] = stats
+    state["unreachable"] = sorted(UNREACHABLE - REACHED)  # official pages the crawler could not read this run
     events.sort(key=lambda e: (e.date, e.entity))
 
     if args.dry_run:
         print("dry run: nothing written, nothing emailed")
         return 0
-    write_data(args.data, events, updates)  # persist BEFORE emailing so findings are never lost
+    write_data(args.data, events, updates, state)  # persist BEFORE emailing so findings are never lost
 
     pending = [u for u in updates if not u["notified"]]
     for i in range(0, len(pending), EMAIL_BATCH):  # first runs can find many items: several digests, not one huge mail
@@ -185,7 +209,7 @@ def main(argv=None, model=None) -> int:
             return 1
         for u in batch:
             u["notified"] = True
-        write_data(args.data, events, updates)
+        write_data(args.data, events, updates, state)
         print(f"emailed {len(batch)} update(s)")
     return 0
 

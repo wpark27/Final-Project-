@@ -7,10 +7,10 @@
 <title>Sponsor Capital Calendar 2026</title>
 <style>
 :root{--bg:#f6f7f9;--card:#fff;--ink:#14181f;--mute:#667085;--line:#e3e6ec;--accent:#1f4fd8;
---earn:#1f4fd8;--rate:#b4540a;--min:#8a5a00;--rep:#0f7b5f;--pol:#c2255c;--sum:#0b7285;--war:#6b3fa0;--lead:#a61e4d;
+--earn:#1f4fd8;--rate:#b4540a;--min:#8a5a00;--rep:#0f7b5f;--pol:#c2255c;--deal:#087f5b;--sum:#0b7285;--war:#6b3fa0;--lead:#a61e4d;
 --proj:#8a93a3;--conf:#7a3fd1;--ok:#0f7b5f;--up:#c92a2a;--down:#0f7b5f;--today:#d92d20;--bar:#0e1116;--barink:#e8ebf0}
 @media(prefers-color-scheme:dark){:root{--bg:#0e1116;--card:#171b22;--ink:#e8ebf0;--mute:#98a2b3;--line:#272d38;--accent:#6d93ff;
---earn:#6d93ff;--rate:#f5a15a;--min:#e0b04a;--rep:#3ccf9f;--pol:#f06595;--sum:#3bc9db;--war:#b790f5;--lead:#faa2c1;
+--earn:#6d93ff;--rate:#f5a15a;--min:#e0b04a;--rep:#3ccf9f;--pol:#f06595;--deal:#38d9a9;--sum:#3bc9db;--war:#b790f5;--lead:#faa2c1;
 --proj:#7d8696;--conf:#b790f5;--ok:#3ccf9f;--up:#ff8787;--down:#3ccf9f;--today:#ff6b5e;--bar:#05070a;--barink:#e8ebf0}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
@@ -93,6 +93,13 @@ dialog h3{margin:0 0 4px}dialog ul{padding-left:18px}dialog a{color:var(--accent
 .panel .u{padding:8px 0;border-top:1px solid var(--line)}.panel .u:first-child{border-top:0}
 .cf{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;padding:10px 0}
 .cf div{border:1px solid var(--line);border-radius:8px;padding:8px 12px}.cf b{font-size:20px}
+#health{font-size:12.5px;color:var(--mute);margin:6px 0}#health b{color:var(--ink)}#health .warn{color:var(--rate);font-weight:600}
+details.cov{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 14px;margin:14px 0}
+details.cov summary{cursor:pointer;font-weight:600}
+table.cov{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+table.cov th,table.cov td{text-align:left;padding:5px 8px;border-top:1px solid var(--line);vertical-align:top}
+table.cov th{color:var(--mute);font-weight:600}
+.tbl{overflow-x:auto}
 footer{max-width:1180px;margin:30px auto;padding:0 16px;color:var(--mute);font-size:12.5px}
 @media(max-width:700px){.cell{min-height:60px}.chip{font-size:0;height:6px;padding:0}.chip::before,.chip::after{content:""!important}}
 </style>
@@ -110,11 +117,12 @@ footer{max-width:1180px;margin:30px auto;padding:0 16px;color:var(--mute);font-s
   <div class="yields" id="yields"></div>
 
   <div class="stats" id="stats"></div>
+  <div id="health"></div>
   <div class="bar">
     <input id="q" type="search" placeholder="Search company, ticker, bank, country…" aria-label="Search">
-    <select id="layer" aria-label="Layer"><option value="">All layers</option><option value="markets">Markets &amp; central banks</option><option value="politics">Politics</option><option value="conflict">Conflict &amp; geopolitics</option></select>
-    <select id="kind" aria-label="Type"><option value="">All types</option><option value="earnings">Earnings</option><option value="rate_decision">Rate decisions</option><option value="minutes">Minutes</option><option value="leadership">CB leadership</option><option value="market_report">Market reports</option><option value="election">Elections</option><option value="summit">EU summits</option><option value="appointment">Appointments</option><option value="announcement">Announcements</option><option value="conflict_update">Conflict updates</option></select>
-    <select id="cat" aria-label="Group"><option value="">All groups</option><option value="pe_sponsor">PE sponsors</option><option value="credit_sponsor">Credit sponsors</option><option value="bulge_bank">Banks</option><option value="advisory">Advisories</option><option value="central_bank">Central banks</option><option value="research">Research</option><option value="us_politics">US politics</option><option value="uk_politics">UK politics</option><option value="eu_politics">EU institutions</option><option value="euro_national">European national</option><option value="conflict">Conflict</option></select>
+    <select id="layer" aria-label="Layer"><option value="">All layers</option><option value="markets">Markets &amp; central banks</option><option value="politics">Politics</option><option value="deals">Sponsor transactions</option><option value="conflict">Conflict &amp; geopolitics</option></select>
+    <select id="kind" aria-label="Type"><option value="">All types</option><option value="earnings">Earnings</option><option value="rate_decision">Rate decisions</option><option value="minutes">Minutes</option><option value="leadership">CB leadership</option><option value="market_report">Market reports</option><option value="election">Elections</option><option value="summit">EU summits</option><option value="appointment">Appointments</option><option value="announcement">Announcements</option><option value="conflict_update">Conflict updates</option><option value="transaction">Transactions</option></select>
+    <select id="cat" aria-label="Group"><option value="">All groups</option><option value="pe_sponsor">PE sponsors</option><option value="credit_sponsor">Credit sponsors</option><option value="bulge_bank">Banks</option><option value="advisory">Advisories</option><option value="central_bank">Central banks</option><option value="research">Research</option><option value="us_politics">US politics</option><option value="uk_politics">UK politics</option><option value="eu_politics">EU institutions</option><option value="euro_national">European national</option><option value="conflict">Conflict</option><option value="private_sponsor">Private sponsors</option></select>
     <select id="region" aria-label="Region"></select>
     <select id="status" aria-label="Date status"><option value="">Any date status</option><option value="reported">Reported</option><option value="confirmed">Confirmed (official/reference)</option><option value="projected">Estimated / unverified</option></select>
     <button id="vMonth" class="on">Month</button><button id="vAgenda">Agenda</button>
@@ -127,6 +135,7 @@ footer{max-width:1180px;margin:30px auto;padding:0 16px;color:var(--mute);font-s
     <span><i class="dot" style="background:var(--rep)"></i>Market report</span>
     <span><i class="dot" style="background:var(--pol)"></i>Election</span>
     <span><i class="dot" style="background:var(--sum)"></i>EU summit / appointment / announcement</span>
+    <span><i class="dot" style="background:var(--deal)"></i>Transaction</span>
     <span><i class="dot" style="background:var(--war)"></i>Conflict</span>
     <span>Solid = date confirmed by issuer/official or reference calendar · Dashed + “?” = estimate or unverified · ✓ = reported</span>
   </div>
@@ -134,6 +143,8 @@ footer{max-width:1180px;margin:30px auto;padding:0 16px;color:var(--mute);font-s
 <main>
   <div id="month"></div>
   <div id="agenda" hidden></div>
+  <details class="cov" id="cov"><summary id="covSum">Sponsor coverage</summary><div class="tbl" id="covTbl"></div>
+    <p class="sub" style="font-size:12.5px;margin:8px 0 0">Every sponsor listed has AUM above $10bn per the cited source (sources differ on exact figures; where they do, the range is shown). This is not every PE firm above $10bn: it is the listed sponsors plus the largest private firms whose AUM and official newsroom I could verify. Private firms publish no earnings, so for them the calendar tracks transaction announcements only.</p></details>
   <section class="panel" id="conflictPanel"></section>
   <section class="panel"><h2 class="sec" style="margin-top:8px">Latest updates found by the crawler</h2><div id="feed"></div></section>
 </main>
@@ -144,14 +155,15 @@ footer{max-width:1180px;margin:30px auto;padding:0 16px;color:var(--mute);font-s
 <dialog id="dlg"></dialog>
 <script src="data/events.js"></script>
 <script src="data/live.js"></script>
+<script src="data/sponsors.js"></script>
 <script>
 const D = window.CALENDAR_DATA || {events:[],updates:[]};
 let L = window.LIVE_DATA || {news:[],yields:{},conflict:{}};
-const COLOR = {earnings:'var(--earn)',rate_decision:'var(--rate)',minutes:'var(--min)',leadership:'var(--lead)',market_report:'var(--rep)',election:'var(--pol)',summit:'var(--sum)',appointment:'var(--sum)',announcement:'var(--sum)',conflict_update:'var(--war)'};
-const KIND = {earnings:'Earnings',rate_decision:'Rate decision',minutes:'Minutes',leadership:'CB leadership',market_report:'Market report',election:'Election',summit:'EU summit',appointment:'Appointment',announcement:'Announcement',conflict_update:'Conflict update'};
+const COLOR = {earnings:'var(--earn)',rate_decision:'var(--rate)',minutes:'var(--min)',leadership:'var(--lead)',market_report:'var(--rep)',transaction:'var(--deal)',election:'var(--pol)',summit:'var(--sum)',appointment:'var(--sum)',announcement:'var(--sum)',conflict_update:'var(--war)'};
+const KIND = {earnings:'Earnings',rate_decision:'Rate decision',minutes:'Minutes',leadership:'CB leadership',market_report:'Market report',transaction:'Transaction',election:'Election',summit:'EU summit',appointment:'Appointment',announcement:'Announcement',conflict_update:'Conflict update'};
 const POLITICS = new Set(['election','summit','appointment','announcement']);
-const LAYER = k => k==='conflict_update' ? 'conflict' : POLITICS.has(k) ? 'politics' : 'markets';
-const GROUP = {pe_sponsor:'PE sponsor',credit_sponsor:'Credit sponsor',bulge_bank:'Bank',advisory:'Advisory',central_bank:'Central bank',research:'Research',us_politics:'US politics',uk_politics:'UK politics',eu_politics:'EU institutions',euro_national:'European national',conflict:'Conflict'};
+const LAYER = k => k==='conflict_update' ? 'conflict' : k==='transaction' ? 'deals' : POLITICS.has(k) ? 'politics' : 'markets';
+const GROUP = {pe_sponsor:'PE sponsor',credit_sponsor:'Credit sponsor',bulge_bank:'Bank',advisory:'Advisory',central_bank:'Central bank',research:'Research',us_politics:'US politics',uk_politics:'UK politics',eu_politics:'EU institutions',euro_national:'European national',conflict:'Conflict',private_sponsor:'Private sponsor'};
 const BASIS = {official:'Official date (issuer / central bank / government)',reference:'Reference calendar citing official sources',estimate:'Third-party estimate — not announced by the issuer',unverified:'Unverified — this project’s cadence guess; the crawler will replace it'};
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -244,7 +256,7 @@ function filtered(){
     (!s||(s==='reported'?e.status==='reported':s==='confirmed'?(verified(e)&&e.status!=='reported'):!verified(e)))&&
     (!q||(e.entity+' '+(e.ticker||'')+' '+e.title+' '+e.region).toLowerCase().includes(q)));
 }
-const chip = e => `<button class="chip ${e.status} ${verified(e)?'':'unverified'}" style="--c:${COLOR[e.kind]}" data-id="${esc(e.id)}" title="${esc(e.title)}">${esc(e.ticker||(e.kind==='rate_decision'?e.entity.replace(/ \(.*/,'')+' rate':e.entity==='Federal Reserve (FOMC)'?'FOMC':['election','summit','appointment','announcement','conflict_update','leadership','minutes'].includes(e.kind)?e.title:e.entity.replace(/ \(.*/,'')))}</button>`;
+const chip = e => `<button class="chip ${e.status} ${verified(e)?'':'unverified'}" style="--c:${COLOR[e.kind]}" data-id="${esc(e.id)}" title="${esc(e.title)}">${esc(e.ticker||(e.kind==='rate_decision'?e.entity.replace(/ \(.*/,'')+' rate':e.entity==='Federal Reserve (FOMC)'?'FOMC':['election','summit','appointment','announcement','conflict_update','leadership','minutes','transaction'].includes(e.kind)?e.title:e.entity.replace(/ \(.*/,'')))}</button>`;
 function renderMonth(list){
   const y=D.year, first=new Date(y,month,1), start=new Date(y,month,1-first.getDay());
   let h=`<div class="mnav"><button id="prev" aria-label="Previous month">←</button><h2>${MONTHS[month]} ${y}</h2><button id="next" aria-label="Next month">→</button></div><div class="grid">`+['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].map(d=>`<div class="dow">${d}</div>`).join('');
@@ -274,6 +286,20 @@ function renderFeed(){
   $('feed').innerHTML=u.length?u.map(x=>`<div class="u"><b>${esc(x.entity)}</b> — ${esc(x.headline)}<br><small style="color:var(--mute)">${esc(x.type.replace('_',' '))} · ${esc(x.detected_at.slice(0,10))} · <a href="${esc(safeUrl(x.url))}" target="_blank" rel="noopener">source</a></small></div>`).join('')
     :'<p class="sub" style="padding:8px 0">No updates detected yet. The crawler runs daily and posts company-announced dates, releases, appointments and conflict updates here.</p>';
 }
+function renderCoverage(){
+  const S=(window.SPONSORS_DATA||{}).sponsors||[]; if(!S.length){ $('cov').hidden=true; return; }
+  const n=S.filter(x=>x.listed).length, tx={}; D.events.filter(e=>e.kind==='transaction').forEach(e=>tx[e.entity]=(tx[e.entity]||0)+1);
+  $('covSum').textContent=`Sponsor coverage: ${S.length} sponsors above $10bn AUM (${n} listed, ${S.length-n} private)`;
+  $('covTbl').innerHTML='<table class="cov"><thead><tr><th>Sponsor</th><th>Type</th><th>Region</th><th>AUM (as cited)</th><th>Transactions tracked</th></tr></thead><tbody>'+
+    S.map(x=>`<tr><td><a href="${esc(safeUrl(x.news_url))}" target="_blank" rel="noopener">${esc(x.name)}</a>${x.ticker?` <small>${esc(x.ticker)}</small>`:''}</td><td>${x.listed?'Listed':'Private'}</td><td>${esc(x.region)}</td><td><a href="${esc(safeUrl(x.aum_source))}" target="_blank" rel="noopener">${esc(x.aum)}</a></td><td>${tx[x.name]||0}</td></tr>`).join('')+'</tbody></table>';
+}
+function ago(iso){ if(!iso) return null; const h=(Date.now()-new Date(iso))/36e5; return h<1?Math.max(1,Math.round(h*60))+' min ago':h<48?Math.round(h)+' h ago':Math.round(h/24)+' d ago'; }
+function renderHealth(){
+  const st=D.state||{}, cr=st.last_run, lv=L.updated, hc=cr?(Date.now()-new Date(cr))/36e5:null, hl=lv?(Date.now()-new Date(lv))/36e5:null;
+  const crawl = cr ? `Agent crawl last ran <b class="${hc>8?'warn':''}">${ago(cr)}</b>${st.last_stats?` (${st.last_stats.checked} checked, ${st.last_stats.released} released, ${st.last_stats.dates_confirmed} dates confirmed, ${st.last_stats.discovered} new items${st.last_stats.errors?`, <span class="warn">${st.last_stats.errors} errors</span>`:''})`:''}${hc>8?' <span class="warn">— stale: the scheduler may have stopped</span>':''}${(st.unreachable||[]).length?` · <span class="warn">${st.unreachable.length} official source(s) could not be read</span>`:''}`
+    : '<span class="warn">Agent crawl has not run yet — dates marked unverified/estimate have not been checked against official sites.</span>';
+  $('health').innerHTML = crawl + ' · Headlines, yields &amp; FX refreshed <b class="'+(hl>3?'warn':'')+'">'+(ago(lv)||'never')+'</b>'+(hl>3?' <span class="warn">— stale</span>':'');
+}
 function renderConflict(){
   const c=L.conflict||{}; let h='<h2 class="sec" style="margin-top:8px">Conflict tracker (ACLED, last 7 days)</h2>';
   if(c.status==='ok'){
@@ -290,7 +316,7 @@ function render(){
 function open(id){
   const e=D.events.find(x=>x.id===id); if(!e) return; const r=e.result;
   $('dlg').innerHTML=`<h3>${esc(e.title)}</h3><p class="sub" style="margin:0 0 8px">${esc(KIND[e.kind])} · ${esc(GROUP[e.category]||'')} · ${esc(e.region)} · ${new Date(e.date+'T12:00').toDateString()} <span class="badge b-${e.status==='reported'?'reported':e.basis}">${e.status==='reported'?'reported':e.basis}</span></p>`+
-   (r?`<p><b>${esc(r.headline)}</b></p><p>${esc(r.summary)}</p>${r.metrics?.length?`<ul>${r.metrics.map(m=>`<li>${esc(m)}</li>`).join('')}</ul>`:''}<p><a href="${esc(safeUrl(r.url))}" target="_blank" rel="noopener">Read the official release →</a></p>`
+   (r?`<p><b>${esc(r.headline)}</b></p><p>${esc(r.summary)}</p>${r.metrics?.length?`<ul>${r.metrics.map(m=>`<li>${esc(m)}</li>`).join('')}</ul>`:''}<p><a href="${esc(safeUrl(r.url))}" target="_blank" rel="noopener">${e.basis==='official'?'Read the official release':'Read the source'} →</a></p>`
      :`<div class="note">${esc(BASIS[e.basis])}.${e.date<todayISO&&!verified(e)?' This date has passed and the crawler has not yet confirmed the actual release.':''}</div>`+
        (e.verified_url?`<p>Date source: <a href="${esc(safeUrl(e.verified_url))}" target="_blank" rel="noopener">${esc(e.verified_url.replace(/^https?:\/\/(www\.)?/,'').slice(0,60))}</a></p>`:'')+
        `<p><a href="${esc(safeUrl(e.source_url))}" target="_blank" rel="noopener">Official source →</a></p>`)+
@@ -303,16 +329,17 @@ document.addEventListener('click',ev=>{const b=ev.target.closest('[data-id]'); i
 ['q','layer','kind','cat','region','status'].forEach(i=>$(i).addEventListener('input',render));
 $('vMonth').onclick=()=>{view='month';render()}; $('vAgenda').onclick=()=>{view='agenda';render()};
 function renderLive(){ renderNews(); renderFx(); renderYields(); renderConflict(); }
-renderLive(); renderStats(); renderFeed(); render();
+renderLive(); renderStats(); renderFeed(); renderCoverage(); renderHealth(); render();
 // When served by the FastAPI app, pull fresh data from /api (falls back silently to the embedded snapshot).
 async function pull(){
   if(!/^https?:$/.test(location.protocol)) return;
   try{
-    const [lv, ev, up] = await Promise.all(['/api/live','/api/events','/api/updates'].map(u=>fetch(u).then(r=>{if(!r.ok) throw 0; return r.json();})));
+    const [lv, ev, up, cr] = await Promise.all(['/api/live','/api/events','/api/updates','/api/crawler'].map(u=>fetch(u).then(r=>{if(!r.ok) throw 0; return r.json();})));
     if(lv && lv.updated) L = lv;
+    if(cr) D.state = cr;
     if(Array.isArray(ev) && ev.length) D.events = ev;
     if(Array.isArray(up)) D.updates = up;
-    renderLive(); renderStats(); renderFeed(); render();
+    renderLive(); renderStats(); renderFeed(); renderCoverage(); renderHealth(); render();
   }catch(_){}
 }
 pull(); setInterval(pull, 10*60*1000);

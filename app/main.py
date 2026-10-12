@@ -33,7 +33,8 @@ POLITICS = {"election", "summit", "appointment", "announcement"}
 
 
 def layer_of(kind: str) -> str:
-    return "conflict" if kind == "conflict_update" else "politics" if kind in POLITICS else "markets"
+    return ("conflict" if kind == "conflict_update" else "deals" if kind == "transaction"
+            else "politics" if kind in POLITICS else "markets")
 
 
 class _Cache:
@@ -56,6 +57,7 @@ class _Cache:
 
 
 events_file, live_file = _Cache(DATA / "events.json"), _Cache(DATA / "live.json")
+sponsors_file = _Cache(DATA / "sponsors.json")
 
 
 def _events() -> list[Event]:
@@ -67,6 +69,7 @@ class Health(BaseModel):
     events: int
     live_updated: str | None
     fx_as_of: str | None
+    last_crawl: str | None = None
 
 
 async def _loop(coro_fn, every_s: int, name: str):
@@ -102,12 +105,13 @@ app = FastAPI(title="Sponsor & Private Capital Calendar", version="2.0", lifespa
 def health():
     live = live_file.get()
     return Health(ok=True, events=len(events_file.get().get("events", [])), live_updated=live.get("updated"),
-                  fx_as_of=(live.get("fx") or {}).get("as_of"))
+                  fx_as_of=(live.get("fx") or {}).get("as_of"),
+                  last_crawl=events_file.get().get("state", {}).get("last_run"))
 
 
 @app.get("/api/events", response_model=list[Event])
 def list_events(
-    layer: Literal["markets", "politics", "conflict"] | None = None,
+    layer: Literal["markets", "politics", "conflict", "deals"] | None = None,
     kind: str | None = None,
     category: str | None = None,
     region: str | None = None,
@@ -144,6 +148,19 @@ def get_event(event_id: str):
 def updates(limit: int = Query(50, ge=1, le=500)):
     ups = sorted(events_file.get().get("updates", []), key=lambda u: u["detected_at"], reverse=True)
     return ups[:limit]
+
+
+@app.get("/api/sponsors")
+def sponsors(listed: bool | None = None):
+    """Sponsors tracked for transactions (all above $10bn AUM, each with a cited AUM source)."""
+    rows = sponsors_file.get().get("sponsors", [])
+    return [r for r in rows if listed is None or r["listed"] == listed]
+
+
+@app.get("/api/crawler")
+def crawler_status():
+    """When the agent crawl last ran and what it found."""
+    return events_file.get().get("state", {})
 
 
 @app.get("/api/live")

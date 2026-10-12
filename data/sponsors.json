@@ -1,0 +1,584 @@
+{
+ "sponsors": [
+  {
+   "name": "Blackstone",
+   "listed": true,
+   "ticker": "BX",
+   "category": "pe_sponsor",
+   "region": "US",
+   "aum": "~$1.27tn (Q4 2025, third-party ranking)",
+   "aum_source": "https://www.morningstar.com/business/insights/blog/largest-alternative-asset-managers?con=20254",
+   "news_url": "https://ir.blackstone.com/"
+  },
+  {
+   "name": "KKR",
+   "listed": true,
+   "ticker": "KKR",
+   "category": "pe_sponsor",
+   "region": "US",
+   "aum": "$796bn (Jun 30, 2026)",
+   "aum_source": "https://www.sec.gov/Archives/edgar/data/0001404912/000140491226000022/q226earningsrelease_vf.htm",
+   "news_url": "https://ir.kkr.com/news-events/press-releases/"
+  },
+  {
+   "name": "Apollo",
+   "listed": true,
+   "ticker": "APO",
+   "category": "credit_sponsor",
+   "region": "US",
+   "aum": "$785bn-$938bn (sources vary)",
+   "aum_source": "https://www.morningstar.com/business/insights/blog/largest-alternative-asset-managers?con=20254",
+   "news_url": "https://ir.apollo.com/news-events/press-releases"
+  },
+  {
+   "name": "Carlyle",
+   "listed": true,
+   "ticker": "CG",
+   "category": "pe_sponsor",
+   "region": "US",
+   "aum": "$485bn (Jun 30, 2026)",
+   "aum_source": "https://www.sec.gov/Archives/edgar/data/0001527166/000152716626000036/cg202606308-kexx992edgar.htm",
+   "news_url": "https://ir.carlyle.com/news-events/press-releases"
+  },
+  {
+   "name": "Ares Management",
+   "listed": true,
+   "ticker": "ARES",
+   "category": "credit_sponsor",
+   "region": "US",
+   "aum": "~$623bn (third-party ranking)",
+   "aum_source": "https://investingintheweb.com/blog/largest-alternative-asset-managers",
+   "news_url": "https://ir.aresmgmt.com/news-events/press-releases"
+  },
+  {
+   "name": "TPG",
+   "listed": true,
+   "ticker": "TPG",
+   "category": "pe_sponsor",
+   "region": "US",
+   "aum": "~$260bn+ (third-party ranking)",
+   "aum_source": "https://investingintheweb.com/blog/largest-alternative-asset-managers",
+   "news_url": "https://shareholders.tpg.com/"
+  },
+  {
+   "name": "Blue Owl",
+   "listed": true,
+   "ticker": "OWL",
+   "category": "credit_sponsor",
+   "region": "US",
+   "aum": "$319bn (Jun 30, 2026)",
+   "aum_source": "https://ir.blueowl.com/Investors/news/news-details/2026/Blue-Owl-Capital-Inc--Second-Quarter-2026-Results/default.aspx",
+   "news_url": "https://ir.blueowl.com/news-events/press-releases"
+  },
+  {
+   "name": "Brookfield Asset Management",
+   "listed": true,
+   "ticker": "BAM",
+   "category": "pe_sponsor",
+   "region": "Canada",
+   "aum": ">$1tn (Jun 30, 2026)",
+   "aum_source": "https://www.sec.gov/Archives/edgar/data/0001937926/000117184326005272/exh_991.htm",
+   "news_url": "https://bam.brookfield.com/events-news/press-releases"
+  },
+  {
+   "name": "Brookfield Corporation",
+   "listed": true,
+   "ticker": "BN",
+   "category": "pe_sponsor",
+   "region": "Canada",
+   "aum": ">$1tn managed by BAM (Jun 30, 2026)",
+   "aum_source": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/Brookfield-BN-IR-V2/2026/Q2/2026-q2-bn-interim-report.pdf",
+   "news_url": "https://bn.brookfield.com/events-news/press-releases"
+  },
+  {
+   "name": "EQT",
+   "listed": true,
+   "ticker": "EQT.ST",
+   "category": "pe_sponsor",
+   "region": "Europe",
+   "aum": "EUR291bn (Jun 30, 2026)",
+   "aum_source": "https://www.tipranks.com/news/company-announcements/eqt-ab-boosts-aum-expands-strategies-and-profits-in-first-half-of-2026",
+   "news_url": "https://eqtgroup.com/shareholders/financial-calendar"
+  },
+  {
+   "name": "CVC Capital Partners",
+   "listed": true,
+   "ticker": "CVC.AS",
+   "category": "pe_sponsor",
+   "region": "Europe",
+   "aum": "EUR153bn fee-paying (Jun 30, 2026)",
+   "aum_source": "https://www.cvc.com/media/news/2026/2026-half-year-results/",
+   "news_url": "https://www.cvc.com/shareholders/reports-and-presentations/"
+  },
+  {
+   "name": "Partners Group",
+   "listed": true,
+   "ticker": "PGHN.SW",
+   "category": "pe_sponsor",
+   "region": "Europe",
+   "aum": "$186bn (Jun 30, 2026)",
+   "aum_source": "https://pulse2.com/partners-group-reaches-186-billion-in-aum-and-names-roberto-cagnati-and-juri-jenkner-co-ceos/",
+   "news_url": "https://www.partnersgroup.com/en/news-and-views/"
+  },
+  {
+   "name": "3i Group",
+   "listed": true,
+   "ticker": "III.L",
+   "category": "pe_sponsor",
+   "region": "UK",
+   "aum": "GBP31.8bn portfolio value (Mar 31, 2026)",
+   "aum_source": "https://www.3i.com/media/bc1hogm1/sp-opinion_3ig_23jul2026.pdf",
+   "news_url": "https://www.3i.com/investors/"
+  },
+  {
+   "name": "ICG",
+   "listed": true,
+   "ticker": "ICG.L",
+   "category": "credit_sponsor",
+   "region": "UK",
+   "aum": "$126bn (Mar 31, 2026)",
+   "aum_source": "https://www.nasdaq.com/articles/intermediate-capital-group-h2-earnings-call-highlights",
+   "news_url": "https://www.icg.com/"
+  },
+  {
+   "name": "Bridgepoint",
+   "listed": true,
+   "ticker": "BPT.L",
+   "category": "pe_sponsor",
+   "region": "UK",
+   "aum": "$97.3bn (Jun 30, 2026)",
+   "aum_source": "https://www.lse.co.uk/rns/half-year-report-laps7gc97135c27.html",
+   "news_url": "https://www.bridgepointgroup.com/"
+  },
+  {
+   "name": "Hamilton Lane",
+   "listed": true,
+   "ticker": "HLNE",
+   "category": "pe_sponsor",
+   "region": "US",
+   "aum": "~$146bn discretionary (Q2 2026)",
+   "aum_source": "https://www.barchart.com/story/news/3636068/hamilton-lane-nasdaqhlne-beats-expectations-in-strong-q2-cy2026",
+   "news_url": "https://ir.hamiltonlane.com/news-events/press-releases"
+  },
+  {
+   "name": "StepStone",
+   "listed": true,
+   "ticker": "STEP",
+   "category": "pe_sponsor",
+   "region": "US",
+   "aum": "$245bn (Jun 30, 2026)",
+   "aum_source": "https://www.kbra.com/publications/PHdZHrZV",
+   "news_url": "https://shareholders.stepstonegroup.com/news-releases"
+  },
+  {
+   "name": "Onex",
+   "listed": true,
+   "ticker": "ONEX.TO",
+   "category": "pe_sponsor",
+   "region": "Canada",
+   "aum": "$43.2bn fee-generating (Jun 30, 2026)",
+   "aum_source": "https://alternativecreditinvestor.com/2026/08/14/onex-fee-generating-aum-hits-43-2bn-amid-active-quarter-for-clos/",
+   "news_url": "https://www.onex.com/events-and-presentations"
+  },
+  {
+   "name": "Antin Infrastructure Partners",
+   "listed": true,
+   "ticker": "ANTIN.PA",
+   "category": "pe_sponsor",
+   "region": "Europe",
+   "aum": "EUR33.3bn (Jun 30, 2026)",
+   "aum_source": "https://www.antin-ip.com/wp-content/uploads/2026/09/Antin-1H26-Results-PR-VF.pdf",
+   "news_url": "https://www.antin-ip.com/"
+  },
+  {
+   "name": "Tikehau Capital",
+   "listed": true,
+   "ticker": "TKO.PA",
+   "category": "credit_sponsor",
+   "region": "Europe",
+   "aum": "EUR53.5bn (Jun 30, 2026)",
+   "aum_source": "https://rankiapro.com/en/news/tikehau-capital-doubles-net-profit-to-e165-million-in-h1-2026/",
+   "news_url": "https://www.tikehaucapital.com/en/shareholders/financial-calendar"
+  },
+  {
+   "name": "Eurazeo",
+   "listed": true,
+   "ticker": "RF.PA",
+   "category": "pe_sponsor",
+   "region": "Europe",
+   "aum": "~EUR40bn (Jun 30, 2026)",
+   "aum_source": "https://www.eurazeo.com/sites/default/files/2026-07/H1-2026-eurazeo-press_release_1.pdf",
+   "news_url": "https://en.newsroom.eurazeo.com/"
+  },
+  {
+   "name": "Wendel",
+   "listed": true,
+   "ticker": "MF.PA",
+   "category": "pe_sponsor",
+   "region": "Europe",
+   "aum": "EUR48.7bn third-party AuM (H1 2026)",
+   "aum_source": "https://mfn.se/all/a/wendel/wendel-2026-half-year-results-22a1be3d",
+   "news_url": "https://www.wendelgroup.com/en/content/results"
+  },
+  {
+   "name": "GCM Grosvenor",
+   "listed": true,
+   "ticker": "GCMG",
+   "category": "pe_sponsor",
+   "region": "US",
+   "aum": "$97bn (Jun 30, 2026)",
+   "aum_source": "https://www.gcmgrosvenor.com/2026/08/10/gcm-grosvenor-reports-second-quarter-2026-earnings-results-with-gaap-net-income-of-9-6-million-fee-related-earnings-up-21-and-adjusted-net-income-up-22-year-over-year/",
+   "news_url": "https://www.gcmgrosvenor.com/"
+  },
+  {
+   "name": "Patria Investments",
+   "listed": true,
+   "ticker": "PAX",
+   "category": "pe_sponsor",
+   "region": "Brazil",
+   "aum": "$48.9bn fee-earning (Jun 30, 2026)",
+   "aum_source": "https://ir.patria.com/news-releases/news-release-details/patria-reports-second-quarter-2026-earnings-results",
+   "news_url": "https://ir.patria.com/news-releases"
+  },
+  {
+   "name": "Bain Capital",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "~$225bn (firm website, 2026)",
+   "aum_source": "https://www.baincapital.com/",
+   "news_url": "https://www.baincapital.com/news"
+  },
+  {
+   "name": "Thoma Bravo",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "$172bn (Mar 31, 2026)",
+   "aum_source": "https://altss.com/profile/thoma-bravo.md",
+   "news_url": "https://www.thomabravo.com/press-releases"
+  },
+  {
+   "name": "Vista Equity Partners",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "$103bn (Mar 31, 2026)",
+   "aum_source": "https://www.vistaequitypartners.com/by-the-numbers/",
+   "news_url": "https://www.vistaequitypartners.com/insights/"
+  },
+  {
+   "name": "Advent International",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "$94bn (Mar 31, 2026)",
+   "aum_source": "https://www.caproasia.com/?p=57688",
+   "news_url": "https://www.adventinternational.com/news/"
+  },
+  {
+   "name": "Warburg Pincus",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "~$105bn (2026, directory)",
+   "aum_source": "https://privateequitylist.com/investors/warburg-pincus",
+   "news_url": "https://www.warburgpincus.com/news/"
+  },
+  {
+   "name": "General Atlantic",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "$123bn (Dec 31, 2025)",
+   "aum_source": "https://job-boards.greenhouse.io/generalatlantic/jobs/5780173004",
+   "news_url": "https://www.generalatlantic.com/media/"
+  },
+  {
+   "name": "Silver Lake",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": ">=$43bn (sources range $43-117bn)",
+   "aum_source": "https://privateequitylist.com/investor/silver-lake",
+   "news_url": "https://www.silverlake.com/news/"
+  },
+  {
+   "name": "Hellman & Friedman",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "$115bn (Dec 31, 2025)",
+   "aum_source": "https://altss.com/profile/hellman-friedman.md",
+   "news_url": "https://www.hf.com/news"
+  },
+  {
+   "name": "Permira",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "Europe",
+   "aum": "EUR75bn-90bn+ (sources vary)",
+   "aum_source": "https://en.wikipedia.org/wiki/Permira",
+   "news_url": "https://www.permira.com/news-and-insights"
+  },
+  {
+   "name": "Cinven",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "Europe",
+   "aum": "~EUR44bn (2024)",
+   "aum_source": "https://en.wikipedia.org/wiki/Cinven",
+   "news_url": "https://www.cinven.com/news-insights/"
+  },
+  {
+   "name": "Clayton Dubilier & Rice",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "$87.4bn regulatory AUM",
+   "aum_source": "https://www.privatefunddata.com/fund-companies/clayton-dubilier-and-rice-llc/",
+   "news_url": "https://www.cdr-inc.com/news"
+  },
+  {
+   "name": "Apax Partners",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "Europe",
+   "aum": "~$77bn (aggregators)",
+   "aum_source": "https://privateequitylist.com/investors/apax-partners",
+   "news_url": "https://www.apax.com/"
+  },
+  {
+   "name": "BC Partners",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "Europe",
+   "aum": ">EUR40bn (firm profile, Nov 2022)",
+   "aum_source": "https://boardwave.org/sponsor-profiles/bc-partners",
+   "news_url": "https://www.bcpartners.com/news"
+  },
+  {
+   "name": "Clearlake Capital",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "~$185bn (firm, Jun 2026)",
+   "aum_source": "https://secure.businesswire.com/news/home/20260609839186/en/Clearlake-Completes-Strategic-Acquisition-of-Pathway-Capital-Management",
+   "news_url": "https://clearlake.com/news"
+  },
+  {
+   "name": "Hg",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "Europe",
+   "aum": "~$100-110bn (2026)",
+   "aum_source": "https://en.wikipedia.org/wiki/Hg_(equity_firm)",
+   "news_url": "https://hgcapital.com/insights"
+  },
+  {
+   "name": "Ardian",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "Europe",
+   "aum": "~$200bn (2025)",
+   "aum_source": "https://en.wikipedia.org/wiki/Ardian_(company)",
+   "news_url": "https://www.ardian.com/news-insights"
+  },
+  {
+   "name": "Insight Partners",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": ">$90bn (Dec 31, 2025)",
+   "aum_source": "https://en.wikipedia.org/wiki/Insight_Partners",
+   "news_url": "https://www.insightpartners.com/"
+  },
+  {
+   "name": "Genstar Capital",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "~$33bn",
+   "aum_source": "https://en.wikipedia.org/wiki/Genstar_Capital",
+   "news_url": "https://www.gencap.com/news/"
+  },
+  {
+   "name": "Stonepeak",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "$73-93bn (2026, sources vary)",
+   "aum_source": "https://en.wikipedia.org/wiki/Stonepeak",
+   "news_url": "https://stonepeak.com/news"
+  },
+  {
+   "name": "Fortress Investment Group",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "~$54bn (Mar 31, 2026)",
+   "aum_source": "https://altss.com/profile/fortress-investment-group.md",
+   "news_url": "https://www.fortress.com/news"
+  },
+  {
+   "name": "Golub Capital",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": ">$90bn (2026)",
+   "aum_source": "https://usuaebusiness.org/resources/golub-capital/",
+   "news_url": "https://golubcapital.com/press-releases/"
+  },
+  {
+   "name": "Cerberus",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "~$65-70bn (2026)",
+   "aum_source": "https://en.wikipedia.org/wiki/Cerberus_Capital_Management",
+   "news_url": "https://www.cerberus.com/news/"
+  },
+  {
+   "name": "Sixth Street",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "$135bn (Mar 31, 2026)",
+   "aum_source": "https://sixthstreet.com/?p=5756",
+   "news_url": "https://sixthstreet.com/news"
+  },
+  {
+   "name": "Leonard Green & Partners",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": ">$75bn (Jan 2026)",
+   "aum_source": "https://www.leonardgreen.com/?p=2661",
+   "news_url": "https://www.leonardgreen.com/news"
+  },
+  {
+   "name": "Francisco Partners",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": ">$25bn (firm, 2021); aggregators ~$45-50bn",
+   "aum_source": "https://www.businesswire.com/news/home/20211012005772/en/Francisco-Partners-Announces-Final-Closing-of-2.2-Billion-Second-Credit-Fund",
+   "news_url": "https://www.franciscopartners.com/news"
+  },
+  {
+   "name": "TA Associates",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "~$43-65bn (aggregators)",
+   "aum_source": "https://privateequitylist.com/investor/ta-associates",
+   "news_url": "https://www.ta.com/news/"
+  },
+  {
+   "name": "Platinum Equity",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "~$48bn (Dec 2024)",
+   "aum_source": "https://platinumequity.com/about-us",
+   "news_url": "https://platinumequity.com/news"
+  },
+  {
+   "name": "Centerbridge Partners",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "~$44bn (firm website)",
+   "aum_source": "https://www.centerbridge.com",
+   "news_url": "https://www.centerbridge.com/news"
+  },
+  {
+   "name": "Veritas Capital",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": ">$54bn (Sep 2025)",
+   "aum_source": "https://www.businesswire.com/news/home/20250910414578/en/Veritas-Capital-Closes-Ninth-Flagship-Fund-at-Hard-Cap-of-%2414.4-Billion",
+   "news_url": "https://www.veritascapital.com/news"
+  },
+  {
+   "name": "Nordic Capital",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "Europe",
+   "aum": "~EUR34bn (2025)",
+   "aum_source": "https://www.altaroc.pe/en/resources/news/nordic-capital-private-equity-pioneer-in-northern-europe",
+   "news_url": "https://www.nordiccapital.com/news/"
+  },
+  {
+   "name": "PAI Partners",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "Europe",
+   "aum": "~EUR26bn (firm, Nov 2023)",
+   "aum_source": "https://www.willkie.com/news/2023/11/willkie-advises-pai-partners-on-7-1-billion-fundraise-for-eighth-flagship-fund",
+   "news_url": "https://www.paipartners.com/news/"
+  },
+  {
+   "name": "Hillhouse Investment",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "China",
+   "aum": "~$100bn (2026 estimate)",
+   "aum_source": "https://en.wikipedia.org/wiki/Hillhouse_Investment",
+   "news_url": "https://www.hillhouseinvestment.com/news"
+  },
+  {
+   "name": "Adams Street Partners",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": "~$76bn (Jun 30, 2026)",
+   "aum_source": "https://www.adamsstreetpartners.com/",
+   "news_url": "https://www.adamsstreetpartners.com/news/"
+  },
+  {
+   "name": "HarbourVest Partners",
+   "listed": false,
+   "ticker": null,
+   "category": "private_sponsor",
+   "region": "US",
+   "aum": ">$125bn (Dec 31, 2023)",
+   "aum_source": "https://www.harbourvest.com/",
+   "news_url": "https://www.harbourvest.com/insights-news/"
+  }
+ ]
+}

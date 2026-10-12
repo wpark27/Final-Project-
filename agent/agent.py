@@ -21,6 +21,11 @@ Follow links (from the LINKS section) to the actual release when the landing pag
 """.strip()
 
 
+# Pages the agent tried to read this process: lets the run report which official sources were unreachable.
+REACHED: set[str] = set()
+UNREACHABLE: set[str] = set()
+
+
 @dataclass
 class Deps:
     allowed_url: str
@@ -36,7 +41,9 @@ def _attach_tools(agent: Agent) -> None:
         if ctx.deps.pages_fetched >= 5:
             return "[refused: page budget exhausted, decide with what you have]"
         ctx.deps.pages_fetched += 1
-        return await fetch_text(url, ctx.deps.allowed_url)
+        text = await fetch_text(url, ctx.deps.allowed_url)
+        (UNREACHABLE if text.startswith(("[fetch failed", "[refused")) else REACHED).add(url)
+        return text
 
 
 def build_release_agent(model=None) -> Agent[Deps, ReleaseCheck]:
@@ -64,6 +71,11 @@ TOPICS = {
     "government statements (type='announcement')",
     "leadership": "changes in LEADERSHIP of this central bank only: Governor/Chair/President, deputies, and "
     "board/MPC/FOMC member appointments, nominations, resignations or retirements; type='leadership'",
+    "transaction": "TRANSACTIONS announced by this sponsor: acquisitions, take-privates, majority/minority investments, "
+    "sales/exits of portfolio companies, large financings it provided or arranged, platform/asset-manager acquisitions "
+    "(not fund closings, hires or product launches); type='transaction'. For each, put the parties and facts exactly as "
+    "the page states them in `details` (e.g. 'Target: X', 'Value: $4.2bn', 'Seller: Y', 'Status: announced/completed'); "
+    "never infer a value or a party that the page does not state",
     "conflict": "official updates on the war in Ukraine and on conflicts in the Middle East: ceasefires, "
     "negotiations, major military or diplomatic developments, humanitarian-access announcements; "
     "type='conflict_update'. Report only what the page itself states, attributed to that source",

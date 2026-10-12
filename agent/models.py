@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 
 Kind = Literal[
     "earnings", "rate_decision", "minutes", "market_report", "leadership",
-    "election", "summit", "appointment", "announcement", "conflict_update",
+    "election", "summit", "appointment", "announcement", "conflict_update", "transaction",
 ]
 Status = Literal["projected", "confirmed", "reported"]
 # How the date was established. Only "official"/"reference" count as verified.
@@ -19,7 +19,7 @@ Status = Literal["projected", "confirmed", "reported"]
 Basis = Literal["official", "reference", "estimate", "unverified"]
 Category = Literal[
     "pe_sponsor", "credit_sponsor", "bulge_bank", "advisory", "central_bank", "research",
-    "us_politics", "uk_politics", "eu_politics", "euro_national", "conflict",
+    "us_politics", "uk_politics", "eu_politics", "euro_national", "conflict", "private_sponsor",
 ]
 
 
@@ -75,12 +75,16 @@ class ReleaseCheck(BaseModel):
 
 
 class DiscoveredReport(BaseModel):
-    type: Literal["report", "appointment", "announcement", "leadership", "conflict_update"] = "report"
+    type: Literal["report", "appointment", "announcement", "leadership", "conflict_update", "transaction"] = "report"
     entity: str
     title: str
     url: str
     published: date
     summary: str
+    details: list[str] = Field(
+        default_factory=list,
+        description="For transactions: facts exactly as stated, e.g. 'Target: X', 'Value: $4.2bn', 'Type: take-private', 'Status: announced'.",
+    )
 
 
 class DiscoveryResult(BaseModel):

@@ -15,8 +15,9 @@ import sys
 from datetime import date, timedelta
 from pathlib import Path
 
-from .models import Event
+from .models import Event, Result
 from .sources import CENTRAL_BANKS, COMPANIES
+from .sponsors import SPONSORS
 
 YEAR = 2026
 
@@ -34,6 +35,14 @@ EARNINGS: dict[str, list[tuple[str, str]]] = {
     "Hamilton Lane": [("FQ3 2026", "02-05"), ("FQ4 2026", "05-21"), ("FQ1 2027", "08-06"), ("FQ2 2027", "11-05")],
     "StepStone": [("FQ3 2026", "02-11"), ("FQ4 2026", "05-21"), ("FQ1 2027", "08-06"), ("FQ2 2027", "11-05")],
     "EQT": [("Q4 2025", "01-29"), ("Q1 2026", "04-23"), ("Q2 2026", "07-16"), ("Q3 2026", "10-22")],
+    "Brookfield Corporation": [("Q3 2026", "11-12")],
+    "Onex": [("Q4 2025", "02-20"), ("Q1 2026", "05-15"), ("Q2 2026", "08-13"), ("Q3 2026", "11-06")],
+    "Antin Infrastructure Partners": [("H1 2026", "09-09"), ("Q3 2026", "10-29")],
+    "Tikehau Capital": [("H1 2026", "07-29"), ("Q3 2026", "10-22")],
+    "Eurazeo": [("H1 2026", "07-23"), ("Q3 2026", "11-05")],
+    "Wendel": [("Q1 2026", "04-23"), ("H1 2026", "07-30"), ("Q3 2026", "10-23")],
+    "GCM Grosvenor": [("Q2 2026", "08-10"), ("Q3 2026", "11-04")],
+    "Patria Investments": [("Q1 2026", "05-07"), ("Q2 2026", "07-31"), ("Q3 2026", "11-06")],
     "CVC Capital Partners": [("FY 2025", "03-04"), ("H1 2026", "09-09")],
     "Partners Group": [("AuM 2025", "01-14"), ("FY 2025", "03-11"), ("AuM H1 2026", "07-14"), ("H1 2026", "09-09")],
     "3i Group": [("FY 2026 (Mar)", "05-21"), ("H1 FY2027", "11-12")],
@@ -83,7 +92,22 @@ VERIFIED_EARNINGS: dict[tuple[str, str], tuple[str, str, str]] = {
     ("Hamilton Lane", "FQ2 2027"): ("11-03", "official", "https://finviz.com/news/399061/hamilton-lane-incorporated-to-announce-second-quarter-fiscal-2027-results-on-november-3-2026"),
     ("Lazard", "Q3 2026"): ("10-22", "official", "https://lazard.com/news-announcements/lazard-to-announce-third-quarter-and-nine-month-2026-financial-results/"),
     ("EQT", "Q3 2026"): ("10-15", "official", "https://www.placera.se/pressmeddelanden/eqt-invitation-to-presentation-of-eqt-abs-q3-announcement-2026-20261001"),
+    ("Brookfield Corporation", "Q3 2026"): ("11-12", "official", "https://www.sec.gov/Archives/edgar/data/0001001085/000117184326006563/exh_991.htm"),
+    ("Onex", "Q4 2025"): ("02-20", "official", "https://www.barchart.com/story/news/37273716/onex-to-announce-fourth-quarter-and-full-year-2025-results-on-february-20-2026"),
+    ("Onex", "Q1 2026"): ("05-15", "official", "https://stocks.observer-reporter.com/observerreporter/article/gnwcq-2026-4-27-onex-to-announce-first-quarter-2026-results-on-may-15-2026"),
+    ("Onex", "Q2 2026"): ("08-13", "official", "https://wwww.stockwatch.com/News/Item/Z-C!ONEX-3842940/C/ONEX"),
+    ("Antin Infrastructure Partners", "H1 2026"): ("09-09", "official", "https://www.antin-ip.com/wp-content/uploads/2026/09/Antin-1H26-Results-PR-VF.pdf"),
+    ("Tikehau Capital", "H1 2026"): ("07-29", "official", "https://www.tikehaucapital.com/~/media/Files/T/Tikehau-Capital-V2/documents/shareholders/publications-en/2026-07-29-tikehau-capital-h1-2026-results-presentation.pdf"),
+    ("Tikehau Capital", "Q3 2026"): ("10-22", "official", "https://www.tikehaucapital.com/en/shareholders/financial-calendar"),
+    ("Eurazeo", "H1 2026"): ("07-23", "official", "https://www.eurazeo.com/sites/default/files/2026-07/H1-2026-eurazeo-press_release_1.pdf"),
+    ("Wendel", "Q1 2026"): ("04-23", "official", "https://www.wendelgroup.com/wp-content/uploads/2026/04/q12026-trading-update-presentation.pdf"),
+    ("Wendel", "H1 2026"): ("07-30", "official", "https://mfn.se/all/a/wendel/wendel-2026-half-year-results-22a1be3d"),
+    ("GCM Grosvenor", "Q2 2026"): ("08-10", "official", "https://www.gcmgrosvenor.com/2026/08/10/gcm-grosvenor-reports-second-quarter-2026-earnings-results-with-gaap-net-income-of-9-6-million-fee-related-earnings-up-21-and-adjusted-net-income-up-22-year-over-year/"),
+    ("Patria Investments", "Q1 2026"): ("05-07", "official", "https://www.sec.gov/Archives/edgar/data/0001825570/000162828026031676/patriareportsfirstquarte.htm"),
+    ("Patria Investments", "Q2 2026"): ("07-31", "official", "https://ir.patria.com/news-releases/news-release-details/patria-reports-second-quarter-2026-earnings-results"),
     # Third-party estimates: issuer has NOT announced these yet
+    ("GCM Grosvenor", "Q3 2026"): ("11-04", "estimate", "https://unusualwhales.com/stock/GCMG/earnings"),
+    ("Patria Investments", "Q3 2026"): ("11-06", "estimate", "https://beta.earningswhispers.com/go/w/PAX"),
     ("Goldman Sachs", "Q3 2026"): ("10-13", "estimate", "https://www.akrostec.com/indices/AUL500/events/2026-10-13t00-00-00z-goldman-sachs-group-inc-the-gs-financial-results-7f34f222"),
     ("Citigroup", "Q3 2026"): ("10-13", "estimate", "https://247wallst.com/cards/q3-earnings-season-front-loads-everything-into-two-mornings-unh-earnings-calendar-01m4gswtqct7fbk8xh1qmb2pkm"),
     ("Bank of America", "Q3 2026"): ("10-14", "estimate", "https://247wallst.com/cards/q3-earnings-season-front-loads-everything-into-two-mornings-unh-earnings-calendar-01m4gswtqct7fbk8xh1qmb2pkm"),
@@ -234,6 +258,125 @@ POLITICS: list[tuple] = [
     ("Spain", "election", "euro_national", "Europe", "11-29", "Spain general election", "https://www.infoelectoral.interior.gob.es/", _W + "2026_Spanish_general_election", "reference"),
 ]
 
+_SEEDED = "2026-10-12T00:00:00+00:00"  # when these published results/transactions were recorded from the cited sources
+
+
+def _res(headline: str, summary: str, metrics: list[str], url: str, published: str) -> Result:
+    return Result(headline=headline, summary=summary, metrics=metrics, url=url, published=published, detected_at=_SEEDED)
+
+
+# Published results already out: only facts stated by the cited source are recorded.
+RESULTS: dict[tuple[str, str], Result] = {
+    ("Onex", "Q2 2026"): _res(
+        "Onex Q2 2026: fee-generating AUM $43.2bn",
+        "Fee-generating AUM reached about $43.2bn, up 6% year over year, helped by CLO activity in its credit business. "
+        "Credit fee-generating AUM was $30.6bn versus $29.8bn at end-2025. Structured credit posted its highest-ever quarterly "
+        "fee-related earnings; credit investments recorded a net loss versus a net gain a year earlier.",
+        ["Fee-generating AUM $43.2bn (+6% YoY)", "Credit fee-generating AUM $30.6bn", "Structured credit FRE $19m (record)",
+         "Credit investments net loss $5m vs net gain $33m a year earlier"],
+        "https://alternativecreditinvestor.com/2026/08/14/onex-fee-generating-aum-hits-43-2bn-amid-active-quarter-for-clos/", "2026-08-13"),
+    ("Antin Infrastructure Partners", "H1 2026"): _res(
+        "Antin H1 2026: total AUM EUR33.3bn, interim dividend EUR0.28",
+        "Total AUM was EUR33.3bn at 30 June 2026 (+0.8% YoY). Fee-paying AUM fell 2.9% to EUR21.2bn as Mid Cap I moved to its "
+        "post-investment period. Underlying revenue fell 4.5% and underlying EBITDA fell 12.3%; the board approved an interim "
+        "dividend and expects the full-year distribution to remain stable.",
+        ["Total AUM EUR33.3bn", "Fee-paying AUM EUR21.2bn (-2.9%)", "Underlying revenue EUR138.5m (-4.5%)",
+         "Underlying EBITDA EUR69.9m (-12.3%), 50% margin", "Interim dividend EUR0.28; FY2026 distribution expected stable at EUR0.71"],
+        "https://www.antin-ip.com/wp-content/uploads/2026/09/Antin-1H26-Results-PR-VF.pdf", "2026-09-09"),
+    ("Tikehau Capital", "H1 2026"): _res(
+        "Tikehau Capital H1 2026: AUM EUR53.5bn, net profit EUR165m",
+        "AUM reached EUR53.5bn at 30 June 2026 (+5% YoY) and fee-generating AUM rose 7% to EUR43.5bn. Net profit attributable to the "
+        "group was EUR165m, double H1 2025, helped by a EUR217m gain on the sale of its Schroders stake.",
+        ["AUM EUR53.5bn (+5% YoY)", "Fee-generating AUM EUR43.5bn (+7%)", "Net inflows EUR1.7bn in H1",
+         "Core FRE EUR80m (+32%), 42% margin", "Net profit EUR165m"],
+        "https://rankiapro.com/en/news/tikehau-capital-doubles-net-profit-to-e165-million-in-h1-2026/", "2026-07-29"),
+    ("Eurazeo", "H1 2026"): _res(
+        "Eurazeo H1 2026: AUM about EUR40bn, fundraising EUR2.3bn",
+        "Total AUM was about EUR40bn at end-June (+9% YoY); third-party AUM EUR31.1bn (+13%). Fee-paying AUM rose 6% to EUR29.4bn "
+        "and management fees were EUR213m. H1 fundraising was EUR2.3bn, with private debt raising EUR1.5bn (+73%).",
+        ["Total AUM ~EUR40bn (+9%)", "Third-party AUM EUR31.1bn (+13%)", "Fee-paying AUM EUR29.4bn (+6%)",
+         "Management fees EUR213m", "Dry powder EUR6.6bn (+20%)"],
+        "https://www.eurazeo.com/sites/default/files/2026-07/H1-2026-eurazeo-press_release_1.pdf", "2026-07-23"),
+    ("Wendel", "H1 2026"): _res(
+        "Wendel H1 2026: third-party asset management at EUR48.7bn",
+        "Wendel Investment Managers' third-party AuM reached EUR48.7bn (+25% over twelve months) after the Committed Advisors "
+        "acquisition closed in early April. Fee-paying AuM was EUR37.8bn (+30% YoY; +11% pro forma).",
+        ["WIM AuM EUR48.7bn (+25% LTM)", "Fee-paying AuM EUR37.8bn (+30% YoY, +11% pro forma)"],
+        "https://mfn.se/all/a/wendel/wendel-2026-half-year-results-22a1be3d", "2026-07-30"),
+    ("GCM Grosvenor", "Q2 2026"): _res(
+        "GCM Grosvenor Q2 2026: AUM about $97bn, FRE up 21%",
+        "AUM was about $97bn and fee-paying AUM about $78bn, both up roughly 13% YoY. Q2 fundraising was $2.3bn ($3.9bn in the "
+        "first half). GAAP net income was $9.6m; fee-related earnings rose 21% and adjusted net income 22% year over year.",
+        ["AUM ~$97bn (+~13%)", "Fee-paying AUM ~$78bn", "Q2 fundraising $2.3bn; H1 $3.9bn", "GAAP net income $9.6m",
+         "FRE +21%; adjusted net income +22%"],
+        "https://www.gcmgrosvenor.com/2026/08/10/gcm-grosvenor-reports-second-quarter-2026-earnings-results-with-gaap-net-income-of-9-6-million-fee-related-earnings-up-21-and-adjusted-net-income-up-22-year-over-year/", "2026-08-10"),
+    ("Patria Investments", "Q2 2026"): _res(
+        "Patria Q2 2026: fee-earning AUM $48.9bn (+32%)",
+        "Fee-earning AUM ended the quarter at $48.9bn, up 32% year over year and 7% from the prior quarter. Fee-related earnings "
+        "were $57.1m (+24%) at a 54.0% margin; distributable earnings were $50.7m ($0.32 per share). The firm raised $2.3bn in the "
+        "quarter ($4.5bn year to date).",
+        ["Fee-earning AUM $48.9bn (+32% YoY)", "FRE $57.1m (+24%), margin 54.0%", "Distributable earnings $50.7m ($0.32/share)",
+         "Raised $2.3bn in Q2; $4.5bn YTD"],
+        "https://ir.patria.com/news-releases/news-release-details/patria-reports-second-quarter-2026-earnings-results", "2026-07-31"),
+}
+
+# Recent transactions by sponsors above $10bn AUM, from the cited sources (checked 2026-10-12). Dates are the
+# announcement/completion date the source gives; the daily scanner adds new ones from each sponsor's newsroom.
+# (sponsor, month-day, title, basis, source url, summary, details)
+TRANSACTIONS: list[tuple] = [
+    ("Apollo", "09-29", "Apollo funds complete acquisition of Nippon Sheet Glass", "official",
+     "https://www.apollo.com/insights-news/pressreleases/2026/09/apollo-funds-announce-completion-of-acquisition-of-nippon-sheet-glass-marking-new-chapter-of-growth-3371474",
+     "Apollo said funds it manages completed the acquisition of Nippon Sheet Glass Co., Ltd.",
+     ["Target: Nippon Sheet Glass Co., Ltd.", "Status: completed"]),
+    ("Apollo", "09-15", "Apollo provides $585m financing to The Executive Centre", "official",
+     "https://www.apollo.com/insights-news/pressreleases/2026/09/apollo-provides-585-million-financing-to-the-executive-centre-3362798",
+     "Apollo-managed funds and others provided a $585 million financing to The Executive Centre; proceeds mainly refinance existing debt.",
+     ["Borrower: The Executive Centre", "Size: $585m", "Use: refinancing"]),
+    ("Blackstone", "09-21", "Blackstone agreement to acquire Flow Control reported", "reference",
+     "https://www.trysignalbase.com/news/acquisitions/flow-control-acquired-by-blackstone-acquisition",
+     "A deal-tracking site reported a Blackstone agreement to acquire Flow Control on September 21, 2026; financial terms were not disclosed.",
+     ["Target: Flow Control", "Terms: not disclosed", "Source is a third-party tracker, not Blackstone"]),
+    ("EQT", "09-04", "EQT buys majority stake in McGill and Partners from Warburg Pincus", "reference",
+     "https://www.privateequitywire.co.uk/deals/3/",
+     "Private Equity Wire's deal feed lists EQT buying a majority stake in McGill and Partners from Warburg Pincus for $2 billion.",
+     ["Target: McGill and Partners (majority stake)", "Seller: Warburg Pincus", "Value: $2bn"]),
+    ("Thoma Bravo", "08-13", "Thoma Bravo agrees to take Accelerant private", "reference",
+     "https://www.insiderfinance.io/news/accelerant-take-private-with-thoma-bravo",
+     "Thoma Bravo agreed to take Accelerant private at $20.25 per share, valuing the insurance marketplace at more than $4.0 billion. "
+     "Thoma Bravo provided an equity commitment, so there is no financing condition; closing is expected in the first half of 2027.",
+     ["Target: Accelerant", "Price: $20.25 per share", "Value: >$4.0bn", "Expected close: H1 2027"]),
+    ("KKR", "08-03", "KKR to acquire Integer Holdings for $5.7bn", "reference",
+     "https://app.sentisense.ai/stories/kkr-to-acquire-integer-holdings-for-5.7-billion-08032026",
+     "KKR agreed to buy medical-device contract manufacturer Integer Holdings in an all-cash deal of about $5.7 billion, $127 per share; "
+     "expected to close by year-end subject to regulatory approvals. The date is taken from the source's URL, not its text.",
+     ["Target: Integer Holdings", "Value: ~$5.7bn, $127/share, all cash", "Expected close: year-end 2026", "Date approximate"]),
+    ("Brookfield", "07-22", "Brookfield to buy AYPA Power from Blackstone in $7bn deal", "reference",
+     "https://www.alternativeswatch.com/2026/07/22/brookfield-to-buy-aypa-power-from-blackstone-in-7bn-deal/",
+     "AlternativesWatch reported Brookfield will buy AYPA Power from Blackstone in a $7 billion deal.",
+     ["Target: AYPA Power", "Seller: Blackstone", "Value: $7bn"]),
+    ("Blackstone", "07-20", "Blackstone to acquire controlling stake in Futronic", "reference",
+     "https://www.akrostec.com/indices/A500PAM/events/2026-07-20t00-00-00z-blackstone-inc-bx-other-f7532bbc",
+     "Blackstone announced an agreement to acquire a controlling stake in Futronic Co. for approximately $720 million.",
+     ["Target: Futronic Co. (controlling stake)", "Value: ~$720m"]),
+    ("Clearlake Capital", "06-09", "Clearlake completes acquisition of Pathway Capital Management", "official",
+     "https://secure.businesswire.com/news/home/20260609839186/en/Clearlake-Completes-Strategic-Acquisition-of-Pathway-Capital-Management",
+     "Clearlake completed its acquisition of Pathway Capital Management, which the firm says manages more than $95 billion; Clearlake cites about $185 billion of total AUM.",
+     ["Target: Pathway Capital Management (> $95bn AUM)", "Status: completed"]),
+    ("Apollo", "06-09", "Apollo leads $35bn financing for Broadcom AI infrastructure platform", "reference",
+     "https://www.streetinsider.com/entities/Citi/APO",
+     "Apollo led a $35 billion financing for Broadcom's AI infrastructure platform, alongside Blackstone and global banks.",
+     ["Borrower: Broadcom AI infrastructure platform", "Size: $35bn", "Co-lenders: Blackstone, global banks"]),
+    ("Stonepeak", "05-29", "Stonepeak buys majority stake in Estia Health from Bain Capital", "reference",
+     "https://www.themiddlemarket.com/latest-news/stonepeak-purchases-majority-stake-in-estia-health-from-bain-capital",
+     "The Middle Market reported Stonepeak purchasing a majority stake in Estia Health from Bain Capital.",
+     ["Target: Estia Health (majority stake)", "Seller: Bain Capital"]),
+    ("KKR", "02-05", "KKR agrees to acquire Arctos Partners", "reference",
+     "https://news.bloomberglaw.com/private-equity/kkr-to-acquire-sports-investor-arctos-in-1-4-billion-deal",
+     "KKR agreed to buy sports and secondaries investor Arctos Partners in a deal initially valued at $1.4 billion, plus up to $550 million in potential equity payouts, subject to regulatory and sports-league approvals.",
+     ["Target: Arctos Partners", "Value: $1.4bn + up to $550m earn-out"]),
+]
+
+
 
 def _slug(s: str) -> str:
     return "".join(c.lower() if c.isalnum() else "-" for c in s).strip("-")
@@ -249,9 +392,11 @@ def build_events() -> list[Event]:
         ticker, cat, region, url = COMPANIES[entity]
         for period, md in rows:
             md, basis, vurl = VERIFIED_EARNINGS.get((entity, period), (md, "unverified", None))
+            res = RESULTS.get((entity, period))
             out.append(Event(id=f"{_slug(entity)}-{_slug(period)}", kind="earnings", entity=entity, ticker=ticker,
                              category=cat, region=region, date=f"{YEAR}-{md}", title=f"{entity} {period} results",
-                             status=_status(basis), basis=basis, source_url=url, verified_url=vurl))
+                             status="reported" if res else _status(basis), basis=basis, source_url=url,
+                             verified_url=vurl, result=res))
     for bank, rows in RATE_DECISIONS.items():
         region, url = CENTRAL_BANKS[bank]
         for md, basis in rows:
@@ -268,6 +413,13 @@ def build_events() -> list[Event]:
         out.append(Event(id=f"{_slug(entity)}-{YEAR}-{md}", kind=kind, entity=entity, category=cat, region=region,
                          date=f"{YEAR}-{md}", title=title, status=_status(basis), basis=basis, source_url=url,
                          verified_url=vurl))
+    for sponsor, md, title, basis, vurl, summary, details in TRANSACTIONS:
+        sp = SPONSORS.get(sponsor)
+        out.append(Event(id=f"{_slug(sponsor)}-transaction-{_slug(title)[:50]}", kind="transaction", entity=sponsor,
+                         ticker=sp["ticker"] if sp else None, category=sp["category"] if sp else "pe_sponsor",
+                         region=sp["region"] if sp else "Global", date=f"{YEAR}-{md}", title=title, status="reported",
+                         basis=basis, source_url=sp["news_url"] if sp else vurl, verified_url=vurl,
+                         result=_res(title, summary, details, vurl, f"{YEAR}-{md}")))
     ids = [e.id for e in out]
     assert len(ids) == len(set(ids)), "duplicate event ids"
     return sorted(out, key=lambda e: (e.date, e.entity))
@@ -280,11 +432,12 @@ def atomic_write(path: Path, text: str) -> None:
     tmp.replace(path)
 
 
-def write_data(path: Path, events: list[Event], updates: list[dict] | None = None) -> None:
+def write_data(path: Path, events: list[Event], updates: list[dict] | None = None, state: dict | None = None) -> None:
     payload = {
         "year": YEAR,
         "events": [json.loads(e.model_dump_json()) for e in events],
         "updates": updates or [],
+        "state": state or {},
     }
     path.parent.mkdir(parents=True, exist_ok=True)
     text = json.dumps(payload, indent=1)
@@ -293,10 +446,18 @@ def write_data(path: Path, events: list[Event], updates: list[dict] | None = Non
     atomic_write(path.with_suffix(".js"), "window.CALENDAR_DATA = " + text + ";\n")
 
 
+def write_sponsors(data_dir: Path) -> None:
+    rows = [dict(name=n, **v) for n, v in SPONSORS.items()]
+    text = json.dumps({"sponsors": rows}, indent=1)
+    atomic_write(data_dir / "sponsors.json", text + "\n")
+    atomic_write(data_dir / "sponsors.js", "window.SPONSORS_DATA = " + text + ";\n")
+
+
 if __name__ == "__main__":
     out = Path(sys.argv[1] if len(sys.argv) > 1 else "data/events.json")
     if out.exists() and "--force" not in sys.argv:
         sys.exit(f"{out} exists; pass --force to overwrite (this discards crawler state)")
     evs = build_events()
     write_data(out, evs)
+    write_sponsors(out.parent)
     print(f"wrote {len(evs)} events to {out}")
