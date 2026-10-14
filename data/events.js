@@ -7242,14 +7242,14 @@ window.CALENDAR_DATA = {
  ],
  "state": {
   "llm": false,
-  "last_run": "2026-10-14T11:48:12+00:00",
+  "last_run": "2026-10-14T17:07:54+00:00",
   "last_stats": {
    "checked": 0,
    "released": 0,
    "dates_confirmed": 0,
    "discovered": 0,
    "errors": 0,
-   "edgar": 2
+   "edgar": 0
   },
   "unreachable": []
  }
