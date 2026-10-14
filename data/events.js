@@ -5004,12 +5004,19 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-10-14",
    "title": "Bank of America Q3 2026 results",
-   "status": "projected",
-   "basis": "estimate",
+   "status": "reported",
+   "basis": "official",
    "source_url": "https://investor.bankofamerica.com/quarterly-earnings",
-   "verified_url": "https://247wallst.com/cards/q3-earnings-season-front-loads-everything-into-two-mornings-unh-earnings-calendar-01m4gswtqct7fbk8xh1qmb2pkm",
-   "last_checked": null,
-   "result": null
+   "verified_url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-09302026ex993.htm",
+   "last_checked": "2026-10-14T11:48:11+00:00",
+   "result": {
+    "headline": "Bank of America Q3 2026 results released",
+    "summary": "Results release filed with the SEC (8-K item 2.02) on 2026-10-14. Open the filing for the full figures.",
+    "metrics": [],
+    "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-09302026ex993.htm",
+    "published": "2026-10-14",
+    "detected_at": "2026-10-14T11:48:11+00:00"
+   }
   },
   {
    "id": "morgan-stanley-q3-2026",
@@ -5020,12 +5027,19 @@ window.CALENDAR_DATA = {
    "region": "US",
    "date": "2026-10-14",
    "title": "Morgan Stanley Q3 2026 results",
-   "status": "confirmed",
+   "status": "reported",
    "basis": "official",
    "source_url": "https://www.morganstanley.com/about-us-ir/earnings-releases",
-   "verified_url": "https://www.morganstanley.com/about-us-ir/morgan-stanley-third-quarter-2026-investor-conference-call",
-   "last_checked": null,
-   "result": null
+   "verified_url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msearningsrelease.htm",
+   "last_checked": "2026-10-14T11:48:11+00:00",
+   "result": {
+    "headline": "Morgan Stanley Q3 2026 results released",
+    "summary": "Results release filed with the SEC (8-K item 2.02) on 2026-10-14. Open the filing for the full figures.",
+    "metrics": [],
+    "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msearningsrelease.htm",
+    "published": "2026-10-14",
+    "detected_at": "2026-10-14T11:48:11+00:00"
+   }
   },
   {
    "id": "eqt-q3-2026",
@@ -7200,18 +7214,42 @@ window.CALENDAR_DATA = {
    "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfex992supplement.htm",
    "detected_at": "2026-10-13T19:15:08+00:00",
    "notified": false
+  },
+  {
+   "id": "bank-of-america-q3-2026:released:2026-10-14",
+   "event_id": "bank-of-america-q3-2026",
+   "type": "released",
+   "entity": "Bank of America",
+   "headline": "Bank of America Q3 2026 results released",
+   "summary": "Results release filed with the SEC (8-K item 2.02) on 2026-10-14. Open the filing for the full figures.",
+   "metrics": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-09302026ex993.htm",
+   "detected_at": "2026-10-14T11:48:11+00:00",
+   "notified": false
+  },
+  {
+   "id": "morgan-stanley-q3-2026:released:2026-10-14",
+   "event_id": "morgan-stanley-q3-2026",
+   "type": "released",
+   "entity": "Morgan Stanley",
+   "headline": "Morgan Stanley Q3 2026 results released",
+   "summary": "Results release filed with the SEC (8-K item 2.02) on 2026-10-14. Open the filing for the full figures.",
+   "metrics": [],
+   "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msearningsrelease.htm",
+   "detected_at": "2026-10-14T11:48:11+00:00",
+   "notified": false
   }
  ],
  "state": {
   "llm": false,
-  "last_run": "2026-10-14T04:58:45+00:00",
+  "last_run": "2026-10-14T11:48:12+00:00",
   "last_stats": {
    "checked": 0,
    "released": 0,
    "dates_confirmed": 0,
    "discovered": 0,
    "errors": 0,
-   "edgar": 0
+   "edgar": 2
   },
   "unreachable": []
  }
