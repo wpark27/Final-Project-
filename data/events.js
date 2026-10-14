@@ -7204,7 +7204,7 @@ window.CALENDAR_DATA = {
  ],
  "state": {
   "llm": false,
-  "last_run": "2026-10-14T00:17:01+00:00",
+  "last_run": "2026-10-14T04:58:45+00:00",
   "last_stats": {
    "checked": 0,
    "released": 0,
