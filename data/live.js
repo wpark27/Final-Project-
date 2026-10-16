@@ -1,6 +1,132 @@
 window.LIVE_DATA = {
- "updated": "2026-10-15T22:10:14+00:00",
+ "updated": "2026-10-16T01:12:57+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "Takaichi's Challenges After One Year in Office",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/takaichi-s-challenges-after-one-year-in-office-video",
+   "published": "2026-10-16T01:00:42+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "MSCI warns it may cut Indonesia from main indices",
+   "url": "https://www.ft.com/content/753fa2ed-1763-462b-a4c0-ded9b53baf3c",
+   "published": "2026-10-16T00:44:30+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Indonesia Outflows to Worsen as MSCI Mulls Cut, Analysts Say",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/indonesia-outflows-to-worsen-as-msci-mulls-cut-analysts-say",
+   "published": "2026-10-16T00:43:17+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Brazil Judge Orders Meta to Treat Runoff Candidates Equally",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/brazil-judge-orders-meta-to-treat-runoff-candidates-equally",
+   "published": "2026-10-15T23:54:41+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Gold Holds Gain With Haven Demand and Lower Yields in Focus",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/gold-holds-gains-with-haven-demand-and-lower-yields-in-focus",
+   "published": "2026-10-15T23:51:46+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Portugal\u2019s Housing Protest Draws Thousands After Police Clashes",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/portugal-s-housing-protest-draws-thousands-after-police-clashes",
+   "published": "2026-10-15T23:21:39+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Netflix replaces chief content officer in effort to arrest declining share price",
+   "url": "https://www.ft.com/content/9187726d-0f4c-4f05-b421-b5fc656522b9?syn-25a6b1a6=1",
+   "published": "2026-10-15T23:18:40+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Zelenskyy: \u2018Pity\u2019 Ukraine Losing Strong Partner",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-15/balance-of-power-late-edition-10-15-2026-video",
+   "published": "2026-10-15T23:07:48+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "China\u2019s Plan to Make Yuan a Global Currency Enters Faster Phase",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/china-s-plan-to-make-yuan-a-global-currency-enters-faster-phase",
+   "published": "2026-10-15T23:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Hong Kong\u2019s APEC Comeback Showcases a City Remade by Beijing",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/hong-kong-s-apec-comeback-showcases-a-city-remade-by-beijing",
+   "published": "2026-10-15T23:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Singapore\u2019s Wong Says Probing Firms Behind Haze-Causing Fires",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/singapore-s-wong-says-probing-firms-behind-haze-causing-fires",
+   "published": "2026-10-15T22:51:34+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Conley Says Putin Is Testing NATO Unity",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-15/conley-says-putin-is-testing-nato-unity-video",
+   "published": "2026-10-15T22:30:23+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Rep. Amo Says Trump Should Enforce Russia Sanctions",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-15/rep-amo-says-trump-should-enforce-russia-sanctions-video",
+   "published": "2026-10-15T22:25:47+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bloomberg Businessweek Daily Podcast: Andreessen Rises as a MAGA Power Player",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-15/businessweek-daily-podcast-andreessen-maga-power-player-video",
+   "published": "2026-10-15T22:22:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Short: Corruption Is Growing Liability for Republicans",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-15/short-corruption-is-growing-liability-for-republicans-video",
+   "published": "2026-10-15T22:20:21+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Musk Pours $158 Million Into GOP Super PAC for Texas Senate Race",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/musk-pours-158-million-into-gop-super-pac-for-texas-senate-race",
+   "published": "2026-10-15T22:16:45+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Says Trump Did Not Restrict Ukraine's Access to SpaceX Defense Tech",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-15/us-says-ukraine-was-not-blocked-from-spacex-tech-video",
+   "published": "2026-10-15T22:15:33+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Seeks Culprits as Texas Senate Seat, Others Are in Peril",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/trump-says-cornyn-rove-to-blame-if-paxton-loses-senate-race",
+   "published": "2026-10-15T22:11:08+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Asian Stocks Rise as Chip Selloff Eases, Oil Slips: Markets Wrap",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/stock-market-today-dow-s-p-live-updates",
+   "published": "2026-10-15T22:04:06+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Latest Oil Market News and Analysis for Oct. 16",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/latest-oil-market-news-and-analysis-for-oct-16",
+   "published": "2026-10-15T22:03:58+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bolsonaro, Lula in Tight Race Ahead of Brazil Runoff, Poll Shows",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-15/bolsonaro-lula-in-tight-race-ahead-of-brazil-runoff-poll-shows",
+   "published": "2026-10-15T21:53:59+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "Kansas Senate Race Turns Into Tossup, Sabato Says",
@@ -69,13 +195,13 @@ window.LIVE_DATA = {
   },
   {
    "source": "Financial Times",
-   "title": "How India lost more than 100mn voters",
+   "title": "How India deleted more than 100mn voters",
    "url": "https://www.ft.com/content/a26ba5dd-e298-469f-8779-a40041addd47?syn-25a6b1a6=1",
    "published": "2026-10-15T21:00:04+00:00"
   },
   {
    "source": "Bloomberg",
-   "title": "Indonesia\u2019s Emerging Market Status Under Consultation, MSCI Says",
+   "title": "MSCI Weighs Indonesia Downgrade, Removal From Global Indexes",
    "url": "https://www.bloomberg.com/news/articles/2026-10-15/indonesia-s-emerging-market-status-under-consultation-msci-says",
    "published": "2026-10-15T20:59:19+00:00"
   },
@@ -234,132 +360,6 @@ window.LIVE_DATA = {
    "title": "Zelenskyy Orders New Strikes on Russian Refineries",
    "url": "https://www.bloomberg.com/news/videos/2026-10-15/zelenskyy-orders-new-strikes-on-russian-refineries-video",
    "published": "2026-10-15T18:04:32+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Ties With South Korea Hit Low Point Over Intelligence Row",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/south-korea-us-ties-hit-lowest-ebb-in-years-on-intelligence-row",
-   "published": "2026-10-15T18:01:05+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Healey signals tax raid on banks in UK Budget",
-   "url": "https://www.ft.com/content/09e07278-8479-49bb-a145-51e5d93828a2?syn-25a6b1a6=1",
-   "published": "2026-10-15T17:53:10+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Data Center Backlash Becomes a Midterm Flashpoint",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-15/data-center-backlash-becomes-a-midterm-flashpoint-video",
-   "published": "2026-10-15T17:47:57+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Democrats Target Epstein Ties to Banks for Action After Midterms",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/democrats-target-epstein-ties-to-banks-for-action-after-midterms",
-   "published": "2026-10-15T17:41:36+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Bankers and advisers set for \u00a3334mn easyJet payout",
-   "url": "https://www.ft.com/content/66c9bbf1-f25c-4e84-b8ae-c9272fbc49c2?syn-25a6b1a6=1",
-   "published": "2026-10-15T17:41:06+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "SpaceX Satellite Rival Set to Be Fast-Tracked by EU Commission",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/eu-commission-is-ready-to-fast-track-satellite-rival-to-spacex",
-   "published": "2026-10-15T17:37:54+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Before US Rate Bets Wiped Out Billions, Warnings Were Ignored in Chile",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/before-us-rate-bets-wiped-out-billions-warnings-were-ignored-in-chile",
-   "published": "2026-10-15T17:33:34+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Ex-CIA Director Brennan Rebuffed Over DOJ Probe Evidence",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/ex-cia-director-brennan-rebuffed-over-conspiracy-probe-evidence",
-   "published": "2026-10-15T17:33:17+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "KKR-Backed Catalio Seeks $500 Million for AI-Healthcare Deals",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/kkr-backed-catalio-seeks-500-million-for-ai-healthcare-deals",
-   "published": "2026-10-15T17:25:38+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Criminals stole $90mn of crypto by hiding password readers in USB-like devices",
-   "url": "https://www.ft.com/content/70f69253-6017-4259-95c9-48bf0e088b40?syn-25a6b1a6=1",
-   "published": "2026-10-15T17:23:18+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump cancels Hegseth\u2019s plan to livestream execution after backlash",
-   "url": "https://www.ft.com/content/064f7a19-c495-4ba0-a5e5-a6c4bb764ddb?syn-25a6b1a6=1",
-   "published": "2026-10-15T17:16:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump\u2019s DOJ Sues California Over Non-Citizen Voter List",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/trump-administration-sues-california-over-voter-citizenship-list",
-   "published": "2026-10-15T17:06:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "France and Germany to allow UK to join EU car policy if it aligns on China tariffs",
-   "url": "https://www.ft.com/content/f8e99974-9f18-4141-ac4a-1f072b7ebb24?syn-25a6b1a6=1",
-   "published": "2026-10-15T17:05:37+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Harvard Fund Soars to Record $68 Billion After 27% Annual Return",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/harvard-fund-soars-to-record-68-billion-after-27-annual-return",
-   "published": "2026-10-15T17:00:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Risk of an AI crunch for stock markets is rising",
-   "url": "https://www.ft.com/content/5dd8b17e-b0a3-4b14-9d83-aba2627e635d?syn-25a6b1a6=1",
-   "published": "2026-10-15T16:53:57+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "USPS Probes Suspicious Mail While Vowing to Deliver Ballots",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/usps-probes-suspicious-mail-while-vowing-to-deliver-all-ballots",
-   "published": "2026-10-15T16:52:58+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Boeing\u2019s Analysts Are All Bullish Despite $100 Oil, FAA Delays",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-15/boeing-s-analysts-are-all-bullish-despite-100-oil-faa-delays",
-   "published": "2026-10-15T16:50:40+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "VW Wants to Take On Wrangler and Bronco on Their US Home Turf",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-15/vw-wants-to-take-on-wrangler-on-their-us-home-turf-video",
-   "published": "2026-10-15T16:42:26+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Los intentos de Trump para bajar el di\u00e9sel, y sus l\u00edmites",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-15/los-intentos-de-trump-para-bajar-el-diesel-video",
-   "published": "2026-10-15T16:39:15+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Inflation Fears Hit Markets and AI",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-15/open-interest-10-15-2026-video",
-   "published": "2026-10-15T16:37:15+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Europe cannot rely on trade barriers to counter China",
-   "url": "https://www.ft.com/content/8890bf3f-f243-4bd0-8e2f-f80c78e363f8?syn-25a6b1a6=1",
-   "published": "2026-10-15T16:35:09+00:00"
   }
  ],
  "yields": {
@@ -1164,7 +1164,7 @@ window.LIVE_DATA = {
      "v": 5.1
     }
    ],
-   "fetched_at": "2026-10-15T22:10:34+00:00",
+   "fetched_at": "2026-10-16T01:13:18+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1736,7 +1736,7 @@ window.LIVE_DATA = {
      "v": 3.510796188
     }
    ],
-   "fetched_at": "2026-10-15T22:10:36+00:00",
+   "fetched_at": "2026-10-16T01:13:20+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2296,16 +2296,16 @@ window.LIVE_DATA = {
      "v": 5.3928
     }
    ],
-   "fetched_at": "2026-10-15T22:10:37+00:00",
+   "fetched_at": "2026-10-16T01:13:21+00:00",
    "error": null
   },
   "Bank of Japan": {
    "country": "Japan",
    "series": "Japan MoF JGB benchmark yield, 10Y",
    "source_url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/index.htm",
-   "value": 3.015,
-   "as_of": "2026-10-14",
-   "change_1d_bp": -0.4,
+   "value": 2.948,
+   "as_of": "2026-10-15",
+   "change_1d_bp": -6.7,
    "history": [
     {
      "d": "2026-03-30",
@@ -2838,9 +2838,13 @@ window.LIVE_DATA = {
     {
      "d": "2026-10-14",
      "v": 3.015
+    },
+    {
+     "d": "2026-10-15",
+     "v": 2.948
     }
    ],
-   "fetched_at": "2026-10-15T22:10:39+00:00",
+   "fetched_at": "2026-10-16T01:13:23+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3652,7 +3656,7 @@ window.LIVE_DATA = {
      "v": 3.85
     }
    ],
-   "fetched_at": "2026-10-15T22:10:39+00:00",
+   "fetched_at": "2026-10-16T01:13:24+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4200,7 +4204,7 @@ window.LIVE_DATA = {
      "v": 5.404
     }
    ],
-   "fetched_at": "2026-10-15T22:10:40+00:00",
+   "fetched_at": "2026-10-16T01:13:25+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4233,7 +4237,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-15",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-15T22:10:41+00:00",
+  "fetched_at": "2026-10-16T01:13:26+00:00",
   "error": null,
   "pairs": [
    {
