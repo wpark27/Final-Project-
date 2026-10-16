@@ -1,6 +1,114 @@
 window.LIVE_DATA = {
- "updated": "2026-10-16T20:58:33+00:00",
+ "updated": "2026-10-16T23:29:57+00:00",
  "news": [
+  {
+   "source": "Financial Times",
+   "title": "Oil hits five-month high of $110 on new escalation in Middle East",
+   "url": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c?syn-25a6b1a6=1",
+   "published": "2026-10-16T22:57:43+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Scudder: Texas Democrats Are More Organized Than in 2018",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/scudder-texas-democrats-are-more-organized-than-in-2018-video",
+   "published": "2026-10-16T22:32:36+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Clark Calls for Lower Tariffs, More Legal Immigration",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/clark-calls-for-lower-tariffs-more-legal-immigration-video",
+   "published": "2026-10-16T22:24:21+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "AOC Boosts Abdul El-Sayed and 2028 Talk With $1 Million Check",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/aoc-boosts-abdul-el-sayed-and-2028-talk-with-1-million-check",
+   "published": "2026-10-16T22:19:40+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Mulvaney Says Katie Zacharia Was Set Up to Fail",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/mulvaney-says-katie-zacharia-was-set-up-to-fail-video",
+   "published": "2026-10-16T22:18:55+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Mexico Says Airlines Can Add US Routes From Mexico City Airports",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/mexico-says-airlines-can-add-us-routes-from-mexico-city-airports",
+   "published": "2026-10-16T22:11:45+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "David Rubenstein on New Book, \u201cSpeaking of America\u201d",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/david-rubenstein-on-new-book-speaking-of-america-video",
+   "published": "2026-10-16T22:11:30+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bloomberg Businessweek Daily Podcast: AI Jitters Persist",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/businessweek-daily-podcast-ai-jitters-persist-video",
+   "published": "2026-10-16T22:08:50+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Graza CEO on Market Expansion, Consumer Outlook",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/graza-ceo-on-market-expansion-consumer-outlook-video",
+   "published": "2026-10-16T22:02:25+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "AI Selloff, Oil & Treasury Yields Pressure Markets",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/the-close-10-16-2026-video",
+   "published": "2026-10-16T21:58:25+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "TGI Fridays CEO on Company Turnaround, Expansion Plans",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/tgi-fridays-ceo-on-company-turnaround-expansion-plans-video",
+   "published": "2026-10-16T21:56:54+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Anita Verma-Lallian on Data Center Buildout",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/anita-verma-lallian-on-data-center-buildout-video",
+   "published": "2026-10-16T21:49:59+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Healey says new Heathrow runway would boost \u2018growth\u2019 despite Burnham wavering",
+   "url": "https://www.ft.com/content/d2d5efc6-e2e6-4342-a402-ada4b6c042ef?syn-25a6b1a6=1",
+   "published": "2026-10-16T21:30:07+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "UK\u2019s Healey Backs Heathrow Third Runway in Clash With Burnham",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-16/uk-s-healey-backs-heathrow-third-runway-in-clash-with-burnham",
+   "published": "2026-10-16T21:30:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "How Apple Helped Build China\u2019s Tech Power",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/how-apple-helped-build-china-s-tech-power-video",
+   "published": "2026-10-16T21:26:32+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Warsh Touts \u2018Consequential\u2019 AI, Trump Press Secretary Out After Five Days",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/bloomberg-businessweek-daily-10-16-2026-video",
+   "published": "2026-10-16T21:26:00+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Apple blames \u2018extraordinary\u2019 demand as foldable iPhones sell out",
+   "url": "https://www.ft.com/content/7b236286-ca1d-4063-a728-7f968a638b8f?syn-25a6b1a6=1",
+   "published": "2026-10-16T21:03:42+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Housing Crisis, Inflation Worries, Midterms Loom",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-16/bloomberg-money-10-16-2026-video",
+   "published": "2026-10-16T20:56:15+00:00"
+  },
   {
    "source": "Financial Times",
    "title": "Big Tech stocks suffer biggest weekly drop since \u2018liberation day\u2019",
@@ -252,114 +360,6 @@ window.LIVE_DATA = {
    "title": "Dollar Has Worst Week in Month With Warsh Quiet on Rate Path",
    "url": "https://www.bloomberg.com/news/articles/2026-10-16/dollar-heads-for-worst-week-in-over-a-month-as-warsh-stays-quiet",
    "published": "2026-10-16T16:24:13+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Looming UK tax rise puts bankers on edge",
-   "url": "https://www.ft.com/content/2b0e3eae-8eae-449e-9492-ac036b0fe143?syn-25a6b1a6=1",
-   "published": "2026-10-16T16:14:30+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Paschi Top 10 Investor Goldstone Backs Intesa Takeover Bid",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/paschi-top-10-investor-goldstone-backs-intesa-takeover-bid",
-   "published": "2026-10-16T16:13:47+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "EU Plans Arctic Surveillance Program as Russia and Trump Loom",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/eu-plans-arctic-surveillance-program-as-russia-and-trump-loom",
-   "published": "2026-10-16T16:08:44+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Chip Stocks Set for Longest Losing Run Since 2008",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/bloomberg-surveillance-10-16-2026-video",
-   "published": "2026-10-16T16:02:21+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Hot Dogs Are a Common Good",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/hot-dogs-are-a-common-good",
-   "published": "2026-10-16T16:00:01+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Best Way to Avoid War is a 'Strong Military Deterrent,' Says Bob Hormats",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/a-military-deterrent-is-key-to-avoid-war-says-hormats-video",
-   "published": "2026-10-16T15:56:05+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "CoreWeave Debt Stress; JB Hunt Falls on Rising Costs | Stock Movers",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/coreweave-debt-stress-jb-hunt-falls-on-rising-costs-stock-movers",
-   "published": "2026-10-16T15:55:26+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "White House\u2019s NYC Sanctuary City Suit Dismissed by US Judge",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/white-house-s-nyc-sanctuary-city-suit-dismissed-by-us-judge",
-   "published": "2026-10-16T15:53:54+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Welfare reform is possible: we did it before, we can do it again",
-   "url": "https://www.ft.com/content/86038629-9b53-4859-bc59-a67fb0059c37?syn-25a6b1a6=1",
-   "published": "2026-10-16T15:53:23+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Has London\u2019s \u00a35bn \u2018super sewer\u2019 improved water quality in the Thames?",
-   "url": "https://www.ft.com/content/155bc83f-655d-4891-a431-aa5e1e1ce96a?syn-25a6b1a6=1",
-   "published": "2026-10-16T15:28:55+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Bolivia Readies New Bond Sale as It Waits for Rates to Improve",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/bolivia-readies-new-bond-sale-as-it-waits-for-rates-to-improve",
-   "published": "2026-10-16T15:24:56+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Apple set for UK legal fight over iPhone tap-to-pay rules",
-   "url": "https://www.ft.com/content/d05f87bf-225b-43f9-86e6-2f9537cd75c6?syn-25a6b1a6=1",
-   "published": "2026-10-16T15:21:03+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Why Tech\u2019s AI Borrowing Binge Is Rattling Markets",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/why-tech-s-ai-borrowing-binge-is-rattling-markets",
-   "published": "2026-10-16T15:17:57+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "India\u2019s Latest Urea Tender Draws Less Than 25% of Volume Sought",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/india-s-latest-urea-tender-draws-less-than-25-of-volume-sought",
-   "published": "2026-10-16T15:14:16+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Michael Palin on Still Traveling the World at 83",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/michael-palin-on-still-traveling-the-world-at-83-video",
-   "published": "2026-10-16T15:10:32+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Peru Indigenous Group Bids for Part of China-Owned Mine",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/peru-indigenous-group-bids-for-part-of-china-owned-copper-mine",
-   "published": "2026-10-16T15:03:59+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Burnham urges Scots to move beyond independence \u2018dramas\u2019",
-   "url": "https://www.ft.com/content/cc22b728-dee4-4a3f-a52f-fb3f09aa30e0?syn-25a6b1a6=1",
-   "published": "2026-10-16T15:00:43+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Citi becomes latest US bank to restrict AI agents from accessing accounts",
-   "url": "https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91?syn-25a6b1a6=1",
-   "published": "2026-10-16T14:58:54+00:00"
   }
  ],
  "yields": {
@@ -1168,7 +1168,7 @@ window.LIVE_DATA = {
      "v": 5.09
     }
    ],
-   "fetched_at": "2026-10-16T20:58:53+00:00",
+   "fetched_at": "2026-10-16T23:30:16+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1744,7 +1744,7 @@ window.LIVE_DATA = {
      "v": 3.390425514
     }
    ],
-   "fetched_at": "2026-10-16T20:58:55+00:00",
+   "fetched_at": "2026-10-16T23:30:17+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2308,7 +2308,7 @@ window.LIVE_DATA = {
      "v": 5.383
     }
    ],
-   "fetched_at": "2026-10-16T20:58:55+00:00",
+   "fetched_at": "2026-10-16T23:30:18+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2856,7 +2856,7 @@ window.LIVE_DATA = {
      "v": 2.948
     }
    ],
-   "fetched_at": "2026-10-16T20:58:59+00:00",
+   "fetched_at": "2026-10-16T23:30:20+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3668,7 +3668,7 @@ window.LIVE_DATA = {
      "v": 3.83
     }
    ],
-   "fetched_at": "2026-10-16T20:59:00+00:00",
+   "fetched_at": "2026-10-16T23:30:21+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4236,7 +4236,7 @@ window.LIVE_DATA = {
      "v": 5.314
     }
    ],
-   "fetched_at": "2026-10-16T20:59:01+00:00",
+   "fetched_at": "2026-10-16T23:30:22+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4269,7 +4269,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-16",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-16T20:59:02+00:00",
+  "fetched_at": "2026-10-16T23:30:23+00:00",
   "error": null,
   "pairs": [
    {
