@@ -7242,7 +7242,7 @@ window.CALENDAR_DATA = {
  ],
  "state": {
   "llm": false,
-  "last_run": "2026-10-16T16:36:13+00:00",
+  "last_run": "2026-10-16T21:04:24+00:00",
   "last_stats": {
    "checked": 0,
    "released": 0,
