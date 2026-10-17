@@ -1,6 +1,54 @@
 window.LIVE_DATA = {
- "updated": "2026-10-17T04:14:18+00:00",
+ "updated": "2026-10-17T09:13:19+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "Houthis Hit Yemen Airport as Saudi Arabia Intercepts Attacks",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/houthis-hit-yemen-airport-as-saudi-arabia-intercepts-attacks",
+   "published": "2026-10-17T08:36:20+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "David Byrne Explains How Forgotten Ideas Come Back to Life",
+   "url": "https://www.bloomberg.com/news/audio/2026-10-17/david-byrne-explains-how-forgotten-ideas-come-back-to-life",
+   "published": "2026-10-17T08:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Lagarde Says Sustainable Finances Key for Economic Stability",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/lagarde-says-fiscal-sustainability-key-for-economic-stability",
+   "published": "2026-10-17T05:40:45+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "China Warns Corrupt Officials Can\u2019t Expect a Safe Landing",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/china-warns-corrupt-officials-can-t-expect-a-safe-landing",
+   "published": "2026-10-17T05:35:22+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Japan\u2019s Takaichi to Attend APEC in China if Parliament Allows",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/japan-s-takaichi-to-attend-apec-in-china-if-parliament-allows",
+   "published": "2026-10-17T05:22:12+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Burnham Finds His Plans to Focus on Britain Blown Up by Trump",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/burnham-finds-his-plans-to-focus-on-britain-blown-up-by-trump",
+   "published": "2026-10-17T05:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Fairfax\u2019s Watsa Bets On IDBI Payoff As India Booms, Report Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/fairfax-s-watsa-bets-on-idbi-payoff-as-india-booms-report-says",
+   "published": "2026-10-17T04:55:30+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "India Halts Sugar Diversion to Ethanol After El Nino Hurts Crops",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/india-halts-sugar-diversion-to-ethanol-after-el-nino-hurts-crops",
+   "published": "2026-10-17T04:50:55+00:00"
+  },
   {
    "source": "Financial Times",
    "title": "What is behind the surprising resilience of the UK economy?",
@@ -45,7 +93,19 @@ window.LIVE_DATA = {
   },
   {
    "source": "Financial Times",
-   "title": "The AI El Ni\u00f1o",
+   "title": "The Man City theory of politics",
+   "url": "https://www.ft.com/content/ce75ac4a-3352-4986-939f-cfb17e482709?syn-25a6b1a6=1",
+   "published": "2026-10-17T04:00:21+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The dress rehearsal for an AI reckoning",
+   "url": "https://www.ft.com/content/3f982af9-3eec-476f-9d29-39145ac485c4?syn-25a6b1a6=1",
+   "published": "2026-10-17T04:00:21+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The monster El Ni\u00f1o putting AI to the test",
    "url": "https://www.ft.com/content/60bffbe3-f7aa-4813-b657-a31087e7b116?syn-25a6b1a6=1",
    "published": "2026-10-17T04:00:11+00:00"
   },
@@ -135,7 +195,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Trump Waives Russia Energy Tariffs, Sanctions in Graham Law",
+   "title": "Trump Halts New Russia Energy Penalties to Ease US Diesel Costs",
    "url": "https://www.bloomberg.com/news/articles/2026-10-17/trump-waives-russia-energy-tariffs-sanctions-in-graham-law",
    "published": "2026-10-17T00:49:44+00:00"
   },
@@ -300,66 +360,6 @@ window.LIVE_DATA = {
    "title": "Coreweave Slides 25% for the Week as AI Credit Concerns Grow | Closing Bell",
    "url": "https://www.bloomberg.com/news/videos/2026-10-16/coreweave-slides-on-ai-fears-closing-bell-video",
    "published": "2026-10-16T20:27:01+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Midterm Campaigns Accelerate With Key Events and Trends in Focus",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-10-16/midterm-campaigns-accelerate-with-key-events-and-trends-in-focus",
-   "published": "2026-10-16T20:21:14+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Press Secretary Zacharia Out",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/balance-of-power-early-edition-10-16-2026-video",
-   "published": "2026-10-16T20:12:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Blowback Against Data Centers Becomes Top 2026 Midterm Election Issue",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/blowback-against-data-centers-becomes-top-2026-issue-video",
-   "published": "2026-10-16T20:03:17+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Rich make millions by flipping private jets",
-   "url": "https://www.ft.com/content/35db7c20-ba9f-4ceb-ba14-5c62ce316028?syn-25a6b1a6=1",
-   "published": "2026-10-16T20:00:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Bolivia Sets Aside Maritime Rift With Chile in Diplomatic Thaw",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/bolivia-sets-aside-maritime-rift-with-chile-in-diplomatic-thaw",
-   "published": "2026-10-16T19:59:55+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Affordability, Messaging in Focus Ahead of US Midterms",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/affordability-messaging-in-focus-ahead-of-us-midterms-video",
-   "published": "2026-10-16T19:50:39+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "\"Farrow and Ball\": The Colours of Money's Must-Read Books",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/farrow-and-ball-the-colours-of-money-s-must-read-books-video",
-   "published": "2026-10-16T19:50:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Sound Inpatient Nears $1 Billion Private Debt After Pulling Loan",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/sound-inpatient-nears-1-billion-private-debt-after-pulling-loan",
-   "published": "2026-10-16T19:47:31+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Israeli settlers attack Palestinians carrying out olive harvest in West Bank",
-   "url": "https://www.ft.com/content/432c9cff-b86f-4712-8e64-56cf3895d687?syn-25a6b1a6=1",
-   "published": "2026-10-16T19:42:41+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "American Dream Running Past Us: Freedman",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/american-dream-running-past-us-freedman-video",
-   "published": "2026-10-16T19:41:01+00:00"
   }
  ],
  "yields": {
@@ -1168,7 +1168,7 @@ window.LIVE_DATA = {
      "v": 5.09
     }
    ],
-   "fetched_at": "2026-10-17T04:14:39+00:00",
+   "fetched_at": "2026-10-17T09:13:40+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1740,7 +1740,7 @@ window.LIVE_DATA = {
      "v": 3.390425514
     }
    ],
-   "fetched_at": "2026-10-17T04:14:40+00:00",
+   "fetched_at": "2026-10-17T09:13:42+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2300,7 +2300,7 @@ window.LIVE_DATA = {
      "v": 5.383
     }
    ],
-   "fetched_at": "2026-10-17T04:14:41+00:00",
+   "fetched_at": "2026-10-17T09:13:43+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2844,7 +2844,7 @@ window.LIVE_DATA = {
      "v": 2.948
     }
    ],
-   "fetched_at": "2026-10-17T04:14:43+00:00",
+   "fetched_at": "2026-10-17T09:13:45+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3656,7 +3656,7 @@ window.LIVE_DATA = {
      "v": 3.83
     }
    ],
-   "fetched_at": "2026-10-17T04:14:44+00:00",
+   "fetched_at": "2026-10-17T09:13:45+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4220,7 +4220,7 @@ window.LIVE_DATA = {
      "v": 5.314
     }
    ],
-   "fetched_at": "2026-10-17T04:14:44+00:00",
+   "fetched_at": "2026-10-17T09:13:46+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4253,7 +4253,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-16",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-17T04:14:45+00:00",
+  "fetched_at": "2026-10-17T09:13:47+00:00",
   "error": null,
   "pairs": [
    {
