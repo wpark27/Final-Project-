@@ -1,17 +1,41 @@
 window.LIVE_DATA = {
- "updated": "2026-10-17T19:17:12+00:00",
+ "updated": "2026-10-17T22:12:52+00:00",
  "news": [
   {
-   "source": "Financial Times",
-   "title": "Protesters clash with police as demonstrations erupt across France",
-   "url": "https://www.ft.com/content/bcb6c27a-f082-4867-ade4-ae6eb757b780?syn-25a6b1a6=1",
-   "published": "2026-10-17T19:15:19+00:00"
+   "source": "Bloomberg",
+   "title": "Niger Halts Diesel, Petrol Exports to Protect Domestic Supply",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/niger-halts-diesel-petrol-exports-to-protect-domestic-supply",
+   "published": "2026-10-17T21:44:20+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Ex-South African President Jacob Zuma Discharged from Hospital",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/ex-south-african-president-jacob-zuma-discharged-from-hospital",
+   "published": "2026-10-17T21:01:35+00:00"
   },
   {
    "source": "Financial Times",
    "title": "White House chaos overshadows Trump\u2019s midterms push",
    "url": "https://www.ft.com/content/5712154e-13a1-4adc-8ff8-be744a9ffc1c?syn-25a6b1a6=1",
-   "published": "2026-10-17T18:57:36+00:00"
+   "published": "2026-10-17T19:50:24+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Albania Protesters Clash With Police as Premier Faces Pressure",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/albania-protesters-clash-with-police-as-premier-faces-pressure",
+   "published": "2026-10-17T19:41:15+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump\u2019s Russia Sanctions Waiver Called Mistake by GOP Allies",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/trump-s-russia-sanctions-waiver-called-mistake-by-key-gop-allies",
+   "published": "2026-10-17T19:31:49+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Protesters clash with police as demonstrations erupt across France",
+   "url": "https://www.ft.com/content/bcb6c27a-f082-4867-ade4-ae6eb757b780?syn-25a6b1a6=1",
+   "published": "2026-10-17T19:15:19+00:00"
   },
   {
    "source": "Bloomberg",
@@ -336,30 +360,6 @@ window.LIVE_DATA = {
    "title": "China Encourages Cinemas to Add Sports Events and Lottery Sales",
    "url": "https://www.bloomberg.com/news/articles/2026-10-17/china-encourages-cinemas-to-add-sports-events-and-lottery-sales",
    "published": "2026-10-17T03:38:15+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Vietnam Prime Minister Targets 2027 GDP Growth of at Least 10%",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-17/vietnam-prime-minister-targets-2027-gdp-growth-of-at-least-10",
-   "published": "2026-10-17T03:03:57+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "India Frees \u2018Cockroach\u2019 Leader As Voter-List Row Simmers",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-17/india-s-cockroach-protest-leader-faces-court-in-voter-list-row",
-   "published": "2026-10-17T02:34:29+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Jio\u2019s $3.2 Billion IPO Tests Ambani Appeal With India\u2019s Gen Z",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-17/jio-s-3-2-billion-ipo-tests-ambani-appeal-with-young-indians",
-   "published": "2026-10-17T02:30:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "SoftBank in talks to buy US security group Allied Universal",
-   "url": "https://www.ft.com/content/e44a17f9-5be0-4a78-89fb-41c4578838ca?syn-25a6b1a6=1",
-   "published": "2026-10-17T02:07:07+00:00"
   }
  ],
  "yields": {
@@ -1168,7 +1168,7 @@ window.LIVE_DATA = {
      "v": 5.09
     }
    ],
-   "fetched_at": "2026-10-17T19:17:31+00:00",
+   "fetched_at": "2026-10-17T22:13:11+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1740,7 +1740,7 @@ window.LIVE_DATA = {
      "v": 3.390425514
     }
    ],
-   "fetched_at": "2026-10-17T19:17:33+00:00",
+   "fetched_at": "2026-10-17T22:13:12+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2300,7 +2300,7 @@ window.LIVE_DATA = {
      "v": 5.383
     }
    ],
-   "fetched_at": "2026-10-17T19:17:33+00:00",
+   "fetched_at": "2026-10-17T22:13:13+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2844,7 +2844,7 @@ window.LIVE_DATA = {
      "v": 2.948
     }
    ],
-   "fetched_at": "2026-10-17T19:17:36+00:00",
+   "fetched_at": "2026-10-17T22:13:15+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3656,7 +3656,7 @@ window.LIVE_DATA = {
      "v": 3.83
     }
    ],
-   "fetched_at": "2026-10-17T19:17:37+00:00",
+   "fetched_at": "2026-10-17T22:13:16+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4220,7 +4220,7 @@ window.LIVE_DATA = {
      "v": 5.314
     }
    ],
-   "fetched_at": "2026-10-17T19:17:38+00:00",
+   "fetched_at": "2026-10-17T22:13:16+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4253,7 +4253,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-16",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-17T19:17:38+00:00",
+  "fetched_at": "2026-10-17T22:13:17+00:00",
   "error": null,
   "pairs": [
    {
