@@ -1,6 +1,30 @@
 window.LIVE_DATA = {
- "updated": "2026-10-17T17:03:10+00:00",
+ "updated": "2026-10-17T19:17:12+00:00",
  "news": [
+  {
+   "source": "Financial Times",
+   "title": "Protesters clash with police as demonstrations erupt across France",
+   "url": "https://www.ft.com/content/bcb6c27a-f082-4867-ade4-ae6eb757b780?syn-25a6b1a6=1",
+   "published": "2026-10-17T19:15:19+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "White House chaos overshadows Trump\u2019s midterms push",
+   "url": "https://www.ft.com/content/5712154e-13a1-4adc-8ff8-be744a9ffc1c?syn-25a6b1a6=1",
+   "published": "2026-10-17T18:57:36+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Romania Shoots Down Two Drones Over Its Black Sea Waters",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/romania-shoots-down-two-drones-over-its-black-sea-waters",
+   "published": "2026-10-17T18:34:37+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Israeli settlers attack European diplomats in the West Bank",
+   "url": "https://www.ft.com/content/35a08f82-6830-41fa-83ae-d3765f3970e0",
+   "published": "2026-10-17T17:58:01+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "White House Turmoil Erupts as Trump Axes Zacharia, Backs Wiles",
@@ -8,10 +32,10 @@ window.LIVE_DATA = {
    "published": "2026-10-17T16:44:09+00:00"
   },
   {
-   "source": "Financial Times",
-   "title": "Israeli settlers attack European diplomats in the West Bank",
-   "url": "https://www.ft.com/content/35a08f82-6830-41fa-83ae-d3765f3970e0",
-   "published": "2026-10-17T16:11:59+00:00"
+   "source": "Bloomberg",
+   "title": "Russia Sanctions Waived, AI Debt Concerns, Making 'GTA VI'",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-17/bloomberg-this-weekend-10-17-2026-video",
+   "published": "2026-10-17T16:31:01+00:00"
   },
   {
    "source": "Bloomberg",
@@ -42,12 +66,6 @@ window.LIVE_DATA = {
    "title": "CoreWeave Woes Risk Shutting Down AI Junk Market: Credit Weekly",
    "url": "https://www.bloomberg.com/news/articles/2026-10-17/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly",
    "published": "2026-10-17T14:27:13+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Protesters clash with police in Paris and Marseille",
-   "url": "https://www.ft.com/content/bcb6c27a-f082-4867-ade4-ae6eb757b780?syn-25a6b1a6=1",
-   "published": "2026-10-17T14:16:53+00:00"
   },
   {
    "source": "Bloomberg",
@@ -342,24 +360,6 @@ window.LIVE_DATA = {
    "title": "SoftBank in talks to buy US security group Allied Universal",
    "url": "https://www.ft.com/content/e44a17f9-5be0-4a78-89fb-41c4578838ca?syn-25a6b1a6=1",
    "published": "2026-10-17T02:07:07+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump\u2019s press secretary Katie Zacharia fired after five days",
-   "url": "https://www.ft.com/content/ae21e5e0-6696-4cd2-877c-7d269b3bcf48?syn-25a6b1a6=1",
-   "published": "2026-10-17T01:29:51+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Halts New Russia Energy Sanctions to Ease Diesel Costs",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-17/trump-waives-russia-energy-tariffs-sanctions-in-graham-law",
-   "published": "2026-10-17T00:49:44+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Anthropic offers Blackstone double-digit yield in latest chip financing",
-   "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1",
-   "published": "2026-10-17T00:47:25+00:00"
   }
  ],
  "yields": {
@@ -1168,7 +1168,7 @@ window.LIVE_DATA = {
      "v": 5.09
     }
    ],
-   "fetched_at": "2026-10-17T17:03:31+00:00",
+   "fetched_at": "2026-10-17T19:17:31+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1740,7 +1740,7 @@ window.LIVE_DATA = {
      "v": 3.390425514
     }
    ],
-   "fetched_at": "2026-10-17T17:03:33+00:00",
+   "fetched_at": "2026-10-17T19:17:33+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2300,7 +2300,7 @@ window.LIVE_DATA = {
      "v": 5.383
     }
    ],
-   "fetched_at": "2026-10-17T17:03:34+00:00",
+   "fetched_at": "2026-10-17T19:17:33+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2844,7 +2844,7 @@ window.LIVE_DATA = {
      "v": 2.948
     }
    ],
-   "fetched_at": "2026-10-17T17:03:36+00:00",
+   "fetched_at": "2026-10-17T19:17:36+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3656,7 +3656,7 @@ window.LIVE_DATA = {
      "v": 3.83
     }
    ],
-   "fetched_at": "2026-10-17T17:03:36+00:00",
+   "fetched_at": "2026-10-17T19:17:37+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4220,7 +4220,7 @@ window.LIVE_DATA = {
      "v": 5.314
     }
    ],
-   "fetched_at": "2026-10-17T17:03:37+00:00",
+   "fetched_at": "2026-10-17T19:17:38+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4253,7 +4253,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-16",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-17T17:03:38+00:00",
+  "fetched_at": "2026-10-17T19:17:38+00:00",
   "error": null,
   "pairs": [
    {
