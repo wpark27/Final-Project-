@@ -1,6 +1,72 @@
 window.LIVE_DATA = {
- "updated": "2026-10-17T13:39:11+00:00",
+ "updated": "2026-10-17T17:03:10+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "White House Turmoil Erupts as Trump Axes Zacharia, Backs Wiles",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/white-house-turmoil-erupts-as-trump-axes-zacharia-backs-wiles",
+   "published": "2026-10-17T16:44:09+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Israeli settlers attack European diplomats in the West Bank",
+   "url": "https://www.ft.com/content/35a08f82-6830-41fa-83ae-d3765f3970e0",
+   "published": "2026-10-17T16:11:59+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Scottish Nationalists Try to Get Independence Back on UK Agenda",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/scottish-nationalists-try-to-get-independence-back-on-uk-agenda",
+   "published": "2026-10-17T16:10:17+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Hungary to Unveil 2027 Budget Monday, Laying Out Euro Road Map",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/hungary-to-unveil-2027-budget-monday-laying-out-euro-road-map",
+   "published": "2026-10-17T15:07:12+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Opposition Retains Czech Senate Control as Premier\u2019s Party Slips",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/opposition-retains-czech-senate-control-as-premier-s-party-slips",
+   "published": "2026-10-17T14:43:20+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Pointed! Bloomberg's Weekly News Quiz For Risk-Takers",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-17/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video",
+   "published": "2026-10-17T14:35:04+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "CoreWeave Woes Risk Shutting Down AI Junk Market: Credit Weekly",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-17/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly",
+   "published": "2026-10-17T14:27:13+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Protesters clash with police in Paris and Marseille",
+   "url": "https://www.ft.com/content/bcb6c27a-f082-4867-ade4-ae6eb757b780?syn-25a6b1a6=1",
+   "published": "2026-10-17T14:16:53+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Northwell CEO Says Health Care Model Must Change",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-17/northwell-ceo-says-health-care-model-must-change-video",
+   "published": "2026-10-17T14:03:47+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Can the Fed Fight Inflation Without Hurting Farmers?",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-17/can-the-fed-fight-inflation-without-hurting-farmers-video",
+   "published": "2026-10-17T14:03:13+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Freeland Warns US Alliances Are Fraying",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-17/freeland-warns-us-alliances-are-fraying-video",
+   "published": "2026-10-17T13:39:38+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "Sports Fashion Finds a Growing Female Audience",
@@ -294,72 +360,6 @@ window.LIVE_DATA = {
    "title": "Anthropic offers Blackstone double-digit yield in latest chip financing",
    "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89?syn-25a6b1a6=1",
    "published": "2026-10-17T00:47:25+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "North Korea gets closer to China and Russia with new bridges",
-   "url": "https://www.ft.com/content/062bb1af-d44b-4176-89cd-49042e06362b?syn-25a6b1a6=1",
-   "published": "2026-10-17T00:19:26+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Chinese Stocks Turn Biggest Losers as Global AI Trade Stumbles",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-17/chinese-stocks-turn-biggest-losers-as-global-ai-trade-stumbles",
-   "published": "2026-10-17T00:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump in Georgia Touts Manufacturing Gains as GOP Targets Ossoff",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-in-georgia-touts-manufacturing-gains-as-gop-targets-ossoff",
-   "published": "2026-10-16T23:22:52+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Says There's Zero Chance of Replacing Susie Wiles",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/balance-of-power-late-edition-10-16-2026-video",
-   "published": "2026-10-16T23:22:21+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Oil hits five-month high of $110 on new escalation in Middle East",
-   "url": "https://www.ft.com/content/8ee22d89-03eb-48dc-99a5-27555373a89c?syn-25a6b1a6=1",
-   "published": "2026-10-16T22:57:43+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Scudder: Texas Democrats Are More Organized Than in 2018",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/scudder-texas-democrats-are-more-organized-than-in-2018-video",
-   "published": "2026-10-16T22:32:36+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Clark Calls for Lower Tariffs, More Legal Immigration",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/clark-calls-for-lower-tariffs-more-legal-immigration-video",
-   "published": "2026-10-16T22:24:21+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "AOC Boosts Abdul El-Sayed and 2028 Talk With $1 Million Check",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/aoc-boosts-abdul-el-sayed-and-2028-talk-with-1-million-check",
-   "published": "2026-10-16T22:19:40+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Mulvaney Says Katie Zacharia Was Set Up to Fail",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/mulvaney-says-katie-zacharia-was-set-up-to-fail-video",
-   "published": "2026-10-16T22:18:55+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Gives Green Light for New Routes from Mexico City Airports",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-16/mexico-says-airlines-can-add-us-routes-from-mexico-city-airports",
-   "published": "2026-10-16T22:11:45+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "David Rubenstein on New Book, \u201cSpeaking of America\u201d",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-16/david-rubenstein-on-new-book-speaking-of-america-video",
-   "published": "2026-10-16T22:11:30+00:00"
   }
  ],
  "yields": {
@@ -1168,7 +1168,7 @@ window.LIVE_DATA = {
      "v": 5.09
     }
    ],
-   "fetched_at": "2026-10-17T13:39:32+00:00",
+   "fetched_at": "2026-10-17T17:03:31+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1740,7 +1740,7 @@ window.LIVE_DATA = {
      "v": 3.390425514
     }
    ],
-   "fetched_at": "2026-10-17T13:39:33+00:00",
+   "fetched_at": "2026-10-17T17:03:33+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2300,7 +2300,7 @@ window.LIVE_DATA = {
      "v": 5.383
     }
    ],
-   "fetched_at": "2026-10-17T13:39:34+00:00",
+   "fetched_at": "2026-10-17T17:03:34+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2844,7 +2844,7 @@ window.LIVE_DATA = {
      "v": 2.948
     }
    ],
-   "fetched_at": "2026-10-17T13:39:36+00:00",
+   "fetched_at": "2026-10-17T17:03:36+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3656,7 +3656,7 @@ window.LIVE_DATA = {
      "v": 3.83
     }
    ],
-   "fetched_at": "2026-10-17T13:39:36+00:00",
+   "fetched_at": "2026-10-17T17:03:36+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4220,7 +4220,7 @@ window.LIVE_DATA = {
      "v": 5.314
     }
    ],
-   "fetched_at": "2026-10-17T13:39:37+00:00",
+   "fetched_at": "2026-10-17T17:03:37+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4253,7 +4253,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-16",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-17T13:39:38+00:00",
+  "fetched_at": "2026-10-17T17:03:38+00:00",
   "error": null,
   "pairs": [
    {
