@@ -1,6 +1,78 @@
 window.LIVE_DATA = {
- "updated": "2026-10-18T05:46:31+00:00",
+ "updated": "2026-10-18T10:55:02+00:00",
  "news": [
+  {
+   "source": "Financial Times",
+   "title": "Accenture looks to sell Chinese operations for up to $1.5bn",
+   "url": "https://www.ft.com/content/2dfdd513-26a6-4a10-9cae-5242eb4ee3ed?syn-25a6b1a6=1",
+   "published": "2026-10-18T10:00:09+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Could Republicans prove the pollsters wrong in the midterms?",
+   "url": "https://www.ft.com/content/b2299174-fb78-4edf-a358-8cae837f8d7b?syn-25a6b1a6=1",
+   "published": "2026-10-18T10:00:09+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Trump\u2019s losing battle with green energy",
+   "url": "https://www.ft.com/content/b263bbe1-cd0c-4508-9ec8-07cb8a9c2a02?syn-25a6b1a6=1",
+   "published": "2026-10-18T10:00:09+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "France Struggles to Contain Fallout From Nationwide Protests",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/france-struggles-to-contain-fallout-from-nationwide-protests",
+   "published": "2026-10-18T09:17:44+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Modi Has No Easy Fix to End Resurgent India Cockroach Protests",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/modi-has-no-easy-fix-to-end-resurgent-india-cockroach-protests",
+   "published": "2026-10-18T09:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Russia, Ukraine Keep Up Attacks as Zelenskyy Renews Appeal to US",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/russia-says-oil-terminal-ablaze-in-large-scale-ukrainian-attack",
+   "published": "2026-10-18T08:59:35+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Several dead and injured in fire at Alberta military base",
+   "url": "https://www.ft.com/content/7e2836c7-9802-4f9f-864c-12bbfba25210",
+   "published": "2026-10-18T08:03:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Israeli Arabs Mobilize to Oust Netanyahu in Tightly Fought Vote",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/israeli-arabs-mobilize-to-oust-netanyahu-in-tightly-fought-vote",
+   "published": "2026-10-18T08:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Saudi Helicopter Crashes Near Yemeni Border as Houthi War Rages",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/saudi-helicopter-crashes-near-yemeni-border-as-houthi-war-rages",
+   "published": "2026-10-18T07:37:35+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Poland Investigates Suspected Violation of Its Airspace",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/poland-investigates-suspected-violation-of-its-airspace",
+   "published": "2026-10-18T06:52:54+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Philippines, US Looking to Expand Cooperation on Energy Security",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/philippines-us-looking-to-expand-cooperation-on-energy-security",
+   "published": "2026-10-18T06:34:41+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "India Religious Festivities Turn Deadly, Killing At Least 33",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/kolkata-stampede-leaves-at-least-19-dead-dozens-injured",
+   "published": "2026-10-18T05:23:16+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "China Condemns Japan\u2019s \u2018Negative Moves\u2019 Over Yasukuni Shrine",
@@ -27,7 +99,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Financial Times",
-   "title": "Russian \u2018shadow fleet\u2019 fakes locations to appear in two places at once",
+   "title": "Russian ships fake locations to appear in two places at once",
    "url": "https://www.ft.com/content/f9dd0c26-3de3-4ecc-8a08-7d08f0946d08?syn-25a6b1a6=1",
    "published": "2026-10-18T04:00:18+00:00"
   },
@@ -123,7 +195,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Financial Times",
-   "title": "Zelenskyy says Starlink speed limits in Ukraine are a \u2018planned operation\u2019",
+   "title": "Zelenskyy says Starlink speed limits are \u2018planned operation\u2019",
    "url": "https://www.ft.com/content/e26723df-9076-416c-957a-7fa3bd00b4d7?syn-25a6b1a6=1",
    "published": "2026-10-18T02:35:14+00:00"
   },
@@ -207,7 +279,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Albania Protesters Clash With Police as Premier Faces Pressure",
+   "title": "Albanian Leader Defends Response as Violent Protests Rage On",
    "url": "https://www.bloomberg.com/news/articles/2026-10-17/albania-protesters-clash-with-police-as-premier-faces-pressure",
    "published": "2026-10-17T19:41:15+00:00"
   },
@@ -288,78 +360,6 @@ window.LIVE_DATA = {
    "title": "Freeland Warns US Alliances Are Fraying",
    "url": "https://www.bloomberg.com/news/videos/2026-10-17/freeland-warns-us-alliances-are-fraying-video",
    "published": "2026-10-17T13:39:38+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Sports Fashion Finds a Growing Female Audience",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-17/sports-fashion-finds-a-growing-female-audience-video",
-   "published": "2026-10-17T13:17:32+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Republicans Brace For Backlash as Trump Gas Prices Near Biden\u2019s",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-17/republicans-brace-for-backlash-as-trump-gas-prices-near-biden-s",
-   "published": "2026-10-17T13:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "By The Way: Headlines You May Have Missed",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-17/by-the-way-headlines-you-may-have-missed-video",
-   "published": "2026-10-17T12:51:57+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Global Aid Cuts Deepen Humanitarian Strain",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-17/global-aid-cuts-deepen-humanitarian-strain-video",
-   "published": "2026-10-17T12:44:18+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Rockstar Rebuilt Itself to Make GTA VI",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-17/rockstar-rebuilt-itself-to-make-gta-vi-video",
-   "published": "2026-10-17T12:15:53+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Egypt Ready to Defend Saudi Arabia If Needed, Sisi Says",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-17/egypt-ready-to-defend-saudi-arabia-if-needed-sisi-says",
-   "published": "2026-10-17T12:14:33+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Puts New Russia Sanctions on Hold",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-17/trump-puts-new-russia-sanctions-on-hold-video",
-   "published": "2026-10-17T11:49:42+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Stellantis Plans to Hire Hundreds More Engineers in Europe, US",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-17/stellantis-plans-to-hire-hundreds-more-engineers-in-europe-us",
-   "published": "2026-10-17T11:08:37+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Lula turns to selfie videos in election fightback",
-   "url": "https://www.ft.com/content/425cc873-23d8-4028-9ad0-13276bdbccf7?syn-25a6b1a6=1",
-   "published": "2026-10-17T11:00:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "SpaceX Starlink Cuts Hobbled Ukraine Before Russian Bombardment",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-17/spacex-starlink-cuts-hobbled-ukraine-before-russian-bombardment",
-   "published": "2026-10-17T11:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Oil Trader Yaoyao Liu Who Made Billions for Vitol Is Leaving",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-17/oil-trader-yaoyao-liu-who-made-billions-for-vitol-is-leaving",
-   "published": "2026-10-17T10:31:20+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Europe Express Weekend: Where are Zelenskyy\u2019s friends (when he needs them)?",
-   "url": "https://www.ft.com/content/3d964bed-ed6e-4b15-ade0-f190d2723cac?syn-25a6b1a6=1",
-   "published": "2026-10-17T10:00:02+00:00"
   }
  ],
  "yields": {
@@ -1168,7 +1168,7 @@ window.LIVE_DATA = {
      "v": 5.09
     }
    ],
-   "fetched_at": "2026-10-18T05:46:51+00:00",
+   "fetched_at": "2026-10-18T10:55:20+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1736,7 +1736,7 @@ window.LIVE_DATA = {
      "v": 3.390425514
     }
    ],
-   "fetched_at": "2026-10-18T05:46:52+00:00",
+   "fetched_at": "2026-10-18T10:55:21+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2292,7 +2292,7 @@ window.LIVE_DATA = {
      "v": 5.383
     }
    ],
-   "fetched_at": "2026-10-18T05:46:53+00:00",
+   "fetched_at": "2026-10-18T10:55:22+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2832,7 +2832,7 @@ window.LIVE_DATA = {
      "v": 2.948
     }
    ],
-   "fetched_at": "2026-10-18T05:46:56+00:00",
+   "fetched_at": "2026-10-18T10:55:25+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3644,7 +3644,7 @@ window.LIVE_DATA = {
      "v": 3.83
     }
    ],
-   "fetched_at": "2026-10-18T05:46:56+00:00",
+   "fetched_at": "2026-10-18T10:55:26+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4204,7 +4204,7 @@ window.LIVE_DATA = {
      "v": 5.314
     }
    ],
-   "fetched_at": "2026-10-18T05:46:56+00:00",
+   "fetched_at": "2026-10-18T10:55:27+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4237,7 +4237,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-16",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-18T05:46:57+00:00",
+  "fetched_at": "2026-10-18T10:55:27+00:00",
   "error": null,
   "pairs": [
    {
