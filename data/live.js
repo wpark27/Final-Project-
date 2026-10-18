@@ -1,6 +1,96 @@
 window.LIVE_DATA = {
- "updated": "2026-10-18T18:01:31+00:00",
+ "updated": "2026-10-18T20:33:18+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "France Seeks to Contain Unrest as Protest Violence Hits Europe",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/france-seeks-to-contain-unrest-as-protest-violence-hits-europe",
+   "published": "2026-10-18T20:08:04+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Evercore appoints co-presidents as it sets up CEO succession contest",
+   "url": "https://www.ft.com/content/5700f8fb-32b9-4324-972c-9578904ac6e2?syn-25a6b1a6=1",
+   "published": "2026-10-18T20:01:48+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Traders Grow Wary of Copper Bull Market With No Sign of Tariffs",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/traders-grow-wary-of-copper-bull-market-with-no-sign-of-tariffs",
+   "published": "2026-10-18T20:00:04+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Macron faces political firestorm after riots",
+   "url": "https://www.ft.com/content/19495e50-0f55-44b1-8d19-19244163a4e8?syn-25a6b1a6=1",
+   "published": "2026-10-18T19:55:48+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "France reels after \u2018unprecedented\u2019 violent riots",
+   "url": "https://www.ft.com/content/369eba8b-246d-405f-b0d8-6c676b0b6dab?syn-25a6b1a6=1",
+   "published": "2026-10-18T19:52:26+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Trump to begin transforming historic golf course despite court order",
+   "url": "https://www.ft.com/content/39a1f29b-1248-4785-8aa3-0e7c29b5bf35?syn-25a6b1a6=1",
+   "published": "2026-10-18T19:28:39+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US army chief in Asia calls for show of enhanced military muscle",
+   "url": "https://www.ft.com/content/4ed89331-df18-4f2d-817b-9a7b304fd4e4?syn-25a6b1a6=1",
+   "published": "2026-10-18T19:00:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bond Market\u2019s Big Short Bet Gets Wakeup Call as AI Trade Wobbles",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles",
+   "published": "2026-10-18T19:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "CPI Test Set to Make or Break New Zealand Dollar\u2019s Losing Run",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/cpi-test-set-to-make-or-break-new-zealand-dollar-s-losing-run",
+   "published": "2026-10-18T19:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "UK Signals \u2018Different View\u2019 From Trump on Russia Sanctions",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/uk-signals-different-view-from-trump-on-russia-sanctions",
+   "published": "2026-10-18T18:44:13+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "St Petersburg endures biggest Ukrainian drone attack",
+   "url": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1",
+   "published": "2026-10-18T18:30:14+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Zelenskyy Says Trump Is Pushing Ukraine to Capitulate to Russia",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/zelenskyy-says-trump-is-pushing-ukraine-to-capitulate-to-russia",
+   "published": "2026-10-18T18:21:08+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Four Canadian Soldiers Killed in Military Base Fire, Carney Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/four-canadian-soldiers-killed-in-military-base-fire-carney-says",
+   "published": "2026-10-18T18:11:17+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Trump endorses Netanyahu ahead of Israeli elections",
+   "url": "https://www.ft.com/content/37fbe995-df90-429a-bddb-34d14151bf79",
+   "published": "2026-10-18T18:11:15+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "City of London Corporation weighs tax rises and service cuts to plug \u00a370mn budget hole",
+   "url": "https://www.ft.com/content/873e7ef2-d3d6-4c30-b8f8-ee3e69d60138",
+   "published": "2026-10-18T18:00:01+00:00"
+  },
   {
    "source": "Financial Times",
    "title": "Four dead and dozens injured in fire at Alberta military base",
@@ -12,12 +102,6 @@ window.LIVE_DATA = {
    "title": "Crunch time for Brazilian politics",
    "url": "https://www.ft.com/content/783dbcdc-fe1e-4539-a740-3d2e4b3d5fc1?syn-25a6b1a6=1",
    "published": "2026-10-18T17:15:01+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump endorses Netanyahu ahead of Israeli elections",
-   "url": "https://www.ft.com/content/37fbe995-df90-429a-bddb-34d14151bf79",
-   "published": "2026-10-18T16:52:08+00:00"
   },
   {
    "source": "Bloomberg",
@@ -63,12 +147,6 @@ window.LIVE_DATA = {
   },
   {
    "source": "Financial Times",
-   "title": "St Petersburg endures biggest Ukrainian drone attack",
-   "url": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1",
-   "published": "2026-10-18T15:14:55+00:00"
-  },
-  {
-   "source": "Financial Times",
    "title": "Trump\u2019s bid to make America cheap again has failed",
    "url": "https://www.ft.com/content/52a5e9df-cd9a-4951-99b5-2364e575bb44?syn-25a6b1a6=1",
    "published": "2026-10-18T15:00:00+00:00"
@@ -102,12 +180,6 @@ window.LIVE_DATA = {
    "title": "France Struggles to Contain Fallout From Nationwide Protests",
    "url": "https://www.bloomberg.com/news/videos/2026-10-18/france-struggles-to-contain-fallout-from-protests-video",
    "published": "2026-10-18T14:21:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "France reels after \u2018unprecedented\u2019 violent riots",
-   "url": "https://www.ft.com/content/369eba8b-246d-405f-b0d8-6c676b0b6dab?syn-25a6b1a6=1",
-   "published": "2026-10-18T14:15:40+00:00"
   },
   {
    "source": "Bloomberg",
@@ -288,78 +360,6 @@ window.LIVE_DATA = {
    "title": "Russia, Ukraine Keep Up Attacks as Zelenskyy Renews Appeal to US",
    "url": "https://www.bloomberg.com/news/articles/2026-10-18/russia-says-oil-terminal-ablaze-in-large-scale-ukrainian-attack",
    "published": "2026-10-18T08:59:35+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Several dead and injured in fire at Alberta military base",
-   "url": "https://www.ft.com/content/7e2836c7-9802-4f9f-864c-12bbfba25210",
-   "published": "2026-10-18T08:03:56+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Israeli Arabs Mobilize to Oust Netanyahu in Tightly Fought Vote",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/israeli-arabs-mobilize-to-oust-netanyahu-in-tightly-fought-vote",
-   "published": "2026-10-18T08:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Saudi Helicopter Crashes Near Yemen as Houthi War Rages",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/saudi-helicopter-crashes-near-yemeni-border-as-houthi-war-rages",
-   "published": "2026-10-18T07:37:35+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Poland Investigates Suspected Violation of Its Airspace",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/poland-investigates-suspected-violation-of-its-airspace",
-   "published": "2026-10-18T06:52:54+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Philippines, US Looking to Expand Cooperation on Energy Security",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/philippines-us-looking-to-expand-cooperation-on-energy-security",
-   "published": "2026-10-18T06:34:41+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "India Religious Festivities Turn Deadly, Killing At Least 33",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/kolkata-stampede-leaves-at-least-19-dead-dozens-injured",
-   "published": "2026-10-18T05:23:16+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "China Condemns Japan\u2019s \u2018Negative Moves\u2019 Over Yasukuni Shrine",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/china-condemns-japan-s-negative-moves-over-yasukuni-shrine",
-   "published": "2026-10-18T05:11:17+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "\u2018Cash is making a comeback\u2019 in digital India",
-   "url": "https://www.ft.com/content/886006f8-284c-4a20-9411-3cfd9deead3f?syn-25a6b1a6=1",
-   "published": "2026-10-18T04:11:11+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "America\u2019s $10tn AI infrastructure boom is starting to fray",
-   "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c?syn-25a6b1a6=1",
-   "published": "2026-10-18T04:00:18+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The Trump administration has entered its utter shambles era",
-   "url": "https://www.ft.com/content/cf888c97-f01e-425b-ab3a-37e696612e8a?syn-25a6b1a6=1",
-   "published": "2026-10-18T04:00:18+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Russian ships fake locations to appear in two places at once",
-   "url": "https://www.ft.com/content/f9dd0c26-3de3-4ecc-8a08-7d08f0946d08?syn-25a6b1a6=1",
-   "published": "2026-10-18T04:00:18+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Latvia calls for visa ban on Russians",
-   "url": "https://www.ft.com/content/75a42e7d-1497-4760-bd75-1cbd083fc9a4?syn-25a6b1a6=1",
-   "published": "2026-10-18T04:00:18+00:00"
   }
  ],
  "yields": {
@@ -1168,7 +1168,7 @@ window.LIVE_DATA = {
      "v": 5.09
     }
    ],
-   "fetched_at": "2026-10-18T18:01:52+00:00",
+   "fetched_at": "2026-10-18T20:33:37+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1736,7 +1736,7 @@ window.LIVE_DATA = {
      "v": 3.390425514
     }
    ],
-   "fetched_at": "2026-10-18T18:01:54+00:00",
+   "fetched_at": "2026-10-18T20:33:39+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2292,7 +2292,7 @@ window.LIVE_DATA = {
      "v": 5.383
     }
    ],
-   "fetched_at": "2026-10-18T18:01:55+00:00",
+   "fetched_at": "2026-10-18T20:33:39+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2832,7 +2832,7 @@ window.LIVE_DATA = {
      "v": 2.948
     }
    ],
-   "fetched_at": "2026-10-18T18:01:59+00:00",
+   "fetched_at": "2026-10-18T20:33:43+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3644,7 +3644,7 @@ window.LIVE_DATA = {
      "v": 3.83
     }
    ],
-   "fetched_at": "2026-10-18T18:01:59+00:00",
+   "fetched_at": "2026-10-18T20:33:43+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4204,7 +4204,7 @@ window.LIVE_DATA = {
      "v": 5.314
     }
    ],
-   "fetched_at": "2026-10-18T18:02:01+00:00",
+   "fetched_at": "2026-10-18T20:33:44+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4237,7 +4237,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-16",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-18T18:02:02+00:00",
+  "fetched_at": "2026-10-18T20:33:45+00:00",
   "error": null,
   "pairs": [
    {
