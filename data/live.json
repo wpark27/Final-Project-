@@ -1,9 +1,267 @@
 {
- "updated": "2026-10-19T01:07:17+00:00",
+ "updated": "2026-10-19T07:40:44+00:00",
  "news": [
   {
+   "source": "Bloomberg",
+   "title": "France PM Calls Crisis Meeting After Weekend Riots",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/daybreak-europe-10-19-2026-video",
+   "published": "2026-10-19T07:08:40+00:00"
+  },
+  {
    "source": "Financial Times",
-   "title": "Flight from Tel Aviv diverted after \u2018threat\u2019",
+   "title": "US stocks set for rebound after AI sell-off",
+   "url": "https://www.ft.com/content/915ea7ca-1f35-4847-810a-fb29e8344496?syn-25a6b1a6=1",
+   "published": "2026-10-19T07:05:20+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Ivanhoe Electric (IE) in Talks to Sell Arizona Copper Amid Data Center Demand",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/ivanhoe-electric-ie-in-talks-to-sell-arizona-copper-amid-data-center-demand",
+   "published": "2026-10-19T07:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Violence Rocks France as Protests Flare Across Europe",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/violence-rocks-france-as-protests-flare-across-europe-video",
+   "published": "2026-10-19T06:54:40+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Saudi Arabia Intercepts Drone Waves, Trump Says Riyadh Welcomes US and Israeli Support",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/horizons-middle-east-africa-10-19-2026-video",
+   "published": "2026-10-19T06:49:40+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "UK Gilts Face Budget Test as Bond Market Calm Holds",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-19/uk-gilts-face-budget-test-as-bond-market-calm-holds",
+   "published": "2026-10-19T06:45:45+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Yoka: Rep. Congo Pursues \u2018Real Reforms\u2019 to Boost Economy",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/yoka-rep-congo-pursues-real-reforms-to-boost-economy-video",
+   "published": "2026-10-19T06:43:04+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Dubai Sweetens First IPO Since War With $592 Million Dividend",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/dubai-sweetens-first-ipo-since-war-with-592-million-dividend",
+   "published": "2026-10-19T06:42:47+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "PHP Agrees \u00a3700 Million UK Private Hospital Venture With GIC",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/php-agrees-700-million-uk-private-hospital-venture-with-gic",
+   "published": "2026-10-19T06:34:41+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "VW Dealer Heir\u2019s Windfall Fuels \u20ac3.5 Billion Investment Firm",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/vw-dealer-heir-s-windfall-fuels-3-5-billion-investment-firm",
+   "published": "2026-10-19T06:15:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "UK Debt Is a Buy for Traders Betting on a Play-It-Safe Budget",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/uk-debt-is-a-buy-for-traders-betting-on-a-play-it-safe-budget",
+   "published": "2026-10-19T06:10:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Lindt\u2019s CEO Exits as Chocolate Firm Grapples With Weak Demand",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/lindt-s-ceo-exits-as-chocolate-firm-grapples-with-weak-demand",
+   "published": "2026-10-19T06:08:17+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Macron Calls for Order After Violent Protests in France",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/macron-calls-for-order-after-violent-protests-in-france-video",
+   "published": "2026-10-19T06:02:45+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "South Africa on Path to Investment-Grade Rating, Investec Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/south-africa-on-path-to-investment-grade-rating-investec-says",
+   "published": "2026-10-19T06:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "ISS Says Impala Bonuses at Risk of Scrutiny Over Worker Deaths",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/iss-says-impala-bonuses-at-risk-of-scrutiny-over-worker-deaths",
+   "published": "2026-10-19T05:58:31+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Indonesia Selloff Deepens as Emerging-Market Status Comes Under Threat",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/insight-with-haslinda-amin-10-19-2026-video",
+   "published": "2026-10-19T05:55:22+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Zelenskyy\u00a0Says Trump Pushing Ukraine to Yield to Russia",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/zelenskyy-says-trump-pushing-ukraine-to-yield-to-russia-video",
+   "published": "2026-10-19T05:54:44+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Europe\u2019s Unity on China Can Move the Needle: Eskelund",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/europe-s-unity-on-china-can-move-the-needle-eskelund-video",
+   "published": "2026-10-19T05:47:18+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Thailand Targets $417 Million of Land in Foreign Buyer Crackdown",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/thailand-targets-417-million-of-land-in-foreign-buyer-crackdown",
+   "published": "2026-10-19T05:30:11+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "\u2018Frenzy\u2019 in Australian deals as investors swoop on cheap assets",
+   "url": "https://www.ft.com/content/c5bbb2a7-e00e-4e20-9db3-f4d00504857a?syn-25a6b1a6=1",
+   "published": "2026-10-19T05:28:13+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "China\u2019s economy picks up pace at 4.5% growth",
+   "url": "https://www.ft.com/content/cf113314-1077-4ab4-b667-9912656684f1?syn-25a6b1a6=1",
+   "published": "2026-10-19T05:03:27+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US envoy hopes for \u2018prosperous\u2019 Europe",
+   "url": "https://www.ft.com/content/280637e2-72f7-46c0-8fc4-3532032287da?syn-25a6b1a6=1",
+   "published": "2026-10-19T05:00:06+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Has America\u2019s wave of anti-globalisation populism peaked?",
+   "url": "https://www.ft.com/content/ba3b9244-bf94-4c3f-a89b-b761488fd71d",
+   "published": "2026-10-19T05:00:06+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "China Reveals Advanced Nuclear Sub Was Used to Test-Fire Missile",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/china-reveals-advanced-nuclear-sub-was-used-to-test-fire-missile",
+   "published": "2026-10-19T04:40:18+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "FirstFT: Bank of England scrutinises Barclays",
+   "url": "https://www.ft.com/content/76117a3b-2cd6-481b-b485-4b743627589d?syn-25a6b1a6=1",
+   "published": "2026-10-19T04:32:11+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "French Violence Raises Alert as Protests Flare Across Europe",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/french-violence-raises-alert-as-protests-flare-across-europe",
+   "published": "2026-10-19T04:15:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Australia Says Unmanned Submarine to Carry Mines, Aerial Drones",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/australia-says-unmanned-submarine-to-carry-mines-aerial-drones",
+   "published": "2026-10-19T04:01:21+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Hollywood recasts tech tycoons as bad billionaires",
+   "url": "https://www.ft.com/content/5483aa1b-7380-45d6-be0f-1a4b2098c903?syn-25a6b1a6=1",
+   "published": "2026-10-19T04:00:15+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "BoE scrutinises Barclays over claim traders misrepresented private credit exposure",
+   "url": "https://www.ft.com/content/f3127b4f-d33a-4431-acff-021829f3aa72?syn-25a6b1a6=1",
+   "published": "2026-10-19T04:00:15+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Japan leads mission to make first return trip to Mars",
+   "url": "https://www.ft.com/content/88638d03-1537-4f71-b099-3a951f1c4cb7?syn-25a6b1a6=1",
+   "published": "2026-10-19T04:00:15+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The sushi restaurant Tokyoites travel three hours to for lunch",
+   "url": "https://www.ft.com/content/e09b009c-7ba1-4bf6-a329-937d38110ab4",
+   "published": "2026-10-19T04:00:15+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Her daughter had been poisoned by lead. But no one knew how",
+   "url": "https://www.ft.com/content/441501cc-e88b-45aa-81d2-864d76971dec?syn-25a6b1a6=1",
+   "published": "2026-10-19T04:00:15+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Luxury \u2018dupe\u2019 retailer Quince enters UK market",
+   "url": "https://www.ft.com/content/3dae6c98-afeb-4b4c-9996-4279d4e2e3b2?syn-25a6b1a6=1",
+   "published": "2026-10-19T04:00:15+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The five things business wants from the Budget",
+   "url": "https://www.ft.com/content/af6f84d7-b134-4181-84f3-7811c369f306?syn-25a6b1a6=1",
+   "published": "2026-10-19T04:00:15+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Rising interest rates derail property recovery as buyers recut deals",
+   "url": "https://www.ft.com/content/aef890f1-e3f5-4add-b1fc-6187e2658106?syn-25a6b1a6=1",
+   "published": "2026-10-19T04:00:06+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Americans are unhappy. How will they vote in the midterms?",
+   "url": "https://www.ft.com/content/d375cde1-ec37-4c5e-87ab-a3a655e879d8?syn-25a6b1a6=1",
+   "published": "2026-10-19T04:00:06+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Degree apprenticeships plateau as employers confront increased hiring costs",
+   "url": "https://www.ft.com/content/85545be4-6f36-4ac6-9185-e715ccd5fab3?syn-25a6b1a6=1",
+   "published": "2026-10-19T04:00:06+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "French government in crisis mode after a weekend of riots",
+   "url": "https://www.ft.com/content/f4e863f3-e23f-4f0f-a693-f4c3f5d9cda2?syn-25a6b1a6=1",
+   "published": "2026-10-19T04:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Indonesia to Meet Monday With MSCI Over Shock Index Threat",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/indonesia-said-to-meet-monday-with-msci-over-shock-index-threat",
+   "published": "2026-10-19T03:17:53+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Burnham always wants to look like he\u2019s listening, especially when he isn\u2019t",
+   "url": "https://www.ft.com/content/e9f48a3f-f6d8-4b81-aca3-1b839119484e",
+   "published": "2026-10-19T03:00:04+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Indonesia\u2019s Selloff Deepens With Officials Set for MSCI Meeting",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/indonesian-stocks-tumble-to-lowest-since-2020-after-msci-warning",
+   "published": "2026-10-19T02:07:39+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Anthropic commits 5% of shares to \u2018public benefit\u2019 fund",
+   "url": "https://www.ft.com/content/3beab58d-4269-4722-b299-8fa5a93f5a52?syn-25a6b1a6=1",
+   "published": "2026-10-19T01:31:01+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Private equity finds next Asian frontier",
+   "url": "https://www.ft.com/content/0f857d6a-646d-4d19-bcdd-a0f0b4e8585c?syn-25a6b1a6=1",
+   "published": "2026-10-19T01:30:11+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Flight from Israel diverted after \u2018threat\u2019",
    "url": "https://www.ft.com/content/77b859ab-e380-413d-894b-2fe3cf6417c5",
    "published": "2026-10-19T00:55:37+00:00"
   },
@@ -69,7 +327,7 @@
   },
   {
    "source": "Bloomberg",
-   "title": "US Stock Futures Bounce After Chip Rout, Oil Slips: Markets Wrap",
+   "title": "Stocks Rebound From Chip Rout as Earnings Await: Markets Wrap",
    "url": "https://www.bloomberg.com/news/articles/2026-10-18/stock-market-today-dow-s-p-live-updates",
    "published": "2026-10-18T22:07:25+00:00"
   },
@@ -102,264 +360,6 @@
    "title": "Kioxia Shares Face Headwinds From Margin-Buying Gone Wrong",
    "url": "https://www.bloomberg.com/news/articles/2026-10-18/kioxia-shares-face-headwinds-from-margin-buying-gone-wrong",
    "published": "2026-10-18T21:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "France Seeks to Curb Unrest as Protest Violence Hits Europe",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/france-seeks-to-contain-unrest-as-protest-violence-hits-europe",
-   "published": "2026-10-18T20:08:04+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Evercore appoints co-presidents for the first time in leadership reshuffle",
-   "url": "https://www.ft.com/content/5700f8fb-32b9-4324-972c-9578904ac6e2?syn-25a6b1a6=1",
-   "published": "2026-10-18T20:01:48+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Traders Grow Wary of Copper Bull Market With No Sign of Tariffs",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/traders-grow-wary-of-copper-bull-market-with-no-sign-of-tariffs",
-   "published": "2026-10-18T20:00:04+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Macron faces political firestorm after riots",
-   "url": "https://www.ft.com/content/19495e50-0f55-44b1-8d19-19244163a4e8?syn-25a6b1a6=1",
-   "published": "2026-10-18T19:55:48+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "France reels after \u2018unprecedented\u2019 violence from protesters",
-   "url": "https://www.ft.com/content/369eba8b-246d-405f-b0d8-6c676b0b6dab?syn-25a6b1a6=1",
-   "published": "2026-10-18T19:52:26+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US army chief in Asia calls for show of enhanced military muscle",
-   "url": "https://www.ft.com/content/4ed89331-df18-4f2d-817b-9a7b304fd4e4?syn-25a6b1a6=1",
-   "published": "2026-10-18T19:00:01+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Bond Market\u2019s Big Short Bet Gets Wakeup Call as AI Trade Wobbles",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/bond-market-s-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles",
-   "published": "2026-10-18T19:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "CPI Test Set to Make or Break New Zealand Dollar\u2019s Losing Run",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/cpi-test-set-to-make-or-break-new-zealand-dollar-s-losing-run",
-   "published": "2026-10-18T19:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "UK Signals \u2018Different View\u2019 From Trump on Russia Sanctions",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/uk-signals-different-view-from-trump-on-russia-sanctions",
-   "published": "2026-10-18T18:44:13+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "St Petersburg endures biggest Ukrainian drone attack",
-   "url": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1",
-   "published": "2026-10-18T18:30:14+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Zelenskyy Says Trump Is Pushing Ukraine to Yield to Russia",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/zelenskyy-says-trump-is-pushing-ukraine-to-capitulate-to-russia",
-   "published": "2026-10-18T18:21:08+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Canadian Army Base Fire Kills Four Soldiers, Injures Dozens",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/four-canadian-soldiers-killed-in-military-base-fire-carney-says",
-   "published": "2026-10-18T18:11:17+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump endorses Netanyahu ahead of Israeli elections",
-   "url": "https://www.ft.com/content/37fbe995-df90-429a-bddb-34d14151bf79",
-   "published": "2026-10-18T18:11:15+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "City of London Corporation weighs tax rises and service cuts to plug \u00a370mn budget hole",
-   "url": "https://www.ft.com/content/873e7ef2-d3d6-4c30-b8f8-ee3e69d60138",
-   "published": "2026-10-18T18:00:01+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Four dead and dozens injured in fire at Alberta military base",
-   "url": "https://www.ft.com/content/7e2836c7-9802-4f9f-864c-12bbfba25210?syn-25a6b1a6=1",
-   "published": "2026-10-18T17:15:05+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Crunch time for Brazilian politics",
-   "url": "https://www.ft.com/content/783dbcdc-fe1e-4539-a740-3d2e4b3d5fc1?syn-25a6b1a6=1",
-   "published": "2026-10-18T17:15:01+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Says DC Golf Course Project Moving Ahead Despite Suit",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/trump-says-dc-golf-course-project-moving-forward-despite-lawsuit",
-   "published": "2026-10-18T16:44:26+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Chamber of Commerce Endorses Paxton in Texas Senate Race",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/us-chamber-of-commerce-endorses-paxton-in-texas-senate-race",
-   "published": "2026-10-18T16:28:28+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Ukraine Disagree on Starshield, Riots in France, Watching Wall Street",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/bloomberg-this-weekend-10-18-2026-video",
-   "published": "2026-10-18T16:03:42+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US threatens Europe over Starlink restrictions",
-   "url": "https://www.ft.com/content/d1e28d93-8574-4a46-946a-b261c401d6fa?syn-25a6b1a6=1",
-   "published": "2026-10-18T16:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Zimbabwe Ruling Party Picks Mnangagwa as Candidate for 2030 Vote",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/zimbabwe-ruling-party-picks-mnangagwa-as-candidate-for-2030-vote",
-   "published": "2026-10-18T15:36:53+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Endorses Netanyahu for Reelection as Israeli Leader",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/trump-endorses-netanyahu-for-reelection-as-israeli-leader",
-   "published": "2026-10-18T15:34:52+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Bookmarked: News Stories On Our Reading List",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/bookmarked-news-stories-on-our-reading-list-video",
-   "published": "2026-10-18T15:17:20+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump\u2019s bid to make America cheap again has failed",
-   "url": "https://www.ft.com/content/52a5e9df-cd9a-4951-99b5-2364e575bb44?syn-25a6b1a6=1",
-   "published": "2026-10-18T15:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Banque du Caire Seeks to Raise Up to $454 Million in Egypt IPO",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/banque-du-caire-seeks-to-raise-up-to-454-million-in-egypt-ipo",
-   "published": "2026-10-18T14:40:23+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Senate Control Moves Toward a Toss-Up",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/senate-control-moves-toward-a-toss-up-video",
-   "published": "2026-10-18T14:37:30+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump\u2019s Latin America Allies Deepen Ties With Washington Lenders",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/trump-s-latin-america-allies-deepen-ties-with-washington-lenders",
-   "published": "2026-10-18T14:30:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Rep. Veasey Calls for Scrutiny of Trump Russia Ties",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/rep-veasey-calls-for-scrutiny-of-trump-russia-ties-video",
-   "published": "2026-10-18T14:23:31+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "France Struggles to Contain Fallout From Nationwide Protests",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/france-struggles-to-contain-fallout-from-protests-video",
-   "published": "2026-10-18T14:21:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Chicago Tops Travelers\u2019 Favorite US Cities",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/chicago-tops-travelers-favorite-us-cities-video",
-   "published": "2026-10-18T14:08:37+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Can America Rebuild Trust With Its Allies?",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/can-america-rebuild-trust-with-its-allies",
-   "published": "2026-10-18T14:03:47+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Option Traders Brace for VIX Surge as AI Jitters Jolt Market",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/option-traders-brace-for-vix-surge-as-ai-jitters-jolt-market",
-   "published": "2026-10-18T14:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Rethinking America\u2019s Faith in Innovation",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/rethinking-america-s-faith-in-innovation-video",
-   "published": "2026-10-18T13:57:12+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "AI Debt Boom Faces Bond Market Reality Check",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/ai-debt-boom-faces-bond-market-reality-check-video",
-   "published": "2026-10-18T13:51:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Treasury introduces new security measures in bid to stop UK Budget leaks",
-   "url": "https://www.ft.com/content/6748e45a-0b1a-43be-b65f-645849af4a57?syn-25a6b1a6=1",
-   "published": "2026-10-18T13:48:46+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Zelenskyy Says Discussing New Talks With Witkoff, Kushner",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/zelenskyy-says-speaking-to-witkoff-kushner-about-peace-meeting",
-   "published": "2026-10-18T13:48:30+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Thirty Seconds in Texas Costs $12,000 as Politics Dominates TV",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/thirty-seconds-in-texas-costs-12-000-as-politics-dominates-tv",
-   "published": "2026-10-18T13:30:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Starshield Dispute Exposes US Ukraine Divide",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/starshield-dispute-exposes-us-ukraine-divide-video",
-   "published": "2026-10-18T13:17:40+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "America\u2019s Downtowns Need More Than Offices",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/opinion-how-the-office-bust-could-revive-downtowns-video",
-   "published": "2026-10-18T13:01:21+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Egypt\u2019s Sisi sets out plan for military to train his successors",
-   "url": "https://www.ft.com/content/f591211b-497f-4b20-a0ab-7c37d5422761?syn-25a6b1a6=1",
-   "published": "2026-10-18T12:52:16+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Rep. Pappas Says New Hampshire Race Is Not in the Bag",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/rep-pappas-says-new-hampshire-race-is-not-in-the-bag-video",
-   "published": "2026-10-18T12:50:41+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "By The Way: Headlines You May Have Missed",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/by-the-way-headlines-you-may-have-missed-video",
-   "published": "2026-10-18T12:33:25+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Election Rallies That Swept Latin America Face Reality Check",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/election-rallies-that-swept-latin-america-face-reality-check",
-   "published": "2026-10-18T12:30:00+00:00"
   }
  ],
  "yields": {
@@ -1168,7 +1168,7 @@
      "v": 5.09
     }
    ],
-   "fetched_at": "2026-10-19T01:07:35+00:00",
+   "fetched_at": "2026-10-19T07:41:07+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1732,7 +1732,7 @@
      "v": 3.390425514
     }
    ],
-   "fetched_at": "2026-10-19T01:07:37+00:00",
+   "fetched_at": "2026-10-19T07:41:08+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2284,7 +2284,7 @@
      "v": 5.383
     }
    ],
-   "fetched_at": "2026-10-19T01:07:38+00:00",
+   "fetched_at": "2026-10-19T07:41:09+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2824,7 +2824,7 @@
      "v": 2.958
     }
    ],
-   "fetched_at": "2026-10-19T01:07:41+00:00",
+   "fetched_at": "2026-10-19T07:41:11+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3636,7 +3636,7 @@
      "v": 3.83
     }
    ],
-   "fetched_at": "2026-10-19T01:07:41+00:00",
+   "fetched_at": "2026-10-19T07:41:12+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4192,7 +4192,7 @@
      "v": 5.314
     }
    ],
-   "fetched_at": "2026-10-19T01:07:42+00:00",
+   "fetched_at": "2026-10-19T07:41:13+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4225,7 +4225,7 @@
   "as_of": "2026-10-16",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-19T01:07:43+00:00",
+  "fetched_at": "2026-10-19T07:41:15+00:00",
   "error": null,
   "pairs": [
    {
