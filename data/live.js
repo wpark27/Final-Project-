@@ -1,9 +1,63 @@
 window.LIVE_DATA = {
- "updated": "2026-10-18T23:02:12+00:00",
+ "updated": "2026-10-19T01:07:17+00:00",
  "news": [
   {
+   "source": "Financial Times",
+   "title": "Flight from Tel Aviv diverted after \u2018threat\u2019",
+   "url": "https://www.ft.com/content/77b859ab-e380-413d-894b-2fe3cf6417c5",
+   "published": "2026-10-19T00:55:37+00:00"
+  },
+  {
    "source": "Bloomberg",
-   "title": "EQT Agrees to Buy Australia\u2019s Cleanaway Waste for $6.5 Billion",
+   "title": "Putin Reportedly Floats Ukraine Summit With Trump and Xi",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-19/putin-reportedly-floats-ukraine-summit-with-trump-and-xi-video",
+   "published": "2026-10-19T00:34:05+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Korean Stocks Fall as DeepSeek Model, Funding Worry Rattle Chips",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-19/korean-stocks-fall-as-deepseek-model-funding-worry-rattle-chips",
+   "published": "2026-10-19T00:17:50+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Gold Edges Higher as Traders Ease Rate-Hike Bets on Warsh Speech",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/gold-edges-higher-as-traders-ease-rate-hike-bets-on-warsh-speech",
+   "published": "2026-10-18T23:47:43+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Putin Proposes Summit with US, China on Ukraine, WSJ Reports",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/putin-proposes-summit-with-us-china-on-ukraine-wsj-reports",
+   "published": "2026-10-18T23:28:10+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Euro Falls as Russia Risk, France Protests Dent Trader Sentiment",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/euro-falls-as-russia-risk-france-protests-dent-trader-sentiment",
+   "published": "2026-10-18T23:17:52+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US rate rises are being amplified in global markets",
+   "url": "https://www.ft.com/content/cea20e2a-379c-4ea2-af94-353b1896b748",
+   "published": "2026-10-18T23:01:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "UK Details Plans to Boost Youth Jobs From Law to Construction",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/uk-details-plans-to-boost-youth-jobs-from-law-to-construction",
+   "published": "2026-10-18T23:01:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "London Home Sellers Boost Asking Prices Again After Tough Year",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-18/london-home-sellers-boost-asking-prices-again-after-tough-year",
+   "published": "2026-10-18T23:01:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Cleanaway Shares Jump 21% After $6.5 Billion EQT Takeover Deal",
    "url": "https://www.bloomberg.com/news/articles/2026-10-18/eqt-agrees-to-buy-australia-s-cleanaway-waste-for-6-5-billion",
    "published": "2026-10-18T22:47:16+00:00"
   },
@@ -15,7 +69,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "US Stock Futures Bounce From Tech Rout, Oil Slips: Markets Wrap",
+   "title": "US Stock Futures Bounce After Chip Rout, Oil Slips: Markets Wrap",
    "url": "https://www.bloomberg.com/news/articles/2026-10-18/stock-market-today-dow-s-p-live-updates",
    "published": "2026-10-18T22:07:25+00:00"
   },
@@ -75,7 +129,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Financial Times",
-   "title": "France reels after \u2018unprecedented\u2019 violent riots",
+   "title": "France reels after \u2018unprecedented\u2019 violence from protesters",
    "url": "https://www.ft.com/content/369eba8b-246d-405f-b0d8-6c676b0b6dab?syn-25a6b1a6=1",
    "published": "2026-10-18T19:52:26+00:00"
   },
@@ -117,7 +171,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Four Canadian Soldiers Killed in Military Base Fire, Carney Says",
+   "title": "Canadian Army Base Fire Kills Four Soldiers, Injures Dozens",
    "url": "https://www.bloomberg.com/news/articles/2026-10-18/four-canadian-soldiers-killed-in-military-base-fire-carney-says",
    "published": "2026-10-18T18:11:17+00:00"
   },
@@ -306,60 +360,6 @@ window.LIVE_DATA = {
    "title": "Election Rallies That Swept Latin America Face Reality Check",
    "url": "https://www.bloomberg.com/news/articles/2026-10-18/election-rallies-that-swept-latin-america-face-reality-check",
    "published": "2026-10-18T12:30:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Pope Leo Looks Ahead After Cancer Surgery",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/pope-leo-looks-ahead-after-cancer-surgery-video",
-   "published": "2026-10-18T12:13:11+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Why Globalization Is Getting Harder to Navigate",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/why-globalization-is-getting-harder-to-navigate-video",
-   "published": "2026-10-18T12:03:35+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "\u2018The Switzerland of North America\u2019: Albertans vote on leaving Canada",
-   "url": "https://www.ft.com/content/d48c545b-6b41-41e9-a71c-cb2126c76082?syn-25a6b1a6=1",
-   "published": "2026-10-18T12:00:09+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "France Faces Unrest Over Rising Living Costs",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/france-faces-unrest-over-rising-living-costs-video",
-   "published": "2026-10-18T11:54:50+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Faces GOP Backlash Over Russia Sanctions",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-18/trump-faces-gop-backlash-over-russia-sanctions-video",
-   "published": "2026-10-18T11:52:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Lagarde Sends Message to Putin at IMF That War Harms Prosperity",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-18/lagarde-sends-message-to-putin-at-imf-that-war-harms-prosperity",
-   "published": "2026-10-18T11:39:19+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Saudi helicopter crash kills two troops near Yemen border",
-   "url": "https://www.ft.com/content/da1dbd0b-4101-4ba8-aa2d-da6fedcb9f23?syn-25a6b1a6=1",
-   "published": "2026-10-18T11:38:15+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Not every billionaire is a policy failure",
-   "url": "https://www.ft.com/content/2c8c610b-83f3-4cab-b409-bab69f4c2207?syn-25a6b1a6=1",
-   "published": "2026-10-18T11:00:09+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Will Meta\u2019s earnings restore confidence in the AI boom?",
-   "url": "https://www.ft.com/content/7c2e889e-2eb5-4c62-821b-1a7f88c13d05?syn-25a6b1a6=1",
-   "published": "2026-10-18T11:00:09+00:00"
   }
  ],
  "yields": {
@@ -1168,7 +1168,7 @@ window.LIVE_DATA = {
      "v": 5.09
     }
    ],
-   "fetched_at": "2026-10-18T23:02:34+00:00",
+   "fetched_at": "2026-10-19T01:07:35+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1179,10 +1179,6 @@ window.LIVE_DATA = {
    "as_of": "2026-10-15",
    "change_1d_bp": -12.0,
    "history": [
-    {
-     "d": "2026-04-01",
-     "v": 3.0478936329
-    },
     {
      "d": "2026-04-02",
      "v": 3.0751288521
@@ -1736,7 +1732,7 @@ window.LIVE_DATA = {
      "v": 3.390425514
     }
    ],
-   "fetched_at": "2026-10-18T23:02:38+00:00",
+   "fetched_at": "2026-10-19T01:07:37+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -1747,10 +1743,6 @@ window.LIVE_DATA = {
    "as_of": "2026-10-14",
    "change_1d_bp": -1.0,
    "history": [
-    {
-     "d": "2026-04-01",
-     "v": 4.7802
-    },
     {
      "d": "2026-04-02",
      "v": 4.778
@@ -2292,21 +2284,17 @@ window.LIVE_DATA = {
      "v": 5.383
     }
    ],
-   "fetched_at": "2026-10-18T23:02:39+00:00",
+   "fetched_at": "2026-10-19T01:07:38+00:00",
    "error": null
   },
   "Bank of Japan": {
    "country": "Japan",
    "series": "Japan MoF JGB benchmark yield, 10Y",
    "source_url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/index.htm",
-   "value": 2.948,
-   "as_of": "2026-10-15",
-   "change_1d_bp": -6.7,
+   "value": 2.958,
+   "as_of": "2026-10-16",
+   "change_1d_bp": 1.0,
    "history": [
-    {
-     "d": "2026-04-01",
-     "v": 2.315
-    },
     {
      "d": "2026-04-02",
      "v": 2.395
@@ -2830,9 +2818,13 @@ window.LIVE_DATA = {
     {
      "d": "2026-10-15",
      "v": 2.948
+    },
+    {
+     "d": "2026-10-16",
+     "v": 2.958
     }
    ],
-   "fetched_at": "2026-10-18T23:02:41+00:00",
+   "fetched_at": "2026-10-19T01:07:41+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3644,7 +3636,7 @@ window.LIVE_DATA = {
      "v": 3.83
     }
    ],
-   "fetched_at": "2026-10-18T23:02:41+00:00",
+   "fetched_at": "2026-10-19T01:07:41+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -3655,10 +3647,6 @@ window.LIVE_DATA = {
    "as_of": "2026-10-14",
    "change_1d_bp": 2.6,
    "history": [
-    {
-     "d": "2026-04-01",
-     "v": 4.908
-    },
     {
      "d": "2026-04-02",
      "v": 5.038
@@ -4204,7 +4192,7 @@ window.LIVE_DATA = {
      "v": 5.314
     }
    ],
-   "fetched_at": "2026-10-18T23:02:42+00:00",
+   "fetched_at": "2026-10-19T01:07:42+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4237,7 +4225,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-16",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-18T23:02:43+00:00",
+  "fetched_at": "2026-10-19T01:07:43+00:00",
   "error": null,
   "pairs": [
    {
