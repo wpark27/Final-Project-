@@ -1,17 +1,317 @@
 window.LIVE_DATA = {
- "updated": "2026-10-21T15:06:53+00:00",
+ "updated": "2026-10-21T19:16:51+00:00",
  "news": [
   {
+   "source": "Bloomberg",
+   "title": "Virginia Wants 6-Year Rate Freeze in NextEra-Dominion Deal",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/virginia-wants-6-yr-rate-freeze-in-nextera-dominion-deal-video",
+   "published": "2026-10-21T19:09:53+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Anthropic, Nscale IPOs Await Amid AI Volatility",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/anthropic-nscale-ipos-await-amid-ai-volatility-video",
+   "published": "2026-10-21T19:04:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "KPC CEO Al-Sabah Says Oil Output Well Over 2M Barrels Daily",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/kpc-ceo-al-sabah-says-oil-output-over-2m-barrels-daily-video",
+   "published": "2026-10-21T19:00:50+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Potential Tesla, SpaceX Merger, NFL Investments, Inside Activism",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/bloomberg-deals-10-21-2026-video",
+   "published": "2026-10-21T18:59:31+00:00"
+  },
+  {
    "source": "Financial Times",
-   "title": "Russia releases US citizen as Trump\u2019s envoy visits",
+   "title": "EU set to delay push for cheaper UK university fees for bloc\u2019s students",
+   "url": "https://www.ft.com/content/47777033-6a91-42c3-bc9e-249d4bf7a961?syn-25a6b1a6=1",
+   "published": "2026-10-21T18:58:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Kuwait Petroleum CEO Says Oil Output Tops 2 Million Barrels a Day",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/kuwait-petroleum-producing-2m-barrels-a-day-ceo-says-video",
+   "published": "2026-10-21T18:47:30+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Bessent shrugs off \u2018systemic\u2019 AI risks at closed-door investor conference",
+   "url": "https://www.ft.com/content/5b7c2fdf-2300-4208-860e-6389ceb18886?syn-25a6b1a6=1",
+   "published": "2026-10-21T18:46:59+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "NSA warns on \u2018critical\u2019 cyber vulnerabilities detected using AI",
+   "url": "https://www.ft.com/content/245778d9-597b-492d-b5b6-a2967c77e853?syn-25a6b1a6=1",
+   "published": "2026-10-21T18:46:43+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Top Lawyers Discuss 'Bluster', Reality In Proxy Fights",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/top-lawyers-discuss-bluster-reality-in-proxy-fights-video",
+   "published": "2026-10-21T18:45:36+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Carney Announces $6.4 Billion Plan for Ontario Steel and Autos",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/carney-announces-6-4-billion-plan-for-ontario-steel-and-autos-mviglu7i",
+   "published": "2026-10-21T18:42:25+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump May Turn Briefing Room Into a Pool: NY Times",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/trump-may-turn-briefing-room-into-a-pool-ny-times-video",
+   "published": "2026-10-21T18:37:30+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Waiting For 'Dam To Break' On Exits: HIG CEO Schwartz",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/waiting-for-dam-to-break-on-exits-hig-ceo-schwartz-video",
+   "published": "2026-10-21T18:34:15+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Ex-Brevan Howard Trader Sued by Quant Who Joined His New Fund",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/ex-brevan-howard-trader-sued-by-quant-who-joined-his-new-fund",
+   "published": "2026-10-21T18:30:09+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Sabato's Crystal Ball Moves 28 House Races Toward Dems",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/sabato-s-crystal-ball-moves-28-house-races-toward-dems-video",
+   "published": "2026-10-21T18:24:41+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Musk Says SpaceX, Tesla Merger Makes Sense",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/musk-says-spacex-tesla-merger-makes-sense-video",
+   "published": "2026-10-21T18:15:55+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Aims Iran \u2018Shadow Fleet\u2019 Sanctions at Law Firm, Shippers",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/us-aims-iran-shadow-fleet-sanctions-at-law-firm-shippers",
+   "published": "2026-10-21T18:04:15+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Ramaswamy Faces Blowback Over Ad With Rival\u2019s Estranged Mother",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/ramaswamy-faces-blowback-over-ad-with-rival-s-estranged-mother",
+   "published": "2026-10-21T18:01:21+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Trump envoy floats Ukraine talks and summit with Putin and Xi",
    "url": "https://www.ft.com/content/d7345d46-f000-49b1-99f6-57edfbd5f0af?syn-25a6b1a6=1",
-   "published": "2026-10-21T14:50:03+00:00"
+   "published": "2026-10-21T17:53:39+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Putin Releases Hostage to US, Earning Praise as Humanitarian",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/putin-releases-hostage-to-us-earning-praise-as-humanitarian",
+   "published": "2026-10-21T17:50:30+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Ghana in talks with European nations for reparations, president says",
+   "url": "https://www.ft.com/content/68e28f90-cbc3-4fa6-950b-451cf7c49c87?syn-25a6b1a6=1",
+   "published": "2026-10-21T17:43:17+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Legendary Entertainment Makes Bid for Lionsgate Studios",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/legendary-entertainment-makes-bid-for-lionsgate-studios-video",
+   "published": "2026-10-21T17:39:43+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "University of Chicago Professor on What Made the US Economy Thrive",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/odd-lots-what-made-the-us-economy-thrive-video",
+   "published": "2026-10-21T17:38:30+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Italy\u2019s buffalo mozzarella production grinds to a halt in truckers\u2019 strike",
+   "url": "https://www.ft.com/content/bef7e107-3922-4312-acd9-3c96af60c309?syn-25a6b1a6=1",
+   "published": "2026-10-21T17:37:14+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Indonesia should heed MSCI\u2019s warning",
+   "url": "https://www.ft.com/content/8c443652-5c29-4711-81d1-dd985f2e4578?syn-25a6b1a6=1",
+   "published": "2026-10-21T17:36:57+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "UN Suggests Meta \u2018Disproportionately\u2019 Curbed Lula Posts",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/un-suggests-meta-disproportionately-curbed-lula-campaign-posts",
+   "published": "2026-10-21T17:35:26+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Argentina\u2019s Bond Selloff Blindsides Bulls as Election Fears Grow",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/argentina-s-bond-selloff-blindsides-bulls-as-election-fears-grow",
+   "published": "2026-10-21T17:28:46+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "What Elon Musk stands to gain from a Tesla-SpaceX merger",
+   "url": "https://www.ft.com/content/7f8e97b4-bd2e-4414-858a-bc746cb515f6?syn-25a6b1a6=1",
+   "published": "2026-10-21T17:25:53+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Odd Lots: Why Politics Is Economists\u2019 Blindspot",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/odd-lots-why-politics-is-economists-blindspot",
+   "published": "2026-10-21T17:23:44+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "NYC Public Schools to Consider Merging Sites as Enrollment Drops",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/nyc-public-schools-to-consider-merging-sites-as-enrollment-drops",
+   "published": "2026-10-21T17:20:24+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "United Misses Estimates, Squeezed by Soaring Jet Fuel Costs",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/united-misses-estimates-squeezed-by-jet-fuel-costs-video",
+   "published": "2026-10-21T17:17:15+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Vivek Ramaswamy\u2019s campaign engulfed in controversy over attack ad",
+   "url": "https://www.ft.com/content/93ba5184-e21c-4af2-8121-c92df82a95f3?syn-25a6b1a6=1",
+   "published": "2026-10-21T17:09:38+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Hungary detains Orb\u00e1n\u2019s former central bank chief",
+   "url": "https://www.ft.com/content/576c025a-b4e2-47d8-88e8-3ac0fcf8e16d?syn-25a6b1a6=1",
+   "published": "2026-10-21T17:07:48+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Blackstone, Apollo May Be Allowed to Buy NFL Minority Stakes",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/blackstone-apollo-may-be-allowed-to-buy-nfl-team-stakes-video",
+   "published": "2026-10-21T16:54:39+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "UK approves development of Jackdaw gasfield in North Sea",
+   "url": "https://www.ft.com/content/9cfa52b2-77cb-4b53-ad74-badd53f24fc6?syn-25a6b1a6=1",
+   "published": "2026-10-21T16:49:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Scrap Canada\u2019s Tax Code and Start Over, National Bank\u2019s Laurent Ferreira Urges",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/scrap-canada-s-tax-code-and-start-over-national-bank-s-laurent-ferreira-urges",
+   "published": "2026-10-21T16:43:49+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "SpaceX Bonds Weaken, Credit Risk Gauge Worsens On Debt Fears",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/spacex-bonds-weaken-credit-risk-gauge-worsens-on-debt-fears",
+   "published": "2026-10-21T16:43:41+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Promessas bilion\u00e1rias marcam reta final de Lula e Fl\u00e1vio Bolsonaro",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-21/promessas-bilionarias-marcam-reta-final-de-lula-e-flavio-video",
+   "published": "2026-10-21T16:41:32+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Tax-Busting Trades Fuel Rush for Muni ETFs After Fall Selloff",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/tax-busting-trades-fuel-rush-for-muni-etfs-after-fall-selloff",
+   "published": "2026-10-21T16:40:40+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "France\u2019s borrowing costs hit 5% for first time since 2002",
+   "url": "https://www.ft.com/content/76f076e4-9db2-4971-8ac9-73d9f39e4876?syn-25a6b1a6=1",
+   "published": "2026-10-21T16:33:36+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "UK inflation and borrowing top forecasts in blow to Healey",
+   "url": "https://www.ft.com/content/443ce2f3-ba36-4dc7-aa0b-a2bc593fa563?syn-25a6b1a6=1",
+   "published": "2026-10-21T16:31:41+00:00"
   },
   {
    "source": "Financial Times",
    "title": "Middle East oil exports climb back to prewar levels",
    "url": "https://www.ft.com/content/509c0ecf-625e-4473-96cf-e249edb7c86e?syn-25a6b1a6=1",
-   "published": "2026-10-21T14:44:57+00:00"
+   "published": "2026-10-21T16:24:28+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Macron hits out at \u2018stupid\u2019 Trump remarks about riots in France",
+   "url": "https://www.ft.com/content/57e14c61-a1ac-46ef-8bf2-c40e5286546e?syn-25a6b1a6=1",
+   "published": "2026-10-21T16:12:37+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Asks Federal Court to Reconsider Another Wind Farm Approval",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/us-asks-federal-court-to-remand-avangrid-wind-project-approval",
+   "published": "2026-10-21T16:04:19+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Abbott to spin off nutrition unit at centre of baby formula lawsuits",
+   "url": "https://www.ft.com/content/7f407bde-ef26-4914-bcbe-baf858bc81d7?syn-25a6b1a6=1",
+   "published": "2026-10-21T15:54:56+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Could Michigan elect America\u2019s first Muslim senator?",
+   "url": "https://www.ft.com/content/a6972433-c303-4ace-affd-cc3ab54a3cf3?syn-25a6b1a6=1",
+   "published": "2026-10-21T15:52:15+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Fridge hackers exploited \u2018basic security flaws\u2019 at French retailers",
+   "url": "https://www.ft.com/content/89a3b7e8-beee-464b-b398-2709be815982?syn-25a6b1a6=1",
+   "published": "2026-10-21T15:38:55+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "JPMorgan\u2019s Turkey Securities Unit Plans to Cease Operations",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/jpmorgan-s-turkey-securities-unit-plans-to-cease-operations",
+   "published": "2026-10-21T15:36:50+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Reform reports ITV to police over  undercover documentary",
+   "url": "https://www.ft.com/content/3d67dfc3-e17c-4580-9797-a6bfa7256be0?syn-25a6b1a6=1",
+   "published": "2026-10-21T15:12:30+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Italy Is Looking Into Whether Russian Agents Helped Fuel Riots",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/italy-is-looking-into-whether-russian-agents-helped-fuel-riots",
+   "published": "2026-10-21T15:11:37+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Kremlin Says China Preparing for Possible Putin-Trump-Xi Meeting",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/kremlin-says-china-preparing-for-possible-putin-trump-xi-meeting",
+   "published": "2026-10-21T15:10:44+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Who\u2019s paying for the AI build-out? Probably you",
+   "url": "https://www.ft.com/content/09f56730-4702-446d-9986-f7c93ffe6bf0?syn-25a6b1a6=1",
+   "published": "2026-10-21T15:00:25+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Fuel Sellers Warn on Price as Regulator Weighs Pipeline Shift",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-21/us-fuel-sellers-warn-on-price-as-regulator-weighs-pipeline-shift",
+   "published": "2026-10-21T15:00:06+00:00"
   },
   {
    "source": "Bloomberg",
@@ -30,12 +330,6 @@ window.LIVE_DATA = {
    "title": "Chicago Seeks to Borrow for Police Settlements, Revive Head Tax",
    "url": "https://www.bloomberg.com/news/articles/2026-10-21/chicago-seeks-to-borrow-for-police-settlements-revive-head-tax",
    "published": "2026-10-21T14:22:42+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Fridge hackers exploited \u2018basic security flaws\u2019 at French retailers",
-   "url": "https://www.ft.com/content/89a3b7e8-beee-464b-b398-2709be815982?syn-25a6b1a6=1",
-   "published": "2026-10-21T14:22:41+00:00"
   },
   {
    "source": "Bloomberg",
@@ -66,300 +360,6 @@ window.LIVE_DATA = {
    "title": "EQT Warns of Hidden Portfolio Risks",
    "url": "https://www.bloomberg.com/news/videos/2026-10-21/eqt-warns-of-hidden-portfolio-risks-video",
    "published": "2026-10-21T14:15:26+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Lula, Bolsonaro Court Brazil Voters With Free Bus Rides, Cash Back",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/free-bus-rides-cash-back-lula-bolsonaro-court-brazil-voters-ahead-of-election",
-   "published": "2026-10-21T14:06:17+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Quebec Separatist Government to Pick Marceau as Finance Minister",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/quebec-separatist-government-to-pick-marceau-as-finance-minister",
-   "published": "2026-10-21T14:01:57+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Middle East Oil Flows Near Prewar Levels Defy Hormuz Attacks",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/middle-east-oil-flows-near-prewar-levels-defy-hormuz-attacks",
-   "published": "2026-10-21T13:59:42+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "United CEO Scott Kirby Says US National Wealth Tax Seems Fair",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/united-ceo-scott-kirby-says-us-national-wealth-tax-seems-fair",
-   "published": "2026-10-21T13:58:36+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "United CEO Kirby Defends Support of a US Wealth Tax",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-21/united-ceo-kirby-defends-support-of-a-us-wealth-tax-video",
-   "published": "2026-10-21T13:58:21+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Ken Griffin\u2019s New NYC Tower Gets $3.3 Billion Construction Loan",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/ken-griffin-s-new-nyc-tower-gets-3-3-billion-construction-loan",
-   "published": "2026-10-21T13:55:09+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Nscale CEO Touts Doubling of Contract Value in Note to Employees",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/nscale-ceo-touts-doubling-of-contract-value-in-note-to-employees",
-   "published": "2026-10-21T13:44:14+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "UK inflation and borrowing top forecasts in blow to Healey",
-   "url": "https://www.ft.com/content/443ce2f3-ba36-4dc7-aa0b-a2bc593fa563?syn-25a6b1a6=1",
-   "published": "2026-10-21T13:43:26+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "UK approves development of Jackdaw gasfield in North Sea",
-   "url": "https://www.ft.com/content/9cfa52b2-77cb-4b53-ad74-badd53f24fc6?syn-25a6b1a6=1",
-   "published": "2026-10-21T13:41:48+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Abbott to spin off nutrition unit at centre of baby formula lawsuits",
-   "url": "https://www.ft.com/content/7f407bde-ef26-4914-bcbe-baf858bc81d7?syn-25a6b1a6=1",
-   "published": "2026-10-21T13:41:40+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Rockets, robots and risk: Musk\u2019s $3.6tn gamble to merge Tesla and SpaceX",
-   "url": "https://www.ft.com/content/e598bbc7-8211-436f-a57e-46c3ae21ac0f?syn-25a6b1a6=1",
-   "published": "2026-10-21T13:38:40+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Surging Yields Bring Biggest Spate of Debt Sale Delays This Year",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/surging-yields-bring-biggest-spate-of-debt-sale-delays-this-year",
-   "published": "2026-10-21T13:36:51+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Andy Burnham plans to cut standing charges from household gas bills",
-   "url": "https://www.ft.com/content/8eda2888-0b63-43c9-80b9-b4b7557374ca?syn-25a6b1a6=1",
-   "published": "2026-10-21T13:34:03+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "United \u2018Still Solidly Profitable\u2019 as Fuels Costs Rise, CEO Kirby Says",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-21/united-till-solidly-profitable-as-fuels-costs-rise-ceo-video",
-   "published": "2026-10-21T13:30:36+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Dangote takes stake in Kenyan pipeline and pledges more \u2018aggressive\u2019 energy investment",
-   "url": "https://www.ft.com/content/e3282291-be9a-4c97-8fc8-d43f9297e167?syn-25a6b1a6=1",
-   "published": "2026-10-21T13:23:37+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US to Tap Heating Oil Reserve as Prices Soar Before Election",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/us-to-tap-national-diesel-reserve-as-prices-soar-before-election",
-   "published": "2026-10-21T13:21:30+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "F\u00e3s de m\u00fasica brasileira entram na divis\u00e3o pol\u00edtica",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-21/fas-de-musica-brasileira-entram-na-divisao-politica-video",
-   "published": "2026-10-21T13:20:15+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Macron hits out at \u2018stupid\u2019 Trump remarks about riots in France",
-   "url": "https://www.ft.com/content/57e14c61-a1ac-46ef-8bf2-c40e5286546e?syn-25a6b1a6=1",
-   "published": "2026-10-21T13:17:09+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "NYC Politician Lander Detained by Israel During Olive Harvest",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/israel-detains-us-democratic-hopeful-lander-at-west-bank-harvest",
-   "published": "2026-10-21T13:10:57+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "France\u2019s borrowing costs hit 5% for first time since 2002",
-   "url": "https://www.ft.com/content/76f076e4-9db2-4971-8ac9-73d9f39e4876?syn-25a6b1a6=1",
-   "published": "2026-10-21T12:51:26+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "France Protests: How Fuel Prices, Student Anger are Driving Riots and Unrest",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/france-protests-how-fuel-prices-student-anger-are-driving-riots-and-unrest",
-   "published": "2026-10-21T12:40:05+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Hungary detains Orb\u00e1n\u2019s former central bank chief",
-   "url": "https://www.ft.com/content/576c025a-b4e2-47d8-88e8-3ac0fcf8e16d?syn-25a6b1a6=1",
-   "published": "2026-10-21T12:39:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Do memorials belong in train stations?",
-   "url": "https://www.ft.com/content/c647a4d9-bd2d-4758-9482-2e89f7151038?syn-25a6b1a6=1",
-   "published": "2026-10-21T12:20:32+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Futures Climb With SpaceX Results Helping Boost AI Sentiment",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/us-futures-climb-with-spacex-results-helping-boost-ai-sentiment",
-   "published": "2026-10-21T12:18:53+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Billionaire Asks Californians to Bankroll Disease-Prevention Lab",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/billionaire-asks-californians-to-bankroll-disease-prevention-lab",
-   "published": "2026-10-21T12:15:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Poland Blasts Ukrainian City\u2019s Honor for World War II Fighters",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/poland-blasts-ukrainian-city-s-honor-for-world-war-ii-fighters",
-   "published": "2026-10-21T12:08:12+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Milei Rallies for Spain\u2019s Far Right in Bid to Oust Sanchez",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/milei-rallies-for-spain-s-far-right-in-bid-to-oust-sanchez",
-   "published": "2026-10-21T11:57:58+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The \u2018adults in the room\u2019 won\u2019t save you",
-   "url": "https://www.ft.com/content/2773c5ab-1bb6-4110-b6a7-c467b7b89717?syn-25a6b1a6=1",
-   "published": "2026-10-21T11:32:56+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Latino Voters Threaten to Sink Republicans in Midterms",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-10-21/latino-voters-threaten-to-sink-republicans-in-midterms",
-   "published": "2026-10-21T11:32:30+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Putin Says Russia Ready for New Peace Talks with US, Ukraine",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/putin-meets-us-envoy-witkoff-to-discuss-ukraine-peace-proposals",
-   "published": "2026-10-21T11:22:35+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Burnham Floats Removing Fee From Gas Bills to Blunt Price Surge",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/uk-mulls-removing-standing-charges-from-gas-bills-burnham-says",
-   "published": "2026-10-21T11:14:01+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Russia Releases US Teacher After Trump Freezes Sanctions",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/russia-frees-us-teacher-during-witkoff-talks-after-trump-appeal",
-   "published": "2026-10-21T10:51:47+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Musk\u2019s SpaceX ambitions may be \u2018dangerous\u2019 for Europe, warns EU lawmaker",
-   "url": "https://www.ft.com/content/f9e4ddf8-5fd4-43e6-bca2-62d1067c4c48?syn-25a6b1a6=1",
-   "published": "2026-10-21T10:45:04+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The rise of index vigilantes",
-   "url": "https://www.ft.com/content/b3544087-2673-4e90-9192-342c6b1a6a03",
-   "published": "2026-10-21T10:37:05+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Ebola spreads to west Africa",
-   "url": "https://www.ft.com/content/fe7fa078-8aa5-4802-963d-d88d3013c158?syn-25a6b1a6=1",
-   "published": "2026-10-21T10:23:04+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Iran\u2019s foreign minister: The false assumptions about us are dangerous",
-   "url": "https://www.ft.com/content/61bf9676-ea46-4956-b87f-6ab096accafa",
-   "published": "2026-10-21T10:22:06+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "France to Get LNG Supplies From Qatar in Winter, Macron Says",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/france-secures-qatar-lng-supplies-work-to-lower-fuel-transport",
-   "published": "2026-10-21T10:21:32+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Iran Tells US to Prove It Wants Peace by Lifting Blockade",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/iran-urges-us-to-lift-blockade-to-break-deadlock-as-threats-grow",
-   "published": "2026-10-21T10:17:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "The Treasury Market\u2019s Power Brokers Are Pickier Than Ever",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/the-treasury-market-s-new-power-brokers-are-pickier-than-ever",
-   "published": "2026-10-21T10:15:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Bad Bunny, Samba and Sertanejo: How Brazil's Election Is Shaped by Music",
-   "url": "https://www.bloomberg.com/news/features/2026-10-21/bad-bunny-samba-and-sertanejo-how-brazil-s-election-is-shaped-by-music",
-   "published": "2026-10-21T10:00:08+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Iran war sparks heating crisis in US north-east as winter approaches",
-   "url": "https://www.ft.com/content/162c6dd8-5501-46f4-8f7c-b456a4e29539?syn-25a6b1a6=1",
-   "published": "2026-10-21T10:00:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The far-right contender refusing to bow to Israel\u2019s Netanyahu",
-   "url": "https://www.ft.com/content/21160606-97fe-4db7-b374-647a728ff361?syn-25a6b1a6=1",
-   "published": "2026-10-21T10:00:06+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Popular Prime Minister Sanae Takaichi Faces a Vision Test in Japan",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-10-21/popular-prime-minister-sanae-takaichi-faces-a-vision-test-in-japan",
-   "published": "2026-10-21T09:59:32+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Rubio Says Ukraine Wouldn\u2019t Exist Without US Support",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-21/rubio-says-ukraine-wouldn-t-exist-without-us-support-video",
-   "published": "2026-10-21T09:57:01+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "RBI Turns Away All Bids at Treasury Bill Sale Amid Bond Selloff",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/rbi-turns-away-all-bids-at-treasury-bill-sale-amid-bond-selloff",
-   "published": "2026-10-21T09:45:01+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Dangote Buys 25% Stake in Kenya Pipeline for $327 Million",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-21/dangote-buys-25-stake-in-kenya-pipeline-for-327-million",
-   "published": "2026-10-21T09:40:23+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "FirstFT: SpaceX and Tesla explore merger",
-   "url": "https://www.ft.com/content/ae820b11-e085-44b4-a8ca-8e5fa2eeb571?syn-25a6b1a6=1",
-   "published": "2026-10-21T09:40:20+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Young Male Trump Voters Get \"Blackpilled\" Out of Politics",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-21/young-male-trump-voters-get-blackpilled-out-of-politics",
-   "published": "2026-10-21T09:30:16+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Voters Who Listen to Joe Rogan Take a Page From The Matrix for Midterms",
-   "url": "https://www.bloomberg.com/news/features/2026-10-21/trump-voters-who-listen-to-joe-rogan-take-a-page-from-the-matrix-for-midterms",
-   "published": "2026-10-21T09:30:10+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 5.12
     }
    ],
-   "fetched_at": "2026-10-21T15:07:11+00:00",
+   "fetched_at": "2026-10-21T19:17:10+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1744,7 +1744,7 @@ window.LIVE_DATA = {
      "v": 3.440101577
     }
    ],
-   "fetched_at": "2026-10-21T15:07:13+00:00",
+   "fetched_at": "2026-10-21T19:17:11+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2304,7 +2304,7 @@ window.LIVE_DATA = {
      "v": 5.374
     }
    ],
-   "fetched_at": "2026-10-21T15:07:14+00:00",
+   "fetched_at": "2026-10-21T19:17:12+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2844,7 +2844,7 @@ window.LIVE_DATA = {
      "v": 2.927
     }
    ],
-   "fetched_at": "2026-10-21T15:07:16+00:00",
+   "fetched_at": "2026-10-21T19:17:15+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3656,7 +3656,7 @@ window.LIVE_DATA = {
      "v": 3.9
     }
    ],
-   "fetched_at": "2026-10-21T15:07:17+00:00",
+   "fetched_at": "2026-10-21T19:17:16+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4208,7 +4208,7 @@ window.LIVE_DATA = {
      "v": 5.314
     }
    ],
-   "fetched_at": "2026-10-21T15:07:17+00:00",
+   "fetched_at": "2026-10-21T19:17:17+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4241,7 +4241,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-21",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-21T15:07:18+00:00",
+  "fetched_at": "2026-10-21T19:17:17+00:00",
   "error": null,
   "pairs": [
    {
