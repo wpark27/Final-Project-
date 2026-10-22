@@ -1,6 +1,222 @@
 window.LIVE_DATA = {
- "updated": "2026-10-22T15:08:46+00:00",
+ "updated": "2026-10-22T19:59:31+00:00",
  "news": [
+  {
+   "source": "Financial Times",
+   "title": "Nasdaq tumbles while Treasuries soar as Meta rekindles AI spending fears",
+   "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
+   "published": "2026-10-22T19:48:42+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "NYC Public Schools to Consider Merging Sites as Enrollment Drops",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-22/nyc-public-schools-may-merge-due-to-lower-enrollment-video",
+   "published": "2026-10-22T19:47:34+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Oil Tankers Plying the US-China Route Command $60 Million. It\u2019s Crushing Demand.",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/oil-tankers-plying-the-us-china-route-command-60-million-it-s-crushing-demand",
+   "published": "2026-10-22T19:46:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Chile Copper Slump Deepens as Storms, Accidents Hit Aging Mines",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/chile-copper-slump-deepens-as-storms-accidents-hit-aging-mines",
+   "published": "2026-10-22T19:46:10+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Ex-Ecopetrol CEO Targeted in US Visa Sweep of Colombia, Bolivia",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/ex-ecopetrol-ceo-targeted-in-us-visa-sweep-of-colombia-bolivia",
+   "published": "2026-10-22T19:41:33+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Life Insurers\u2019 Exposure to AI Jumped 24% from January to June",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/us-life-insurers-exposure-to-ai-jumped-24-from-january-to-june",
+   "published": "2026-10-22T19:40:50+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "High-Yield 'A Tale of Two Markets': Pimco's Karoui",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-22/high-yield-a-tale-of-two-markets-pimco-s-karoui-video",
+   "published": "2026-10-22T19:37:42+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Blackstone cuts property valuations as higher rates hit returns",
+   "url": "https://www.ft.com/content/df7c95d7-72d1-4cec-87f6-9f7968ac3e5e?syn-25a6b1a6=1",
+   "published": "2026-10-22T19:34:27+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Need Landing Zone For Capex Estimates: Karoui",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-22/need-landing-zone-for-capex-estimates-karoui-video",
+   "published": "2026-10-22T19:17:57+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Ramaswamy Criticized for Ad Against Opponent in Ohio",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-22/ramaswamy-criticized-for-ad-against-opponent-in-ohio-video",
+   "published": "2026-10-22T19:13:13+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "RFK Jr.\u2019s Peptide Plan Makes Compounders Report Side Effects",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/rfk-jr-s-peptide-plan-makes-compounders-report-side-effects",
+   "published": "2026-10-22T19:13:04+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Permitting Council Looks to Lame Duck Session to Pass Reform Deal",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-22/permitting-council-looks-to-lame-duck-to-pass-reforms-video",
+   "published": "2026-10-22T19:09:34+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Defends Ramaswamy Ad as Backlash Endangers Ohio GOP",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/trump-defends-ramaswamy-ad-as-backlash-endangers-ohio-gop-ticket",
+   "published": "2026-10-22T18:57:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "French Buyers Not Ready To Step in Right Now: Kumra",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-22/french-buyers-not-ready-to-step-in-right-now-kumra-video",
+   "published": "2026-10-22T18:50:54+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "College Hurt by International Student Drop to Drain Endowment",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/college-hurt-by-international-student-drop-to-drain-endowment",
+   "published": "2026-10-22T18:45:03+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bessent Hasn't Done Great Job As Salesman: Sherman",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-22/bessent-hasn-t-done-great-job-as-salesman-sherman-video",
+   "published": "2026-10-22T18:41:17+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "AI Spending Woes, Investors Seek Havens, France Debt Crisis",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-22/real-yield-10-22-2026-video",
+   "published": "2026-10-22T18:40:49+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Trump ordered to face BBC questioning in $10bn defamation lawsuit",
+   "url": "https://www.ft.com/content/8ada683f-9534-461d-9a3a-fc541550df16?syn-25a6b1a6=1",
+   "published": "2026-10-22T18:36:29+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Russia Looking to Escalate War, Not End it, Romanian Leader Says",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-22/russia-looking-to-escalate-war-romanian-leader-says-video",
+   "published": "2026-10-22T18:35:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "UBS Defeats Ex-Credit Suisse Managing Directors\u2019 Back-Pay Claims",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/ubs-defeats-ex-credit-suisse-managing-directors-back-pay-claims",
+   "published": "2026-10-22T18:22:55+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Called Musk to Lift Ukraine Starlink Limits, WSJ Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/trump-called-musk-to-lift-starlink-limits-in-ukraine-wsj-says",
+   "published": "2026-10-22T18:22:40+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "What Happens When Active ETFs Have Exposure to Stocks That Are Shorted",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-22/what-happens-when-active-etfs-have-exposure-to-stocks-that-are-shorted",
+   "published": "2026-10-22T18:19:51+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Traders\u2019 Cost of Hedging Against Big Treasuries Rally Is Soaring",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/traders-cost-of-hedging-against-big-treasuries-rally-is-soaring-mvjv24q7",
+   "published": "2026-10-22T18:14:46+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "RBC\u2019s New Canada Stock Strategy Chief Sets TSX Target at 38,600",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/rbc-s-new-canada-stock-strategy-chief-sets-tsx-target-at-38-600",
+   "published": "2026-10-22T18:13:18+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Russia Looking to Escalate War, Not End it, Romanian Leader Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/russia-looking-to-escalate-war-not-end-it-romanian-leader-says",
+   "published": "2026-10-22T18:09:38+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Macron warns some protests will be banned",
+   "url": "https://www.ft.com/content/43f3144f-7aa8-4821-b5c6-0da470b9af34?syn-25a6b1a6=1",
+   "published": "2026-10-22T18:02:42+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Ecuador opposition leader arrested in money laundering investigation",
+   "url": "https://www.ft.com/content/9a072c7a-b0ee-4a43-ae73-b19bbde9261b",
+   "published": "2026-10-22T17:47:15+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Top RFK Jr. Adviser Calley Means Resigns in Blow to MAHA",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/top-rfk-jr-adviser-calley-means-resigns-in-blow-to-maha-agenda",
+   "published": "2026-10-22T17:41:26+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US to fund speculative fusion venture backed by investors with ties to Trump",
+   "url": "https://www.ft.com/content/d774c15e-22e4-4873-9a1d-92d6561290f9?syn-25a6b1a6=1",
+   "published": "2026-10-22T17:20:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Billionaire Jeff Yass Pours $110 Million Into Republican Midterm Push",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/billionaire-jeff-yass-pours-110-million-into-republican-midterm-push",
+   "published": "2026-10-22T16:54:18+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Disclosure: The Big Lebowski and the Hunt for Presidential Records",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-22/disclosure-the-big-lebowski-and-the-hunt-for-presidential-records",
+   "published": "2026-10-22T16:29:14+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Number of UK founders choosing to sell not scale hits eight-year high",
+   "url": "https://www.ft.com/content/52b728a2-3075-4310-bffb-4f17b587724d",
+   "published": "2026-10-22T16:25:24+00:00"
+  },
+  {
+   "source": "The Economist",
+   "title": "Sam Bankman-Fried says he has paid his debts",
+   "url": "https://www.economist.com/finance-and-economics/2026/10/22/sam-bankman-fried-says-he-has-paid-his-debts",
+   "published": "2026-10-22T15:51:39+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Steve Cohen takes Hertz for a defensive spin",
+   "url": "https://www.ft.com/content/c514f3c5-b174-4a92-ab45-aa19ddc63fc1?syn-25a6b1a6=1",
+   "published": "2026-10-22T15:48:52+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "What Musk\u2019s Millions Could Mean For The Midterms",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-22/what-musk-s-millions-could-mean-for-the-midterms-video",
+   "published": "2026-10-22T15:13:41+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "How Prediction Markets Upstaged Election Polls",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-22/how-prediction-markets-upstaged-election-polls-video",
+   "published": "2026-10-22T15:11:31+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "Private Credit's Daily Marks Under Fire",
@@ -14,16 +230,22 @@ window.LIVE_DATA = {
    "published": "2026-10-22T14:59:51+00:00"
   },
   {
-   "source": "Financial Times",
-   "title": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
-   "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
-   "published": "2026-10-22T14:58:27+00:00"
+   "source": "Bloomberg",
+   "title": "Treasury Unveils Rule to Ban Large Investors From Homebuying",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/treasury-unveils-rules-banning-large-investors-from-buying-homes",
+   "published": "2026-10-22T14:57:31+00:00"
   },
   {
    "source": "Bloomberg",
    "title": "Spotify Rallies on Subscribers; Herm\u00e8s falls on China Sales | Stock Movers",
    "url": "https://www.bloomberg.com/news/videos/2026-10-22/spotify-up-on-subscribers-hermes-falls-on-china-sales-video",
    "published": "2026-10-22T14:54:37+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Canada Bans Its Diplomats From Being Seen With US Candidates",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-22/canada-bans-its-diplomats-from-being-seen-with-us-candidates",
+   "published": "2026-10-22T14:52:08+00:00"
   },
   {
    "source": "Bloomberg",
@@ -138,228 +360,6 @@ window.LIVE_DATA = {
    "title": "Blackstone's Gray Says AI Demand Is 'Parabolic'",
    "url": "https://www.bloomberg.com/news/videos/2026-10-22/blackstone-s-gray-says-ai-demand-is-parabolic-video",
    "published": "2026-10-22T13:55:09+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump\u2019s tourism push fails to lure visitors",
-   "url": "https://www.ft.com/content/9ddd1583-9296-4264-8ddd-dbf11469def9?syn-25a6b1a6=1",
-   "published": "2026-10-22T13:54:59+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Virginia State Senator Is Charged in Corruption Case, DOJ Says",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/virginia-state-senator-is-charged-in-corruption-case-doj-says",
-   "published": "2026-10-22T13:50:35+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Chinese Copper Smelters Plan More Output Cuts Ahead of Fee Talks",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/chinese-copper-smelters-plan-more-output-cuts-ahead-of-fee-talks",
-   "published": "2026-10-22T13:47:23+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Meta agrees deal to keep Zuckerberg in California despite wealth tax proposal",
-   "url": "https://www.ft.com/content/b34502b6-38dc-4a46-a8e7-d9131726cd31?syn-25a6b1a6=1",
-   "published": "2026-10-22T13:40:22+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Shell and Exxon\u2019s $8bn UK chemicals unit put up for sale",
-   "url": "https://www.ft.com/content/2d4876ae-c707-4df5-a3ae-ae3268343ef2?syn-25a6b1a6=1",
-   "published": "2026-10-22T13:36:58+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Qatar Agrees to Buy US LNG to 2054 as War Upends Supply",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/qatar-agrees-to-buy-us-lng-to-2054-as-war-disrupts-own-supply",
-   "published": "2026-10-22T13:33:21+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "ECB on course for another rate rise in 2026",
-   "url": "https://www.ft.com/content/93852564-cae6-41f6-aa79-8db53e2b7774",
-   "published": "2026-10-22T13:30:03+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Russia drops cluster warheads on Kyiv after Witkoff-Putin peace talks",
-   "url": "https://www.ft.com/content/9f0c58d3-1833-40de-b805-f5ac53f05ff0?syn-25a6b1a6=1",
-   "published": "2026-10-22T13:18:34+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "South Africa Plans Legislative Reforms to Fix Municipal Finances",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/south-africa-plans-legislative-reforms-to-fix-municipal-finances",
-   "published": "2026-10-22T13:13:20+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Turkey cuts interest rates despite $18bn investment funds scandal",
-   "url": "https://www.ft.com/content/c6c68f72-4d00-4475-b7ec-847fd2c4d2fa?syn-25a6b1a6=1",
-   "published": "2026-10-22T13:06:24+00:00"
-  },
-  {
-   "source": "The Economist",
-   "title": "Business",
-   "url": "https://www.economist.com/the-world-this-week/2026/10/22/business",
-   "published": "2026-10-22T12:59:25+00:00"
-  },
-  {
-   "source": "The Economist",
-   "title": "Politics",
-   "url": "https://www.economist.com/the-world-this-week/2026/10/22/politics",
-   "published": "2026-10-22T12:59:25+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Macron warns some protests will be banned",
-   "url": "https://www.ft.com/content/43f3144f-7aa8-4821-b5c6-0da470b9af34?syn-25a6b1a6=1",
-   "published": "2026-10-22T12:36:33+00:00"
-  },
-  {
-   "source": "The Economist",
-   "title": "Cartoon: France\u2019s clean up",
-   "url": "https://www.economist.com/the-world-this-week/2026/10/22/cartoon-frances-clean-up",
-   "published": "2026-10-22T12:35:24+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Serbia\u2019s students should take a leaf out of Magyar\u2019s book",
-   "url": "https://www.ft.com/content/43f5c6af-5b1f-4995-9263-b7882013cb99",
-   "published": "2026-10-22T12:30:03+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Europe\u2019s moderates must stop treating politics as a spectator sport",
-   "url": "https://www.ft.com/content/b97d2ce4-43b0-4551-8ad8-059abb9d3f3e",
-   "published": "2026-10-22T12:22:36+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Norwegians Leave Gold in Forest as Some Fall for Scam",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/norwegians-leave-gold-in-forest-as-some-fall-for-scam",
-   "published": "2026-10-22T12:16:20+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "China steps up \u2018grey zone\u2019 tactics to isolate Taiwan",
-   "url": "https://www.ft.com/content/587f1f89-3bff-4aae-9130-41f142f1cc5f?syn-25a6b1a6=1",
-   "published": "2026-10-22T12:16:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "A bond is like a party balloon",
-   "url": "https://www.ft.com/content/7cd54d93-eff8-413a-896a-4fe5583147d7",
-   "published": "2026-10-22T12:10:40+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Rapid UK pay growth adds to pressure on Healey over minimum wage",
-   "url": "https://www.ft.com/content/5a5f8d2c-94d0-4e90-b9f4-27e398e4e108?syn-25a6b1a6=1",
-   "published": "2026-10-22T11:33:37+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "UK Rejects Witkoff\u2019s Characterization of Putin as \u2018Humanitarian\u2019",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/uk-rejects-witkoff-s-characterization-of-putin-as-humanitarian",
-   "published": "2026-10-22T11:30:34+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Stocks Drop as Risk-Off Views Dominate With Oil Up, Meta Falling",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/us-futures-slip-as-risk-off-sentiment-dominates-with-oil-rising",
-   "published": "2026-10-22T11:29:09+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Says\u00a0Screwworm\u00a0Spreads to Wildlife for First Time",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/usda-confirms-first-us-wildlife-case-of-new-world-screwworm",
-   "published": "2026-10-22T11:23:53+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The tentative return of the old politics",
-   "url": "https://www.ft.com/content/1ca7e612-9a1a-4f26-a31a-651675ee67bb?syn-25a6b1a6=1",
-   "published": "2026-10-22T11:14:41+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Blackstone Profit Drops 9.2% as Higher Rates Curb Dealmaking",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/blackstone-profit-drops-9-2-as-rates-inflation-curb-dealmaking",
-   "published": "2026-10-22T11:06:46+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Blackstone cuts property valuations as higher rates hit returns",
-   "url": "https://www.ft.com/content/df7c95d7-72d1-4cec-87f6-9f7968ac3e5e?syn-25a6b1a6=1",
-   "published": "2026-10-22T11:03:21+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Singapore\u2019s CapitaLand Adds Temasek Executive to Board",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/temasek-s-png-is-said-to-join-capitaland-investment-s-board",
-   "published": "2026-10-22T10:16:12+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "FirstFT: Global equities hit by rise in oil prices",
-   "url": "https://www.ft.com/content/b739c6e8-5b77-46e3-91a5-382fd52389bc?syn-25a6b1a6=1",
-   "published": "2026-10-22T10:14:05+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Websites taken offline in race to patch PHP security flaw",
-   "url": "https://www.ft.com/content/d438af1e-a48c-4aeb-8c84-00cdb5e741e3?syn-25a6b1a6=1",
-   "published": "2026-10-22T10:13:57+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Europe\u2019s bracing reality on US bond yields",
-   "url": "https://www.ft.com/content/92e1700d-7990-4c6a-bd3f-63685df2fdf6?syn-25a6b1a6=1",
-   "published": "2026-10-22T10:07:31+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "\u2018I don\u2019t lose\u2019: Rahm Emanuel makes an early pitch for the White House",
-   "url": "https://www.ft.com/content/09d62b14-3541-48de-9a8c-f198cbe0220b?syn-25a6b1a6=1",
-   "published": "2026-10-22T10:00:03+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Europe\u2019s underrated digital trailblazing",
-   "url": "https://www.ft.com/content/120fad19-1279-4e3c-8f60-2319acc21d11?syn-25a6b1a6=1",
-   "published": "2026-10-22T10:00:03+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Italy's Buffalo Mozzarella Shortage Eases After Government Passes Trucker Aid",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/italian-truckers-press-blockades-as-vegetables-start-to-rot",
-   "published": "2026-10-22T09:48:42+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Kwa Nokeng Expands IPO as Botswana Emerges From Listings Drought",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/kwa-nokeng-expands-ipo-as-botswana-emerges-from-listings-drought",
-   "published": "2026-10-22T09:45:01+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Nigeria Sees 2026 Fiscal Deficit Below Target as Rates Fall",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/nigeria-sees-2026-fiscal-deficit-below-target-as-rates-fall",
-   "published": "2026-10-22T09:42:12+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Malaysian Court Stops Opposition Bloc\u2019s Deregistration: Edge",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/malaysian-court-stops-opposition-bloc-s-deregistration-edge",
-   "published": "2026-10-22T09:35:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Price of Physical Oil Barrels Slides Just as Crude Futures Rally",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-22/price-of-physical-oil-barrels-slides-just-as-crude-futures-rally",
-   "published": "2026-10-22T09:33:39+00:00"
   }
  ],
  "yields": {
@@ -367,14 +367,10 @@ window.LIVE_DATA = {
    "country": "United States",
    "series": "US Treasury par yield curve, 10 Yr",
    "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates",
-   "value": 5.13,
-   "as_of": "2026-10-21",
-   "change_1d_bp": 1.0,
+   "value": 4.96,
+   "as_of": "2026-10-22",
+   "change_1d_bp": -17.0,
    "history": [
-    {
-     "d": "2026-01-06",
-     "v": 4.18
-    },
     {
      "d": "2026-01-07",
      "v": 4.15
@@ -1170,9 +1166,13 @@ window.LIVE_DATA = {
     {
      "d": "2026-10-21",
      "v": 5.13
+    },
+    {
+     "d": "2026-10-22",
+     "v": 4.96
     }
    ],
-   "fetched_at": "2026-10-22T15:09:05+00:00",
+   "fetched_at": "2026-10-22T19:59:49+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1748,7 +1748,7 @@ window.LIVE_DATA = {
      "v": 3.4291547786
     }
    ],
-   "fetched_at": "2026-10-22T15:09:07+00:00",
+   "fetched_at": "2026-10-22T19:59:50+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2312,7 +2312,7 @@ window.LIVE_DATA = {
      "v": 5.3516
     }
    ],
-   "fetched_at": "2026-10-22T15:09:07+00:00",
+   "fetched_at": "2026-10-22T19:59:51+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2856,7 +2856,7 @@ window.LIVE_DATA = {
      "v": 2.923
     }
    ],
-   "fetched_at": "2026-10-22T15:09:10+00:00",
+   "fetched_at": "2026-10-22T19:59:54+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3668,7 +3668,7 @@ window.LIVE_DATA = {
      "v": 3.9
     }
    ],
-   "fetched_at": "2026-10-22T15:09:11+00:00",
+   "fetched_at": "2026-10-22T19:59:55+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4220,7 +4220,7 @@ window.LIVE_DATA = {
      "v": 5.314
     }
    ],
-   "fetched_at": "2026-10-22T15:09:11+00:00",
+   "fetched_at": "2026-10-22T19:59:56+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4253,7 +4253,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-22",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-22T15:09:12+00:00",
+  "fetched_at": "2026-10-22T19:59:56+00:00",
   "error": null,
   "pairs": [
    {
