@@ -1,6 +1,270 @@
 window.LIVE_DATA = {
- "updated": "2026-10-23T09:57:34+00:00",
+ "updated": "2026-10-23T14:57:23+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "CFTC Chair on Prediction Markets, Election, Oil Trades",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/cftc-chair-on-prediction-markets-election-oil-trades-video",
+   "published": "2026-10-23T14:48:56+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Oil hits $116 for first time since April as global stocks knocked by AI fears",
+   "url": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+   "published": "2026-10-23T14:42:14+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Hedge Funds Suffer Widest Daily Drawdown Since Covid",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/hedge-funds-suffer-widest-daily-drawdown-since-covid-video",
+   "published": "2026-10-23T14:42:06+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Gold drops below $4,000 as \u2018haven\u2019 asset joins market sell-off",
+   "url": "https://www.ft.com/content/5a6e15e9-249d-4d59-a140-c51302930a9f?syn-25a6b1a6=1",
+   "published": "2026-10-23T14:37:46+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Brazil Elections: Tight Polls Intensify Race in Final Stretch",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/brazil-elections-tight-polls-intensify-race-in-final-stretch",
+   "published": "2026-10-23T14:18:59+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Everybody\u2019s Business: The Political Beef Shaping the Midterms",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/everybody-s-business-the-political-beef-shaping-the-midterms",
+   "published": "2026-10-23T14:12:47+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Consumer Sentiment Slips to Five-Month Low on Inflation",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/us-consumer-sentiment-slips-to-five-month-low-on-inflation-woes",
+   "published": "2026-10-23T14:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Says Russia, Ukraine to Let Civilians Leave War-Torn Oleshky",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/us-says-russia-ukraine-to-let-civilians-leave-war-torn-oleshky",
+   "published": "2026-10-23T13:46:02+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "A half-time scorecard for Trump-world",
+   "url": "https://www.ft.com/content/fdd811ed-3186-48f9-8f6b-fb66e56f13e6",
+   "published": "2026-10-23T13:32:54+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The best exhibitions to see in London this weekend",
+   "url": "https://www.ft.com/content/ef0f6d42-4759-4ce8-8e40-acd83f0c64f1?syn-25a6b1a6=1",
+   "published": "2026-10-23T13:32:31+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Netanyahu threatens \u2018aggressive\u2019 offensive after West Bank shooting",
+   "url": "https://www.ft.com/content/e03e092b-c465-478a-b01e-bf21406981cd?syn-25a6b1a6=1",
+   "published": "2026-10-23T13:29:29+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Germany Wants to Stop More Oil Refinery Closures as Costs Mount",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/germany-wants-to-stop-more-oil-refinery-closures-as-costs-mount",
+   "published": "2026-10-23T13:25:34+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Ukraine says Starlink speeds still throttled",
+   "url": "https://www.ft.com/content/e67a3d0e-5893-45a5-b098-64a68a4ef032?syn-25a6b1a6=1",
+   "published": "2026-10-23T13:00:10+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The meaning of Michigan \u2014 part two",
+   "url": "https://www.ft.com/content/22554b78-9a26-43ec-b17c-6dddda3e6d69?syn-25a6b1a6=1",
+   "published": "2026-10-23T13:00:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Armenia\u2019s Largest Lender Ardshinbank Is Said to Weigh London IPO",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/armenia-s-largest-lender-ardshinbank-is-said-to-weigh-london-ipo",
+   "published": "2026-10-23T12:54:53+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "How Big Law Makes Billions: The Power of Law Firm Leverage",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/how-big-law-firms-use-leverage-to-make-billions-video",
+   "published": "2026-10-23T12:53:58+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "China\u2019s CMOC Sees Earnings Soar on Copper Rally and More Output",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/china-s-cmoc-sees-earnings-soar-on-copper-rally-and-more-output",
+   "published": "2026-10-23T12:52:15+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "How Chief Judge Rowan Wilson Is Shaping New York's Highest Court",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/how-chief-judge-rowan-wilson-is-shaping-ny-s-high-court-video",
+   "published": "2026-10-23T12:40:36+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Brazil Election Live Results 2026: Lula, Bolsonaro in Presidential Race",
+   "url": "https://www.bloomberg.com/graphics/2026-brazil-election/",
+   "published": "2026-10-23T12:38:17+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "GM Analysts Say Buy the Dip as Stock Eyes Worst Week Since 2025",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/gm-analysts-say-buy-the-dip-as-stock-eyes-worst-week-since-2025",
+   "published": "2026-10-23T12:30:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Brazil Inflation Shoots Through Target Limit Before Runoff Vote",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/brazil-inflation-shoots-through-target-limit-before-runoff-vote",
+   "published": "2026-10-23T12:15:51+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Why The Anti-Trump Playbook Is Failing In Canada's Timber Country",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/why-the-anti-trump-playbook-is-failing-in-canada-s-timber-country",
+   "published": "2026-10-23T12:15:06+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "British Columbia\u2019s Eby Falls Behind Conservatives as Anti-Trump Strategy Falters",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/british-columbia-s-eby-falls-behind-conservatives-as-anti-trump-strategy-falters",
+   "published": "2026-10-23T12:15:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Jio\u2019s Record IPO Draws Strong Demand, Defying India Market Rout",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/jio-s-record-ipo-draws-strong-demand-defying-india-market-rout",
+   "published": "2026-10-23T12:03:47+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Mark Carney Says Starlink Manipulation in Ukraine War Worries Canada",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/mark-carney-says-starlink-manipulation-in-ukraine-war-worries-canada",
+   "published": "2026-10-23T12:03:04+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "EU capitals moderate plans to help companies operate bloc-wide",
+   "url": "https://www.ft.com/content/0db7d1cd-be3b-4034-b813-51fc8be88f11?syn-25a6b1a6=1",
+   "published": "2026-10-23T11:55:09+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Independent Senate Candidates Gain Ground in Republican Strongholds",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/independent-senate-candidates-gain-ground-in-republican-strongholds",
+   "published": "2026-10-23T11:45:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Black Sea Ship Sinks in New Deadly Drone Strike Blamed on Russia",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/black-sea-ship-sinks-in-new-deadly-drone-strike-blamed-on-russia",
+   "published": "2026-10-23T11:42:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Police Block Delhi March Over India\u2019s Voter-Roll Overhaul",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/police-block-delhi-march-over-india-voter-roll-overhaul-video",
+   "published": "2026-10-23T11:34:36+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Carney \u2018Disappointed\u2019 by US Envoy\u2019s Election Interference Accusation",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/carney-disappointed-by-us-envoy-s-election-interference-accusation",
+   "published": "2026-10-23T11:33:28+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "London Underground blames rising delays on repair backlog",
+   "url": "https://www.ft.com/content/4e3f67c8-70d0-44aa-950e-62190717c2db",
+   "published": "2026-10-23T11:30:10+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Political Heavyweights Descend on Michigan for Pitched Senate Battle",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-23/political-heavyweights-descend-on-michigan-for-pitched-senate-battle",
+   "published": "2026-10-23T11:27:18+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "America's Changing Image in India",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/america-s-changing-image-in-india-video",
+   "published": "2026-10-23T11:20:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Midterm Blue Wave to Be Negative for Tech, Ives Says",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/midterm-blue-wave-to-be-negative-for-tech-ives-says-video",
+   "published": "2026-10-23T11:18:51+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "BASF Increases Bid for Chemicals Rival Evonik to Over \u20ac11 Billion",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/basf-increases-bid-for-chemicals-rival-evonik-to-over-11-billion",
+   "published": "2026-10-23T11:15:50+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "100 days of Burnham",
+   "url": "https://www.ft.com/content/8f0b71c3-b097-4126-b0ff-ad7b66676107?syn-25a6b1a6=1",
+   "published": "2026-10-23T11:09:36+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "National Crime Agency wins freezing order over \u00a315mn London flat",
+   "url": "https://www.ft.com/content/2fae96bf-4328-4aa6-b68f-af416a9cb4bf?syn-25a6b1a6=1",
+   "published": "2026-10-23T11:08:06+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "What the coming copper crunch means for the global economy",
+   "url": "https://www.ft.com/content/06209f51-de7c-4de0-8e66-5c621a960b87?syn-25a6b1a6=1",
+   "published": "2026-10-23T11:01:09+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Austria expels Russian diplomats suspected of espionage",
+   "url": "https://www.ft.com/content/df94aaca-71f2-4788-9835-898b1cc79a05?syn-25a6b1a6=1",
+   "published": "2026-10-23T10:53:07+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Citi wins long-awaited approval for China securities business",
+   "url": "https://www.ft.com/content/4fa0c5ef-abfe-4a63-95c0-2ba69329abd0?syn-25a6b1a6=1",
+   "published": "2026-10-23T10:40:57+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "FirstFT: AI doubts fuel tech sell-off",
+   "url": "https://www.ft.com/content/5587abab-d5c8-480d-923d-b7b68afcb3f0?syn-25a6b1a6=1",
+   "published": "2026-10-23T10:32:55+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "\u2018Relentless\u2019 cost of living pressures behind collapse in UK consumer confidence",
+   "url": "https://www.ft.com/content/74bb3555-6f29-4ff9-bcaf-6cd20a9a3b1b?syn-25a6b1a6=1",
+   "published": "2026-10-23T10:31:45+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US nuclear revival faces scrutiny after incidents at flagship plant",
+   "url": "https://www.ft.com/content/bcc464cc-9d12-4b15-866d-64642de66ca8?syn-25a6b1a6=1",
+   "published": "2026-10-23T10:00:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "French Bond Risk Nears Biggest Weekly Rise as Crisis Deepens",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/french-bond-risk-nears-biggest-weekly-rise-as-crisis-deepens",
+   "published": "2026-10-23T09:41:05+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "EU Looks Beyond Cars for Next Round of China Trade Talks",
@@ -27,12 +291,6 @@ window.LIVE_DATA = {
   },
   {
    "source": "Financial Times",
-   "title": "Oil hits $114 for first time since May as global stocks knocked by AI fears",
-   "url": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
-   "published": "2026-10-23T09:14:36+00:00"
-  },
-  {
-   "source": "Financial Times",
    "title": "Anthropic strikes deal to launch European consultancy",
    "url": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4?syn-25a6b1a6=1",
    "published": "2026-10-23T09:04:09+00:00"
@@ -51,7 +309,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "UK Quietly Warns Citizens to Stock Up on Emergency Supplies",
+   "title": "UK Warns Citizens to Stock Up on Supplies for Emergencies",
    "url": "https://www.bloomberg.com/news/articles/2026-10-23/uk-makes-quiet-shift-to-prepare-for-supply-chain-shortages",
    "published": "2026-10-23T08:54:16+00:00"
   },
@@ -102,264 +360,6 @@ window.LIVE_DATA = {
    "title": "Maria Edgeworth, The Long Lost Godmother of Economics",
    "url": "https://www.bloomberg.com/news/articles/2026-10-23/maria-edgeworth-the-long-lost-godmother-of-economics",
    "published": "2026-10-23T08:00:13+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Odd Lots: The Forgotten Godmother of Economic Writing (Podcast)",
-   "url": "https://www.bloomberg.com/news/audio/2026-10-23/odd-lots-the-forgotten-godmother-of-economic-writing-podcast",
-   "published": "2026-10-23T08:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Malaysia\u2019s Sarawak Heads to Polls as Pressure Mounts on Anwar",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/malaysia-s-sarawak-heads-to-polls-as-pressure-mounts-on-anwar",
-   "published": "2026-10-23T07:39:22+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "European Stocks Fall as China Woes Hit Volvo Car, Gucci",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/european-stocks-fall-as-china-woes-hit-volvo-car-gucci",
-   "published": "2026-10-23T07:34:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "\u2018Relentless\u2019 cost of living pressures behind collapse in UK consumer confidence",
-   "url": "https://www.ft.com/content/74bb3555-6f29-4ff9-bcaf-6cd20a9a3b1b?syn-25a6b1a6=1",
-   "published": "2026-10-23T07:08:25+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Retail Deleveraging Sinks India Small Caps Most Since March",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/margin-trade-liquidation-speeds-indian-small-cap-stock-decline",
-   "published": "2026-10-23T07:04:57+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "OpenAI Trims Target Value & Volvo Cars Cuts 2,500 Jobs",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-23/daybreak-europe-10-23-2026-video",
-   "published": "2026-10-23T07:01:26+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Oil Set for Weekly Gain as Supply Risks Grow",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-23/oil-set-for-weekly-gain-as-supply-risks-grow-video",
-   "published": "2026-10-23T05:54:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Modi Attacks Rahul Gandhi Over \u2018Disorder\u2019 Risk to India\u2019s Image",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/modi-attacks-rahul-gandhi-over-disorder-risk-to-india-s-image",
-   "published": "2026-10-23T05:54:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Winter arrives in markets",
-   "url": "https://www.ft.com/content/ce0e9d68-c63f-4666-9909-512b929e6284?syn-25a6b1a6=1",
-   "published": "2026-10-23T05:30:08+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Europe\u2019s Luxury Giants Hit Lowest Valuations in a Decade",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/europe-luxury-lvmh-hermes-trade-at-lowest-valuations-decade",
-   "published": "2026-10-23T05:30:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Holcim Lifts Guidance Again Driven by Strong Demand",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/holcim-lifts-guidance-again-as-strong-demand-drives-profit-beat",
-   "published": "2026-10-23T05:08:25+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Suhasini Haidar on India\u2019s Challenges",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-23/suhasini-haidar-on-india-s-challenges",
-   "published": "2026-10-23T05:00:27+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Serbia\u2019s Vu\u010di\u0107 faces tough election as fraud fears mount",
-   "url": "https://www.ft.com/content/575c54b3-b194-4338-930b-3f446da5044f?syn-25a6b1a6=1",
-   "published": "2026-10-23T05:00:09+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Healey to promise end of \u2018pointless paperwork\u2019 for small UK companies",
-   "url": "https://www.ft.com/content/9193784c-9b3b-4626-bd69-15806b0221ed?syn-25a6b1a6=1",
-   "published": "2026-10-23T05:00:08+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "How nervous are bond markets about France?",
-   "url": "https://www.ft.com/content/9aa4549e-26f4-4963-94eb-50cf0fc0b8f9",
-   "published": "2026-10-23T05:00:08+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "France Plans Military Presence to Contain Weekend Protests",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/france-plans-military-presence-to-contain-next-round-of-protests",
-   "published": "2026-10-23T05:00:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "FirstFT: OpenAI trims valuation target to $1.25tn",
-   "url": "https://www.ft.com/content/5587abab-d5c8-480d-923d-b7b68afcb3f0?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:30:53+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Singapore Exchange\u2019s Loh Plans to Hand Over Reins After Decade",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/singapore-exchange-s-loh-plans-to-hand-over-reins-after-decade",
-   "published": "2026-10-23T04:30:10+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Investing in Argentina",
-   "url": "https://www.ft.com/reports/investing-argentina?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:03:26+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Blackstone's Early Bet on AI",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-23/blackstone-s-early-bet-on-ai",
-   "published": "2026-10-23T04:02:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US is prepared for long stand-off with Iran, says Trump envoy",
-   "url": "https://www.ft.com/content/70379a26-c20e-4501-aec9-a9a0089cdd3d?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:37+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The dispute that blew up a $34bn deal",
-   "url": "https://www.ft.com/content/51df7b68-927a-49a5-b596-3b867695b102?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:37+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Ukraine seeks to move customs checks inside EU to avoid Russian drones",
-   "url": "https://www.ft.com/content/ab922590-7f73-4a84-a3bd-a42cf80c92f7?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:37+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Beware Bessent\u2019s tilt towards short-term debt",
-   "url": "https://www.ft.com/content/bf959a1a-1cd8-41e2-8767-03aa1ac3ed48?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Summer heatwave linked to 50,000 deaths in Europe",
-   "url": "https://www.ft.com/content/00471cd9-c579-4205-a573-b38a0237ddb8?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "How a transatlantic mega-merger fell apart over a leadership tug of war",
-   "url": "https://www.ft.com/content/e114059c-308d-4d8e-8127-f88b0faca879?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Rolls-Royce nears taxpayer subsidy deal to develop new engine in UK",
-   "url": "https://www.ft.com/content/b0d490eb-d136-4114-87d4-d7b013d9cb11?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Does the UK overtax banks?",
-   "url": "https://www.ft.com/content/d66ab794-72e9-447b-b6f4-a633dd9fda91?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The living being on your bookshelf",
-   "url": "https://www.ft.com/content/bf1814f5-d3bc-4df6-adbf-0fb980e22235",
-   "published": "2026-10-23T04:00:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Government accused of \u2018fudging\u2019 consultancy spending to meet pledge",
-   "url": "https://www.ft.com/content/ee40daa9-48a7-4157-b6a1-d2ea3c90dbd0?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Europe\u2019s largest landlord exposed to \u20ac8bn hit from Berlin apartment plans",
-   "url": "https://www.ft.com/content/57e5b584-78b8-49a5-be2b-c02bba63886a?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Calpers retreats from Big Tech as AI rally falters",
-   "url": "https://www.ft.com/content/e842173f-6f9f-4115-9e5f-a0f06f0df18d?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:18+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The limits of Trump\u2019s trade war",
-   "url": "https://www.ft.com/content/0ce7d049-b264-47da-9aaa-08b33941585a?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:18+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "AI oversight needs a different model to banking",
-   "url": "https://www.ft.com/content/f98be079-49af-45c8-9954-ea3bd774c585",
-   "published": "2026-10-23T04:00:18+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Students seek to oust Serbia\u2019s strongman in Sunday vote",
-   "url": "https://www.ft.com/content/26f97311-f72c-40a8-bc89-c46740f9cdc0?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:18+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "A cure for \u2018plant blindness\u2019? Try London\u2019s Royal Parks",
-   "url": "https://www.ft.com/content/90bd7c83-f219-4d2c-be27-c31f77daa662?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:18+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Argentina in global trading sweet spot",
-   "url": "https://www.ft.com/content/f1e6e30a-7f2b-49c9-bc8d-ef3821c9695a?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:10+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Could Peronism return as Milei\u2019s popularity falters?",
-   "url": "https://www.ft.com/content/ecfefa34-a0c3-43c5-b892-21c715a355a4?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:10+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Risks to peso as Argentine elections loom",
-   "url": "https://www.ft.com/content/c97986bf-6d3a-47a9-834c-173228454c3d?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:10+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "How coffee shops became \u2018the last pleasure\u2019 for war-weary Tehran",
-   "url": "https://www.ft.com/content/0910ef9b-30da-4ea4-8991-f62af1f9d07d?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:10+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Milei\u2019s economic reforms under pressure",
-   "url": "https://www.ft.com/content/bba22699-a32b-4c1e-bc19-8a53de122fc9?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:10+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Superdry is latest brand to enter Argentine market",
-   "url": "https://www.ft.com/content/ff93c256-0562-4279-8a3f-34707711cf58?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:10+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Milei\u2019s AI hype outpaces reality",
-   "url": "https://www.ft.com/content/0fdf2308-76f1-413b-a753-31ba3f00c561?syn-25a6b1a6=1",
-   "published": "2026-10-23T04:00:10+00:00"
   }
  ],
  "yields": {
@@ -1172,16 +1172,16 @@ window.LIVE_DATA = {
      "v": 4.96
     }
    ],
-   "fetched_at": "2026-10-23T09:57:52+00:00",
+   "fetched_at": "2026-10-23T14:57:42+00:00",
    "error": null
   },
   "European Central Bank": {
    "country": "Euro area",
    "series": "ECB euro-area AAA government bond spot yield, 10Y",
    "source_url": "https://data.ecb.europa.eu/",
-   "value": 3.4291547786,
-   "as_of": "2026-10-21",
-   "change_1d_bp": -1.1,
+   "value": 3.3844008945,
+   "as_of": "2026-10-22",
+   "change_1d_bp": -4.5,
    "history": [
     {
      "d": "2026-04-07",
@@ -1746,9 +1746,13 @@ window.LIVE_DATA = {
     {
      "d": "2026-10-21",
      "v": 3.4291547786
+    },
+    {
+     "d": "2026-10-22",
+     "v": 3.3844008945
     }
    ],
-   "fetched_at": "2026-10-23T09:57:55+00:00",
+   "fetched_at": "2026-10-23T14:57:43+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2316,7 +2320,7 @@ window.LIVE_DATA = {
      "v": 5.3337
     }
    ],
-   "fetched_at": "2026-10-23T09:58:15+00:00",
+   "fetched_at": "2026-10-23T14:57:45+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2864,21 +2868,17 @@ window.LIVE_DATA = {
      "v": 2.914
     }
    ],
-   "fetched_at": "2026-10-23T09:58:19+00:00",
+   "fetched_at": "2026-10-23T14:57:47+00:00",
    "error": null
   },
   "Bank of Canada": {
    "country": "Canada",
    "series": "Government of Canada benchmark bond yield, 10Y",
    "source_url": "https://www.bankofcanada.ca/rates/interest-rates/canadian-bonds/",
-   "value": 3.9,
-   "as_of": "2026-10-21",
-   "change_1d_bp": 0.0,
+   "value": 3.78,
+   "as_of": "2026-10-22",
+   "change_1d_bp": -12.0,
    "history": [
-    {
-     "d": "2026-01-05",
-     "v": 3.42
-    },
     {
      "d": "2026-01-06",
      "v": 3.43
@@ -3674,9 +3674,13 @@ window.LIVE_DATA = {
     {
      "d": "2026-10-21",
      "v": 3.9
+    },
+    {
+     "d": "2026-10-22",
+     "v": 3.78
     }
    ],
-   "fetched_at": "2026-10-23T09:58:20+00:00",
+   "fetched_at": "2026-10-23T14:57:48+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4248,7 +4252,7 @@ window.LIVE_DATA = {
      "v": 5.277
     }
    ],
-   "fetched_at": "2026-10-23T09:58:22+00:00",
+   "fetched_at": "2026-10-23T14:57:49+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4278,18 +4282,18 @@ window.LIVE_DATA = {
   "note": "Set ACLED_EMAIL / ACLED_PASSWORD (free ACLED account) to enable conflict event counts."
  },
  "fx": {
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-23",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-23T09:58:22+00:00",
+  "fetched_at": "2026-10-23T14:57:50+00:00",
   "error": null,
   "pairs": [
    {
     "pair": "EUR/USD",
     "base": "EUR",
     "quote": "USD",
-    "rate": 1.1205,
-    "change_pct": -0.26,
+    "rate": 1.1193,
+    "change_pct": -0.11,
     "history": [
      {
       "d": "2026-07-27",
@@ -4546,6 +4550,10 @@ window.LIVE_DATA = {
      {
       "d": "2026-10-22",
       "v": 1.1205
+     },
+     {
+      "d": "2026-10-23",
+      "v": 1.1193
      }
     ]
    },
@@ -4553,8 +4561,8 @@ window.LIVE_DATA = {
     "pair": "GBP/USD",
     "base": "GBP",
     "quote": "USD",
-    "rate": 1.337591,
-    "change_pct": -0.19,
+    "rate": 1.336829,
+    "change_pct": -0.06,
     "history": [
      {
       "d": "2026-07-27",
@@ -4811,6 +4819,10 @@ window.LIVE_DATA = {
      {
       "d": "2026-10-22",
       "v": 1.337591
+     },
+     {
+      "d": "2026-10-23",
+      "v": 1.336829
      }
     ]
    },
@@ -4818,8 +4830,8 @@ window.LIVE_DATA = {
     "pair": "USD/JPY",
     "base": "USD",
     "quote": "JPY",
-    "rate": 157.045962,
-    "change_pct": -0.53,
+    "rate": 156.803359,
+    "change_pct": -0.15,
     "history": [
      {
       "d": "2026-07-27",
@@ -5076,6 +5088,10 @@ window.LIVE_DATA = {
      {
       "d": "2026-10-22",
       "v": 157.045962
+     },
+     {
+      "d": "2026-10-23",
+      "v": 156.803359
      }
     ]
    },
@@ -5083,8 +5099,8 @@ window.LIVE_DATA = {
     "pair": "USD/CHF",
     "base": "USD",
     "quote": "CHF",
-    "rate": 0.822044,
-    "change_pct": -0.23,
+    "rate": 0.824355,
+    "change_pct": 0.28,
     "history": [
      {
       "d": "2026-07-27",
@@ -5341,6 +5357,10 @@ window.LIVE_DATA = {
      {
       "d": "2026-10-22",
       "v": 0.822044
+     },
+     {
+      "d": "2026-10-23",
+      "v": 0.824355
      }
     ]
    },
@@ -5348,8 +5368,8 @@ window.LIVE_DATA = {
     "pair": "USD/CAD",
     "base": "USD",
     "quote": "CAD",
-    "rate": 1.403391,
-    "change_pct": -0.08,
+    "rate": 1.399535,
+    "change_pct": -0.27,
     "history": [
      {
       "d": "2026-07-27",
@@ -5606,6 +5626,10 @@ window.LIVE_DATA = {
      {
       "d": "2026-10-22",
       "v": 1.403391
+     },
+     {
+      "d": "2026-10-23",
+      "v": 1.399535
      }
     ]
    },
@@ -5613,8 +5637,8 @@ window.LIVE_DATA = {
     "pair": "AUD/USD",
     "base": "AUD",
     "quote": "USD",
-    "rate": 0.701189,
-    "change_pct": -0.31,
+    "rate": 0.70224,
+    "change_pct": 0.15,
     "history": [
      {
       "d": "2026-07-27",
@@ -5871,6 +5895,10 @@ window.LIVE_DATA = {
      {
       "d": "2026-10-22",
       "v": 0.701189
+     },
+     {
+      "d": "2026-10-23",
+      "v": 0.70224
      }
     ]
    },
@@ -5878,8 +5906,8 @@ window.LIVE_DATA = {
     "pair": "USD/CNY",
     "base": "USD",
     "quote": "CNY",
-    "rate": 6.674342,
-    "change_pct": -0.03,
+    "rate": 6.67024,
+    "change_pct": -0.06,
     "history": [
      {
       "d": "2026-07-27",
@@ -6136,6 +6164,10 @@ window.LIVE_DATA = {
      {
       "d": "2026-10-22",
       "v": 6.674342
+     },
+     {
+      "d": "2026-10-23",
+      "v": 6.67024
      }
     ]
    },
@@ -6143,8 +6175,8 @@ window.LIVE_DATA = {
     "pair": "USD/INR",
     "base": "USD",
     "quote": "INR",
-    "rate": 94.822847,
-    "change_pct": 0.37,
+    "rate": 94.945055,
+    "change_pct": 0.13,
     "history": [
      {
       "d": "2026-07-27",
@@ -6401,6 +6433,10 @@ window.LIVE_DATA = {
      {
       "d": "2026-10-22",
       "v": 94.822847
+     },
+     {
+      "d": "2026-10-23",
+      "v": 94.945055
      }
     ]
    },
@@ -6408,8 +6444,8 @@ window.LIVE_DATA = {
     "pair": "EUR/GBP",
     "base": "EUR",
     "quote": "GBP",
-    "rate": 0.8377,
-    "change_pct": -0.07,
+    "rate": 0.83728,
+    "change_pct": -0.05,
     "history": [
      {
       "d": "2026-07-27",
@@ -6666,6 +6702,10 @@ window.LIVE_DATA = {
      {
       "d": "2026-10-22",
       "v": 0.8377
+     },
+     {
+      "d": "2026-10-23",
+      "v": 0.83728
      }
     ]
    },
@@ -6673,8 +6713,8 @@ window.LIVE_DATA = {
     "pair": "EUR/JPY",
     "base": "EUR",
     "quote": "JPY",
-    "rate": 175.97,
-    "change_pct": -0.78,
+    "rate": 175.51,
+    "change_pct": -0.26,
     "history": [
      {
       "d": "2026-07-27",
@@ -6931,6 +6971,10 @@ window.LIVE_DATA = {
      {
       "d": "2026-10-22",
       "v": 175.97
+     },
+     {
+      "d": "2026-10-23",
+      "v": 175.51
      }
     ]
    },
@@ -6938,8 +6982,8 @@ window.LIVE_DATA = {
     "pair": "EUR/CHF",
     "base": "EUR",
     "quote": "CHF",
-    "rate": 0.9211,
-    "change_pct": -0.49,
+    "rate": 0.9227,
+    "change_pct": 0.17,
     "history": [
      {
       "d": "2026-07-27",
@@ -7196,6 +7240,10 @@ window.LIVE_DATA = {
      {
       "d": "2026-10-22",
       "v": 0.9211
+     },
+     {
+      "d": "2026-10-23",
+      "v": 0.9227
      }
     ]
    },
@@ -7203,8 +7251,8 @@ window.LIVE_DATA = {
     "pair": "USD/SEK",
     "base": "USD",
     "quote": "SEK",
-    "rate": 9.917001,
-    "change_pct": 0.39,
+    "rate": 9.944608,
+    "change_pct": 0.28,
     "history": [
      {
       "d": "2026-07-27",
@@ -7461,6 +7509,10 @@ window.LIVE_DATA = {
      {
       "d": "2026-10-22",
       "v": 9.917001
+     },
+     {
+      "d": "2026-10-23",
+      "v": 9.944608
      }
     ]
    }
