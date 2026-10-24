@@ -1,11 +1,23 @@
 window.LIVE_DATA = {
- "updated": "2026-10-24T18:04:08+00:00",
+ "updated": "2026-10-24T20:42:05+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "Volkswagen Plans New Audi Plant in Georgia, Handing Trump a Win",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-24/volkswagen-plans-new-audi-plant-in-georgia-handing-trump-a-win",
+   "published": "2026-10-24T19:52:40+00:00"
+  },
   {
    "source": "Financial Times",
    "title": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
    "url": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
-   "published": "2026-10-24T17:13:23+00:00"
+   "published": "2026-10-24T19:48:27+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Israel central bank rejects Netanyahu\u2019s plan to use crypto to evade sanctions",
+   "url": "https://www.ft.com/content/39e475e7-0392-4856-aaaf-5ab3e35b8215?syn-25a6b1a6=1",
+   "published": "2026-10-24T19:19:48+00:00"
   },
   {
    "source": "Bloomberg",
@@ -348,18 +360,6 @@ window.LIVE_DATA = {
    "title": "How dolce is Orient Express\u2019s new Grand Tour?",
    "url": "https://www.ft.com/content/4eac7c4c-888f-49a2-acba-ab92ed3444bc",
    "published": "2026-10-24T04:00:23+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Pubs, pints and the art of the Budget gimmick",
-   "url": "https://www.ft.com/content/f7793e22-13f6-4cd7-9613-a11a0f0f30e4?syn-25a6b1a6=1",
-   "published": "2026-10-24T04:00:23+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The Putin whisperers",
-   "url": "https://www.ft.com/content/dcb57f30-bbfe-418d-9e52-5df3074d1764?syn-25a6b1a6=1",
-   "published": "2026-10-24T04:00:13+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 5.0
     }
    ],
-   "fetched_at": "2026-10-24T18:04:28+00:00",
+   "fetched_at": "2026-10-24T20:42:26+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1752,7 +1752,7 @@ window.LIVE_DATA = {
      "v": 3.3844008945
     }
    ],
-   "fetched_at": "2026-10-24T18:04:29+00:00",
+   "fetched_at": "2026-10-24T20:42:27+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2320,7 +2320,7 @@ window.LIVE_DATA = {
      "v": 5.3337
     }
    ],
-   "fetched_at": "2026-10-24T18:04:30+00:00",
+   "fetched_at": "2026-10-24T20:42:29+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2864,7 +2864,7 @@ window.LIVE_DATA = {
      "v": 2.914
     }
    ],
-   "fetched_at": "2026-10-24T18:04:33+00:00",
+   "fetched_at": "2026-10-24T20:42:32+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3676,7 +3676,7 @@ window.LIVE_DATA = {
      "v": 3.78
     }
    ],
-   "fetched_at": "2026-10-24T18:04:33+00:00",
+   "fetched_at": "2026-10-24T20:42:32+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4248,7 +4248,7 @@ window.LIVE_DATA = {
      "v": 5.277
     }
    ],
-   "fetched_at": "2026-10-24T18:04:34+00:00",
+   "fetched_at": "2026-10-24T20:42:33+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4281,7 +4281,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-23",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-24T18:04:35+00:00",
+  "fetched_at": "2026-10-24T20:42:34+00:00",
   "error": null,
   "pairs": [
    {
