@@ -1,11 +1,101 @@
 window.LIVE_DATA = {
- "updated": "2026-10-23T22:05:38+00:00",
+ "updated": "2026-10-24T00:36:22+00:00",
  "news": [
+  {
+   "source": "Financial Times",
+   "title": "US executives quit $25bn gas venture over claims of secret Russian control",
+   "url": "https://www.ft.com/content/e9cfbfbb-e65a-4303-aebb-20d59319ef1b?syn-25a6b1a6=1",
+   "published": "2026-10-24T00:22:20+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Growth, Value Stocks Set for Reshuffle as S&P Adopts New Rules",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-24/growth-value-stocks-set-for-reshuffle-as-s-p-adopts-new-rules",
+   "published": "2026-10-24T00:12:59+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Wall Street Week | Europe\u2019s AI Player, Argentina\u2019s Two Economies",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/wall-street-week-europe-ai-argentina-s-two-economies-video",
+   "published": "2026-10-23T23:13:29+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Pushes DOJ Lawsuit Over Alaska Senate Race",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/balance-of-power-late-edition-10-23-2026-video",
+   "published": "2026-10-23T23:06:54+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Trump moves to block certification of Alaska Senate election if Republican loses",
+   "url": "https://www.ft.com/content/b68b8544-4ce9-45d4-b522-cd2f8150e4cc?syn-25a6b1a6=1",
+   "published": "2026-10-23T23:06:01+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "John Healey to give \u00a320bn boost to UK\u2019s business lender and infrastructure bank",
+   "url": "https://www.ft.com/content/4111c10c-c13c-4620-8ce7-df3b4f9324f1?syn-25a6b1a6=1",
+   "published": "2026-10-23T23:01:00+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "UK sets up AI lab to monitor biosecurity threats",
+   "url": "https://www.ft.com/content/e4481867-fecc-48fc-ad9d-4daaf05d14ba?syn-25a6b1a6=1",
+   "published": "2026-10-23T23:01:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Wealth Tax Debate, Midterm Investing, AI Anxiety",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/bloomberg-money-10-23-2026-video",
+   "published": "2026-10-23T22:47:27+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Trump to cut Canadian tariffs after pressure from Republicans",
+   "url": "https://www.ft.com/content/d3d12f54-fcf0-400c-96f1-484aea980be5?syn-25a6b1a6=1",
+   "published": "2026-10-23T22:29:30+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "France avoids downgrade from Moody\u2019s in boost for Macron\u2019s government",
+   "url": "https://www.ft.com/content/840f9c94-cb41-4340-9fc4-41e76d908831?syn-25a6b1a6=1",
+   "published": "2026-10-23T22:28:52+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Gutierrez: US Has Gone Too Far With Tariffs",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/gutierrez-us-has-gone-too-far-with-tariffs-video",
+   "published": "2026-10-23T22:26:22+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Gen. Hodges (Ret.) Says Trump Actions Help Russia's War",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/gen-hodges-ret-says-trump-actions-help-russia-s-war-video",
+   "published": "2026-10-23T22:18:16+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Andrew Brandt on MLB Salary Cap Fight as World Series Begins",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/andrew-brandt-on-mlb-salary-cap-as-world-series-begins-video",
+   "published": "2026-10-23T22:09:13+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "'Notes on Being a Man', 'The Invisible Hand'",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-23/-notes-on-being-a-man-the-invisible-hand-video",
+   "published": "2026-10-23T22:05:12+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "US Family Annual Healthcare Plan Now Costs More Than $28K",
    "url": "https://www.bloomberg.com/news/videos/2026-10-23/us-family-healthcare-plan-now-costs-more-than-28k-video",
    "published": "2026-10-23T21:58:51+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Data Centers Face Downgrade Risk Amid Local Pushback, S&P Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says",
+   "published": "2026-10-23T21:56:15+00:00"
   },
   {
    "source": "Bloomberg",
@@ -86,22 +176,10 @@ window.LIVE_DATA = {
    "published": "2026-10-23T20:32:42+00:00"
   },
   {
-   "source": "Financial Times",
-   "title": "Trump to cut Canadian tariffs after pressure from Republicans",
-   "url": "https://www.ft.com/content/d3d12f54-fcf0-400c-96f1-484aea980be5?syn-25a6b1a6=1",
-   "published": "2026-10-23T20:21:55+00:00"
-  },
-  {
    "source": "Bloomberg",
    "title": "SpaceX Shakes Up Telecom Stocks | Closing Bell",
    "url": "https://www.bloomberg.com/news/videos/2026-10-23/spacex-shakes-up-telecom-stocks-closing-bell-video",
    "published": "2026-10-23T20:21:37+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump moves to block certification of Alaska Senate election if Republican loses",
-   "url": "https://www.ft.com/content/b68b8544-4ce9-45d4-b522-cd2f8150e4cc?syn-25a6b1a6=1",
-   "published": "2026-10-23T20:16:32+00:00"
   },
   {
    "source": "Financial Times",
@@ -282,84 +360,6 @@ window.LIVE_DATA = {
    "title": "Burnham should not rush on giving tax powers to English mayors, experts warn",
    "url": "https://www.ft.com/content/e669f0f9-5042-4554-9cd6-39d2d9fd27df?syn-25a6b1a6=1",
    "published": "2026-10-23T16:27:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US\u00a0Consumer\u00a0Sentiment Slips to Five-Month Low on Inflation",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-23/us-consumer-sentiment-slips-to-five-month-low-video",
-   "published": "2026-10-23T16:20:54+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Netanyahu Has Isolated Israel",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-23/opinion-netanyahu-has-isolated-israel-video",
-   "published": "2026-10-23T16:18:47+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Rehab Centers Whose Founder Was Convicted of Fraud Eye Muni Sale",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/rehab-centers-whose-founder-was-convicted-of-fraud-eye-muni-sale",
-   "published": "2026-10-23T16:16:45+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Ex-FBI Officials Charged Over Testimony on Hunter Biden Probe",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/ex-fbi-officials-charged-over-testimony-on-hunter-biden-probe",
-   "published": "2026-10-23T16:06:10+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Putin\u2019s Temporary Control of Metro Unit Reaps Funds for War Push",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-23/putin-s-temporary-control-of-metro-unit-reaps-funds-for-war-push",
-   "published": "2026-10-23T16:05:29+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Some Budget tax reforms really are better than others",
-   "url": "https://www.ft.com/content/786adb71-2e7f-4218-b8dc-146bfb1db8b6",
-   "published": "2026-10-23T16:05:28+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "The Circuit - Season 6 Trailer",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-23/the-circuit-season-6-trailer-video",
-   "published": "2026-10-23T15:57:36+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "How a transatlantic mega-merger fell apart over a leadership tug of war",
-   "url": "https://www.ft.com/content/e114059c-308d-4d8e-8127-f88b0faca879?syn-25a6b1a6=1",
-   "published": "2026-10-23T15:56:45+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Lovell Sees Earnings Growth Beyond AI",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-23/lovell-sees-earnings-growth-beyond-ai-video",
-   "published": "2026-10-23T15:55:57+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "De olho nas elei\u00e7\u00f5es",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-23/de-olho-nas-eleicoes-video-mvl5d8vg",
-   "published": "2026-10-23T15:51:06+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "AI Tech Fears Push Global Credit Spreads to 17-Month High",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-23/ai-fears-push-global-credit-spreads-to-17-month-high-video",
-   "published": "2026-10-23T15:37:22+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The biggest ever investment theme has only just begun",
-   "url": "https://www.ft.com/content/c6182105-608b-461e-a274-4b0ae6c224d4?syn-25a6b1a6=1",
-   "published": "2026-10-23T15:35:33+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Stocks Continue to Sell Off as Rising Oil Prices Keep Lid on Treasuries",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-23/bloomberg-surveillance-10-23-2026-video",
-   "published": "2026-10-23T15:35:27+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 5.0
     }
    ],
-   "fetched_at": "2026-10-23T22:06:01+00:00",
+   "fetched_at": "2026-10-24T00:36:41+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1752,7 +1752,7 @@ window.LIVE_DATA = {
      "v": 3.3844008945
     }
    ],
-   "fetched_at": "2026-10-23T22:06:03+00:00",
+   "fetched_at": "2026-10-24T00:36:42+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2320,7 +2320,7 @@ window.LIVE_DATA = {
      "v": 5.3337
     }
    ],
-   "fetched_at": "2026-10-23T22:06:03+00:00",
+   "fetched_at": "2026-10-24T00:36:43+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2331,10 +2331,6 @@ window.LIVE_DATA = {
    "as_of": "2026-10-22",
    "change_1d_bp": -0.9,
    "history": [
-    {
-     "d": "2026-04-06",
-     "v": 2.429
-    },
     {
      "d": "2026-04-07",
      "v": 2.411
@@ -2868,7 +2864,7 @@ window.LIVE_DATA = {
      "v": 2.914
     }
    ],
-   "fetched_at": "2026-10-23T22:06:06+00:00",
+   "fetched_at": "2026-10-24T00:36:46+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3680,7 +3676,7 @@ window.LIVE_DATA = {
      "v": 3.78
     }
    ],
-   "fetched_at": "2026-10-23T22:06:06+00:00",
+   "fetched_at": "2026-10-24T00:36:47+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4252,7 +4248,7 @@ window.LIVE_DATA = {
      "v": 5.277
     }
    ],
-   "fetched_at": "2026-10-23T22:06:07+00:00",
+   "fetched_at": "2026-10-24T00:36:48+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4285,7 +4281,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-23",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-23T22:06:08+00:00",
+  "fetched_at": "2026-10-24T00:36:49+00:00",
   "error": null,
   "pairs": [
    {
