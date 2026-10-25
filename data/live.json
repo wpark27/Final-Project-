@@ -1,9 +1,87 @@
 {
- "updated": "2026-10-25T01:05:37+00:00",
+ "updated": "2026-10-25T06:01:58+00:00",
  "news": [
   {
    "source": "Bloomberg",
-   "title": "Trump Defends Tariffs at Rally as He Says Audi to Build US Plant",
+   "title": "Singapore\u2019s Wong Vows More Support for Workers, Energy Security",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/singapore-s-wong-vows-more-support-for-workers-energy-security",
+   "published": "2026-10-25T05:40:56+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Luxury groups\u2019 value drops by \u20ac250bn as Chinese consumer demand fades",
+   "url": "https://www.ft.com/content/1c3065cf-538f-433a-9749-0355a3642c7c?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:10+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Bolsonaro and Lula face off in knife-edge Brazil election",
+   "url": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:10+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The right\u2019s obsession with \u2018civil war\u2019 in Britain",
+   "url": "https://www.ft.com/content/3736714a-2058-4413-ac91-e8f10f33ad69?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:02+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The Black Sea is now the world\u2019s deadliest shipping route",
+   "url": "https://www.ft.com/content/8c874f60-0041-476d-9c53-8524c374443f?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:02+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "More than 1mn antiquities returned to countries of origin",
+   "url": "https://www.ft.com/content/82f2922f-8c73-4e00-9a71-7682a2c9af1a?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "BC\u2019s Left-Wing Leader Loses to Conservatives in Vote He Called",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/bc-s-left-wing-leader-loses-to-conservatives-in-vote-he-called",
+   "published": "2026-10-25T04:08:12+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Billionaire benevolence is booming, but it comes with strings",
+   "url": "https://www.ft.com/content/f0f294c1-66b0-4612-9716-647344a0e4c6?syn-25a6b1a6=1",
+   "published": "2026-10-25T04:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Brazil Election: Lula Rallies Supporters for One Last Comeback",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/brazil-election-lula-rallies-supporters-for-one-last-comeback",
+   "published": "2026-10-25T02:02:19+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Why 17 is not the magic number in industrial policy",
+   "url": "https://www.ft.com/content/3e405824-a44a-4cb7-bc80-acc5bc3b5b59?syn-25a6b1a6=1",
+   "published": "2026-10-25T01:00:09+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Co-operate to avoid being hostage to geopolitics, Australia tells \u2018middle powers\u2019",
+   "url": "https://www.ft.com/content/653f5a48-94f5-4e92-86dd-7d118e8849a8?syn-25a6b1a6=1",
+   "published": "2026-10-25T01:00:09+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "SoftBank-backed drone maker wants every farmer to \u2018have their own robot\u2019",
+   "url": "https://www.ft.com/content/9fe60016-1520-4bfd-bcfc-f30caa0b1600?syn-25a6b1a6=1",
+   "published": "2026-10-25T01:00:09+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Obama Blasts \u2018Spineless Congress\u2019 in Push for Democrat El-Sayed",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/obama-blasts-spineless-congress-in-push-for-democrat-el-sayed",
+   "published": "2026-10-25T00:59:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Defends Tariffs at Rally as He Touts New US Audi Plant",
    "url": "https://www.bloomberg.com/news/articles/2026-10-25/trump-defends-tariffs-at-rally-as-he-says-audi-to-build-us-plant",
    "published": "2026-10-25T00:35:58+00:00"
   },
@@ -75,7 +153,7 @@
   },
   {
    "source": "Financial Times",
-   "title": "Kim reaffirms ties with China amid worries over Russian friendship",
+   "title": "North Korea\u2019s Kim crosses new China border bridge to reaffirm ties",
    "url": "https://www.ft.com/content/fd106d25-3abf-4729-be26-683d1d115d2e?syn-25a6b1a6=1",
    "published": "2026-10-24T15:44:19+00:00"
   },
@@ -177,7 +255,7 @@
   },
   {
    "source": "Bloomberg",
-   "title": "Trump Prepares for Iran Escalation After US, Israeli Elections",
+   "title": "Trump Prepares for Iran Escalation After US, Israeli Polls",
    "url": "https://www.bloomberg.com/news/articles/2026-10-24/trump-prepares-for-iran-escalation-after-us-israeli-elections",
    "published": "2026-10-24T13:00:00+00:00"
   },
@@ -282,84 +360,6 @@
    "title": "France on Edge as New Protests Raise Fears of More Violence",
    "url": "https://www.bloomberg.com/news/articles/2026-10-24/france-on-edge-as-new-protests-raise-fears-of-violence-looting",
    "published": "2026-10-24T06:30:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Kim Jong Un Visits China for Second Trip in Just Over a Year",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-24/kim-jong-un-arrives-in-china-s-dandong-city-yonhap-reports",
-   "published": "2026-10-24T06:21:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Andy Burnham Tests Labour Loyalty With Budget Built for Bond Market",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-24/andy-burnham-tests-labour-loyalty-with-budget-built-for-bond-market",
-   "published": "2026-10-24T05:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Kenya Records Second Ebola Death as Uganda Restricts Transit",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-24/kenya-records-second-ebola-death-a-close-relative-of-first-case",
-   "published": "2026-10-24T04:41:29+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US LNG Project Developer Funded by Russia\u2019s Novatek, FT Says",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-24/us-lng-project-developer-funded-by-russia-s-novatek-ft-says",
-   "published": "2026-10-24T04:24:04+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "UK mortgage market \u2018failing to adapt to new patterns of work\u2019",
-   "url": "https://www.ft.com/content/6a940d99-579a-481c-953e-a61cc23486e5?syn-25a6b1a6=1",
-   "published": "2026-10-24T04:00:42+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Gadi Eisenkot, the Israeli ex-military chief challenging Netanyahu",
-   "url": "https://www.ft.com/content/5e9fc2a9-975b-46eb-ab5a-11615ca40459?syn-25a6b1a6=1",
-   "published": "2026-10-24T04:00:33+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Country music and cowboy hats: Brazil\u2019s rightward shift",
-   "url": "https://www.ft.com/content/40a3e26b-a4ca-40f3-ae06-2d1ec7346134?syn-25a6b1a6=1",
-   "published": "2026-10-24T04:00:33+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "A little bit of luck is lifting UK Budget expectations",
-   "url": "https://www.ft.com/content/6a059ab0-a9fc-4e4c-8ae7-1d110faf5adf",
-   "published": "2026-10-24T04:00:33+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Tobacco taxes work \u2014 even when they give smugglers a windfall",
-   "url": "https://www.ft.com/content/e41fe456-48c8-4bb1-8802-88b39f563d29?syn-25a6b1a6=1",
-   "published": "2026-10-24T04:00:33+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Patrick Dele Cole, journalist and diplomat, 1940-2026",
-   "url": "https://www.ft.com/content/2aef4c58-2d1c-48b2-8626-23384895a870?syn-25a6b1a6=1",
-   "published": "2026-10-24T04:00:33+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "China\u2019s luxury brands are ready to elbow western rivals aside",
-   "url": "https://www.ft.com/content/995ede2d-c1de-4ba7-99e3-2e18d1c43c50?syn-25a6b1a6=1",
-   "published": "2026-10-24T04:00:33+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "A union storm is coming for employers",
-   "url": "https://www.ft.com/content/d6bd7c50-81e9-49cb-96ce-a6351020046c?syn-25a6b1a6=1",
-   "published": "2026-10-24T04:00:33+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Musk\u2019s bet of the century",
-   "url": "https://www.ft.com/content/dfe64d5e-f5f3-444f-a233-a516483fa6f0?syn-25a6b1a6=1",
-   "published": "2026-10-24T04:00:33+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@
      "v": 5.0
     }
    ],
-   "fetched_at": "2026-10-25T01:05:56+00:00",
+   "fetched_at": "2026-10-25T06:02:19+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1748,7 +1748,7 @@
      "v": 3.3844008945
     }
    ],
-   "fetched_at": "2026-10-25T01:05:57+00:00",
+   "fetched_at": "2026-10-25T06:02:20+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2312,7 +2312,7 @@
      "v": 5.3337
     }
    ],
-   "fetched_at": "2026-10-25T01:05:58+00:00",
+   "fetched_at": "2026-10-25T06:02:21+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2852,7 +2852,7 @@
      "v": 2.914
     }
    ],
-   "fetched_at": "2026-10-25T01:06:01+00:00",
+   "fetched_at": "2026-10-25T06:02:24+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3664,7 +3664,7 @@
      "v": 3.78
     }
    ],
-   "fetched_at": "2026-10-25T01:06:01+00:00",
+   "fetched_at": "2026-10-25T06:02:25+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4232,7 +4232,7 @@
      "v": 5.277
     }
    ],
-   "fetched_at": "2026-10-25T01:06:01+00:00",
+   "fetched_at": "2026-10-25T06:02:26+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4265,7 +4265,7 @@
   "as_of": "2026-10-23",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-25T01:06:02+00:00",
+  "fetched_at": "2026-10-25T06:02:27+00:00",
   "error": null,
   "pairs": [
    {
