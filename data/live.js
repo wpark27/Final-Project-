@@ -1,6 +1,102 @@
 window.LIVE_DATA = {
- "updated": "2026-10-25T16:03:11+00:00",
+ "updated": "2026-10-25T18:57:37+00:00",
  "news": [
+  {
+   "source": "Financial Times",
+   "title": "France\u2019s Le Pen vows national \u2018renewal\u2019 in campaign launch",
+   "url": "https://www.ft.com/content/fd1c3f30-2789-4fca-a93f-57850b1448a8?syn-25a6b1a6=1",
+   "published": "2026-10-25T18:37:17+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bon Secours Nears $6B Takeover of Surgery Partners: FT",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/bon-secours-nears-6b-takeover-of-surgery-partners-ft",
+   "published": "2026-10-25T18:24:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Hassett Says US-Canada Trade Talks Are \u2018Very Close\u2019 to a Deal",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/hassett-says-us-canada-trade-talks-are-very-close-to-a-deal",
+   "published": "2026-10-25T18:18:24+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Britain will not join Canada-led defence bank",
+   "url": "https://www.ft.com/content/1f7924c1-ab63-465d-94b8-e97861e2348e?syn-25a6b1a6=1",
+   "published": "2026-10-25T18:16:36+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Bon Secours nears $6bn takeover of Bain-backed Surgery Partners",
+   "url": "https://www.ft.com/content/e7b82fe0-db51-49cf-bad4-2168a905652b?syn-25a6b1a6=1",
+   "published": "2026-10-25T18:16:23+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "A knife-edge election in Israel and other potential pivot points",
+   "url": "https://www.ft.com/content/49873329-05f1-4137-bf94-d4ed3f63e897?syn-25a6b1a6=1",
+   "published": "2026-10-25T18:15:07+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bulgarian President Set to Win First Round of Election: Poll",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/bulgarian-president-set-to-win-first-round-of-election-poll",
+   "published": "2026-10-25T18:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "De olho nas elei\u00e7\u00f5es",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-25/de-olho-nas-eleicoes-video-mvo4e3rz",
+   "published": "2026-10-25T17:47:06+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Venezuelan opposition leader Machado returns from exile",
+   "url": "https://www.ft.com/content/f691e41e-dd01-4ac0-ade7-5f7ca23d6135",
+   "published": "2026-10-25T17:37:08+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Alaska Senate Hopeful Peltola Delays Rallies After Car Crash",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/car-crash-with-alaska-democrat-peltola-delays-campaign-rallies",
+   "published": "2026-10-25T17:15:59+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Musk\u2019s Starlink Explanation Challenged by Texas GOP Lawmaker",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/musk-s-starlink-explanation-challenged-by-texas-gop-lawmaker",
+   "published": "2026-10-25T16:58:27+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The battle for the soul of Israel",
+   "url": "https://www.ft.com/content/a9040cdc-a599-4489-a975-ce90906c92c4?syn-25a6b1a6=1",
+   "published": "2026-10-25T16:51:55+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Says US Has Two Different Sets of Intelligence on Iran",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/trump-says-us-has-two-different-sets-of-intelligence-on-iran",
+   "published": "2026-10-25T16:36:09+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Marco Rubio still owes Europe answers about America\u2019s intentions",
+   "url": "https://www.ft.com/content/899bc060-3f17-4ed9-bea7-710c467d92fd",
+   "published": "2026-10-25T16:00:05+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Machado Returns to Venezuela to Urge Democratic Transition",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/machado-returns-to-venezuela-in-surprise-challenge-to-rodriguez",
+   "published": "2026-10-25T15:53:18+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "9 Days to Midterm Elections, Big Tech Earnings",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-25/bloomberg-this-weekend-10-25-2026-video",
+   "published": "2026-10-25T15:42:35+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "Hassett Says US Close to Deal With Canada as Talks Pick Up",
@@ -30,6 +126,12 @@ window.LIVE_DATA = {
    "title": "Trump Says He Plans More Announcements on Economy",
    "url": "https://www.bloomberg.com/news/articles/2026-10-25/trump-says-he-plans-more-announcements-on-economy",
    "published": "2026-10-25T14:42:54+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Carney\u2019s energy ambitions boosted by Conservative victory in British Columbia",
+   "url": "https://www.ft.com/content/397d5d63-1d60-4218-b2bd-8ce6e8f527b1?syn-25a6b1a6=1",
+   "published": "2026-10-25T14:25:30+00:00"
   },
   {
    "source": "Bloomberg",
@@ -141,7 +243,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Financial Times",
-   "title": "Andy Burnham stokes Brexit debate ahead of UK-EU summit",
+   "title": "Burnham stokes Brexit debate ahead of UK-EU summit",
    "url": "https://www.ft.com/content/ef271c35-6e32-455a-8463-579788530fd3?syn-25a6b1a6=1",
    "published": "2026-10-25T12:01:18+00:00"
   },
@@ -258,108 +360,6 @@ window.LIVE_DATA = {
    "title": "Bolsonaro and Lula face off in knife-edge Brazil election",
    "url": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
    "published": "2026-10-25T05:00:10+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Martin Wolf on the US midterms: What\u2019s at stake for the world?",
-   "url": "https://www.ft.com/content/01119d92-0d23-4d91-8a66-44ebd94c2356?syn-25a6b1a6=1",
-   "published": "2026-10-25T05:00:10+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Mercuria challenging the \u2018Dow Jones of shipping\u2019 in court after Hormuz losses",
-   "url": "https://www.ft.com/content/eedb7159-65df-45de-91f9-fde8de99e61c?syn-25a6b1a6=1",
-   "published": "2026-10-25T05:00:10+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The right\u2019s obsession with \u2018civil war\u2019 in Britain",
-   "url": "https://www.ft.com/content/3736714a-2058-4413-ac91-e8f10f33ad69?syn-25a6b1a6=1",
-   "published": "2026-10-25T05:00:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The Black Sea is now the world\u2019s deadliest shipping route",
-   "url": "https://www.ft.com/content/8c874f60-0041-476d-9c53-8524c374443f?syn-25a6b1a6=1",
-   "published": "2026-10-25T05:00:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "More than 1mn antiquities returned to countries of origin",
-   "url": "https://www.ft.com/content/82f2922f-8c73-4e00-9a71-7682a2c9af1a?syn-25a6b1a6=1",
-   "published": "2026-10-25T05:00:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Life after USAID in Somalia",
-   "url": "https://www.ft.com/content/ee6e1bfd-ed03-4f9a-a6fc-0db1c81b3905?syn-25a6b1a6=1",
-   "published": "2026-10-25T05:00:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Many care services in England have never been inspected by regulator",
-   "url": "https://www.ft.com/content/d5cc68cd-1c12-4617-8584-c731b4c8aa81?syn-25a6b1a6=1",
-   "published": "2026-10-25T05:00:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Why is it getting harder to raise taxes in the UK?",
-   "url": "https://www.ft.com/content/4528aa39-1ef2-47f2-9ff0-3271db0ae029?syn-25a6b1a6=1",
-   "published": "2026-10-25T05:00:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Conservatives and Reform ready their attacks on Healey\u2019s Budget",
-   "url": "https://www.ft.com/content/a505e99f-b49f-46a7-b158-f5c9322eb076?syn-25a6b1a6=1",
-   "published": "2026-10-25T05:00:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Climate accounting body in battle over corporate \u2018capture\u2019, say staff",
-   "url": "https://www.ft.com/content/054c6bee-87f2-47d4-8bf5-40003eb66457?syn-25a6b1a6=1",
-   "published": "2026-10-25T05:00:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Serb Strongman Faces New Rival in Watershed Vote: What to Watch",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/serb-strongman-faces-new-rival-in-watershed-vote-what-to-watch",
-   "published": "2026-10-25T05:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "BC Left-Wing Leader Loses to Conservatives in Vote He Called",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/bc-s-left-wing-leader-loses-to-conservatives-in-vote-he-called",
-   "published": "2026-10-25T04:08:12+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Billionaire benevolence is booming, but it comes with strings",
-   "url": "https://www.ft.com/content/f0f294c1-66b0-4612-9716-647344a0e4c6?syn-25a6b1a6=1",
-   "published": "2026-10-25T04:00:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The Bethlehem Project: Voters feel anxious and uncertain as US midterms near",
-   "url": "https://www.ft.com/content/44077dde-2c7d-43ca-b724-53451f1c0d22?syn-25a6b1a6=1",
-   "published": "2026-10-25T04:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Brazil Election: Lula Rallies Supporters for One Last Comeback",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/brazil-election-lula-rallies-supporters-for-one-last-comeback",
-   "published": "2026-10-25T02:02:19+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Why 17 is not the magic number in industrial policy",
-   "url": "https://www.ft.com/content/3e405824-a44a-4cb7-bc80-acc5bc3b5b59?syn-25a6b1a6=1",
-   "published": "2026-10-25T01:00:09+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Co-operate to avoid being hostage to geopolitics, Australia tells \u2018middle powers\u2019",
-   "url": "https://www.ft.com/content/653f5a48-94f5-4e92-86dd-7d118e8849a8?syn-25a6b1a6=1",
-   "published": "2026-10-25T01:00:09+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 5.0
     }
    ],
-   "fetched_at": "2026-10-25T16:03:31+00:00",
+   "fetched_at": "2026-10-25T18:57:55+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1748,7 +1748,7 @@ window.LIVE_DATA = {
      "v": 3.3844008945
     }
    ],
-   "fetched_at": "2026-10-25T16:03:33+00:00",
+   "fetched_at": "2026-10-25T18:57:57+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2312,7 +2312,7 @@ window.LIVE_DATA = {
      "v": 5.3337
     }
    ],
-   "fetched_at": "2026-10-25T16:03:53+00:00",
+   "fetched_at": "2026-10-25T18:57:58+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2852,7 +2852,7 @@ window.LIVE_DATA = {
      "v": 2.914
     }
    ],
-   "fetched_at": "2026-10-25T16:03:55+00:00",
+   "fetched_at": "2026-10-25T18:57:59+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3664,7 +3664,7 @@ window.LIVE_DATA = {
      "v": 3.78
     }
    ],
-   "fetched_at": "2026-10-25T16:03:55+00:00",
+   "fetched_at": "2026-10-25T18:58:00+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4232,7 +4232,7 @@ window.LIVE_DATA = {
      "v": 5.277
     }
    ],
-   "fetched_at": "2026-10-25T16:03:56+00:00",
+   "fetched_at": "2026-10-25T18:58:00+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4265,7 +4265,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-23",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-25T16:03:58+00:00",
+  "fetched_at": "2026-10-25T18:58:01+00:00",
   "error": null,
   "pairs": [
    {
