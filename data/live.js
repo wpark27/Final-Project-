@@ -1,6 +1,18 @@
 window.LIVE_DATA = {
- "updated": "2026-10-24T23:06:33+00:00",
+ "updated": "2026-10-25T01:05:37+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "Trump Defends Tariffs at Rally as He Says Audi to Build US Plant",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/trump-defends-tariffs-at-rally-as-he-says-audi-to-build-us-plant",
+   "published": "2026-10-25T00:35:58+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
+   "url": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
+   "published": "2026-10-24T23:23:01+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "Bolsonaro and Lula in Dead Heat a Day Before Runoff, Poll Shows",
@@ -30,12 +42,6 @@ window.LIVE_DATA = {
    "title": "Volkswagen Plans New Audi Plant in Georgia, Handing Trump a Win",
    "url": "https://www.bloomberg.com/news/articles/2026-10-24/volkswagen-plans-new-audi-plant-in-georgia-handing-trump-a-win",
    "published": "2026-10-24T19:52:40+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
-   "url": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
-   "published": "2026-10-24T19:48:27+00:00"
   },
   {
    "source": "Financial Times",
@@ -354,12 +360,6 @@ window.LIVE_DATA = {
    "title": "Musk\u2019s bet of the century",
    "url": "https://www.ft.com/content/dfe64d5e-f5f3-444f-a233-a516483fa6f0?syn-25a6b1a6=1",
    "published": "2026-10-24T04:00:33+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "France is looking ungovernable. And it\u2019s going to get worse",
-   "url": "https://www.ft.com/content/62b83fcf-efad-418d-ba6a-569344fa7ecb",
-   "published": "2026-10-24T04:00:23+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 5.0
     }
    ],
-   "fetched_at": "2026-10-24T23:06:54+00:00",
+   "fetched_at": "2026-10-25T01:05:56+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1183,10 +1183,6 @@ window.LIVE_DATA = {
    "as_of": "2026-10-22",
    "change_1d_bp": -4.5,
    "history": [
-    {
-     "d": "2026-04-07",
-     "v": 3.1060962471
-    },
     {
      "d": "2026-04-08",
      "v": 2.9793275216
@@ -1752,7 +1748,7 @@ window.LIVE_DATA = {
      "v": 3.3844008945
     }
    ],
-   "fetched_at": "2026-10-24T23:06:55+00:00",
+   "fetched_at": "2026-10-25T01:05:57+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -1763,10 +1759,6 @@ window.LIVE_DATA = {
    "as_of": "2026-10-21",
    "change_1d_bp": -1.8,
    "history": [
-    {
-     "d": "2026-04-07",
-     "v": 4.874
-    },
     {
      "d": "2026-04-08",
      "v": 4.6599
@@ -2320,7 +2312,7 @@ window.LIVE_DATA = {
      "v": 5.3337
     }
    ],
-   "fetched_at": "2026-10-24T23:06:55+00:00",
+   "fetched_at": "2026-10-25T01:05:58+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2331,10 +2323,6 @@ window.LIVE_DATA = {
    "as_of": "2026-10-22",
    "change_1d_bp": -0.9,
    "history": [
-    {
-     "d": "2026-04-07",
-     "v": 2.411
-    },
     {
      "d": "2026-04-08",
      "v": 2.374
@@ -2864,7 +2852,7 @@ window.LIVE_DATA = {
      "v": 2.914
     }
    ],
-   "fetched_at": "2026-10-24T23:06:59+00:00",
+   "fetched_at": "2026-10-25T01:06:01+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3676,7 +3664,7 @@ window.LIVE_DATA = {
      "v": 3.78
     }
    ],
-   "fetched_at": "2026-10-24T23:06:59+00:00",
+   "fetched_at": "2026-10-25T01:06:01+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -3687,10 +3675,6 @@ window.LIVE_DATA = {
    "as_of": "2026-10-21",
    "change_1d_bp": 2.7,
    "history": [
-    {
-     "d": "2026-04-07",
-     "v": 4.985
-    },
     {
      "d": "2026-04-08",
      "v": 4.858
@@ -4248,7 +4232,7 @@ window.LIVE_DATA = {
      "v": 5.277
     }
    ],
-   "fetched_at": "2026-10-24T23:07:00+00:00",
+   "fetched_at": "2026-10-25T01:06:01+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4281,7 +4265,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-23",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-24T23:07:00+00:00",
+  "fetched_at": "2026-10-25T01:06:02+00:00",
   "error": null,
   "pairs": [
    {
