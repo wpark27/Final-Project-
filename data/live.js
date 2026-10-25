@@ -1,11 +1,47 @@
 window.LIVE_DATA = {
- "updated": "2026-10-25T06:01:58+00:00",
+ "updated": "2026-10-25T11:15:05+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "French Bond Rout Puts Crisis at Heart of ECB Succession Endgame",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/french-bond-rout-puts-crisis-at-heart-of-ecb-succession-endgame",
+   "published": "2026-10-25T10:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Brookfield to Open Doha Office to Deepen Its Middle East Reach",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/brookfield-to-open-doha-office-to-deepen-its-middle-east-reach",
+   "published": "2026-10-25T08:47:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Goldman Cuts Kospi 12-Month Target by 25% as AI Trade Unravels",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/goldman-cuts-kospi-12-month-target-by-25-as-ai-trade-unravels",
+   "published": "2026-10-25T07:44:43+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Britain\u2019s Migration Clampdown Puts Fear Into \u00a315 Billion Care Sector",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/britain-s-migration-clampdown-puts-fear-into-15-billion-care-sector",
+   "published": "2026-10-25T07:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "France Protests: Tough Security Measures Help Avoid Violence at Demonstrations",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/france-dodges-repeat-of-looting-and-riots-with-tougher-security",
+   "published": "2026-10-25T06:00:00+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "Singapore\u2019s Wong Vows More Support for Workers, Energy Security",
    "url": "https://www.bloomberg.com/news/articles/2026-10-25/singapore-s-wong-vows-more-support-for-workers-energy-security",
    "published": "2026-10-25T05:40:56+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "What my most embarrassing job interview taught me",
+   "url": "https://www.ft.com/content/3f333a1c-18f8-4050-ab8e-042536006de5?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:11+00:00"
   },
   {
    "source": "Financial Times",
@@ -17,6 +53,18 @@ window.LIVE_DATA = {
    "source": "Financial Times",
    "title": "Bolsonaro and Lula face off in knife-edge Brazil election",
    "url": "https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:10+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Martin Wolf on the US midterms: What\u2019s at stake for the world?",
+   "url": "https://www.ft.com/content/01119d92-0d23-4d91-8a66-44ebd94c2356?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:10+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Mercuria challenging the \u2018Dow Jones of shipping\u2019 in court after Hormuz losses",
+   "url": "https://www.ft.com/content/eedb7159-65df-45de-91f9-fde8de99e61c?syn-25a6b1a6=1",
    "published": "2026-10-25T05:00:10+00:00"
   },
   {
@@ -38,8 +86,44 @@ window.LIVE_DATA = {
    "published": "2026-10-25T05:00:02+00:00"
   },
   {
+   "source": "Financial Times",
+   "title": "Life after USAID in Somalia",
+   "url": "https://www.ft.com/content/ee6e1bfd-ed03-4f9a-a6fc-0db1c81b3905?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:02+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Many care services in England have never been inspected by regulator",
+   "url": "https://www.ft.com/content/d5cc68cd-1c12-4617-8584-c731b4c8aa81?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:02+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Why is it getting harder to raise taxes in the UK?",
+   "url": "https://www.ft.com/content/4528aa39-1ef2-47f2-9ff0-3271db0ae029?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:02+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Conservatives and Reform ready their attacks on Healey\u2019s Budget",
+   "url": "https://www.ft.com/content/a505e99f-b49f-46a7-b158-f5c9322eb076?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:02+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Climate accounting body in battle over corporate \u2018capture\u2019, say staff",
+   "url": "https://www.ft.com/content/054c6bee-87f2-47d4-8bf5-40003eb66457?syn-25a6b1a6=1",
+   "published": "2026-10-25T05:00:02+00:00"
+  },
+  {
    "source": "Bloomberg",
-   "title": "BC\u2019s Left-Wing Leader Loses to Conservatives in Vote He Called",
+   "title": "Serb Strongman Faces New Rival in Watershed Vote: What to Watch",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/serb-strongman-faces-new-rival-in-watershed-vote-what-to-watch",
+   "published": "2026-10-25T05:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "BC Left-Wing Leader Loses to Conservatives in Vote He Called",
    "url": "https://www.bloomberg.com/news/articles/2026-10-25/bc-s-left-wing-leader-loses-to-conservatives-in-vote-he-called",
    "published": "2026-10-25T04:08:12+00:00"
   },
@@ -47,6 +131,12 @@ window.LIVE_DATA = {
    "source": "Financial Times",
    "title": "Billionaire benevolence is booming, but it comes with strings",
    "url": "https://www.ft.com/content/f0f294c1-66b0-4612-9716-647344a0e4c6?syn-25a6b1a6=1",
+   "published": "2026-10-25T04:00:00+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The Bethlehem Project: Voters feel anxious and uncertain as US midterms near",
+   "url": "https://www.ft.com/content/44077dde-2c7d-43ca-b724-53451f1c0d22?syn-25a6b1a6=1",
    "published": "2026-10-25T04:00:00+00:00"
   },
   {
@@ -117,7 +207,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Volkswagen Plans New Audi Plant in Georgia, Handing Trump a Win",
+   "title": "VW Plans New Audi Plant in Georgia, Handing Trump a Win",
    "url": "https://www.bloomberg.com/news/articles/2026-10-24/volkswagen-plans-new-audi-plant-in-georgia-handing-trump-a-win",
    "published": "2026-10-24T19:52:40+00:00"
   },
@@ -270,96 +360,6 @@ window.LIVE_DATA = {
    "title": "Trump Tests His Political Pull in Midterm Races",
    "url": "https://www.bloomberg.com/news/videos/2026-10-24/trump-tests-his-political-pull-in-midterm-races-video",
    "published": "2026-10-24T12:44:49+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "France Faces New Protests After Week of Violence",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-24/france-faces-new-protests-after-week-of-violence-video",
-   "published": "2026-10-24T12:23:42+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "China Hits Back at US Proposal to Tighten Investment Limits",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-24/china-hits-back-at-us-proposal-to-tighten-investment-limits",
-   "published": "2026-10-24T12:18:17+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Has Election Spending Hit a Tipping Point?",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-24/has-election-spending-hit-a-tipping-point-video",
-   "published": "2026-10-24T12:03:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Gershkovich Says Putin Seeks His Terms, Not a Deal",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-24/gershkovich-says-putin-seeks-his-terms-not-a-deal-video",
-   "published": "2026-10-24T11:54:12+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Oil Markets Brace for Renewed Iran Fighting",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-24/oil-markets-brace-for-renewed-iran-fighting-video",
-   "published": "2026-10-24T11:39:37+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Barclays \u2018House of Fixed Income\u2019 Pins Future Growth on Equities",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-24/barclays-house-of-fixed-income-pins-future-growth-on-equities",
-   "published": "2026-10-24T11:02:54+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Davos in the Desert\u2019s \u2018old fox\u2019 Richard Attias faces his latest test",
-   "url": "https://www.ft.com/content/47073bc4-f176-4fbe-b277-30e93007fbb1?syn-25a6b1a6=1",
-   "published": "2026-10-24T11:00:04+00:00"
-  },
-  {
-   "source": "The Economist",
-   "title": "Cover Story newsletter: The agony of liberal Europe",
-   "url": "https://www.economist.com/the-world-this-week/2026/10/24/cover-story-newsletter-the-agony-of-liberal-europe",
-   "published": "2026-10-24T10:53:01+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Mauritius Carrier Looks at Narrow-Body Jets in Fleet Overhaul",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-24/mauritius-carrier-looks-at-narrow-body-jets-in-fleet-overhaul",
-   "published": "2026-10-24T08:59:12+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Odd Lots: How to Run a Restaurant For Three Decades (Podcast)",
-   "url": "https://www.bloomberg.com/news/audio/2026-10-24/odd-lots-how-to-run-a-restaurant-for-three-decades-podcast",
-   "published": "2026-10-24T08:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Ukraine Says Restrictions on Starlink Speed Have Been Lifted",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-24/ukraine-says-restrictions-on-starlink-speed-have-been-lifted",
-   "published": "2026-10-24T07:59:59+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Netanyahu threatens \u2018aggressive\u2019 offensive after West Bank shooting",
-   "url": "https://www.ft.com/content/e03e092b-c465-478a-b01e-bf21406981cd?syn-25a6b1a6=1",
-   "published": "2026-10-24T07:59:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Indonesia Begins Trimming Pipeline Gas Exports to Singapore",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-24/indonesia-begins-trimming-pipeline-gas-exports-to-singapore",
-   "published": "2026-10-24T07:48:56+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Swiss Stocks Are Becoming a Haven From AI Fears Roiling Markets",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-24/swiss-stocks-are-becoming-a-haven-from-ai-fears-roiling-markets",
-   "published": "2026-10-24T07:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "France on Edge as New Protests Raise Fears of More Violence",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-24/france-on-edge-as-new-protests-raise-fears-of-violence-looting",
-   "published": "2026-10-24T06:30:00+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 5.0
     }
    ],
-   "fetched_at": "2026-10-25T06:02:19+00:00",
+   "fetched_at": "2026-10-25T11:15:25+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1748,7 +1748,7 @@ window.LIVE_DATA = {
      "v": 3.3844008945
     }
    ],
-   "fetched_at": "2026-10-25T06:02:20+00:00",
+   "fetched_at": "2026-10-25T11:15:27+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2312,7 +2312,7 @@ window.LIVE_DATA = {
      "v": 5.3337
     }
    ],
-   "fetched_at": "2026-10-25T06:02:21+00:00",
+   "fetched_at": "2026-10-25T11:15:28+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2852,7 +2852,7 @@ window.LIVE_DATA = {
      "v": 2.914
     }
    ],
-   "fetched_at": "2026-10-25T06:02:24+00:00",
+   "fetched_at": "2026-10-25T11:15:31+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3664,7 +3664,7 @@ window.LIVE_DATA = {
      "v": 3.78
     }
    ],
-   "fetched_at": "2026-10-25T06:02:25+00:00",
+   "fetched_at": "2026-10-25T11:15:31+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4232,7 +4232,7 @@ window.LIVE_DATA = {
      "v": 5.277
     }
    ],
-   "fetched_at": "2026-10-25T06:02:26+00:00",
+   "fetched_at": "2026-10-25T11:15:32+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4265,7 +4265,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-23",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-25T06:02:27+00:00",
+  "fetched_at": "2026-10-25T11:15:33+00:00",
   "error": null,
   "pairs": [
    {
