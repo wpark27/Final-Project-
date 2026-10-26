@@ -1,9 +1,285 @@
 {
- "updated": "2026-10-26T00:10:22+00:00",
+ "updated": "2026-10-26T06:01:51+00:00",
  "news": [
   {
    "source": "Bloomberg",
-   "title": "Lula Wins a Record Fourth Term in Brazil in a Surprise Comeback",
+   "title": "Ken Griffin\u2019s Citadel Securities to Expand India Office",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/ken-griffin-s-citadel-securities-to-expand-india-office",
+   "published": "2026-10-26T05:39:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "IGU's Ydreos on Energy Demand Driven by Data Centers",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/igu-s-ydreos-on-energy-demand-driven-by-data-centers-video",
+   "published": "2026-10-26T05:38:48+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "JPMorgan's Travis Spence on China's Active ETF Market",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/jpmorgan-s-travis-spence-on-china-s-active-etf-market-video",
+   "published": "2026-10-26T05:36:00+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "FirstFT: Brazil re-elects Lula as president",
+   "url": "https://www.ft.com/content/7d8f8969-7bef-4776-8e32-54249f8d3d61?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:31:46+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Markets Brace After Lula's Surprise Comeback Win In Brazil Elections",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/insight-with-haslinda-amin-10-6-2026-video",
+   "published": "2026-10-26T05:20:15+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "(USD:UGX) Shilling Freefall Has Uganda Tapping Meager Reserve War-Chest",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/-usd-ugx-shilling-freefall-has-uganda-tapping-meager-reserve-war-chest",
+   "published": "2026-10-26T05:15:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Blackstone-Backed ASK Hires Ex-Motilal Executive as Mutual Fund Chief",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/blackstone-backed-ask-hires-ex-motilal-executive-as-mutual-fund-chief",
+   "published": "2026-10-26T05:13:39+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Brazil\u2019s Lula Wins Record Fourth Term",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/brazil-s-lula-wins-record-fourth-term-video",
+   "published": "2026-10-26T05:07:18+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Germany to tap Ukrainian tech with missile purchase",
+   "url": "https://www.ft.com/content/f9476b15-c2b6-4b8b-86fc-58ae5795fb87?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:30+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "EU weighs mirroring Trump in securing critical minerals",
+   "url": "https://www.ft.com/content/cfb2e934-0000-42e6-93a4-4dffa56f11a8?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:30+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "UK financial ombudsman hits phones to cut through AI hallucinations",
+   "url": "https://www.ft.com/content/5f56b300-f8a6-4834-a2e6-75902880ef87?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:30+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Oxford Street\u2019s pedestrian revolution is finally here",
+   "url": "https://www.ft.com/content/e14c2beb-cbcd-4e47-9f30-604b766f88e1?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:21+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "A day in Benjamin Netanyahu\u2019s heartland",
+   "url": "https://www.ft.com/content/470fbc3a-fd2e-4ad3-8999-25d71e53d173",
+   "published": "2026-10-26T05:00:20+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "\u2018Do no harm\u2019 \u2014 what gilt investors want from Healey in the Budget",
+   "url": "https://www.ft.com/content/244ae9ad-0778-4afe-8b6a-c2b1b9f81771?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:20+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Chinese wind turbine maker builds European firewall from Beijing",
+   "url": "https://www.ft.com/content/fa2bdd53-29dc-4e3f-bbd2-5510da3cd88c?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:20+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "We need to know if AI agents are accessing British services",
+   "url": "https://www.ft.com/content/a2be99e5-b952-495f-9776-1ce7e4f994aa?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:20+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Why class matters in America",
+   "url": "https://www.ft.com/content/a1a6d129-f271-49de-bdbb-671e660b0749?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:20+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Tesla\u2019s AI ambitions take flight as rivals race to keep up",
+   "url": "https://www.ft.com/content/c8db9b39-1922-41f3-b8e9-4488d16f8a2c?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:20+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Junk borrowers are stuck between a $2tn rock and a hard place",
+   "url": "https://www.ft.com/content/053a8758-2814-45a5-87ca-0c71ce5f7816?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:20+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The reclusive quant billionaire\u00a0coming into the light",
+   "url": "https://www.ft.com/content/bc6bba42-0b33-4825-a2c5-cff9b8f5c591?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:12+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Guernsey, Jersey and other havens rake in revenues from global minimum tax",
+   "url": "https://www.ft.com/content/4c3bf863-b21b-4626-83dd-26c6da3f0d8d?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:12+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Paris getaway: cycling the Chevreuse Valley",
+   "url": "https://www.ft.com/content/f8d1d1d3-d4fb-4a92-880e-480669fa4452",
+   "published": "2026-10-26T05:00:12+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Can Pakistan\u2019s military government make the economy grow?",
+   "url": "https://www.ft.com/content/14242b5e-0975-4c7d-92fd-e7c04e87238a?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:12+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Kone tries to limit asset sales as it seeks Brussels\u2019 approval for \u20ac29bn megadeal",
+   "url": "https://www.ft.com/content/133c0f88-419e-4c6a-ada2-a911ffd90754?syn-25a6b1a6=1",
+   "published": "2026-10-26T05:00:12+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Lula is re-elected Brazil\u2019s president in knife-edge vote",
+   "url": "https://www.ft.com/content/7585a18f-88d9-4fcd-882d-ed938c7c9c41?syn-25a6b1a6=1",
+   "published": "2026-10-26T04:44:49+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Says Decision Nearing on Iran: Deal or \u2018Finish It Off\u2019",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/trump-says-decision-nearing-on-iran-video",
+   "published": "2026-10-26T04:32:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Australian Regulator Warns Higher Market Risks May Hit Liquidity",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/australian-regulator-warns-higher-market-risks-may-hit-liquidity",
+   "published": "2026-10-26T04:31:48+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Venezuelan opposition leader Machado returns from exile",
+   "url": "https://www.ft.com/content/f691e41e-dd01-4ac0-ade7-5f7ca23d6135?syn-25a6b1a6=1",
+   "published": "2026-10-26T04:23:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "China National Team ETFs Draw Most Inflows Since Trade War Rout",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/china-national-team-etfs-draw-most-inflows-since-trade-war-rout",
+   "published": "2026-10-26T04:14:46+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Morgan Stanley Sees Further China Stock Downside Before Bottom",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/morgan-stanley-sees-further-china-stock-downside-before-bottom",
+   "published": "2026-10-26T04:03:35+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Serbia\u2019s strongman leader voted out",
+   "url": "https://www.ft.com/content/2d9a682d-fd71-4d76-878b-fe7980f6988a?syn-25a6b1a6=1",
+   "published": "2026-10-26T04:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "EM Stocks Fall Before Key Earnings, Brazil in Focus as Lula Wins",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/em-stocks-fall-before-key-earnings-brazil-in-focus-as-lula-wins",
+   "published": "2026-10-26T03:53:33+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Copper Extends Drop as AI Stocks Weigh Ahead of Fed Meeting",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/copper-extends-drop-as-ai-stocks-weigh-ahead-of-fed-meeting",
+   "published": "2026-10-26T03:52:35+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Lula Wins Brazil's Presidential Election, Real Futures, Japan ETF Slide",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/the-asia-trade-10-26-2026-video",
+   "published": "2026-10-26T03:51:45+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Philippines\u2019 Marcos Appoints New Head of Scandal-Hit Public Works Department",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/philippines-marcos-appoints-new-head-of-scandal-hit-public-works-department",
+   "published": "2026-10-26T03:25:37+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Lula Wins Record Fourth Term in Brazil in Surprise Comeback",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/lula-wins-record-fourth-term-in-brazil-video",
+   "published": "2026-10-26T03:23:55+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Venezuela: Maria Corina Machado\u2019s Return Fuels Hope for Shift to Democracy",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/venezuela-maria-corina-machado-s-return-fuels-hope-for-shift-to-democracy",
+   "published": "2026-10-26T03:19:06+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Soybeans Hit Two-Month Low as Lula Win Lifts China Trade Outlook",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/soybeans-hit-2-month-low-as-lula-s-win-lifts-china-trade-outlook",
+   "published": "2026-10-26T03:18:39+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Investors Flee India Small-Caps as Margin Calls Come Knocking",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-26/investors-flee-india-small-caps-as-margin-calls-come-knocking",
+   "published": "2026-10-26T02:30:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Lula reeleito",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/lula-reeleito-video",
+   "published": "2026-10-26T02:29:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bolsonaro Launches Longshot Bid to Annul Election Loss to Lula",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/bolsonaro-calls-for-annulment-of-election-after-loss-to-lula",
+   "published": "2026-10-26T01:46:57+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Brazil Markets Brace for Rout on Lula\u2019s Improbable Election Win",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/brazil-markets-brace-for-rout-on-lula-s-improbable-election-win",
+   "published": "2026-10-26T01:21:55+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "After stunning victory, Lula will face a deep hangover",
+   "url": "https://www.ft.com/content/5c283ba4-37cf-4b0e-81f3-6df04b29529b?syn-25a6b1a6=1",
+   "published": "2026-10-26T01:15:16+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "France Avoids Rerun of Looting With Tough Security",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/france-avoids-rerun-of-looting-with-tough-security-video",
+   "published": "2026-10-26T00:55:28+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Lula\u2019s Surprise Brazil Victory Sends Assets Lower",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/lula-s-surprise-brazil-victory-sends-assets-lower-video",
+   "published": "2026-10-26T00:39:15+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Mexico\u2019s Electoral Chief Is Resigning After Graft Probe Opened",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/mexico-s-electoral-chief-is-resigning-after-graft-probe-opened",
+   "published": "2026-10-26T00:03:14+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Lula Wins Record Fourth Term in Surprise Brazil Comeback",
    "url": "https://www.bloomberg.com/news/articles/2026-10-25/lula-wins-a-record-fourth-term-in-brazil-in-a-surprise-comeback",
    "published": "2026-10-25T23:50:19+00:00"
   },
@@ -75,7 +351,7 @@
   },
   {
    "source": "Bloomberg",
-   "title": "Stocks Under Pressure Before Earnings, Oil Dips: Markets Wrap",
+   "title": "Stocks Edge Up With Treasuries, Crude Oil Declines: Markets Wrap",
    "url": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
    "published": "2026-10-25T22:09:07+00:00"
   },
@@ -84,282 +360,6 @@
    "title": "Latest Oil Market News and Analysis for Oct. 26",
    "url": "https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26",
    "published": "2026-10-25T22:04:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Venezuelan opposition leader Machado returns from exile",
-   "url": "https://www.ft.com/content/f691e41e-dd01-4ac0-ade7-5f7ca23d6135?syn-25a6b1a6=1",
-   "published": "2026-10-25T21:55:32+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "FirstFT: Brazil awaits results in knife-edge presidential vote",
-   "url": "https://www.ft.com/content/7d8f8969-7bef-4776-8e32-54249f8d3d61?syn-25a6b1a6=1",
-   "published": "2026-10-25T21:45:03+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "UAE\u2019s Nusseibeh Vows Independence, Dialogue If Elected UN Chief",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/uae-s-nusseibeh-pledges-dialogue-with-iran-if-elected-un-chief",
-   "published": "2026-10-25T21:31:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Senegal Premier Raises Constitutional Option in Budget Standoff",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/senegal-premier-raises-constitutional-option-in-budget-standoff",
-   "published": "2026-10-25T21:26:30+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Toyota takes on Tesla and China in humanoid robot race",
-   "url": "https://www.ft.com/content/8bf93407-6b93-4ebb-b54b-f290ebd563e3?syn-25a6b1a6=1",
-   "published": "2026-10-25T21:00:06+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "BYD\u2019s Korea Expansion Challenges Hyundai Dominance on Home Turf",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/byd-s-korea-expansion-challenges-hyundai-dominance-on-home-turf",
-   "published": "2026-10-25T21:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Serbia\u2019s Vucic Concedes Defeat After Putin-Like Gamble Fails",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/serbian-long-time-leader-vucic-concedes-defeat-in-snap-vote",
-   "published": "2026-10-25T20:35:33+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Europe\u2019s Top Five Defense Powers to Call Russia Biggest Threat",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/europe-s-top-five-defense-powers-to-call-russia-biggest-threat",
-   "published": "2026-10-25T20:33:25+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Tensions Flare in Chaotic Brazil Election After Voting Extended",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/brazil-court-extends-voting-by-two-hours-on-candidate-requests",
-   "published": "2026-10-25T20:08:50+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Lula Cast Vote in Brazil\u2019s Presidential Runoff Election",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-25/lula-cast-vote-in-brazil-s-presidential-runoff-election-video",
-   "published": "2026-10-25T19:43:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Burnham stokes Brexit debate ahead of UK-EU summit",
-   "url": "https://www.ft.com/content/ef271c35-6e32-455a-8463-579788530fd3?syn-25a6b1a6=1",
-   "published": "2026-10-25T19:37:03+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "UK\u2019s Healey Ends Talks with Canada to Merge Defense Banks",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/uk-s-healey-ends-talks-with-canada-to-merge-defense-banks",
-   "published": "2026-10-25T19:26:36+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Britain will not join Canada-led defence bank",
-   "url": "https://www.ft.com/content/1f7924c1-ab63-465d-94b8-e97861e2348e?syn-25a6b1a6=1",
-   "published": "2026-10-25T19:09:24+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Thousands Protest in Prague Against Public Media Funding Change",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/thousands-protest-in-prague-against-public-media-funding-change",
-   "published": "2026-10-25T18:59:20+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Bon Secours nears $6bn takeover of Bain-backed Surgery Partners",
-   "url": "https://www.ft.com/content/e7b82fe0-db51-49cf-bad4-2168a905652b?syn-25a6b1a6=1",
-   "published": "2026-10-25T18:56:37+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "France\u2019s Le Pen vows national \u2018renewal\u2019 in campaign launch",
-   "url": "https://www.ft.com/content/fd1c3f30-2789-4fca-a93f-57850b1448a8?syn-25a6b1a6=1",
-   "published": "2026-10-25T18:37:17+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Bon Secours Nears $6B Takeover of Surgery Partners: FT",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/bon-secours-nears-6b-takeover-of-surgery-partners-ft",
-   "published": "2026-10-25T18:24:56+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Hassett Says US-Canada Trade Talks Are \u2018Very Close\u2019 to Deal",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/hassett-says-us-canada-trade-talks-are-very-close-to-a-deal",
-   "published": "2026-10-25T18:18:24+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "A knife-edge election in Israel and other potential pivot points",
-   "url": "https://www.ft.com/content/49873329-05f1-4137-bf94-d4ed3f63e897?syn-25a6b1a6=1",
-   "published": "2026-10-25T18:15:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Bulgaria Faces Election Runoff After President Falls Short",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/bulgarian-president-set-to-win-first-round-of-election-poll",
-   "published": "2026-10-25T18:00:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Enough golfers commit to LIV 2.0 to keep hopes of new league alive",
-   "url": "https://www.ft.com/content/935f19bc-bb43-4840-8a55-d8ef409c7b52?syn-25a6b1a6=1",
-   "published": "2026-10-25T17:56:50+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "De olho nas elei\u00e7\u00f5es",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-25/de-olho-nas-eleicoes-video-mvo4e3rz",
-   "published": "2026-10-25T17:47:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Venezuelan opposition leader Machado returns from exile",
-   "url": "https://www.ft.com/content/f691e41e-dd01-4ac0-ade7-5f7ca23d6135",
-   "published": "2026-10-25T17:37:08+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Alaska Senate Hopeful Peltola Delays Rallies After Car Crash",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/car-crash-with-alaska-democrat-peltola-delays-campaign-rallies",
-   "published": "2026-10-25T17:15:59+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Musk\u2019s Starlink Explanation Challenged by Texas GOP Lawmaker",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/musk-s-starlink-explanation-challenged-by-texas-gop-lawmaker",
-   "published": "2026-10-25T16:58:27+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The battle for the soul of Israel",
-   "url": "https://www.ft.com/content/a9040cdc-a599-4489-a975-ce90906c92c4?syn-25a6b1a6=1",
-   "published": "2026-10-25T16:51:55+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Says US Has Two Different Sets of Intelligence on Iran",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/trump-says-us-has-two-different-sets-of-intelligence-on-iran",
-   "published": "2026-10-25T16:36:09+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Marco Rubio still owes Europe answers about America\u2019s intentions",
-   "url": "https://www.ft.com/content/899bc060-3f17-4ed9-bea7-710c467d92fd",
-   "published": "2026-10-25T16:00:05+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Machado Returns to Venezuela to Urge Democratic Transition",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/machado-returns-to-venezuela-in-surprise-challenge-to-rodriguez",
-   "published": "2026-10-25T15:53:18+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "9 Days to Midterm Elections, Big Tech Earnings",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-25/bloomberg-this-weekend-10-25-2026-video",
-   "published": "2026-10-25T15:42:35+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Hassett Says US Close to Deal With Canada as Talks Pick Up",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/hassett-says-us-close-to-deal-with-canada-as-talks-pick-up",
-   "published": "2026-10-25T15:28:12+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Says Decision Nearing on Iran: Deal or \u2018Finish It Off\u2019",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/trump-says-decision-time-nears-on-iran-deal-or-finish-it-off",
-   "published": "2026-10-25T14:57:05+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Iran War Risks Escalation After Elections",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-25/iran-war-risks-escalation-after-elections-video",
-   "published": "2026-10-25T14:48:35+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Italy\u2019s Salvini Wins New League Mandate With Anti-Ukraine Pledge",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/italy-s-salvini-wins-new-league-mandate-with-anti-ukraine-pledge",
-   "published": "2026-10-25T14:45:19+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Says He Plans More Announcements on Economy",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/trump-says-he-plans-more-announcements-on-economy",
-   "published": "2026-10-25T14:42:54+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Carney\u2019s energy ambitions boosted by Conservative victory in British Columbia",
-   "url": "https://www.ft.com/content/397d5d63-1d60-4218-b2bd-8ce6e8f527b1?syn-25a6b1a6=1",
-   "published": "2026-10-25T14:25:30+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Midterm Fight Intensifies in Final Campaign Stretch",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-25/midterm-fight-intensifies-in-final-campaign-stretch-video",
-   "published": "2026-10-25T14:13:24+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Rep. Crenshaw Presses Musk on Starlink for Ukraine",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-25/rep-crenshaw-presses-musk-on-starlink-for-ukraine-video",
-   "published": "2026-10-25T14:04:25+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Inside The Two Argentinas Under Javier Milei",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-25/inside-the-two-argentinas-under-javier-milei-video",
-   "published": "2026-10-25T14:04:15+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Zero-Day Option Traders Are Betting Against Big S&P 500 Swings",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/zero-day-option-traders-are-betting-against-big-s-p-500-swings",
-   "published": "2026-10-25T14:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Halloween Candy Prices Reflect Cocoa\u2019s Wild Ride",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-25/halloween-candy-prices-reflect-cocoa-s-wild-ride-video",
-   "published": "2026-10-25T13:55:22+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Fed Looks Set to Pause After September Rate Hike",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-25/fed-looks-set-to-pause-after-september-rate-hike-video",
-   "published": "2026-10-25T13:48:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Rubio Plans Trilateral Negotiations Over Ukraine, Johnson Says",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/rubio-plans-trilateral-negotiations-over-ukraine-johnson-says",
-   "published": "2026-10-25T13:43:34+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Israel Election Tests Netanyahu\u2019s Hold on Power",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-25/israel-election-tests-netanyahu-s-hold-on-power-video",
-   "published": "2026-10-25T13:31:29+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Epstein Haunts GOP in Midterms as Democrats Vow Fresh Probes",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-25/epstein-haunts-gop-in-midterms-as-democrats-vow-fresh-probes",
-   "published": "2026-10-25T13:30:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Musk\u2019s Money Reshapes the Midterm Spending Race",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-25/musk-s-money-reshapes-the-midterm-spending-race-video",
-   "published": "2026-10-25T13:15:04+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@
      "v": 5.0
     }
    ],
-   "fetched_at": "2026-10-26T00:10:40+00:00",
+   "fetched_at": "2026-10-26T06:02:11+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1744,7 +1744,7 @@
      "v": 3.3844008945
     }
    ],
-   "fetched_at": "2026-10-26T00:10:42+00:00",
+   "fetched_at": "2026-10-26T06:02:13+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2304,16 +2304,16 @@
      "v": 5.3337
     }
    ],
-   "fetched_at": "2026-10-26T00:10:43+00:00",
+   "fetched_at": "2026-10-26T06:02:14+00:00",
    "error": null
   },
   "Bank of Japan": {
    "country": "Japan",
    "series": "Japan MoF JGB benchmark yield, 10Y",
    "source_url": "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/index.htm",
-   "value": 2.914,
-   "as_of": "2026-10-22",
-   "change_1d_bp": -0.9,
+   "value": 2.837,
+   "as_of": "2026-10-23",
+   "change_1d_bp": -7.7,
    "history": [
     {
      "d": "2026-04-09",
@@ -2838,9 +2838,13 @@
     {
      "d": "2026-10-22",
      "v": 2.914
+    },
+    {
+     "d": "2026-10-23",
+     "v": 2.837
     }
    ],
-   "fetched_at": "2026-10-26T00:10:45+00:00",
+   "fetched_at": "2026-10-26T06:02:16+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3652,7 +3656,7 @@
      "v": 3.78
     }
    ],
-   "fetched_at": "2026-10-26T00:10:46+00:00",
+   "fetched_at": "2026-10-26T06:02:17+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4216,7 +4220,7 @@
      "v": 5.277
     }
    ],
-   "fetched_at": "2026-10-26T00:10:47+00:00",
+   "fetched_at": "2026-10-26T06:02:18+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4249,7 +4253,7 @@
   "as_of": "2026-10-23",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-26T00:10:48+00:00",
+  "fetched_at": "2026-10-26T06:02:19+00:00",
   "error": null,
   "pairs": [
    {
