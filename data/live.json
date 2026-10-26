@@ -1,11 +1,287 @@
 {
- "updated": "2026-10-26T19:11:37+00:00",
+ "updated": "2026-10-26T23:46:53+00:00",
  "news": [
+  {
+   "source": "Financial Times",
+   "title": "England captain Harry Kane wins Ballon d\u2019Or",
+   "url": "https://www.ft.com/content/0139bf89-1906-460b-a976-663a36010889?syn-25a6b1a6=1",
+   "published": "2026-10-26T23:32:54+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bolsonaro Changes Strategy, Drops Bid to Annul Brazil Election",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/bolsonaro-changes-strategy-drops-bid-to-annul-brazil-election",
+   "published": "2026-10-26T23:23:09+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Gold Steadies Above $4,000 With Fed Rate Decision in Focus",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/gold-steadies-above-4-000-with-fed-rate-decision-in-focus",
+   "published": "2026-10-26T23:20:28+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "New DOJ Charges Against Ex-FBI Chief Comey Unsealed by Court",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/balance-of-power-late-edition-10-26-2026-video",
+   "published": "2026-10-26T23:19:59+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Healey poised to increase adult minimum wage in UK Budget",
+   "url": "https://www.ft.com/content/63b0768d-0cdc-4ce1-b3e2-1e15df44dabc?syn-25a6b1a6=1",
+   "published": "2026-10-26T23:19:17+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US charges ex-FBI chief James Comey for third time",
+   "url": "https://www.ft.com/content/6b669a41-b629-47ce-8f68-c1ab1bd1320b?syn-25a6b1a6=1",
+   "published": "2026-10-26T22:56:09+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "EU loan to Airbus threatens trade truce with US, Trump trade official warns",
+   "url": "https://www.ft.com/content/f989f4aa-a986-4ced-ba51-fa85f396f06d?syn-25a6b1a6=1",
+   "published": "2026-10-26T22:44:47+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bloomberg Businessweek Daily: Anthropic Files for IPO (Podcast)",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/businessweek-daily-anthropic-files-for-ipo-podcast-video",
+   "published": "2026-10-26T22:42:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "DOJ Bid for Fast Ruling in California Voting Case Rejected",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/doj-bid-for-fast-ruling-in-california-voting-case-rejected",
+   "published": "2026-10-26T22:30:30+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Healey focuses Budget on \u2018everyday fixes\u2019 as energy costs bite",
+   "url": "https://www.ft.com/content/9e9fac4d-117d-46d7-929e-86a7d7c93d35?syn-25a6b1a6=1",
+   "published": "2026-10-26T22:30:06+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Dave Lee: Anthropic Brings\u00a0\u2018Anti-Sell\u2019\u00a0Strategy to Its IPO",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/dave-lee-anthropic-brings-anti-sell-strategy-to-ipo-video",
+   "published": "2026-10-26T22:26:18+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "UK needs more powers to intervene when telecoms providers fail, minister says",
+   "url": "https://www.ft.com/content/3df6836f-4542-4047-b5d8-0b3a8a3a1154",
+   "published": "2026-10-26T22:19:10+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bottoms Says Georgia Needs Pause on New Data Centers",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/bottoms-says-georgia-needs-pause-on-new-data-centers-video",
+   "published": "2026-10-26T22:18:38+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Asian Stocks to Rise on Tech Rebound, Oil Drops: Markets Wrap",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/stock-market-today-dow-s-p-live-updates",
+   "published": "2026-10-26T22:03:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Latest Oil Market News and Analysis for Oct. 27",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/latest-oil-market-news-and-analysis-for-oct-27",
+   "published": "2026-10-26T22:03:22+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "DOJ Accuses Ex-FBI Director Comey of Sharing Defense Secrets",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/doj-accuses-ex-fbi-director-comey-of-sharing-defense-secrets",
+   "published": "2026-10-26T22:03:20+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Anthropic IPO, AI Financing & Markets Rally",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/the-close-10-26-2026-video",
+   "published": "2026-10-26T21:54:50+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "This Election Is About Voters\u2019 Pocketbooks: Andy Blocker",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/this-election-is-about-voters-pocketbooks-andy-blocker-video",
+   "published": "2026-10-26T21:54:35+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Trump offers $1mn reward for tips leading to election fraud conviction",
+   "url": "https://www.ft.com/content/fe3cb92f-bc25-4db7-8fa8-dff3f1f38348?syn-25a6b1a6=1",
+   "published": "2026-10-26T21:50:06+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Duke\u2019s Mayo CEO: Our Room for Growth Is Substantial",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/duke-s-mayo-ceo-our-room-for-growth-is-substantial-video",
+   "published": "2026-10-26T21:48:43+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Pimco Scoops Up $4 Billion of Massive SpaceX AI Debt Package",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/pimco-scoops-up-4-billion-of-massive-spacex-ai-debt-package",
+   "published": "2026-10-26T21:43:04+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "FirstFT: Anthropic unveils long-awaited IPO prospectus",
+   "url": "https://www.ft.com/content/d79ea4f9-dc54-4b9c-b739-6e6fc99feebc?syn-25a6b1a6=1",
+   "published": "2026-10-26T21:41:18+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Affordability Weighs Heavily on Voters for Midterms",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/affordability-weighs-heavily-on-voters-for-midterms-video",
+   "published": "2026-10-26T21:35:30+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Jennifer Garner on Expanding Reach of Once Upon a Farm",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/jennifer-garner-on-expanding-reach-of-once-upon-a-farm-video",
+   "published": "2026-10-26T21:29:40+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US-Canada Trade Talks Are Picking Up Pace But No Deal Yet, Carney Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/us-canada-trade-talks-are-picking-up-pace-but-no-deal-yet-carney-says",
+   "published": "2026-10-26T21:29:17+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Trump accused of \u2018manipulating\u2019 Catholic bishops for political gain",
+   "url": "https://www.ft.com/content/d8e6fac8-9c71-4e0d-9639-b8cf1d5617b4?syn-25a6b1a6=1",
+   "published": "2026-10-26T21:13:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Nucor Profit Beats Estimates as Higher Steel Prices Lift Results",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/nucor-profit-beats-estimates-as-higher-steel-prices-lift-results",
+   "published": "2026-10-26T21:09:05+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Brazil\u2019s currency plunges most since 1999 after Lula\u2019s surprise victory",
+   "url": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db?syn-25a6b1a6=1",
+   "published": "2026-10-26T21:08:50+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Blackstone Data-Center Operator QTS Seeks $800 Million in Private Placement Debt",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/blackstone-data-center-operator-qts-seeks-800-million-in-private-placement-debt",
+   "published": "2026-10-26T21:01:54+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Schwab CEO Says It's Easy to Find Top Talent in Texas",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/schwab-ceo-says-they-keep-finding-top-talent-in-texas-video",
+   "published": "2026-10-26T21:01:18+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Anthropic Mum on Investment Grade as It Warns of More Debt",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-remains-mum-on-investment-grade-as-it-flags-more-debt",
+   "published": "2026-10-26T20:56:09+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "We Support Zuckerberg's Vision: Cassidy",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/we-support-zuckerberg-s-vision-cassidy-video",
+   "published": "2026-10-26T20:51:58+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Como os mercados reagiram ap\u00f3s a vit\u00f3ria do Lula",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/como-os-mercados-reagiram-apos-a-vitoria-do-lula-video",
+   "published": "2026-10-26T20:49:30+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Meta plans $95bn stock offering to bankroll AI expansion",
+   "url": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555?syn-25a6b1a6=1",
+   "published": "2026-10-26T20:49:27+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Maps Path for Venezuela to Hold Fresh Presidential Election",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/us-maps-path-for-venezuela-to-hold-fresh-presidential-election",
+   "published": "2026-10-26T20:49:13+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Universal Music Group Discussed Going Private With Buyout Firms",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/universal-music-group-discussed-going-private-with-buyout-firms",
+   "published": "2026-10-26T20:46:36+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Whirlpool Plunges After Cutting Outlook For Third Time This Year",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/whirlpool-plunges-after-cutting-outlook-for-third-time-this-year",
+   "published": "2026-10-26T20:43:58+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "NY\u2019s MTA Faces $95.6 Million Fuel Hit This Year From Iran War",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/ny-s-mta-faces-95-6-million-fuel-hit-this-year-from-iran-war",
+   "published": "2026-10-26T20:42:49+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Does France Answer to Its Citizens or the Bond Market?",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/does-france-answer-to-its-citizens-or-the-bond-market-video",
+   "published": "2026-10-26T20:33:29+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Anthropic Files for IPO",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/bloomberg-businessweek-daily-10-26-2026-video",
+   "published": "2026-10-26T20:22:58+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Microsoft offers buyouts to 60,000 staff",
+   "url": "https://www.ft.com/content/2ef29406-f2f8-413f-81f6-5ae098c97569?syn-25a6b1a6=1",
+   "published": "2026-10-26T20:22:52+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Roger Marshall\u2019s Medical Debt Controversy Shakes Kansas Senate Race",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-26/roger-marshall-s-medical-debt-controversy-shakes-kansas-senate-race",
+   "published": "2026-10-26T20:13:18+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "'Boring Anti-AI' Stocks Gaining Traction: Sohn",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/-boring-anti-ai-stocks-gaining-traction-sohn-video",
+   "published": "2026-10-26T20:00:23+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Says Brazil Election Looked \u2018Rigged\u2019 After Lula\u2019s Win",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/trump-says-brazil-election-looked-rigged-after-lula-victory",
+   "published": "2026-10-26T19:52:53+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "AI Funding Drives US High-Grade Bond Sales to Annual Record",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/ai-funding-needs-drive-us-high-grade-bond-sales-to-annual-record",
+   "published": "2026-10-26T19:13:48+00:00"
+  },
   {
    "source": "Financial Times",
    "title": "Iran hosts regional powers for talks to prevent fresh escalation",
    "url": "https://www.ft.com/content/7f6943d3-b089-49a7-a0bc-a6f677c09802?syn-25a6b1a6=1",
    "published": "2026-10-26T19:09:14+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Rushes to Defend Red State of Mississippi",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-26/midterms-feel-like-blue-tidal-wave-says-jim-kessler-video",
+   "published": "2026-10-26T19:05:28+00:00"
   },
   {
    "source": "Bloomberg",
@@ -33,7 +309,7 @@
   },
   {
    "source": "Bloomberg",
-   "title": "UK Minimum Wages Set for 4% Rise as Healey Slows Hike for Youth",
+   "title": "UK Set to Raise Pay Floor 4% as Burnham Seeks Cost of Living Fix",
    "url": "https://www.bloomberg.com/news/articles/2026-10-26/uk-minimum-wages-set-for-4-rise-as-healey-slows-hike-for-youth",
    "published": "2026-10-26T18:15:00+00:00"
   },
@@ -84,282 +360,6 @@
    "title": "Europe\u2019s Defense Powers Back Ukraine as US Eases Russia Pressure",
    "url": "https://www.bloomberg.com/news/articles/2026-10-26/europe-s-defense-powers-back-ukraine-as-us-eases-russia-pressure",
    "published": "2026-10-26T17:32:12+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Lula\u2019s surprise victory triggers worst rout in decades for Brazilian markets",
-   "url": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db?syn-25a6b1a6=1",
-   "published": "2026-10-26T17:32:09+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Why you shouldn\u2019t bother reading the Anthropic IPO filing",
-   "url": "https://www.ft.com/content/d2faa674-766b-4699-83d0-d1f9ed65edbf?syn-25a6b1a6=1",
-   "published": "2026-10-26T17:29:42+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Nigeria evacuates Ebola patient to Switzerland",
-   "url": "https://www.ft.com/content/083251a0-d5ab-48be-8295-41c9860963fd?syn-25a6b1a6=1",
-   "published": "2026-10-26T17:23:29+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump accused of \u2018manipulating\u2019 Catholic bishops for political gain",
-   "url": "https://www.ft.com/content/d8e6fac8-9c71-4e0d-9639-b8cf1d5617b4?syn-25a6b1a6=1",
-   "published": "2026-10-26T17:22:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "French bonds rally after Moody\u2019s rating reprieve",
-   "url": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0?syn-25a6b1a6=1",
-   "published": "2026-10-26T17:14:34+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "NBA Reaches Deal With Prediction Markets Kalshi and Polymarket",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/nba-reaches-deal-with-prediction-markets-kalshi-and-polymarket",
-   "published": "2026-10-26T17:12:12+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Lula Win Dashes Brazil Farm Lobby\u2019s Hopes to Solidify Power",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/lula-win-dashes-brazil-farm-lobby-s-hopes-to-solidify-power",
-   "published": "2026-10-26T17:12:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Data Centers Face Midterms Test, AI Demand Risk",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-26/us-data-centers-face-midterms-test-ai-demand-risk-video",
-   "published": "2026-10-26T16:54:10+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Mar\u00eda Corina Machado eleva presi\u00f3n por elecciones en Venezuela",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/maria-corina-machado-eleva-presion-por-elecciones-en-venezuela-mvphn0sk",
-   "published": "2026-10-26T16:45:43+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "CPPIB Said to Explore Sale of Stake in Spain\u2019s Largest Gas Grid",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/cppib-said-to-explore-sale-of-stake-in-spain-s-largest-gas-grid",
-   "published": "2026-10-26T16:36:35+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Verizon Sees Customer Surge, But Competition Fears Persist",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-26/verizon-sees-customer-surge-video",
-   "published": "2026-10-26T16:32:56+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "DOJ Appeals Court Ruling Lifting Ban on Agency Anthropic Use",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/doj-appeals-court-ruling-lifting-ban-on-agency-anthropic-use",
-   "published": "2026-10-26T16:30:52+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Shock Lula Win Derails $6 Billion in Equity Sales as Banks Reel",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/shock-lula-win-derails-6-billion-in-equity-sales-as-banks-reel",
-   "published": "2026-10-26T16:12:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Welcome to the Infinite Work Machine",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-10-26/welcome-to-the-infinite-work-machine",
-   "published": "2026-10-26T16:05:46+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump\u2019s fresh campaign against wind power puts permitting deal in doubt",
-   "url": "https://www.ft.com/content/8cdadf5d-5859-422d-982a-fab0e9f2a619?syn-25a6b1a6=1",
-   "published": "2026-10-26T16:01:08+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "2026 US Midterm Election Results: Live Map and Vote Counts",
-   "url": "https://www.bloomberg.com/graphics/2026-us-election-results/",
-   "published": "2026-10-26T16:00:25+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Anthropic Files for IPO in Global Race to Raise Cash for AI",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-26/bloomberg-surveillance-10-26-2026-video",
-   "published": "2026-10-26T16:00:03+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Germany Warns of Difficulty in Blocking Property Seizure Plans",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/germany-warns-of-difficulty-in-blocking-property-seizure-plans",
-   "published": "2026-10-26T15:46:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Tens of thousands of Israelis fly home for pivotal election",
-   "url": "https://www.ft.com/content/4fb0c89f-a620-4d5f-bee5-9ff9164ca679",
-   "published": "2026-10-26T15:43:59+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "PM Andy Burnham Says He Wants UK to Rejoin EU in His Lifetime",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-26/pm-burnham-says-he-wants-uk-to-rejoin-eu-in-his-lifetime-video",
-   "published": "2026-10-26T15:28:15+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Can the Democrats win the Senate?",
-   "url": "https://www.ft.com/content/29f1af13-ecc3-4f26-a479-e6088c67231b?syn-25a6b1a6=1",
-   "published": "2026-10-26T15:20:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Lula Wins Record Fourth Term in Surprise Brazil Comeback",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-26/lula-wins-record-fourth-term-in-surprise-brazil-comeback-video",
-   "published": "2026-10-26T15:16:13+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Gasoline Prices Under Trump Surpass Biden-Era Average",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/trump-s-gasoline-prices-surpass-biden-average-ahead-of-midterms",
-   "published": "2026-10-26T15:14:34+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Euro-Shy Czech Government Backs Constitutional Shield for Koruna",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/euro-shy-czech-government-backs-constitutional-shield-for-koruna",
-   "published": "2026-10-26T15:07:42+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Labour MPs Say Burnham\u2019s UK Industrial Revival Needs New Plan",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/labour-mps-warn-uk-risks-falling-short-on-industrial-revival",
-   "published": "2026-10-26T15:00:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Apollo takes minority stake in Abu Dhabi\u2019s Mubadala Capital",
-   "url": "https://www.ft.com/content/306b6168-e8be-4781-82e3-d5dea8bc4de2?syn-25a6b1a6=1",
-   "published": "2026-10-26T14:50:43+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Milei Is Lone South American Leader Yet to Recognize Lula\u2019s Win",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/milei-is-lone-south-american-leader-yet-to-recognize-lula-s-win",
-   "published": "2026-10-26T14:40:46+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Who are the students set to govern Serbia?",
-   "url": "https://www.ft.com/content/c3f29989-747e-4734-a29b-568b3c5e488a?syn-25a6b1a6=1",
-   "published": "2026-10-26T14:06:44+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Plan for AI-run companies challenged by US lawmakers",
-   "url": "https://www.ft.com/content/d5021cdf-816e-4cb9-bbf9-e4ba816a004f?syn-25a6b1a6=1",
-   "published": "2026-10-26T14:00:09+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Natural Gas Falls to Six-Month Low on Warm Weather Forecast",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/us-natural-gas-plunges-to-six-month-low-on-warm-weather-forecast",
-   "published": "2026-10-26T13:58:39+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Lula is re-elected Brazil\u2019s president in knife-edge vote",
-   "url": "https://www.ft.com/content/7585a18f-88d9-4fcd-882d-ed938c7c9c41?syn-25a6b1a6=1",
-   "published": "2026-10-26T13:52:39+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Colombia Taps Global Bond Market as Fiscal Pressure Mounts",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/colombia-to-sell-new-dollar-bonds-amid-fiscal-pressures",
-   "published": "2026-10-26T13:31:11+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Andy Burnham backtracks on idea of referendum if UK accepts EU free movement",
-   "url": "https://www.ft.com/content/ef271c35-6e32-455a-8463-579788530fd3?syn-25a6b1a6=1",
-   "published": "2026-10-26T13:21:32+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Anthropic S-1 as it happened: Inside the Claude maker\u2019s 335-page IPO plan",
-   "url": "https://www.ft.com/content/4b2b9c0e-adfb-4362-800f-950f5b905984?syn-25a6b1a6=1",
-   "published": "2026-10-26T13:08:09+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Can Europe find a third way?",
-   "url": "https://www.ft.com/content/f63aab0f-0c42-4d64-ba38-e2a1dc154f66?syn-25a6b1a6=1",
-   "published": "2026-10-26T13:00:09+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Stocks Gain as Investors Parse Anthropic IPO Filing",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/us-stock-futures-gain-ahead-of-big-tech-earnings-fed-decision",
-   "published": "2026-10-26T12:38:56+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "A Stock Investor\u2019s Guide to UK Budget Winners and Losers",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/a-stock-investor-s-guide-to-uk-budget-winners-and-losers",
-   "published": "2026-10-26T12:35:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Meta plans $95bn stock offering to bankroll AI expansion",
-   "url": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555?syn-25a6b1a6=1",
-   "published": "2026-10-26T12:34:22+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Relieving Starlink\u2019s chokehold takes more than good intentions",
-   "url": "https://www.ft.com/content/cf0ec693-fd48-483d-b309-e8b7b48e8f05?syn-25a6b1a6=1",
-   "published": "2026-10-26T12:31:09+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "NHS consultants in England to go on strike in November",
-   "url": "https://www.ft.com/content/fc2e08b6-6adf-48b4-91a2-08d8183804d0?syn-25a6b1a6=1",
-   "published": "2026-10-26T12:25:56+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "HSBC\u2019s Max Kettner Ends Bullish Stocks Call Ahead of Midterms",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/hsbc-s-max-kettner-ends-bullish-stocks-call-ahead-of-midterms",
-   "published": "2026-10-26T12:07:31+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The Cauldron by Simon Sebag Montefiore \u2014 how the Middle East became a fiery brew",
-   "url": "https://www.ft.com/content/dfc50238-3672-4a3d-af3a-dd674aea4710",
-   "published": "2026-10-26T12:07:04+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Riots brought Art Basel Paris to a close \u2014 is it a sign of things to come?",
-   "url": "https://www.ft.com/content/f6296774-5bf9-4756-addf-f14cd829b093",
-   "published": "2026-10-26T12:00:08+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Update: Lula pulls off election win in Brazil",
-   "url": "https://www.ft.com/content/c222b937-6351-4d21-b7cc-ae6fe21693f4?syn-25a6b1a6=1",
-   "published": "2026-10-26T11:58:42+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "EQT to buy Range Resources in natural gas megadeal",
-   "url": "https://www.ft.com/content/b4526650-49b6-4f88-ab95-4bde1cf4ad9c?syn-25a6b1a6=1",
-   "published": "2026-10-26T11:57:49+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Anthropic Is Said to Plan Public Filing for Mega-IPO Monday",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-is-said-to-plan-public-filing-for-mega-ipo-monday",
-   "published": "2026-10-26T11:53:38+00:00"
   }
  ],
  "yields": {
@@ -368,13 +368,9 @@
    "series": "US Treasury par yield curve, 10 Yr",
    "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates",
    "value": 5.0,
-   "as_of": "2026-10-23",
-   "change_1d_bp": 4.0,
+   "as_of": "2026-10-26",
+   "change_1d_bp": 0.0,
    "history": [
-    {
-     "d": "2026-01-08",
-     "v": 4.19
-    },
     {
      "d": "2026-01-09",
      "v": 4.18
@@ -1170,9 +1166,13 @@
     {
      "d": "2026-10-23",
      "v": 5.0
+    },
+    {
+     "d": "2026-10-26",
+     "v": 5.0
     }
    ],
-   "fetched_at": "2026-10-26T19:11:57+00:00",
+   "fetched_at": "2026-10-26T23:47:15+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1748,7 +1748,7 @@
      "v": 3.3694058329
     }
    ],
-   "fetched_at": "2026-10-26T19:11:58+00:00",
+   "fetched_at": "2026-10-26T23:47:16+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2312,7 +2312,7 @@
      "v": 5.2784
     }
    ],
-   "fetched_at": "2026-10-26T19:11:59+00:00",
+   "fetched_at": "2026-10-26T23:47:17+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2852,7 +2852,7 @@
      "v": 2.837
     }
    ],
-   "fetched_at": "2026-10-26T19:12:01+00:00",
+   "fetched_at": "2026-10-26T23:47:19+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3664,7 +3664,7 @@
      "v": 3.83
     }
    ],
-   "fetched_at": "2026-10-26T19:12:02+00:00",
+   "fetched_at": "2026-10-26T23:47:20+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4228,7 +4228,7 @@
      "v": 5.277
     }
    ],
-   "fetched_at": "2026-10-26T19:12:03+00:00",
+   "fetched_at": "2026-10-26T23:47:20+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4261,7 +4261,7 @@
   "as_of": "2026-10-26",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-26T19:12:03+00:00",
+  "fetched_at": "2026-10-26T23:47:21+00:00",
   "error": null,
   "pairs": [
    {
