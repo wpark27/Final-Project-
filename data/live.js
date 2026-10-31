@@ -1,6 +1,96 @@
 window.LIVE_DATA = {
- "updated": "2026-10-31T05:25:08+00:00",
+ "updated": "2026-10-31T12:13:19+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "The Affordability Crisis Shaping US Elections",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-31/the-affordability-crisis-shaping-us-elections-video",
+   "published": "2026-10-31T12:03:48+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Poland suspends top judges as battle over rule of law escalates",
+   "url": "https://www.ft.com/content/1be69ebe-0c55-446e-9abf-84ac9e99c51e?syn-25a6b1a6=1",
+   "published": "2026-10-31T11:57:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Cost of Living Looms Over the Midterms",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-31/cost-of-living-looms-over-the-midterms-video",
+   "published": "2026-10-31T11:56:44+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Ukraine Strikes Bashneft Refineries as Russia Attacks Power Grid",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/ukraine-strikes-bashneft-refineries-as-russia-attacks-power-grid",
+   "published": "2026-10-31T11:55:32+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Iran\u2019s Khamenei Orders Military to Expand US Retaliation Plans",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/iran-s-khamenei-orders-military-to-expand-us-retaliation-plans",
+   "published": "2026-10-31T11:49:52+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Norwegian Firm Has $100 Million Riding on Mercuria\u2019s Baltic Case",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/norwegian-firm-has-100-million-riding-on-mercuria-s-baltic-case",
+   "published": "2026-10-31T11:30:00+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Serbia comes back into the fold",
+   "url": "https://www.ft.com/content/80da9ebf-4057-4ccb-896f-c34929889726?syn-25a6b1a6=1",
+   "published": "2026-10-31T11:00:01+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Crypto exchanges rush to tighten security after $6.3bn Binance heist",
+   "url": "https://www.ft.com/content/c7062e37-86fd-45ef-8f58-573de0fcaaf0?syn-25a6b1a6=1",
+   "published": "2026-10-31T10:38:18+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Chart of the Week: Bond investors may cheer gridlock",
+   "url": "https://www.ft.com/content/9570b122-5418-41e6-b91b-b95af96ec881?syn-25a6b1a6=1",
+   "published": "2026-10-31T10:30:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Midterms: Trumpism May Already Be in Decline Worldwide",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/us-midterms-trumpism-may-already-be-in-decline-worldwide",
+   "published": "2026-10-31T10:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Angola Plans to Cut Fuel Subsidies Without Price Increases",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/angola-plans-to-cut-fuel-subsidies-without-price-increases",
+   "published": "2026-10-31T09:39:45+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Rating agency Fitch hits France with unscheduled outlook downgrade",
+   "url": "https://www.ft.com/content/852b05a1-4090-4aee-afc6-4d4c353ef3cf?syn-25a6b1a6=1",
+   "published": "2026-10-31T09:36:34+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US approves $2.1bn sale of Patriot interceptors to Ukraine",
+   "url": "https://www.ft.com/content/321cf4f9-d236-4b50-a52c-c2a21f7c447b?syn-25a6b1a6=1",
+   "published": "2026-10-31T07:04:09+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "S\u00e1nchez Rethinks Reelection Plan After Spain\u2019s Rail Disaster",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/sanchez-rethinks-reelection-plan-after-spain-rail-disaster-socialist-party",
+   "published": "2026-10-31T07:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Andy Burnham Had His Bounce. Now Things Are Set to Get Bumpy for New UK Premier",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/andy-burnham-uk-premier-budget-labour-britain",
+   "published": "2026-10-31T06:00:00+00:00"
+  },
   {
    "source": "Financial Times",
    "title": "Fiscal drifting: why the Budget won\u2019t leave you better off",
@@ -27,7 +117,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Financial Times",
-   "title": "New scheme will struggle to deliver \u2018the homes buyers want\u2019",
+   "title": "Equity loan scheme will struggle to deliver \u2018the homes buyers want\u2019",
    "url": "https://www.ft.com/content/a6cac59f-7344-4717-8164-a4cbfdd26db5?syn-25a6b1a6=1",
    "published": "2026-10-31T05:00:40+00:00"
   },
@@ -164,12 +254,6 @@ window.LIVE_DATA = {
    "published": "2026-10-31T00:05:08+00:00"
   },
   {
-   "source": "Financial Times",
-   "title": "Poland suspends top judges as battle over rule of law escalates",
-   "url": "https://www.ft.com/content/1be69ebe-0c55-446e-9abf-84ac9e99c51e?syn-25a6b1a6=1",
-   "published": "2026-10-30T23:32:09+00:00"
-  },
-  {
    "source": "Bloomberg",
    "title": "Wall Street Week | Affordability, Data Center Divide, Debt Hits Households, Capitalism on the Ballot",
    "url": "https://www.bloomberg.com/news/videos/2026-10-30/wall-street-week-affordability-data-center-divide-video",
@@ -276,90 +360,6 @@ window.LIVE_DATA = {
    "title": "Ice Cube on Big3 League: In a Great Position To Scale",
    "url": "https://www.bloomberg.com/news/videos/2026-10-30/ice-cube-on-big3-league-in-a-great-position-to-scale-video",
    "published": "2026-10-30T21:55:31+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Burger King US President on Sales Turnaround",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-30/burger-king-us-president-on-sales-turnaround-video",
-   "published": "2026-10-30T21:51:18+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Guyana Seeks Regional Support Ahead of Venezuela Border Ruling",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-30/guyana-seeks-regional-support-ahead-of-venezuela-border-ruling",
-   "published": "2026-10-30T21:42:34+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US greenlights $2.1bn sale of Patriot interceptors to Ukraine",
-   "url": "https://www.ft.com/content/321cf4f9-d236-4b50-a52c-c2a21f7c447b?syn-25a6b1a6=1",
-   "published": "2026-10-30T21:28:58+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Wall Street Punishes Tech Stocks on Earnings Misses",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-30/bloomberg-businessweek-daily-10-30-2026-video",
-   "published": "2026-10-30T21:24:20+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Rich Steinmeier on a Career in Management",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-30/rich-steinmeier-on-a-career-in-management-video",
-   "published": "2026-10-30T21:21:38+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "White House to Nominate Mufarrige to FTC Commissioner Spot",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-30/white-house-to-nominate-mufarrige-to-ftc-commissioner-spot",
-   "published": "2026-10-30T21:20:52+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "The Future of Financial Advice: Masters in Business with Rich Steinmeier",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-30/masters-in-business-with-rich-steinmeier-video",
-   "published": "2026-10-30T21:14:16+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US tech stocks tumble as concerns over AI spending intensify",
-   "url": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
-   "published": "2026-10-30T21:13:50+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Says US Looking at Whether Binance Hack Was By North Korea",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-30/trump-says-us-looking-at-whether-binance-hack-was-by-north-korea",
-   "published": "2026-10-30T21:00:31+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Brazil Summons Argentine Envoy Over Role in Bolsonaro\u2019s Escape",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-30/brazil-summons-argentine-envoy-over-role-in-bolsonaro-s-escape",
-   "published": "2026-10-30T20:59:39+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Wall Street Boom to Cut New York State Budget Deficit in Half",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-30/wall-street-boom-to-cut-new-york-state-budget-deficit-in-half",
-   "published": "2026-10-30T20:55:32+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Hedge Funds Boost Natural Gas Short Positions to Most on Record",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-30/hedge-funds-boost-natural-gas-short-positions-to-most-on-record",
-   "published": "2026-10-30T20:40:59+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Poland Moves Against Top Court in a Showdown With Opposition",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-30/poland-moves-against-top-court-in-a-showdown-with-the-opposition",
-   "published": "2026-10-30T20:33:34+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Why Gridlock Won\u2019t End Economic Risks After the Midterms",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-10-30/why-gridlock-won-t-end-economic-risks-after-the-midterms",
-   "published": "2026-10-30T20:30:32+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 4.94
     }
    ],
-   "fetched_at": "2026-10-31T05:25:27+00:00",
+   "fetched_at": "2026-10-31T12:13:40+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1752,7 +1752,7 @@ window.LIVE_DATA = {
      "v": 3.3733145545
     }
    ],
-   "fetched_at": "2026-10-31T05:25:28+00:00",
+   "fetched_at": "2026-10-31T12:13:42+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2320,7 +2320,7 @@ window.LIVE_DATA = {
      "v": 5.3087
     }
    ],
-   "fetched_at": "2026-10-31T05:25:29+00:00",
+   "fetched_at": "2026-10-31T12:13:43+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2864,7 +2864,7 @@ window.LIVE_DATA = {
      "v": 2.876
     }
    ],
-   "fetched_at": "2026-10-31T05:25:36+00:00",
+   "fetched_at": "2026-10-31T12:13:45+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3676,7 +3676,7 @@ window.LIVE_DATA = {
      "v": 3.84
     }
    ],
-   "fetched_at": "2026-10-31T05:25:36+00:00",
+   "fetched_at": "2026-10-31T12:13:46+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4248,7 +4248,7 @@ window.LIVE_DATA = {
      "v": 5.208
     }
    ],
-   "fetched_at": "2026-10-31T05:25:38+00:00",
+   "fetched_at": "2026-10-31T12:13:47+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4281,7 +4281,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-30",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-31T05:25:39+00:00",
+  "fetched_at": "2026-10-31T12:13:48+00:00",
   "error": null,
   "pairs": [
    {
