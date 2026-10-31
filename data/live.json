@@ -1,6 +1,30 @@
 {
- "updated": "2026-10-31T17:39:38+00:00",
+ "updated": "2026-10-31T21:25:53+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "Rubio Defends Russian G20 Presence Despite Criticism From Allies",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/rubio-defends-russian-g20-presence-despite-criticism-from-allies",
+   "published": "2026-10-31T20:41:04+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "WSJ Wins Dismissal of Trump\u2019s $10 Billion Defamation Suit",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/wsj-wins-dismissal-of-trump-s-10-billion-defamation-suit",
+   "published": "2026-10-31T20:23:45+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Why Are We Letting a Handful of Billionaires Dictate the Terms of Ai?",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-31/why-are-we-letting-billionaires-dictate-the-terms-of-ai-video",
+   "published": "2026-10-31T19:53:15+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Poland\u2019s Tusk Says He Won\u2019t Back Down in Top Court Standoff",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/polish-premier-tusk-says-he-won-t-back-down-in-top-court-feud",
+   "published": "2026-10-31T19:31:21+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "Carney Says No Hurry on Trade Deal If US Won\u2019t Offer Good Terms",
@@ -335,30 +359,6 @@
    "source": "Financial Times",
    "title": "Is this the first clear evidence of AI\u2019s impact on the labour market?",
    "url": "https://www.ft.com/content/7f27aa5f-5994-4f82-aed8-1cade18fb487?syn-25a6b1a6=1",
-   "published": "2026-10-31T05:00:31+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "17 splendid ways to spend it in November",
-   "url": "https://www.ft.com/content/6f85b836-ccb2-4968-8faa-abd311d56ae0",
-   "published": "2026-10-31T05:00:31+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Bank of England explores easing key limit on riskier mortgage lending",
-   "url": "https://www.ft.com/content/78363dc1-90fa-4a10-b84a-69be3d749f42?syn-25a6b1a6=1",
-   "published": "2026-10-31T05:00:31+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Lula\u2019s surprise election victory sends agri-commodities tumbling",
-   "url": "https://www.ft.com/content/f0ca6771-20a2-4146-bd3f-4796d3c86094?syn-25a6b1a6=1",
-   "published": "2026-10-31T05:00:31+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Saying nothing in Northern Ireland",
-   "url": "https://www.ft.com/content/df052f2b-c2f2-4669-a852-dbe6e307ab81",
    "published": "2026-10-31T05:00:31+00:00"
   }
  ],
@@ -1172,7 +1172,7 @@
      "v": 4.94
     }
    ],
-   "fetched_at": "2026-10-31T17:39:59+00:00",
+   "fetched_at": "2026-10-31T21:26:14+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1752,7 +1752,7 @@
      "v": 3.3733145545
     }
    ],
-   "fetched_at": "2026-10-31T17:40:00+00:00",
+   "fetched_at": "2026-10-31T21:26:16+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2320,7 +2320,7 @@
      "v": 5.3087
     }
    ],
-   "fetched_at": "2026-10-31T17:40:01+00:00",
+   "fetched_at": "2026-10-31T21:26:17+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2864,7 +2864,7 @@
      "v": 2.876
     }
    ],
-   "fetched_at": "2026-10-31T17:40:04+00:00",
+   "fetched_at": "2026-10-31T21:26:19+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3676,7 +3676,7 @@
      "v": 3.84
     }
    ],
-   "fetched_at": "2026-10-31T17:40:05+00:00",
+   "fetched_at": "2026-10-31T21:26:19+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4248,7 +4248,7 @@
      "v": 5.208
     }
    ],
-   "fetched_at": "2026-10-31T17:40:06+00:00",
+   "fetched_at": "2026-10-31T21:26:20+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4281,7 +4281,7 @@
   "as_of": "2026-10-30",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-31T17:40:08+00:00",
+  "fetched_at": "2026-10-31T21:26:20+00:00",
   "error": null,
   "pairs": [
    {
