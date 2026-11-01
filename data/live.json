@@ -1,6 +1,48 @@
 {
- "updated": "2026-10-31T21:25:53+00:00",
+ "updated": "2026-11-01T01:00:31+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "An Asian Stock Trader\u2019s Guide Ahead of the US Midterm Elections",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-01/an-asian-stock-trader-s-guide-ahead-of-the-us-midterm-elections",
+   "published": "2026-11-01T00:00:00+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Michigan feud threatens Democratic unity in key Senate race",
+   "url": "https://www.ft.com/content/d77e4c6f-0ac7-49ce-bca8-b30080bf9797?syn-25a6b1a6=1",
+   "published": "2026-10-31T23:57:07+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Tusk vows to press on with overhaul of Poland\u2019s judiciary",
+   "url": "https://www.ft.com/content/d49a7943-fc11-45cb-bcf2-f5876c3c381d?syn-25a6b1a6=1",
+   "published": "2026-10-31T22:51:11+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Mamdani Says Trump Agrees to Visa for Mother of Slain Bronx Teen",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/mamdani-says-trump-agrees-to-visa-for-mother-of-slain-bronx-teen",
+   "published": "2026-10-31T22:44:45+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Turkey Appoints New Top Market Regulator in Fund Crisis Response",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/turkey-appoints-new-top-market-regulator-in-fund-crisis-response",
+   "published": "2026-10-31T21:50:23+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "UN Ends Its Political Mission in Somalia After Three Decades",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/un-ends-its-political-mission-in-somalia-after-three-decades",
+   "published": "2026-10-31T21:31:34+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Canadian Finance Minister\u2019s Ex-Chief of Staff Named to IMF Board",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-31/canadian-finance-minister-s-ex-chief-of-staff-named-to-imf-board",
+   "published": "2026-10-31T20:43:26+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "Rubio Defends Russian G20 Presence Despite Criticism From Allies",
@@ -318,48 +360,6 @@
    "title": "The rightward march of Israel",
    "url": "https://www.ft.com/content/a4978448-b5ab-4890-9ce5-596f4883816e?syn-25a6b1a6=1",
    "published": "2026-10-31T05:00:40+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "French protests show BNP Paribas what\u2019s in a name",
-   "url": "https://www.ft.com/content/5719a0b6-80cb-415c-b349-c1e07dd46c36?syn-25a6b1a6=1",
-   "published": "2026-10-31T05:00:40+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Equity loan scheme will struggle to deliver \u2018the homes buyers want\u2019",
-   "url": "https://www.ft.com/content/a6cac59f-7344-4717-8164-a4cbfdd26db5?syn-25a6b1a6=1",
-   "published": "2026-10-31T05:00:40+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "French banks\u2019 rising profits fail to reverse sell-off as political fears bite",
-   "url": "https://www.ft.com/content/d1c2c34b-7bfb-470a-a51d-bbada1c6ccef?syn-25a6b1a6=1",
-   "published": "2026-10-31T05:00:40+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The bonkers business of tax breaks for entrepreneurs",
-   "url": "https://www.ft.com/content/636fd85e-2f5f-4b98-91ff-75300df69908",
-   "published": "2026-10-31T05:00:39+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US midterms loom over jittery investors",
-   "url": "https://www.ft.com/content/6c099dc6-1fb3-44fc-b011-70229e3755cb?syn-25a6b1a6=1",
-   "published": "2026-10-31T05:00:39+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Entrepreneurs question Budget rhetoric on relief and red tape",
-   "url": "https://www.ft.com/content/8a26c5ed-820b-4653-8bf0-d9ee4f20bdcd",
-   "published": "2026-10-31T05:00:39+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Is this the first clear evidence of AI\u2019s impact on the labour market?",
-   "url": "https://www.ft.com/content/7f27aa5f-5994-4f82-aed8-1cade18fb487?syn-25a6b1a6=1",
-   "published": "2026-10-31T05:00:31+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@
      "v": 4.94
     }
    ],
-   "fetched_at": "2026-10-31T21:26:14+00:00",
+   "fetched_at": "2026-11-01T01:00:52+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1183,10 +1183,6 @@
    "as_of": "2026-10-29",
    "change_1d_bp": -1.9,
    "history": [
-    {
-     "d": "2026-04-14",
-     "v": 3.1121828868
-    },
     {
      "d": "2026-04-15",
      "v": 3.0888161219
@@ -1752,7 +1748,7 @@
      "v": 3.3733145545
     }
    ],
-   "fetched_at": "2026-10-31T21:26:16+00:00",
+   "fetched_at": "2026-11-01T01:00:53+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -1763,10 +1759,6 @@
    "as_of": "2026-10-28",
    "change_1d_bp": 0.4,
    "history": [
-    {
-     "d": "2026-04-14",
-     "v": 4.741
-    },
     {
      "d": "2026-04-15",
      "v": 4.7435
@@ -2320,7 +2312,7 @@
      "v": 5.3087
     }
    ],
-   "fetched_at": "2026-10-31T21:26:17+00:00",
+   "fetched_at": "2026-11-01T01:00:54+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2331,10 +2323,6 @@
    "as_of": "2026-10-29",
    "change_1d_bp": 0.9,
    "history": [
-    {
-     "d": "2026-04-14",
-     "v": 2.423
-    },
     {
      "d": "2026-04-15",
      "v": 2.414
@@ -2864,7 +2852,7 @@
      "v": 2.876
     }
    ],
-   "fetched_at": "2026-10-31T21:26:19+00:00",
+   "fetched_at": "2026-11-01T01:00:59+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3676,7 +3664,7 @@
      "v": 3.84
     }
    ],
-   "fetched_at": "2026-10-31T21:26:19+00:00",
+   "fetched_at": "2026-11-01T01:00:59+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -3687,10 +3675,6 @@
    "as_of": "2026-10-28",
    "change_1d_bp": 5.6,
    "history": [
-    {
-     "d": "2026-04-14",
-     "v": 4.949
-    },
     {
      "d": "2026-04-15",
      "v": 4.931
@@ -4248,7 +4232,7 @@
      "v": 5.208
     }
    ],
-   "fetched_at": "2026-10-31T21:26:20+00:00",
+   "fetched_at": "2026-11-01T01:01:00+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4281,7 +4265,7 @@
   "as_of": "2026-10-30",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-10-31T21:26:20+00:00",
+  "fetched_at": "2026-11-01T01:01:00+00:00",
   "error": null,
   "pairs": [
    {
