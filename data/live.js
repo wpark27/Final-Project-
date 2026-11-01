@@ -1,11 +1,77 @@
 window.LIVE_DATA = {
- "updated": "2026-11-01T19:33:20+00:00",
+ "updated": "2026-11-01T23:30:28+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "Billionaire Friedland to Build Major US-Backed Rare Earths Mine",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-01/billionaire-friedland-to-build-major-us-backed-rare-earths-mine",
+   "published": "2026-11-01T23:02:49+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Colombia at Risk of Default Without a Fix, Restrepo Tells Semana",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-01/colombia-is-at-risk-of-default-without-fiscal-fix-restrepo-says",
+   "published": "2026-11-01T22:38:32+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "What\u2019s the risk of political violence? | Martin Wolf on the US midterms",
+   "url": "https://www.ft.com/video/32bfcd99-db49-4f9c-9eeb-20978b496972?syn-25a6b1a6=1",
+   "published": "2026-11-01T22:35:19+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "FirstFT: Gulf braced for renewed war between US and Iran",
+   "url": "https://www.ft.com/content/703dd322-e880-4bbf-80f8-8b0efda1831c?syn-25a6b1a6=1",
+   "published": "2026-11-01T22:22:33+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Australian Far-Right Party Regains Poll Lead as Government Slips",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-01/australian-far-right-party-regains-poll-lead-as-government-slips",
+   "published": "2026-11-01T22:09:50+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Trump makes final pitch to restive voters in midterms campaign",
+   "url": "https://www.ft.com/content/75e8405b-124f-44aa-9c5e-0a33d0ee5b92?syn-25a6b1a6=1",
+   "published": "2026-11-01T22:01:19+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Indonesia\u2019s MSCI Crisis Driven By Wash Trades and 5,000% Rallies",
+   "url": "https://www.bloomberg.com/news/features/2026-11-01/indonesia-s-msci-crisis-driven-by-wash-trades-and-5-000-rallies",
+   "published": "2026-11-01T22:00:00+00:00"
+  },
   {
    "source": "Financial Times",
    "title": "Michigan Democrat Haley Stevens endorses Republican instead of Abdul El-Sayed",
    "url": "https://www.ft.com/content/d77e4c6f-0ac7-49ce-bca8-b30080bf9797?syn-25a6b1a6=1",
-   "published": "2026-11-01T18:50:24+00:00"
+   "published": "2026-11-01T21:44:06+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Asian Stocks to Fall on AI Fears, Oil Declines: Markets Wrap",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates",
+   "published": "2026-11-01T21:28:04+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Bulgarians projected to re-elect pro-Russian president",
+   "url": "https://www.ft.com/content/c1565a1b-9962-40d2-a764-5a19d0f3c700?syn-25a6b1a6=1",
+   "published": "2026-11-01T20:53:51+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Westpac CEO\u2019s Pay Surges, Profit Misses Analyst Estimates",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-01/westpac-profit-misses-estimates-ceo-says-economy-uncertain",
+   "published": "2026-11-01T20:41:10+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Wall Street Braces for Biggest Treasury Sales Overhaul in Years",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-biggest-treasury-sales-overhaul-in-years",
+   "published": "2026-11-01T20:00:01+00:00"
   },
   {
    "source": "Bloomberg",
@@ -15,7 +81,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Canada, US to Outline Trade Plan in Weeks Ahead, Carney Says",
+   "title": "Trump Says US-Canada Trade Deal Is Close After Talks With Carney",
    "url": "https://www.bloomberg.com/news/articles/2026-11-01/canada-and-us-to-outline-trade-plan-in-coming-weeks-carney-says",
    "published": "2026-11-01T18:16:09+00:00"
   },
@@ -39,7 +105,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Ukraine-Skeptic President Wins Bulgaria\u2019s Vote, Exit Poll Shows",
+   "title": "Presidential Win Strengthens Bulgaria\u2019s Ukraine-Skeptic Leader",
    "url": "https://www.bloomberg.com/news/articles/2026-11-01/incumbent-yotova-wins-bulgarian-president-vote-exit-poll-shows",
    "published": "2026-11-01T18:00:38+00:00"
   },
@@ -57,7 +123,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "GOP\u2019s Sullivan Says He\u2019d Accept Alaska Senate Result If He Loses",
+   "title": "DOJ Lawsuit to Probe Alaska Senate Vote Thrown Out by Judge",
    "url": "https://www.bloomberg.com/news/articles/2026-11-01/gop-s-sullivan-says-he-d-accept-alaska-senate-result-if-he-loses",
    "published": "2026-11-01T17:54:17+00:00"
   },
@@ -78,12 +144,6 @@ window.LIVE_DATA = {
    "title": "Britain to offer cheaper university fees to EU students at \u2018reset\u2019 summit",
    "url": "https://www.ft.com/content/1bcb60e3-8fd7-495d-9482-f59ce64d534e?syn-25a6b1a6=1",
    "published": "2026-11-01T17:00:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump makes final pitch to restive voters in midterms campaign",
-   "url": "https://www.ft.com/content/75e8405b-124f-44aa-9c5e-0a33d0ee5b92?syn-25a6b1a6=1",
-   "published": "2026-11-01T16:54:05+00:00"
   },
   {
    "source": "Bloomberg",
@@ -153,7 +213,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Wall Street Braces for More Wild Days in Stocks After Tech Rout",
+   "title": "After Tech Rout, Investors Gird for More Wild Days for Stocks",
    "url": "https://www.bloomberg.com/news/articles/2026-11-01/wall-street-braces-for-more-wild-days-in-stocks-after-tech-rout",
    "published": "2026-11-01T15:00:00+00:00"
   },
@@ -300,66 +360,6 @@ window.LIVE_DATA = {
    "title": "Weil Gotshal: what happens now at the troubled Wall St law firm?",
    "url": "https://www.ft.com/content/8332fa3f-2a4a-41ca-8836-44d41d32fe8a?syn-25a6b1a6=1",
    "published": "2026-11-01T12:00:01+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Britain\u2019s welfare ratchet",
-   "url": "https://www.ft.com/content/873aed2b-48e7-4928-b651-b7039a8e3dd3?syn-25a6b1a6=1",
-   "published": "2026-11-01T12:00:01+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Will US jobs growth remain subdued?",
-   "url": "https://www.ft.com/content/b62877b9-4260-4b4a-9f0f-a5dee7571b7c?syn-25a6b1a6=1",
-   "published": "2026-11-01T12:00:01+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "America needs a real Congress",
-   "url": "https://www.ft.com/content/2f1b9cd5-4b6c-4e21-9e16-dcbfe7ecbd3e?syn-25a6b1a6=1",
-   "published": "2026-11-01T12:00:01+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US critical minerals push delivers a gold rush \u2014 for Washington lobbyists",
-   "url": "https://www.ft.com/content/e89a420d-3a93-402f-ab0d-461476cf23ce?syn-25a6b1a6=1",
-   "published": "2026-11-01T12:00:01+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Traders on Kalshi and Polymarket Went to Maine Hunting a Midterm Election Edge.",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-01/traders-on-kalshi-and-polymarket-went-to-maine-hunting-a-midterm-election-edge",
-   "published": "2026-11-01T12:00:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Gen Z protests turn violent in Germany",
-   "url": "https://www.ft.com/content/4ffb1a86-853b-4151-9902-2ff302e79d24?syn-25a6b1a6=1",
-   "published": "2026-11-01T11:36:55+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Serbia\u2019s Banks Urged to Scrutinize Money Flows Amid Power Shift",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-01/serbia-s-banks-urged-to-scrutinize-money-flows-amid-power-shift",
-   "published": "2026-11-01T10:41:04+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "China\u2019s Top Regulators to Address Global Bankers at HK Summit",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-01/china-s-top-regulators-to-address-global-bankers-at-hk-summit",
-   "published": "2026-11-01T10:39:33+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "China to Convene Meeting on Supporting Stock Market, Reports Say",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-01/china-to-convene-meeting-on-supporting-stock-market-reports-say",
-   "published": "2026-11-01T10:08:49+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "German Protests Turn Violent as Activists Clash With Police",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-01/german-protests-turn-violent-as-activists-clash-with-police",
-   "published": "2026-11-01T09:31:22+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 4.94
     }
    ],
-   "fetched_at": "2026-11-01T19:33:40+00:00",
+   "fetched_at": "2026-11-01T23:30:48+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1748,7 +1748,7 @@ window.LIVE_DATA = {
      "v": 3.3733145545
     }
    ],
-   "fetched_at": "2026-11-01T19:33:41+00:00",
+   "fetched_at": "2026-11-01T23:30:49+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2312,7 +2312,7 @@ window.LIVE_DATA = {
      "v": 5.3087
     }
    ],
-   "fetched_at": "2026-11-01T19:33:41+00:00",
+   "fetched_at": "2026-11-01T23:30:50+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2852,7 +2852,7 @@ window.LIVE_DATA = {
      "v": 2.876
     }
    ],
-   "fetched_at": "2026-11-01T19:33:44+00:00",
+   "fetched_at": "2026-11-01T23:30:53+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3664,7 +3664,7 @@ window.LIVE_DATA = {
      "v": 3.84
     }
    ],
-   "fetched_at": "2026-11-01T19:33:45+00:00",
+   "fetched_at": "2026-11-01T23:30:53+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4232,7 +4232,7 @@ window.LIVE_DATA = {
      "v": 5.208
     }
    ],
-   "fetched_at": "2026-11-01T19:33:45+00:00",
+   "fetched_at": "2026-11-01T23:30:54+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4265,7 +4265,7 @@ window.LIVE_DATA = {
   "as_of": "2026-10-30",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-01T19:33:46+00:00",
+  "fetched_at": "2026-11-01T23:30:55+00:00",
   "error": null,
   "pairs": [
    {
