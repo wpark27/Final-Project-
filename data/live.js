@@ -1,6 +1,258 @@
 window.LIVE_DATA = {
- "updated": "2026-11-04T17:07:14+00:00",
+ "updated": "2026-11-04T22:36:04+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "American Action Pres. Reacts To Midterm Election Results",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-04/american-action-pres-reacts-to-midterm-election-results-video",
+   "published": "2026-11-04T22:27:09+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Morgan Stanley\u2019s Monica Guerra on Dem\u2019s Midterm Sweep",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-04/morgan-stanley-s-monica-guerra-on-dem-s-midterm-sweep-video",
+   "published": "2026-11-04T22:21:27+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
+   "published": "2026-11-04T22:15:04+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Oil Sector Girds for Possible Windfall Tax After Democrats Win",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/oil-sector-girds-for-possible-windfall-tax-after-democrats-win",
+   "published": "2026-11-04T22:10:10+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Democrats\u2019 Warning to \u2018Lawyer Up\u2019 Ripples Through Washington",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/democrats-warning-to-lawyer-up-ripples-through-washington",
+   "published": "2026-11-04T22:09:08+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Republican Blame Game Starts as 2028 Hopefuls Angle for Position",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/republican-blame-game-starts-as-2028-hopefuls-angle-for-position",
+   "published": "2026-11-04T22:05:34+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Election Night TV Viewers Rise With NBC in the Lead, Fox Falling",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/election-night-tv-viewers-rise-with-nbc-in-the-lead-fox-falling",
+   "published": "2026-11-04T22:03:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Wall Street Trading Desks Bet on US Stock Rally After Midterms",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/wall-street-trading-desks-bet-on-us-stock-rally-after-midterms",
+   "published": "2026-11-04T22:02:58+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "What the Democratic Wave Means For Wall Street and Your Money: Live Q&A",
+   "url": "https://www.bloomberg.com/sessions/2026-11-05/live-q-amp-a-what-the-democratic-win-means-for-the-economy-and-your-money",
+   "published": "2026-11-04T21:52:54+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "FirstFT: Republican infighting erupts  after landslide midterms defeat",
+   "url": "https://www.ft.com/content/e7e1345b-7d9a-4d14-a726-33cee30f189a?syn-25a6b1a6=1",
+   "published": "2026-11-04T21:52:36+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Democrats Sweep in Midterm GOP Implosion",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-04/bloomberg-businessweek-daily-11-4-2026-video",
+   "published": "2026-11-04T21:48:49+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Vance blames Iran war for crushing Republican midterms defeat",
+   "url": "https://www.ft.com/content/6bc8be51-5bd8-468c-bd3c-82bbc2866ba1?syn-25a6b1a6=1",
+   "published": "2026-11-04T21:34:58+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US stocks post best day since August after Democrats sweep midterms",
+   "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+   "published": "2026-11-04T21:33:37+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "The 2028 Hopefuls Rising and Falling After Democrats' Big Night",
+   "url": "https://www.bloomberg.com/news/features/2026-11-04/2028-presidential-winners-and-losers-after-democrats-win-big-in-midterms",
+   "published": "2026-11-04T21:23:18+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump\u2019s Broken Coalition Upends Republicans\u2019 2028 Plans",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-11-04/trump-s-broken-coalition-upends-republicans-2028-plans",
+   "published": "2026-11-04T21:22:37+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Voters Turned From 'Trump Curious' to 'Trump Furious' Says Rep. Glenn Ivey",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-04/voters-turned-from-trump-curious-to-trump-furious-ivey-video",
+   "published": "2026-11-04T21:02:29+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "\u2018Rupert does not want to be with a loser\u2019: Murdoch\u2019s media empire cools on Trump",
+   "url": "https://www.ft.com/content/ead0309f-537a-4cc1-9d65-a3b9de01e69d?syn-25a6b1a6=1",
+   "published": "2026-11-04T20:58:24+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Wall Street Revises Treasury Sales Forecasts on Guidance Revamp",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/wall-street-revises-treasury-sales-forecasts-on-guidance-revamp",
+   "published": "2026-11-04T20:53:40+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Republican Donors Spend Big in 2026 Midterms, See Limited Gains",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/midterms-spending-binge-by-musk-crypto-and-ai-hit-voter-wall",
+   "published": "2026-11-04T20:50:39+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Democrats Clinch Huge Midterm Wins",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-04/balance-of-power-early-edition-11-4-2026-video",
+   "published": "2026-11-04T20:48:29+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "As Stocks Rebound, What Are Analysts Watching Now?",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-04/as-stocks-rebound-what-are-analysts-watching-now-video",
+   "published": "2026-11-04T20:39:39+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Oil tumbles below $100 on post-election peace hopes",
+   "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
+   "published": "2026-11-04T20:18:53+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Progressive Senator Demands \u2018Bold Agenda\u2019 Before Backing Schumer",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/progressive-senator-demands-bold-agenda-before-backing-schumer",
+   "published": "2026-11-04T20:14:44+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Voters Rebuke Trump Economic Agenda",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-04/voters-rebuke-trump-economic-agenda-video",
+   "published": "2026-11-04T20:10:39+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "The GOP Needs a Hard Reboot",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-04/opinion-the-gop-needs-a-hard-reboot-video",
+   "published": "2026-11-04T20:03:14+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Public Health Experts Cheer \u2018Revenge of the Nerds\u2019 Midterm Rout",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/public-health-experts-cheer-revenge-of-the-nerds-midterm-rout",
+   "published": "2026-11-04T20:00:22+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Democrats Need to Focus on Corruption, Affordability Says Rep. Morelle",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-04/dems-need-to-focus-on-corruption-says-rep-morelle-video",
+   "published": "2026-11-04T19:58:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Court Tosses Suit Challenging NYC Pied-A-Terre Tax Rollout",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/appeals-court-dismisses-suit-over-nyc-pied-a-terre-tax-rollout",
+   "published": "2026-11-04T19:25:55+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "How Democrats pulled off the blue wave in maps and charts",
+   "url": "https://www.ft.com/content/f27626ac-8427-45d7-a995-a8dfe8d01bd9?syn-25a6b1a6=1",
+   "published": "2026-11-04T19:12:33+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Impeachments, Iran and the presidency: what\u2019s next after the midterms?",
+   "url": "https://www.ft.com/content/18e00ce0-aef2-41e9-ab7f-8a5dd8a9c217?syn-25a6b1a6=1",
+   "published": "2026-11-04T19:06:34+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US and Allies Talk Ukraine Recovery Ahead of Russia Meeting",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/us-and-allies-talk-ukraine-recovery-ahead-of-russia-meeting",
+   "published": "2026-11-04T19:02:55+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Trump diesel deal with Russia falters as US fuel supplies hit 20-year low",
+   "url": "https://www.ft.com/content/f66ebf48-6d09-4a91-9af5-8bf7adca65ba?syn-25a6b1a6=1",
+   "published": "2026-11-04T18:54:44+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Wall Street Girding for US Debt Ceiling Showdown in 2027",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/wall-street-girding-for-us-debt-ceiling-showdown-in-2027",
+   "published": "2026-11-04T18:50:46+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Five takeaways from the midterm results",
+   "url": "https://www.ft.com/content/2bfbe464-f070-44bb-a761-fecad1cde4d4?syn-25a6b1a6=1",
+   "published": "2026-11-04T18:47:36+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "\u2018Cartwheels\u2019 in Canada after Trump punished in US midterm elections",
+   "url": "https://www.ft.com/content/026cf61a-3e15-4d0e-bdb5-050fe005b725?syn-25a6b1a6=1",
+   "published": "2026-11-04T18:34:21+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Voters have put a helpful chill on the US data centre boom",
+   "url": "https://www.ft.com/content/b7d0761f-e5fb-4746-924f-b15420a57844?syn-25a6b1a6=1",
+   "published": "2026-11-04T18:33:54+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Republicans turn on each other after disastrous midterms",
+   "url": "https://www.ft.com/content/83a46027-3cde-41fa-8c55-405f40c6fa82?syn-25a6b1a6=1",
+   "published": "2026-11-04T18:29:39+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The party\u2019s over for the Trumpsterz",
+   "url": "https://www.ft.com/content/7a7f5d4f-8e82-48c2-be31-024f8b5a32d7?syn-25a6b1a6=1",
+   "published": "2026-11-04T17:57:04+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Europe hails Democrats\u2019 US midterm victory as a rebuke of Trumpism",
+   "url": "https://www.ft.com/content/97070d8f-ce2d-4873-8c70-cc8338f7ce1c?syn-25a6b1a6=1",
+   "published": "2026-11-04T17:53:47+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The beginning of the end of the age of Trump",
+   "url": "https://www.ft.com/content/ab004bd1-4ae7-46a1-a41f-2266cd0f270c?syn-25a6b1a6=1",
+   "published": "2026-11-04T17:42:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Activist DGB Ousts Ethan Allen Chairman, Wins Board Control",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/dgb-is-said-to-oust-ethan-allen-chair-win-three-board-seats",
+   "published": "2026-11-04T17:23:24+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "CVS Health to break up $102bn healthcare empire",
+   "url": "https://www.ft.com/content/2478a5ea-263a-4f4f-ac96-7d619fb39bb8?syn-25a6b1a6=1",
+   "published": "2026-11-04T17:20:02+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "Midterm Landslide Scrambles\u00a0Lame-Duck\u00a0Agenda",
@@ -9,7 +261,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Trump Gains With Latinos Vanish in Texas Border\u2019s 40-Point Rout",
+   "title": "Trump\u2019s Latino Gains Vanish in Texas Border\u2019s 40-Point Rout",
    "url": "https://www.bloomberg.com/news/articles/2026-11-04/trump-gains-with-latinos-vanish-in-texas-border-s-40-point-rout",
    "published": "2026-11-04T16:57:25+00:00"
   },
@@ -42,12 +294,6 @@ window.LIVE_DATA = {
    "title": "Trump\u2019s Power to Shape Supreme Court Doused by Democratic Rout",
    "url": "https://www.bloomberg.com/news/articles/2026-11-04/trump-s-power-to-shape-supreme-court-doused-by-democratic-rout",
    "published": "2026-11-04T16:29:08+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Vance blames Iran war for crushing Republican midterms defeat",
-   "url": "https://www.ft.com/content/6bc8be51-5bd8-468c-bd3c-82bbc2866ba1?syn-25a6b1a6=1",
-   "published": "2026-11-04T16:27:31+00:00"
   },
   {
    "source": "Bloomberg",
@@ -114,252 +360,6 @@ window.LIVE_DATA = {
    "title": "Disclosure: Catching SEC Employees in the Act of Golfing",
    "url": "https://www.bloomberg.com/news/videos/2026-11-04/disclosure-catching-sec-employees-in-the-act-of-golfing-video",
    "published": "2026-11-04T15:55:17+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Democrats ready Trump probes and affordability measures",
-   "url": "https://www.ft.com/content/1b492f63-85b4-472c-9bbd-f741a1dfdb0b?syn-25a6b1a6=1",
-   "published": "2026-11-04T15:43:36+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Prediction Markets Won Big Last Night",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-11-04/prediction-markets-won-big-last-night",
-   "published": "2026-11-04T15:43:01+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Hudson River Trading Joins Wall Street\u2019s Prediction Market Shift",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/hudson-river-trading-joins-wall-street-s-prediction-market-shift",
-   "published": "2026-11-04T15:36:21+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Disclosure: Rooting Out Waste, Abuse and Golfing at the SEC",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-04/disclosure-rooting-out-waste-abuse-golfing-at-the-sec-video",
-   "published": "2026-11-04T15:27:29+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Why John Stolzfus Stays Bullish",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-04/why-john-stolzfus-stays-bullish-video",
-   "published": "2026-11-04T15:26:07+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Stocks climb after Democrats\u2019 sweep",
-   "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-   "published": "2026-11-04T15:09:28+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Speaker Johnson Won\u2019t Stay On as GOP Leader After Midterm Rout",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/speaker-johnson-won-t-stay-on-as-gop-leader-after-midterm-rout",
-   "published": "2026-11-04T15:08:48+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Service Sector Grows at the Slowest Pace in Three Months",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/us-service-sector-grows-at-the-slowest-pace-in-three-months",
-   "published": "2026-11-04T15:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Shein Invests \u20ac500 Million in Europe as Customs Rules Tighten",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/shein-invests-500-million-in-europe-as-customs-rules-tighten",
-   "published": "2026-11-04T15:00:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Sequoia shuts London office as VC firm refocuses on Silicon Valley",
-   "url": "https://www.ft.com/content/a55bf156-1c61-4ff6-8c3c-5b8db837abd0?syn-25a6b1a6=1",
-   "published": "2026-11-04T14:43:34+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Wall Street\u2019s Reckoning Looms as Democrats Take Over Congress",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/wall-street-s-reckoning-looms-as-democrats-take-over-congress",
-   "published": "2026-11-04T14:32:23+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "UAE Mulls Third Crude Oil Pipeline to Avoid Strait of Hormuz",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/uae-mulls-third-crude-oil-pipeline-to-avoid-strait-of-hormuz",
-   "published": "2026-11-04T14:26:15+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Blue wave sweeps markets back towards normality",
-   "url": "https://www.ft.com/content/fc404189-8dde-4dfe-8da7-0df8e92effd2?syn-25a6b1a6=1",
-   "published": "2026-11-04T14:03:10+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Freeport Green-Lights $4.5 Billion Copper Expansion in Arizona",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/freeport-green-lights-4-5-billion-copper-expansion-in-arizona",
-   "published": "2026-11-04T13:50:43+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Stock-Market Gains Are Weakest After Midterm Results Like These",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-gains-are-weakest-after-midterm-results-like-these",
-   "published": "2026-11-04T13:50:25+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Tweaks Debt-Sales Guidance, Opening Way to Auction Shifts",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/us-revamps-debt-sales-guidance-opening-path-to-auction-changes",
-   "published": "2026-11-04T13:34:13+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "In Rome\u2019s Long Shadow \u2014 enduring lessons for how we are governed",
-   "url": "https://www.ft.com/content/63514fd3-a68d-42e3-8f9a-b373d1a84dbf",
-   "published": "2026-11-04T13:25:40+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The midterms have already cost Musk more than $60bn \u2014 and counting",
-   "url": "https://www.ft.com/content/9a8d4922-74dd-4149-bb28-a15f719ca836",
-   "published": "2026-11-04T13:23:30+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "China steps up defence of stock market in bid to revive AI boom",
-   "url": "https://www.ft.com/content/b86cc3e7-e638-4b58-8d4d-4516c13c45f5?syn-25a6b1a6=1",
-   "published": "2026-11-04T13:14:01+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Stevie Wonder\u2019s undimmed brilliance shines again in London",
-   "url": "https://www.ft.com/content/6ee49c36-6722-4b91-9920-76177b13db80?syn-25a6b1a6=1",
-   "published": "2026-11-04T13:08:27+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Solvay strikes rare earths deal that will reduce global dependence on China",
-   "url": "https://www.ft.com/content/7479802b-7071-4ab7-a7a0-bbebc20010e3?syn-25a6b1a6=1",
-   "published": "2026-11-04T13:05:30+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Democrats Ride Anger Over Power Bills to Take Georgia Board",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/democrats-ride-anger-over-power-bills-to-take-over-georgia-board",
-   "published": "2026-11-04T12:54:53+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "CVS Health to break up $117bn healthcare empire",
-   "url": "https://www.ft.com/content/2478a5ea-263a-4f4f-ac96-7d619fb39bb8?syn-25a6b1a6=1",
-   "published": "2026-11-04T12:46:20+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "How the Trump era crashed",
-   "url": "https://www.ft.com/content/637bfe05-69f9-4650-b043-731c1ebb4be6?syn-25a6b1a6=1",
-   "published": "2026-11-04T12:22:14+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Five takeaways from the midterm results",
-   "url": "https://www.ft.com/content/2bfbe464-f070-44bb-a761-fecad1cde4d4?syn-25a6b1a6=1",
-   "published": "2026-11-04T12:15:44+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Fear and clothing on the campaign trail",
-   "url": "https://www.ft.com/content/1bb09139-ba0d-49f5-9470-46409ea995a5?syn-25a6b1a6=1",
-   "published": "2026-11-04T12:06:21+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "San Francisco\u2019s BART Gets Lifeline as Voters Approve New Tax",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/san-francisco-s-bart-gets-lifeline-as-voters-approve-new-tax",
-   "published": "2026-11-04T11:58:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Uber picks up pace in robotaxi race",
-   "url": "https://www.ft.com/content/2fc1bfc2-4d16-4eb2-a8d4-eaef4f4571af?syn-25a6b1a6=1",
-   "published": "2026-11-04T11:55:42+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Anthropic is an opportunity to rethink IPO rules",
-   "url": "https://www.ft.com/content/5083bad9-2a6e-4dc8-9627-1d41f9aa5b5b",
-   "published": "2026-11-04T11:38:48+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "October inflation in the Eurozone keeps ECB on course for another tightening",
-   "url": "https://www.ft.com/content/a3da6c3a-4ab3-413c-bbeb-490d7cde34dc",
-   "published": "2026-11-04T11:25:47+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US midterms results night as it happened: Democrats rout Republicans to win Senate and House",
-   "url": "https://www.ft.com/content/77c2eaca-4fe1-4c69-b3bd-c517b045ff37?syn-25a6b1a6=1",
-   "published": "2026-11-04T11:18:44+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Gibson Dunn in talks to hire 120 lawyers from Weil as firm dissolves",
-   "url": "https://www.ft.com/content/29522c80-74f7-4f78-b699-39b761d1c081?syn-25a6b1a6=1",
-   "published": "2026-11-04T11:14:04+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Republicans turn on each other after disastrous midterms",
-   "url": "https://www.ft.com/content/83a46027-3cde-41fa-8c55-405f40c6fa82?syn-25a6b1a6=1",
-   "published": "2026-11-04T11:00:10+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Democrat Wins Texas Oil Regulator Seat, Breaks Long GOP Hold",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/democrat-wins-texas-oil-regulator-seat-for-first-time-since-1990",
-   "published": "2026-11-04T10:48:47+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Europe hails Democrats\u2019 US midterm victory as a rebuke of Trumpism",
-   "url": "https://www.ft.com/content/97070d8f-ce2d-4873-8c70-cc8338f7ce1c?syn-25a6b1a6=1",
-   "published": "2026-11-04T10:48:26+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "FirstFT: Blue wave sweeps US",
-   "url": "https://www.ft.com/content/3729c7ee-80bc-4ea5-949b-78b017f498e4?syn-25a6b1a6=1",
-   "published": "2026-11-04T10:44:41+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Inflation and interest rates tracker: see how your country compares",
-   "url": "https://www.ft.com/content/088d3368-bb8b-4ff3-9df7-a7680d4d81b2?syn-25a6b1a6=1",
-   "published": "2026-11-04T10:41:50+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Eurozone inflation rises to 4% in October",
-   "url": "https://www.ft.com/content/23cedd6f-e550-4869-aee1-e0ec10ae7e51?syn-25a6b1a6=1",
-   "published": "2026-11-04T10:25:26+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "\u2018A deep sense of deceit\u2019: Young Republicans reckon with US midterms rout",
-   "url": "https://www.ft.com/content/ec6029c3-3ec2-4948-8b69-298e3b10399f?syn-25a6b1a6=1",
-   "published": "2026-11-04T10:00:09+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Indonesia deploys 20,000 soldiers as wiretapping scandal erupts",
-   "url": "https://www.ft.com/content/b82627c8-726b-471d-9e49-f28b06765e79?syn-25a6b1a6=1",
-   "published": "2026-11-04T08:46:38+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "India Sees Some Trade Relief, New Risks After US Midterm Vote",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/india-sees-some-trade-relief-new-risks-after-us-midterm-vote",
-   "published": "2026-11-04T08:39:36+00:00"
   }
  ],
  "yields": {
@@ -367,14 +367,10 @@ window.LIVE_DATA = {
    "country": "United States",
    "series": "US Treasury par yield curve, 10 Yr",
    "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates",
-   "value": 4.95,
-   "as_of": "2026-11-03",
-   "change_1d_bp": 4.0,
+   "value": 4.9,
+   "as_of": "2026-11-04",
+   "change_1d_bp": -5.0,
    "history": [
-    {
-     "d": "2026-01-20",
-     "v": 4.3
-    },
     {
      "d": "2026-01-21",
      "v": 4.26
@@ -1170,9 +1166,13 @@ window.LIVE_DATA = {
     {
      "d": "2026-11-03",
      "v": 4.95
+    },
+    {
+     "d": "2026-11-04",
+     "v": 4.9
     }
    ],
-   "fetched_at": "2026-11-04T17:07:34+00:00",
+   "fetched_at": "2026-11-04T22:36:25+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1749,7 +1749,7 @@ window.LIVE_DATA = {
     }
    ],
    "fetched_at": "2026-11-04T17:07:35+00:00",
-   "error": null
+   "error": "HTTPStatusError: Server error '504 Gateway Time-out' for url 'https://data-api.ecb.europa.eu/service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y?startPeriod=2026-04-18&format=csvdata'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
   },
   "Bank of England (MPC)": {
    "country": "United Kingdom",
@@ -2312,7 +2312,7 @@ window.LIVE_DATA = {
      "v": 5.1677
     }
    ],
-   "fetched_at": "2026-11-04T17:07:36+00:00",
+   "fetched_at": "2026-11-04T22:36:56+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2848,7 +2848,7 @@ window.LIVE_DATA = {
      "v": 2.817
     }
    ],
-   "fetched_at": "2026-11-04T17:07:38+00:00",
+   "fetched_at": "2026-11-04T22:36:59+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3660,7 +3660,7 @@ window.LIVE_DATA = {
      "v": 3.77
     }
    ],
-   "fetched_at": "2026-11-04T17:07:39+00:00",
+   "fetched_at": "2026-11-04T22:37:00+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4216,7 +4216,7 @@ window.LIVE_DATA = {
      "v": 5.208
     }
    ],
-   "fetched_at": "2026-11-04T17:07:40+00:00",
+   "fetched_at": "2026-11-04T22:37:01+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4249,7 +4249,7 @@ window.LIVE_DATA = {
   "as_of": "2026-11-04",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-04T17:07:41+00:00",
+  "fetched_at": "2026-11-04T22:37:01+00:00",
   "error": null,
   "pairs": [
    {
