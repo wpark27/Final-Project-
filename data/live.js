@@ -1,6 +1,324 @@
 window.LIVE_DATA = {
- "updated": "2026-11-06T17:25:11+00:00",
+ "updated": "2026-11-06T23:00:37+00:00",
  "news": [
+  {
+   "source": "Financial Times",
+   "title": "US warns China it must \u2018immediately\u2019 meet terms of Busan trade deal",
+   "url": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603?syn-25a6b1a6=1",
+   "published": "2026-11-06T22:53:51+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "AI-Generated Movie Heading Theaters",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/ai-generated-movie-heading-theaters-video",
+   "published": "2026-11-06T22:29:48+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US stocks recover after tech rout",
+   "url": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0?syn-25a6b1a6=1",
+   "published": "2026-11-06T22:22:05+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US economy outstrips forecasts to add 165,000 jobs in October",
+   "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
+   "published": "2026-11-06T22:16:13+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Providing Capital to Tech Companies: Masters In Business with Ann Berry",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/masters-in-business-with-ann-berry-video",
+   "published": "2026-11-06T22:15:53+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Trump taps immigration hardliner Stephen Miller as chief of staff",
+   "url": "https://www.ft.com/content/6e8f2244-0e39-45cd-b415-e0be54b0351f?syn-25a6b1a6=1",
+   "published": "2026-11-06T22:09:58+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Paraguay Senators Remove Pe\u00f1a From Office After Bank Scandal",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/paraguay-senators-remove-pena-from-office-after-bank-scandal",
+   "published": "2026-11-06T22:05:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Ann Berry on the Importance of Learning AI",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/ann-berry-on-the-importance-of-learning-ai-video",
+   "published": "2026-11-06T22:01:25+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US stocks stage tepid recovery after $3.2tn rout fuelled by AI fears",
+   "url": "https://www.ft.com/content/088ed252-ea9c-4b61-b2d1-37295fd0f7c2?syn-25a6b1a6=1",
+   "published": "2026-11-06T22:00:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Sanctions Eight Canadian Companies Over Iran Transactions",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-sanctions-eight-canadian-companies-over-iran-transactions",
+   "published": "2026-11-06T21:58:24+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Names Miller Chief of Staff as Tech Rebounds",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/bloomberg-businessweek-daily-xx-xx-2026-video",
+   "published": "2026-11-06T21:46:42+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "'Blue Wave' & Your Wallet, Managing Market Volatility",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/bloomberg-money-11-6-2026-video",
+   "published": "2026-11-06T21:45:15+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Airbnb Surges 12% as Growth Accelerates and Outlook Rises | Closing Bell",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video",
+   "published": "2026-11-06T21:32:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Hedge Funds\u00a0Fled Bullish Oil Bets\u00a0Ahead of\u00a0Election Day Drop",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/hedge-funds-fled-bullish-oil-bets-ahead-of-election-day-drop",
+   "published": "2026-11-06T21:29:28+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Wall Street Grapples With $5.7 Trillion Rout as AI Bets Unwind",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/ai-s-wild-week-has-wall-street-hunting-for-fresh-escape-routes",
+   "published": "2026-11-06T21:23:32+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Houston Mayor Limits ICE Cooperation After Democratic Sweep",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/houston-mayor-limits-ice-cooperation-after-democratic-sweep",
+   "published": "2026-11-06T21:23:25+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "DOJ National Security, Conspiracy Probe Leaders Step Down",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/doj-national-security-conspiracy-probe-leaders-step-down",
+   "published": "2026-11-06T21:21:55+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Retail Traders Cautiously Buy Stocks After Worst Rout Since 2025",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/retail-traders-cautiously-buy-stocks-after-worst-rout-since-2025",
+   "published": "2026-11-06T21:05:54+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "What Investors Need to Watch as Congress Returns: Debt Ceiling, Iran",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-11-06/what-investors-need-to-watch-as-congress-returns-debt-ceiling-iran",
+   "published": "2026-11-06T21:02:38+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Voters take their pick in New Zealand\u2019s \u2018supermarket election\u2019",
+   "url": "https://www.ft.com/content/1e80651b-14f3-4cf0-9b47-2f6dee158496?syn-25a6b1a6=1",
+   "published": "2026-11-06T21:00:10+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
+   "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452?syn-25a6b1a6=1",
+   "published": "2026-11-06T21:00:09+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Ex-OpenAI employee accused of spying pleads not guilty",
+   "url": "https://www.ft.com/content/daee9cd2-3477-4fcc-859f-46acb9fdfbd9?syn-25a6b1a6=1",
+   "published": "2026-11-06T20:47:31+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Democrats Begin Outlining Priorities",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/balance-of-power-early-edition-11-6-2026-video",
+   "published": "2026-11-06T20:46:39+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Kansas 'More Purple' Than People Realize",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/kansas-more-purple-than-people-realize-video",
+   "published": "2026-11-06T20:45:21+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Wall Street Sees US Hitting $41.1 Trillion Debt Cap in February",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/wall-street-sees-us-hitting-41-1-trillion-debt-cap-in-february",
+   "published": "2026-11-06T20:33:40+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Don't Think Social Security Going Away: Lusardi",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/don-t-think-social-security-going-away-lusardi-video",
+   "published": "2026-11-06T20:31:03+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "When Trump Cornered, He Lashes Back: Tim O'Brien",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/when-trump-cornered-he-lashes-back-tim-o-brien-video",
+   "published": "2026-11-06T20:19:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Need Better Retirement Education: Lusardi",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/need-better-retirement-education-lusardi-video",
+   "published": "2026-11-06T20:14:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "I Don't Own Bonds, Comfortable With Volatility: Moore",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/i-don-t-own-bonds-comfortable-with-volatility-moore-video",
+   "published": "2026-11-06T20:12:36+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Market Volatility Technical, Not Fundamental: Moore",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/market-volatility-technical-not-fundamental-moore-video",
+   "published": "2026-11-06T20:00:54+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bad Idea to Argue With American People on Economy, Says Chris Phelan",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/bad-idea-to-argue-with-voters-on-economy-says-phelan-video",
+   "published": "2026-11-06T19:52:46+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "What the Blue Wave Means for Trump and 2028",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/what-the-blue-wave-means-for-trump-and-2028-video",
+   "published": "2026-11-06T19:50:53+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Names Stephen Miller to Replace Susie Wiles",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/trump-names-stephen-miller-to-replace-susie-wiles-video",
+   "published": "2026-11-06T19:48:30+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Braskem Owners Pull Funding Offer as Debt Talks Hit Snag",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/braskem-shareholders-pull-funding-offer-as-debt-talks-hit-snags",
+   "published": "2026-11-06T19:38:53+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Taps Stephen Miller to Replace Wiles as Chief of Staff",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/trump-taps-miller-to-replace-wiles-as-chief-of-staff-video",
+   "published": "2026-11-06T19:29:20+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Who is in the line of fire after the midterm drubbing?",
+   "url": "https://www.ft.com/content/580ab1bf-4e2e-46b8-9178-dbf765645754?syn-25a6b1a6=1",
+   "published": "2026-11-06T19:29:18+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "What Republicans Can Do Before Democrats Take Control of Congress",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/what-republicans-can-do-before-democrats-take-control-of-congress",
+   "published": "2026-11-06T19:28:21+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Anatomy of a Selloff: Sudden Chain Reaction Rattles Wall Street",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-06/sudden-chain-reaction-rattles-wall-street-video",
+   "published": "2026-11-06T19:26:51+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Europe Insists Russia Ends War Before Concerns Are Addressed",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/europe-insists-putin-end-war-before-discussing-russia-s-concerns",
+   "published": "2026-11-06T19:20:25+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Supreme Court to Hear Goldman Sachs\u2019 Bankruptcy Arbitration Bid",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/supreme-court-to-hear-goldman-sachs-bankruptcy-arbitration-bid",
+   "published": "2026-11-06T19:11:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Quick Mart IPO Draws Strong Demand as Kenyan Listings Pick Up",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/quick-mart-ipo-draws-strong-demand-as-kenyan-listings-pick-up",
+   "published": "2026-11-06T19:08:36+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "How will the midterm results change US politics? You asked, we answered",
+   "url": "https://www.ft.com/content/01048d5b-9886-4247-b14a-8c738edba5e3?syn-25a6b1a6=1",
+   "published": "2026-11-06T19:02:43+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Bomb threats target media and flights as email warns \u2018this is only the beginning\u2019",
+   "url": "https://www.ft.com/content/f7167042-33d7-423a-89dd-4f379a437c15?syn-25a6b1a6=1",
+   "published": "2026-11-06T18:56:20+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Taps Stephen Miller to Replace Wiles as Chief of Staff",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/trump-taps-stephen-miller-to-replace-wiles-as-chief-of-staff",
+   "published": "2026-11-06T18:54:04+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Canadian Dollar Notches Worst Week Since September on Weak Jobs",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/canadian-dollar-set-for-worst-week-since-september-on-weak-jobs",
+   "published": "2026-11-06T18:48:22+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Wave of uncertainty",
+   "url": "https://www.ft.com/content/117c1690-2928-4652-b4d9-33c0be02b129",
+   "published": "2026-11-06T18:30:08+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "A new phase in the tech market correction",
+   "url": "https://www.ft.com/content/a91d70f1-d335-4d58-a6d8-1052658211ba?syn-25a6b1a6=1",
+   "published": "2026-11-06T18:24:44+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "West End reports spending boost after Oxford Street bans cars and buses",
+   "url": "https://www.ft.com/content/d3d05f60-951d-4135-9342-c62c9f1f5839?syn-25a6b1a6=1",
+   "published": "2026-11-06T18:15:49+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Musk wants to give stock to kids. What\u2019s the problem?",
+   "url": "https://www.ft.com/content/6c9d92ac-eba0-47c0-b4db-d9d5226e9891",
+   "published": "2026-11-06T18:00:10+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "EU probes \u2018fraud\u2019 on Spain\u2019s lethal high-speed rail line",
+   "url": "https://www.ft.com/content/888d77c4-c771-4390-95ef-efcee413ef32?syn-25a6b1a6=1",
+   "published": "2026-11-06T17:47:55+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Tesla\u2019s Cybertruck is a masterclass in failing upwards",
+   "url": "https://www.ft.com/content/675d9559-acb0-49a0-8108-f7dc433176fc?syn-25a6b1a6=1",
+   "published": "2026-11-06T17:38:41+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "James Talarico: the Democrats\u2019 rising star who turned Texas blue",
+   "url": "https://www.ft.com/content/7eb006c7-a430-40fd-bba6-48dcbb810ba2?syn-25a6b1a6=1",
+   "published": "2026-11-06T17:23:03+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Canada to Give 200,000 Temporary Residents Permanent Status as One-Time Measure",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-06/canada-to-give-200-000-temporary-residents-permanent-status-as-one-time-measure",
+   "published": "2026-11-06T17:12:37+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "Palantir\u2019s Ex-Labour Hire Lobbied UK Weeks Before NHS Deal Win",
@@ -12,6 +330,12 @@ window.LIVE_DATA = {
    "title": "Germany to Elect Bavarian as First Female President, Reports Say",
    "url": "https://www.bloomberg.com/news/articles/2026-11-06/germany-to-elect-bavarian-as-first-female-president-reports-say",
    "published": "2026-11-06T16:54:37+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Anthropic lines up UK retail offer as AI stocks wobble",
+   "url": "https://www.ft.com/content/d0be1646-7d2a-4d9d-8412-7488f3c8b203?syn-25a6b1a6=1",
+   "published": "2026-11-06T16:50:16+00:00"
   },
   {
    "source": "Bloomberg",
@@ -27,339 +351,15 @@ window.LIVE_DATA = {
   },
   {
    "source": "Financial Times",
+   "title": "Copper prices fall on fears of AI backlash",
+   "url": "https://www.ft.com/content/0a4e2a58-f83f-4445-8f32-892657cf8c27?syn-25a6b1a6=1",
+   "published": "2026-11-06T16:31:51+00:00"
+  },
+  {
+   "source": "Financial Times",
    "title": "Is the AI stock bubble finally bursting?",
    "url": "https://www.ft.com/content/e185d576-c4a6-4fb0-aa03-deda69c900c8?syn-25a6b1a6=1",
    "published": "2026-11-06T16:30:27+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Job Growth Surged in October, Unemployment Rate Fell",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-06/us-job-growth-surged-in-october-unemployment-rate-fell-video",
-   "published": "2026-11-06T16:28:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Multiple Fed Rate Hikes Reasonable, Pimco's Wilding Says",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-06/multiple-fed-rate-hikes-reasonable-pimco-s-wilding-says-video",
-   "published": "2026-11-06T16:22:46+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Today\u2019s a Good Day to Think About the Mechanics of Markets",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-11-06/today-s-a-good-day-to-think-about-the-mechanics-of-markets",
-   "published": "2026-11-06T16:21:48+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Airbnb Moves on Revenue; DraftKings Sinks on Forecast Miss | Stock Movers",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-06/airbnb-moves-on-revenue-draftkings-sinks-on-forecast-video",
-   "published": "2026-11-06T16:19:54+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Texas Comptroller-Elect to Increase Scrutiny of School Vendors",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/texas-comptroller-elect-to-increase-scrutiny-of-school-vendors",
-   "published": "2026-11-06T16:11:03+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Anatomy of a Selloff: Sudden Chain Reaction Rattles Wall Street",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/anatomy-of-a-selloff-sudden-chain-reaction-rattles-wall-street",
-   "published": "2026-11-06T16:10:57+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Spain Orders Olive Oil Mills to Hold Back Output to Lift Prices",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/spain-orders-olive-oil-mills-to-hold-back-output-to-lift-prices",
-   "published": "2026-11-06T16:08:43+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Millennium Parting Ways With Two More Credit Trading Pods",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/millennium-parting-ways-with-two-more-credit-trading-pods",
-   "published": "2026-11-06T15:48:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US stocks rebound after tech rout",
-   "url": "https://www.ft.com/content/642b32dc-e3a1-4df8-ae91-5c84bdeb89e0?syn-25a6b1a6=1",
-   "published": "2026-11-06T15:45:52+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "The Rise of Luxury Prenatal Retreats",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-06/the-rise-of-luxury-prenatal-retreats-video",
-   "published": "2026-11-06T15:31:06+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Goldman US Stock Panic Gauge Hits Extreme, Signaling Rebound",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/goldman-s-us-stock-panic-gauge-hits-extreme-signaling-rebound",
-   "published": "2026-11-06T15:28:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Democrats Got Their Blue Wave. What\u2019s Next?",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-06/democrats-got-their-blue-wave-what-s-next-video",
-   "published": "2026-11-06T15:25:07+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Europe alarmed by US plans for security deal with Russia",
-   "url": "https://www.ft.com/content/1731d88c-fba2-4060-84dc-7dfddd7bfbca?syn-25a6b1a6=1",
-   "published": "2026-11-06T15:19:37+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US economy outstrips forecasts to add 165,000 jobs in October",
-   "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
-   "published": "2026-11-06T15:18:58+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Hassett Says Jobs Market Is Firing on All Cylinders",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-06/hassett-says-jobs-market-is-firing-on-all-cylinders-video",
-   "published": "2026-11-06T15:17:08+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Jobs Report Doesn't Mean Fed Should Hike Rates, Hassett Argues",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-06/jobs-report-doesn-t-mean-fed-should-hike-hassett-argues-video",
-   "published": "2026-11-06T15:14:42+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Israel Faces Growing Rift With US as Support Erodes After Iran War, Midterms",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/israel-is-losing-america-and-its-politicians-still-don-t-get-it",
-   "published": "2026-11-06T15:10:15+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Blowout October payrolls data sets up Federal Reserve December rate rise",
-   "url": "https://www.ft.com/content/52770926-e4b9-4005-9e2f-332eb7dc6631",
-   "published": "2026-11-06T14:56:03+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "BlackRock's Rieder Sees an Epic Rebalancing of Equities",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-06/blackrock-s-rieder-sees-an-epic-rebalancing-of-equities-video",
-   "published": "2026-11-06T14:48:35+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "UK retail investors buy the dip after bruising tech sell-off",
-   "url": "https://www.ft.com/content/64c72979-1f97-4d25-8dc9-7c47c6089191?syn-25a6b1a6=1",
-   "published": "2026-11-06T14:28:49+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Burnham Vows to Change Benefit Eligibility for Young People",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/burnham-vows-to-change-benefit-eligibility-for-young-people",
-   "published": "2026-11-06T14:02:34+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Low-profile Wall Street firm to double down on Anthropic despite tech rout",
-   "url": "https://www.ft.com/content/538bfe46-7051-4e3d-8ff3-ad71c861a1f7?syn-25a6b1a6=1",
-   "published": "2026-11-06T14:01:19+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Alas, poor Elon",
-   "url": "https://www.ft.com/content/a0de0506-d647-4a8c-a94a-751f56925ed0?syn-25a6b1a6=1",
-   "published": "2026-11-06T14:00:05+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Adds 165,000 Jobs In October, Topping All Estimates",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-06/us-adds-165-000-jobs-in-october-topping-all-estimates-video",
-   "published": "2026-11-06T13:53:37+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Treasuries Fall as Strong Jobs Data Fortifies Tech Rebound",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-treasuries-stumble-as-strong-labor-market-lifts-fed-hike-bets",
-   "published": "2026-11-06T13:47:33+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Bomb threats target media and flights as email warns \u2018this is only the beginning\u2019",
-   "url": "https://www.ft.com/content/f7167042-33d7-423a-89dd-4f379a437c15?syn-25a6b1a6=1",
-   "published": "2026-11-06T13:37:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "My portfolio returns went from hero to zero (actually I\u2019d take zero)",
-   "url": "https://www.ft.com/content/44211bf7-0f18-4e55-81b8-01e750ae785f?syn-25a6b1a6=1",
-   "published": "2026-11-06T13:34:06+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Iceland Does Not Need Permanent US Troops in Country, Prime Minister Says",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-06/iceland-pm-don-t-need-permanent-us-troops-in-iceland-video",
-   "published": "2026-11-06T13:13:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Anthropic IPO Buyers See Valuation as Low as $1.1 Trillion",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-   "published": "2026-11-06T13:12:57+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "China\u2019s State Council Calls for Stronger Stock Market Stability",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/china-s-state-council-calls-for-stronger-stock-market-stability",
-   "published": "2026-11-06T12:58:42+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Sweden\u2019s Far Right Drops Key Demand to End Political Impasse",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/sweden-s-far-right-drops-key-demand-to-end-political-paralysis",
-   "published": "2026-11-06T12:50:21+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Spanish farmers told to keep olive oil off the market\u00a0after bumper harvest",
-   "url": "https://www.ft.com/content/7dbff765-cf48-4f78-87dc-09a56aee27fe?syn-25a6b1a6=1",
-   "published": "2026-11-06T12:46:44+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Swinging oil prices highlight majors\u2019 high-quality problem",
-   "url": "https://www.ft.com/content/0f3065ce-239e-4afb-a865-a45ef3e48c42?syn-25a6b1a6=1",
-   "published": "2026-11-06T12:42:33+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Greek Man Accused of Spying for Iran in UK Pleads Not Guilty",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/greek-man-accused-of-spying-for-iran-in-uk-pleads-not-guilty",
-   "published": "2026-11-06T12:27:22+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Who Might Leave the Trump Administration Next?",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-11-06/who-might-leave-the-trump-administration-next",
-   "published": "2026-11-06T12:27:07+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Telecoms entrepreneur behind \u2018breathtaking fraud\u2019 hit with freezing orders",
-   "url": "https://www.ft.com/content/aa99a49b-d6fa-473e-9e8a-7d7906ab4f79?syn-25a6b1a6=1",
-   "published": "2026-11-06T12:23:58+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US and Iran Edge Closer to Deal With Nuclear Issue Back in Play",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-and-iran-edge-closer-to-deal-with-nuclear-issue-back-in-play",
-   "published": "2026-11-06T12:21:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Data Centers Will Get Built, Even With More Regulation, Bryson Says",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-06/data-centers-will-get-built-bryson-says-video",
-   "published": "2026-11-06T12:17:19+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Brookfield Raises $25 Billion Amid AI Push as Profits Rise",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/brookfield-raises-123-billion-amid-ai-build-out-as-profits-rise",
-   "published": "2026-11-06T12:09:41+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "World \u2018virtually certain\u2019 to exceed average 1.5C of warming in 2026, EU agency says",
-   "url": "https://www.ft.com/content/1860f560-2400-4881-a98f-9101eb3d8705?syn-25a6b1a6=1",
-   "published": "2026-11-06T12:09:12+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump\u2019s midterm setback won\u2019t save the planet",
-   "url": "https://www.ft.com/content/db1c70c2-d17e-41ac-aff3-1d824e7dc9e8?syn-25a6b1a6=1",
-   "published": "2026-11-06T12:01:03+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Le\u00f3n XIV visita Per\u00fa, pa\u00eds que marc\u00f3 su vida antes del papado",
-   "url": "https://www.bloomberg.com/news/features/2026-11-06/leon-xiv-visita-peru-pais-que-marco-su-vida-antes-del-papado",
-   "published": "2026-11-06T12:00:39+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Strong wage growth supports Bank of Japan\u2019s December move higher",
-   "url": "https://www.ft.com/content/fdfbe384-62c8-43b6-b3c6-4785fab99de7",
-   "published": "2026-11-06T11:51:17+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Moderna swings to profit as momentum for cancer vaccine builds",
-   "url": "https://www.ft.com/content/05ce7a1d-0d7e-434a-bcea-e8239dcde17a?syn-25a6b1a6=1",
-   "published": "2026-11-06T11:45:04+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "FirstFT: Global stocks tumble as Democratic sweep sparks AI rout",
-   "url": "https://www.ft.com/content/7d123a1c-d627-44c4-adf5-48b75d3313b0?syn-25a6b1a6=1",
-   "published": "2026-11-06T11:05:13+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump has taught the world that tariffs are useless",
-   "url": "https://www.ft.com/content/aab95234-0b9a-4b95-b1e5-d932669076d5?syn-25a6b1a6=1",
-   "published": "2026-11-06T11:00:09+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "DraftKings slashes earnings guidance as it bets on new prediction-market business",
-   "url": "https://www.ft.com/content/5640c74d-24e5-465b-8119-a2595dac7748?syn-25a6b1a6=1",
-   "published": "2026-11-06T10:46:20+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Qatar\u2019s emir holds call with Trump as mediators push for deal to end Iran war",
-   "url": "https://www.ft.com/content/d89a6369-7572-42e4-b3eb-413b462c587d?syn-25a6b1a6=1",
-   "published": "2026-11-06T10:18:34+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Troubled housebuilder Vistry tests limits of Labour\u2019s appetite for nationalisation",
-   "url": "https://www.ft.com/content/85421f98-eecf-4998-b388-b4b1fd88de3f?syn-25a6b1a6=1",
-   "published": "2026-11-06T09:48:32+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Tesla to axe Cybertruck as Musk shifts focus to robotics and AI",
-   "url": "https://www.ft.com/content/8ec923a8-a581-4995-a92c-c08e16bf2e98?syn-25a6b1a6=1",
-   "published": "2026-11-06T09:44:18+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "George Orwell, Jura and me",
-   "url": "https://www.ft.com/content/c2db4349-51c0-4fd9-9fb4-8a2a0b5a25b3",
-   "published": "2026-11-06T09:30:07+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Inside Ramdane Touhami\u2019s Sneakerbox House",
-   "url": "https://www.ft.com/content/e53a184c-c3c2-4cf0-8ac6-3ae934f89690",
-   "published": "2026-11-06T09:30:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Merge police into 10 larger forces, says Met chief",
-   "url": "https://www.ft.com/content/aa2f03e3-e73e-48c2-b183-610fa00051e1?syn-25a6b1a6=1",
-   "published": "2026-11-06T09:29:08+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Europe is the Place for Investment in Troubled Times: Euronext CEO",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-06/euronext-ceo-market-volatility-part-of-3q-success-video",
-   "published": "2026-11-06T09:09:57+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "What Does a Democratic Congress Mean for Markets?",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-06/what-does-a-democratic-congress-mean-for-markets",
-   "published": "2026-11-06T09:00:33+00:00"
   }
  ],
  "yields": {
@@ -367,14 +367,10 @@ window.LIVE_DATA = {
    "country": "United States",
    "series": "US Treasury par yield curve, 10 Yr",
    "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates",
-   "value": 4.84,
-   "as_of": "2026-11-05",
-   "change_1d_bp": -6.0,
+   "value": 4.86,
+   "as_of": "2026-11-06",
+   "change_1d_bp": 2.0,
    "history": [
-    {
-     "d": "2026-01-22",
-     "v": 4.26
-    },
     {
      "d": "2026-01-23",
      "v": 4.24
@@ -1170,9 +1166,13 @@ window.LIVE_DATA = {
     {
      "d": "2026-11-05",
      "v": 4.84
+    },
+    {
+     "d": "2026-11-06",
+     "v": 4.86
     }
    ],
-   "fetched_at": "2026-11-06T17:25:31+00:00",
+   "fetched_at": "2026-11-06T23:00:57+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1756,7 +1756,7 @@ window.LIVE_DATA = {
      "v": 3.2938441917
     }
    ],
-   "fetched_at": "2026-11-06T17:25:32+00:00",
+   "fetched_at": "2026-11-06T23:00:58+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2328,7 +2328,7 @@ window.LIVE_DATA = {
      "v": 5.1364
     }
    ],
-   "fetched_at": "2026-11-06T17:25:33+00:00",
+   "fetched_at": "2026-11-06T23:00:59+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2872,7 +2872,7 @@ window.LIVE_DATA = {
      "v": 2.806
     }
    ],
-   "fetched_at": "2026-11-06T17:25:38+00:00",
+   "fetched_at": "2026-11-06T23:01:02+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3684,7 +3684,7 @@ window.LIVE_DATA = {
      "v": 3.67
     }
    ],
-   "fetched_at": "2026-11-06T17:25:38+00:00",
+   "fetched_at": "2026-11-06T23:01:02+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4260,7 +4260,7 @@ window.LIVE_DATA = {
      "v": 5.082
     }
    ],
-   "fetched_at": "2026-11-06T17:25:39+00:00",
+   "fetched_at": "2026-11-06T23:01:03+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4293,7 +4293,7 @@ window.LIVE_DATA = {
   "as_of": "2026-11-06",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-06T17:25:39+00:00",
+  "fetched_at": "2026-11-06T23:01:04+00:00",
   "error": null,
   "pairs": [
    {
