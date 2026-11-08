@@ -1,17 +1,41 @@
 window.LIVE_DATA = {
- "updated": "2026-11-07T20:49:29+00:00",
+ "updated": "2026-11-08T00:26:51+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "Australia Home Sales Rise in Fledgling Sign of Property Recovery",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-07/australia-home-sales-rise-in-fledgling-sign-of-property-recovery",
+   "published": "2026-11-07T23:54:25+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Gunman kills six in Krak\u00f3w shooting",
+   "url": "https://www.ft.com/content/0fab9ede-4fa1-4f94-b23e-e32f07a6b7df?syn-25a6b1a6=1",
+   "published": "2026-11-07T22:00:14+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US believes Nvidia\u2019s Huang had romantic relationship with alleged Chinese spy",
+   "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
+   "published": "2026-11-07T21:41:05+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Several Senate Republicans Call for Delaying Leadership Election",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-07/several-senate-republicans-call-for-delaying-leadership-election",
+   "published": "2026-11-07T21:17:24+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Israel\u2019s president gives Gadi Eisenkot first chance at forming a government",
+   "url": "https://www.ft.com/content/bf737648-b974-4f87-ba0b-958f2aff1163?syn-25a6b1a6=1",
+   "published": "2026-11-07T21:03:47+00:00"
+  },
   {
    "source": "Financial Times",
    "title": "Trump asks UFC boss Dana White to be new press secretary",
    "url": "https://www.ft.com/content/52c3c7ac-f0ee-4b90-a2c8-68e76d120a79?syn-25a6b1a6=1",
    "published": "2026-11-07T20:33:52+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Israel\u2019s president gives Gadi Eisenkot first shot at forming a government",
-   "url": "https://www.ft.com/content/bf737648-b974-4f87-ba0b-958f2aff1163?syn-25a6b1a6=1",
-   "published": "2026-11-07T20:20:57+00:00"
   },
   {
    "source": "Bloomberg",
@@ -24,12 +48,6 @@ window.LIVE_DATA = {
    "title": "Eisenkot Gets Chance to Form Israeli Government After Tight Vote",
    "url": "https://www.bloomberg.com/news/articles/2026-11-07/israel-president-to-give-eisenkot-a-chance-to-form-government",
    "published": "2026-11-07T19:33:30+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Gunman kills six in Krak\u00f3w shooting",
-   "url": "https://www.ft.com/content/0fab9ede-4fa1-4f94-b23e-e32f07a6b7df?syn-25a6b1a6=1",
-   "published": "2026-11-07T19:06:52+00:00"
   },
   {
    "source": "Bloomberg",
@@ -342,24 +360,6 @@ window.LIVE_DATA = {
    "title": "An apology for slavery will help build trust across the Commonwealth",
    "url": "https://www.ft.com/content/510f4a2e-0c7a-48c9-bee6-eabc704b1907",
    "published": "2026-11-07T05:00:23+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "A bittersweet year for liberals",
-   "url": "https://www.ft.com/content/3370e949-4a32-4a2d-8738-2f1cde6a35ea?syn-25a6b1a6=1",
-   "published": "2026-11-07T05:00:22+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Mississippi election marks political earthquake in the Deep South",
-   "url": "https://www.ft.com/content/0700baee-1a7f-4dc4-ac95-5b98e1868d96?syn-25a6b1a6=1",
-   "published": "2026-11-07T05:00:22+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Russia ships metal via the Arctic to evade Ukrainian strikes",
-   "url": "https://www.ft.com/content/80d91653-c210-43cd-b91e-2b8c644561c1?syn-25a6b1a6=1",
-   "published": "2026-11-07T05:00:22+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 4.86
     }
    ],
-   "fetched_at": "2026-11-07T20:49:47+00:00",
+   "fetched_at": "2026-11-08T00:27:10+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1183,10 +1183,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-05",
    "change_1d_bp": -4.7,
    "history": [
-    {
-     "d": "2026-04-21",
-     "v": 3.0365282223
-    },
     {
      "d": "2026-04-22",
      "v": 3.0510265518
@@ -1752,7 +1748,7 @@ window.LIVE_DATA = {
      "v": 3.2938441917
     }
    ],
-   "fetched_at": "2026-11-07T20:49:49+00:00",
+   "fetched_at": "2026-11-08T00:27:11+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -1763,10 +1759,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-04",
    "change_1d_bp": -7.3,
    "history": [
-    {
-     "d": "2026-04-21",
-     "v": 4.8242
-    },
     {
      "d": "2026-04-22",
      "v": 4.8382
@@ -2320,7 +2312,7 @@ window.LIVE_DATA = {
      "v": 5.1364
     }
    ],
-   "fetched_at": "2026-11-07T20:49:49+00:00",
+   "fetched_at": "2026-11-08T00:27:12+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2331,10 +2323,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-05",
    "change_1d_bp": -4.9,
    "history": [
-    {
-     "d": "2026-04-21",
-     "v": 2.392
-    },
     {
      "d": "2026-04-22",
      "v": 2.406
@@ -2860,7 +2848,7 @@ window.LIVE_DATA = {
      "v": 2.806
     }
    ],
-   "fetched_at": "2026-11-07T20:49:52+00:00",
+   "fetched_at": "2026-11-08T00:27:15+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3672,7 +3660,7 @@ window.LIVE_DATA = {
      "v": 3.67
     }
    ],
-   "fetched_at": "2026-11-07T20:49:52+00:00",
+   "fetched_at": "2026-11-08T00:27:15+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -3683,10 +3671,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-04",
    "change_1d_bp": -0.4,
    "history": [
-    {
-     "d": "2026-04-21",
-     "v": 4.909
-    },
     {
      "d": "2026-04-22",
      "v": 4.958
@@ -4244,7 +4228,7 @@ window.LIVE_DATA = {
      "v": 5.082
     }
    ],
-   "fetched_at": "2026-11-07T20:49:53+00:00",
+   "fetched_at": "2026-11-08T00:27:16+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4277,7 +4261,7 @@ window.LIVE_DATA = {
   "as_of": "2026-11-06",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-07T20:49:53+00:00",
+  "fetched_at": "2026-11-08T00:27:17+00:00",
   "error": null,
   "pairs": [
    {
