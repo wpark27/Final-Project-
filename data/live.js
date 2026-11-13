@@ -1,6 +1,306 @@
 window.LIVE_DATA = {
- "updated": "2026-11-13T16:10:40+00:00",
+ "updated": "2026-11-13T22:31:09+00:00",
  "news": [
+  {
+   "source": "Financial Times",
+   "title": "US Treasuries record worst week since Trump\u2019s \u2018liberation day\u2019",
+   "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
+   "published": "2026-11-13T22:12:03+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Investing in Financial Security: Masters in Business with Salim Ramji",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-13/masters-in-business-with-salim-ramji-video",
+   "published": "2026-11-13T22:11:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Flights Halted Across US, FAA Cites Safety Reasons",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-13/flights-halted-across-us-faa-cites-safety-reasons-video",
+   "published": "2026-11-13T22:10:13+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "The Best of the 2026 Bloomberg New Economy Forum",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-13/the-best-of-the-2026-bloomberg-new-economy-forum-video",
+   "published": "2026-11-13T22:05:43+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "FAA Grounds All Flights Nationwide",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-13/faa-grounds-all-flights-nationwide-video",
+   "published": "2026-11-13T22:04:51+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Salim Ramji on the Vanguard Effect",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-13/salim-ramji-on-the-vanguard-effect-video",
+   "published": "2026-11-13T22:01:57+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Jensen Huang Scandal Fallout Grows",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-13/bloomberg-businessweek-daily-11-13-2026-video",
+   "published": "2026-11-13T21:41:23+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US aviation regulator grounds all departing flights",
+   "url": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
+   "published": "2026-11-13T21:38:38+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Administration Lets States Delay New Medicaid Work Rules",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/trump-administration-lets-states-delay-new-medicaid-work-rules",
+   "published": "2026-11-13T21:35:52+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Three Issues Where Congress Could Strike a Deal Next Year",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/three-issues-where-congress-could-strike-a-deal-next-year",
+   "published": "2026-11-13T21:35:44+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Stocks End Week Higher Amid Tech Turmoil | Closing Bell",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-13/stocks-end-week-higher-amid-tech-turmoil-closing-bell-video",
+   "published": "2026-11-13T21:34:18+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Treasury Weighs Loan to Help Venezuela Pay Debt to IDB",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/us-treasury-weighs-loan-to-help-venezuela-pay-debt-to-idb",
+   "published": "2026-11-13T21:30:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Deciphering Nvidia Noise, US Retirement Gets C+, Anthropic IPO Ahead",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-13/bloomberg-money-11-13-2026-video",
+   "published": "2026-11-13T21:27:39+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Wall Street\u2019s Wild Ride Delivers Big Paydays and Bigger Bruises",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/wall-street-s-wild-ride-delivers-big-paydays-and-bigger-bruises",
+   "published": "2026-11-13T21:25:24+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Anthropic IPO Buyers Have More Influence on Price Than SpaceX",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ipo-buyers-have-more-influence-on-price-than-spacex",
+   "published": "2026-11-13T21:13:03+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "CFTC Chief Calls for Aluminum Pricing Reforms After Costs Soar",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/cftc-chief-calls-for-aluminum-pricing-reforms-after-costs-soar",
+   "published": "2026-11-13T20:53:29+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Rubio Labels International Law as Tool of Elites, Attacks ICC",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/rubio-set-to-deliver-fiery-challenge-to-soulless-global-elites",
+   "published": "2026-11-13T20:52:47+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Amazon revives deal with troubled data centre venture backed by Rick Perry",
+   "url": "https://www.ft.com/content/692fbfe8-da52-42c0-b436-9c4aff21fbdb?syn-25a6b1a6=1",
+   "published": "2026-11-13T20:40:40+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "What Comes Next For Dems After \u2018Blue Wave\u2019",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-13/what-comes-next-for-dems-after-blue-wave-video",
+   "published": "2026-11-13T20:35:32+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Kevin Hassett Says He Will Remain as Trump Economic Adviser",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/kevin-hassett-says-he-will-remain-as-trump-economic-adviser",
+   "published": "2026-11-13T20:31:49+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Chile eval\u00faa privados en minas e infraestructura de Codelco",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/chile-evalua-privados-en-minas-e-infraestructura-de-codelco-mwff9yzi",
+   "published": "2026-11-13T20:21:36+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Microsoft says services experiencing \u2018broad recovery\u2019 after global outage",
+   "url": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1",
+   "published": "2026-11-13T20:17:46+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Richer on Paper, Americans Still Feel Price Pain",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-13/richer-on-paper-americans-still-feel-price-pain-video",
+   "published": "2026-11-13T20:06:03+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US securities watchdog plans to loosen rules for executive pay disclosure",
+   "url": "https://www.ft.com/content/de634392-47bd-4a21-938a-77620aeb3d17?syn-25a6b1a6=1",
+   "published": "2026-11-13T20:03:01+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Lutnick Under Fire in Nvidia Crisis",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-13/balance-of-power-early-edition-11-13-2026-video",
+   "published": "2026-11-13T19:56:03+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Global oil markets swing to surplus as Gulf shipments rebound",
+   "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
+   "published": "2026-11-13T19:45:14+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Mamdani Strikes Deal With Trump on Bodega Food Stamp Rules",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/mamdani-strikes-deal-with-trump-on-food-stamp-rules-for-bodegas",
+   "published": "2026-11-13T19:45:07+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Anthropic\u2019s Amodei \u2018not super fussed\u2019 about market turmoil ahead of IPO",
+   "url": "https://www.ft.com/content/4b7b83d7-7fea-4ce2-bfe3-4f2cf75b1d82?syn-25a6b1a6=1",
+   "published": "2026-11-13T19:41:26+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Jeffries Details Medicare Expansion as He Stares Down Hecklers",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/jeffries-details-medicare-expansion-as-he-stares-down-hecklers",
+   "published": "2026-11-13T19:10:54+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Microsoft outage exposes global reliance on core tech providers",
+   "url": "https://www.ft.com/content/f385935b-2bb4-4e34-8127-16517e8ceecb?syn-25a6b1a6=1",
+   "published": "2026-11-13T18:55:13+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Chile Mulls Private-Sector Role in Codelco Mines",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/chile-mulls-private-sector-role-in-codelco-mines",
+   "published": "2026-11-13T18:54:32+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Supreme Court to Weigh Keeping Trump Southern Border Asylum Ban",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/supreme-court-to-weigh-keeping-trump-southern-border-asylum-ban",
+   "published": "2026-11-13T18:51:10+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "EU Leaders Squabble While US and Russia Drive Ukraine Talks",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/eu-leaders-squabble-while-us-and-russia-drive-ukraine-talks",
+   "published": "2026-11-13T18:32:51+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Ed Morse Says Oil Can Drop to $50 a Barrel",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-13/ed-morse-says-oil-can-drop-to-50-a-barrel-video",
+   "published": "2026-11-13T18:27:54+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Nvidia Has Worst Week Since Trump Tariff Selloff as Huang Exits",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits",
+   "published": "2026-11-13T18:24:41+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "EU, UK At Odds Over Tuition, Student Cap Ahead of Reset Summit",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/eu-uk-at-odds-over-tuition-student-cap-ahead-of-reset-summit",
+   "published": "2026-11-13T18:14:13+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Reform UK pays for Nigel Farage\u2019s security despite \u00a35mn gift",
+   "url": "https://www.ft.com/content/a088c380-216e-4fc3-8b76-483504fd18c2?syn-25a6b1a6=1",
+   "published": "2026-11-13T18:05:05+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Nvidia\u2019s Ousted CEO Gets Fresh Subpoena Threat From House GOP",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-s-ousted-ceo-gets-fresh-subpoena-threat-from-house-gop",
+   "published": "2026-11-13T18:04:05+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Moscow tells Europe to pick an envoy if it wants a seat at the table",
+   "url": "https://www.ft.com/content/4c1f5051-94eb-4d20-b154-c45f4538a2a2?syn-25a6b1a6=1",
+   "published": "2026-11-13T18:03:20+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Arm boss Rene Haas approached in Nvidia CEO search",
+   "url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
+   "published": "2026-11-13T17:45:54+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Swiss Respiratory Biotech Windward Soars 68% in US Trading Debut",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/swiss-respiratory-biotech-windward-up-7-9-in-us-trading-debut",
+   "published": "2026-11-13T17:25:01+00:00"
+  },
+  {
+   "source": "The Economist",
+   "title": "Cover Story newsletter: An AI crash, or a bull in the bath?",
+   "url": "https://www.economist.com/the-world-this-week/2026/11/13/cover-story-newsletter-an-ai-crash-or-a-bull-in-the-bath",
+   "published": "2026-11-13T17:22:10+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "SEC Moves to Rein In Executive Pay Disclosures to Investors",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/sec-moves-to-rein-in-executive-pay-disclosures-to-investors",
+   "published": "2026-11-13T17:11:50+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Scott Colom: the Democrat who conquered the reddest of red states",
+   "url": "https://www.ft.com/content/7c36144b-eef4-4822-81d0-4ef5b7a5724a?syn-25a6b1a6=1",
+   "published": "2026-11-13T17:08:50+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Bessent blames Lutnick\u2019s commerce department for failure to blacklist Megaspeed",
+   "url": "https://www.ft.com/content/ce6d292e-eaaa-4c23-b909-34276e1a1e8d?syn-25a6b1a6=1",
+   "published": "2026-11-13T17:06:01+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "AI believers hold the line after Nvidia ructions",
+   "url": "https://www.ft.com/content/750e4304-7287-432a-8ac1-36db40d0d968?syn-25a6b1a6=1",
+   "published": "2026-11-13T16:55:39+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Dollar Wraps Best Week in Over a Month on Fed Rate Hike Bets",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets",
+   "published": "2026-11-13T16:44:22+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Prevention is better than cure for the UK\u2019s social ills",
+   "url": "https://www.ft.com/content/5b83fe51-4ce2-4a26-a9ca-7a7653eaba9a?syn-25a6b1a6=1",
+   "published": "2026-11-13T16:15:26+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "German coalition disagreements hold up ECB jobs deal",
+   "url": "https://www.ft.com/content/bcfa33cc-535a-4692-ae5f-39e144b78799?syn-25a6b1a6=1",
+   "published": "2026-11-13T16:15:25+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "H&R REIT Holders Nix Sale to Blackstone and GO, Rebuking CEO",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-13/h-r-investors-vote-down-sale-to-blackstone-and-go-rebuking-ceo",
+   "published": "2026-11-13T16:06:06+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "US Wholesale Inflation Picks Up to Fastest Pace Since 2022",
@@ -26,22 +326,10 @@ window.LIVE_DATA = {
    "published": "2026-11-13T15:49:32+00:00"
   },
   {
-   "source": "Financial Times",
-   "title": "Global oil markets swing to surplus as Gulf shipments rebound",
-   "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
-   "published": "2026-11-13T15:42:48+00:00"
-  },
-  {
    "source": "Bloomberg",
    "title": "Anthropic IPO Share Orders From China Are Said to Be Rebuffed",
    "url": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ipo-share-orders-from-china-are-said-to-be-rebuffed",
    "published": "2026-11-13T15:37:27+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US Treasuries set for worst week since Trump\u2019s \u2018liberation day\u2019",
-   "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
-   "published": "2026-11-13T15:36:00+00:00"
   },
   {
    "source": "Bloomberg",
@@ -54,12 +342,6 @@ window.LIVE_DATA = {
    "title": "China drops bid for future COP as climate science battle heats up",
    "url": "https://www.ft.com/content/3cc097d4-00af-4ece-8c86-d1bc9af7664d?syn-25a6b1a6=1",
    "published": "2026-11-13T15:33:15+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Microsoft races to restore services after global outage",
-   "url": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1",
-   "published": "2026-11-13T15:29:45+00:00"
   },
   {
    "source": "Bloomberg",
@@ -78,288 +360,6 @@ window.LIVE_DATA = {
    "title": "Fed\u2019s Logan Seeks Clearer Separation of Market Operations",
    "url": "https://www.bloomberg.com/news/videos/2026-11-13/logan-seeks-clearer-fed-separation-of-market-operations-video",
    "published": "2026-11-13T15:19:45+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Putin Tests Europe\u2019s Unity With New Pressure to Talk Security",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/putin-tests-europe-s-unity-with-new-pressure-to-talk-security",
-   "published": "2026-11-13T15:16:50+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Ukraine Hits Ninth Russian Oil Refinery Since Start of November",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/ukraine-hits-ninth-russian-oil-refinery-since-start-of-november",
-   "published": "2026-11-13T15:04:05+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Russian Diesel Exports Drop as Ukraine Renews Refinery Attacks",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/russian-diesel-exports-drop-as-ukraine-renews-refinery-attacks",
-   "published": "2026-11-13T14:59:35+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Mexico Rate Cut Fuels Speculation Officials Want a Weaker Peso",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/mexico-rate-cut-fuels-speculation-officials-want-a-weaker-peso",
-   "published": "2026-11-13T14:53:13+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "24 splendid ways to spend it in November",
-   "url": "https://www.ft.com/content/6f85b836-ccb2-4968-8faa-abd311d56ae0",
-   "published": "2026-11-13T14:44:45+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Germany\u2019s spy agencies gain sweeping new powers",
-   "url": "https://www.ft.com/content/6c55228c-ac59-44cb-926b-6e41585fbf0c?syn-25a6b1a6=1",
-   "published": "2026-11-13T14:40:29+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Senegal Bonds Plunge as Budget Row Puts IMF Program at Risk",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/senegal-bonds-plunge-as-budget-row-puts-imf-program-at-risk",
-   "published": "2026-11-13T14:31:14+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "DraftKings\u2019 Predictions Bet Has Bulls Reeling From Sticker Shock",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/draftkings-predictions-bet-has-bulls-reeling-from-sticker-shock",
-   "published": "2026-11-13T14:30:10+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Anthropic IPO to Cap Year of Record-Breaking Equity Megadeals",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ipo-to-cap-year-of-record-breaking-equity-megadeals",
-   "published": "2026-11-13T14:19:49+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Bessent blames Lutnick\u2019s commerce department for failure to blacklist Megaspeed",
-   "url": "https://www.ft.com/content/ce6d292e-eaaa-4c23-b909-34276e1a1e8d?syn-25a6b1a6=1",
-   "published": "2026-11-13T14:11:36+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Raw Sugar Heads for Weekly Rise With India, Brazil in Focus",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/raw-sugar-heads-for-weekly-rise-with-india-imports-in-focus",
-   "published": "2026-11-13T14:04:12+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US protectionism is a bust \u2014 Mississippi edition",
-   "url": "https://www.ft.com/content/9d1a4cb5-a389-4eab-a7d3-1db0eb3f2f19?syn-25a6b1a6=1",
-   "published": "2026-11-13T14:00:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Finland Contacts Ukraine After Russian Warship Struck Nearby",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/finland-contacts-ukraine-after-russian-warship-struck-nearby",
-   "published": "2026-11-13T13:57:21+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Why market timing is a fool\u2019s game (note to self)",
-   "url": "https://www.ft.com/content/603270db-040c-44fb-9b1b-981b0b72de21?syn-25a6b1a6=1",
-   "published": "2026-11-13T13:31:40+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Will Jensen Huang sell his $135bn of stock?",
-   "url": "https://www.ft.com/content/7a1ee00c-ddbd-4ae2-8323-e4dc603d7a41?syn-25a6b1a6=1",
-   "published": "2026-11-13T13:22:54+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Russian Demands of NATO Pullback Are Non-Starter, Finland Says",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/russian-demands-of-nato-pullback-are-non-starter-finland-says",
-   "published": "2026-11-13T13:19:56+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Stocks Slide as Tech Concerns Linger Despite Rates Relief",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/us-futures-gain-with-microsoft-outage-producer-prices-in-focus",
-   "published": "2026-11-13T13:19:12+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The Belgian-born economist swept up in India\u2019s Cockroach protests",
-   "url": "https://www.ft.com/content/002074da-f937-420c-a2c3-82b1608d7947?syn-25a6b1a6=1",
-   "published": "2026-11-13T13:00:39+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Number of \u2018maxed out\u2019 Junior Isas tops 100,000 in a year",
-   "url": "https://www.ft.com/content/051da62e-4a30-4996-bebd-1a70dddfa707",
-   "published": "2026-11-13T12:59:17+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Ministry of Defence delays decision on \u00a32bn UK military satellite contest",
-   "url": "https://www.ft.com/content/dfc3d313-1e32-4e56-ab1d-fcb7ea51a386?syn-25a6b1a6=1",
-   "published": "2026-11-13T12:50:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "State AI Safety Law Architects to Push for Federal Version in Congress",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/state-ai-safety-law-architects-to-push-for-federal-version-in-congress",
-   "published": "2026-11-13T12:45:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Jensen Huang\u2019s years-long effort to get close to China",
-   "url": "https://www.ft.com/content/3efa9733-fbb4-47c2-83ba-b01e548ef277?syn-25a6b1a6=1",
-   "published": "2026-11-13T12:36:28+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Moscow tells Europe to pick an envoy if it wants a seat at the table",
-   "url": "https://www.ft.com/content/4c1f5051-94eb-4d20-b154-c45f4538a2a2?syn-25a6b1a6=1",
-   "published": "2026-11-13T12:28:44+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Nvidia Navigates Skeptical Washington Without Its Chief Fixer",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/nvidia-navigates-skeptical-washington-without-its-chief-fixer",
-   "published": "2026-11-13T12:21:53+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Objects of Desire by Celia Paul \u2014 grief, art and the beauty of Venice",
-   "url": "https://www.ft.com/content/f71ea01e-065d-4b1d-b6a5-9d8e336bcbeb",
-   "published": "2026-11-13T12:00:02+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "OK who just made $200mn shorting Nvidia ahead of Jensxit?",
-   "url": "https://www.ft.com/content/13c485dc-2d51-4920-bd1f-13a11c79d96c",
-   "published": "2026-11-13T11:29:14+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "RedBird explores listing for new AC Milan holding company",
-   "url": "https://www.ft.com/content/3d0d58ba-600f-427c-ab22-553cd8a1dcc8?syn-25a6b1a6=1",
-   "published": "2026-11-13T11:10:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Re-energised Atlantic grouping will be swifter than Nato, says UK",
-   "url": "https://www.ft.com/content/2500879f-9849-45e8-8e22-082e9fa53228?syn-25a6b1a6=1",
-   "published": "2026-11-13T11:05:03+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Indonesia on a New Path as Prabowo-Jokowi Political Ties Fray",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-11-13/indonesia-on-a-new-path-as-prabowo-jokowi-political-ties-fray",
-   "published": "2026-11-13T11:00:31+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Election Lawyers Gear Up for 2028 Just Days After Midterms",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/election-lawyers-gear-up-for-2028-just-days-after-midterms",
-   "published": "2026-11-13T11:00:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "FirstFT: Microsoft races to restore software services",
-   "url": "https://www.ft.com/content/fcbd27c8-aa10-455f-8917-afcb897e6eaf?syn-25a6b1a6=1",
-   "published": "2026-11-13T10:46:13+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Venezuela: mayor\u00eda sufre cortes de electricidad casi a diario",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/venezuela-mayoria-sufre-cortes-de-electricidad-casi-a-diario-mwet2sya",
-   "published": "2026-11-13T10:00:09+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "M\u00e9xico: Corrupci\u00f3n en el INE golpea confianza electoral y a Sheinbaum",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/mexico-corrupcion-en-el-ine-golpea-confianza-electoral-y-a-sheinbaum-mwet2r42",
-   "published": "2026-11-13T10:00:07+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Argentina: Milei pierde apoyo y desempleo es la mayor preocupaci\u00f3n",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/argentina-milei-pierde-apoyo-y-desempleo-es-la-mayor-preocupacion-mwet2oi8",
-   "published": "2026-11-13T10:00:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "More Than Half of Venezuelans Are Facing Near-Daily Blackouts",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/more-than-half-of-venezuelans-are-facing-near-daily-blackouts",
-   "published": "2026-11-13T10:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Milei\u2019s Image Sours With Argentines as Jobs Become Top Concern",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/milei-s-image-sours-with-argentines-as-jobs-become-top-concern",
-   "published": "2026-11-13T10:00:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Milburn\u2019s welfare overhaul brings flashbacks to universal credit rollout",
-   "url": "https://www.ft.com/content/b3b8d2ff-dce0-4865-83af-72af77f96a8e?syn-25a6b1a6=1",
-   "published": "2026-11-13T09:30:08+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Why a $2 Billion Law Firm Suddenly Collapsed",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-13/why-a-2-billion-law-firm-suddenly-collapsed-video",
-   "published": "2026-11-13T09:13:15+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Chinese AI sell-off deepens over fears of tougher Nvidia chip restrictions",
-   "url": "https://www.ft.com/content/0d4e93e4-895e-4ae0-a01b-833a3ed440a8?syn-25a6b1a6=1",
-   "published": "2026-11-13T09:07:28+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "South Africa\u2019s New Financial Sector Conduct Bill Nears Tabling",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/south-africa-s-new-financial-sector-conduct-bill-nears-tabling",
-   "published": "2026-11-13T09:03:40+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Dutch Premier Jetten to Hold Crisis Talks to Save Coalition",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/dutch-premier-jetten-to-hold-crisis-talks-to-salvage-coalition",
-   "published": "2026-11-13T08:34:55+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Iran Extends Blackout of Nuclear Work With US War Deadlocked",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/iran-extends-blackout-of-nuclear-work-with-us-war-deadlocked",
-   "published": "2026-11-13T08:17:56+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Onitsuka Tiger owner Asics shares slide as sales growth slows",
-   "url": "https://www.ft.com/content/ea89a373-5f42-413c-8aef-4556be883939?syn-25a6b1a6=1",
-   "published": "2026-11-13T08:16:05+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Horizons Middle East & Africa 11/13/2026 (Video)",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-13/horizons-middle-east-africa-11-13-2026-video",
-   "published": "2026-11-13T07:35:24+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "India\u2019s Manufacturing Incentives Fall Short on Jobs, Report Says",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-13/india-s-manufacturing-incentives-fall-short-on-jobs-report-says",
-   "published": "2026-11-13T07:29:35+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Nvidia Crisis to Bring More US Chip Regulation, Says DWS's Ronner",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-13/ronner-says-nvidia-turmoil-so-far-appears-idiosyncratic-video",
-   "published": "2026-11-13T07:15:41+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Zelenskyy Says Talks With US Envoys in Dublin Made Progress",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-13/zelenskyy-says-talks-with-us-envoys-in-dublin-made-progress",
-   "published": "2026-11-13T06:56:00+00:00"
   }
  ],
  "yields": {
@@ -367,14 +367,10 @@ window.LIVE_DATA = {
    "country": "United States",
    "series": "US Treasury par yield curve, 10 Yr",
    "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates",
-   "value": 5.1,
-   "as_of": "2026-11-12",
-   "change_1d_bp": 12.0,
+   "value": 5.15,
+   "as_of": "2026-11-13",
+   "change_1d_bp": 5.0,
    "history": [
-    {
-     "d": "2026-01-28",
-     "v": 4.26
-    },
     {
      "d": "2026-01-29",
      "v": 4.24
@@ -1170,9 +1166,13 @@ window.LIVE_DATA = {
     {
      "d": "2026-11-12",
      "v": 5.1
+    },
+    {
+     "d": "2026-11-13",
+     "v": 5.15
     }
    ],
-   "fetched_at": "2026-11-13T16:11:02+00:00",
+   "fetched_at": "2026-11-13T22:31:30+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1756,7 +1756,7 @@ window.LIVE_DATA = {
      "v": 3.3672459164
     }
    ],
-   "fetched_at": "2026-11-13T16:11:04+00:00",
+   "fetched_at": "2026-11-13T22:31:33+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2328,7 +2328,7 @@ window.LIVE_DATA = {
      "v": 5.2044
     }
    ],
-   "fetched_at": "2026-11-13T16:11:05+00:00",
+   "fetched_at": "2026-11-13T22:31:34+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2872,7 +2872,7 @@ window.LIVE_DATA = {
      "v": 2.841
     }
    ],
-   "fetched_at": "2026-11-13T16:11:08+00:00",
+   "fetched_at": "2026-11-13T22:31:38+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3684,7 +3684,7 @@ window.LIVE_DATA = {
      "v": 3.78
     }
    ],
-   "fetched_at": "2026-11-13T16:11:09+00:00",
+   "fetched_at": "2026-11-13T22:31:38+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4260,7 +4260,7 @@ window.LIVE_DATA = {
      "v": 5.044
     }
    ],
-   "fetched_at": "2026-11-13T16:11:09+00:00",
+   "fetched_at": "2026-11-13T22:31:39+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4293,7 +4293,7 @@ window.LIVE_DATA = {
   "as_of": "2026-11-13",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-13T16:11:10+00:00",
+  "fetched_at": "2026-11-13T22:31:39+00:00",
   "error": null,
   "pairs": [
    {
