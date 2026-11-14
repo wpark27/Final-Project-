@@ -1,6 +1,42 @@
 window.LIVE_DATA = {
- "updated": "2026-11-14T16:59:10+00:00",
+ "updated": "2026-11-14T21:22:46+00:00",
  "news": [
+  {
+   "source": "Financial Times",
+   "title": "Passengers face widespread disruption after US air traffic control outage",
+   "url": "https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1",
+   "published": "2026-11-14T21:02:31+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Flush With Wins, Democrats Confront Fear of Fleeting Success",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-14/flush-with-wins-democrats-confront-fear-of-fleeting-success",
+   "published": "2026-11-14T20:22:50+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+   "published": "2026-11-14T20:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Fetterman Says Van Hollen as Senate Leader Would Be \u2018Troubling\u2019",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-14/fetterman-says-van-hollen-as-senate-leader-would-be-troubling",
+   "published": "2026-11-14T17:46:23+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Pentagon Eyes Smaller Troop Cuts Across Europe in Reversal",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-14/pentagon-eyes-smaller-troop-cuts-across-europe-in-reversal",
+   "published": "2026-11-14T16:59:09+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship\u2019s Longest Test Flight",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video",
+   "published": "2026-11-14T16:45:01+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "Pointed! Bloomberg\u2019s Weekly News Quiz For Risk-Takers",
@@ -60,12 +96,6 @@ window.LIVE_DATA = {
    "title": "SpaceX\u2019s S&P 500 Bid Gets New Life as Musk Pitches Tesla Merger",
    "url": "https://www.bloomberg.com/news/articles/2026-11-14/spacex-s-s-p-500-bid-gets-new-life-as-musk-pitches-tesla-merger",
    "published": "2026-11-14T14:00:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Passengers face widespread disruption after US air traffic control outage",
-   "url": "https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1",
-   "published": "2026-11-14T13:52:46+00:00"
   },
   {
    "source": "Bloomberg",
@@ -135,7 +165,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Ukraine Says It Hit Oil-Pumping Station in Russia\u2019s Samara",
+   "title": "Ukraine Hit Pumping Station, Russia Strikes Naftogaz Plant",
    "url": "https://www.bloomberg.com/news/articles/2026-11-14/ukraine-says-it-hit-oil-pumping-station-in-russia-s-samara",
    "published": "2026-11-14T10:56:16+00:00"
   },
@@ -330,36 +360,6 @@ window.LIVE_DATA = {
    "title": "China to Meet All New Power Demand With Clean Energy, CCTV Says",
    "url": "https://www.bloomberg.com/news/articles/2026-11-14/china-to-meet-all-new-power-demand-with-clean-energy-cctv-says",
    "published": "2026-11-14T04:05:34+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Venezuela Vows to Complete Colombia Pipeline Repairs by March",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-14/venezuela-vows-to-complete-colombia-pipeline-repairs-by-march",
-   "published": "2026-11-14T03:44:05+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US plan to overhaul air traffic control system like \u2018changing a tyre at 70mph\u2019",
-   "url": "https://www.ft.com/content/1cbee3e3-b4cf-4831-bd4e-ac1653c7c7c7?syn-25a6b1a6=1",
-   "published": "2026-11-14T03:41:46+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "US aviation regulator lifts order that grounded thousands of flights",
-   "url": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
-   "published": "2026-11-14T03:21:57+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "China Railways Set Record With 4.13 Billion Trips in 10 Months",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-14/china-railways-set-record-with-4-13-billion-trips-in-10-months",
-   "published": "2026-11-14T02:04:53+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Democrats Ask Musk to Preserve Documents on Starlink in Ukraine",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-14/democrats-ask-musk-to-preserve-documents-on-starlink-in-ukraine",
-   "published": "2026-11-14T01:31:24+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 5.15
     }
    ],
-   "fetched_at": "2026-11-14T16:59:30+00:00",
+   "fetched_at": "2026-11-14T21:23:06+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1752,7 +1752,7 @@ window.LIVE_DATA = {
      "v": 3.3672459164
     }
    ],
-   "fetched_at": "2026-11-14T16:59:34+00:00",
+   "fetched_at": "2026-11-14T21:23:09+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2320,7 +2320,7 @@ window.LIVE_DATA = {
      "v": 5.2044
     }
    ],
-   "fetched_at": "2026-11-14T16:59:35+00:00",
+   "fetched_at": "2026-11-14T21:23:09+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2860,7 +2860,7 @@ window.LIVE_DATA = {
      "v": 2.841
     }
    ],
-   "fetched_at": "2026-11-14T16:59:38+00:00",
+   "fetched_at": "2026-11-14T21:23:13+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3672,7 +3672,7 @@ window.LIVE_DATA = {
      "v": 3.78
     }
    ],
-   "fetched_at": "2026-11-14T16:59:39+00:00",
+   "fetched_at": "2026-11-14T21:23:14+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4244,7 +4244,7 @@ window.LIVE_DATA = {
      "v": 5.044
     }
    ],
-   "fetched_at": "2026-11-14T16:59:39+00:00",
+   "fetched_at": "2026-11-14T21:23:15+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4277,7 +4277,7 @@ window.LIVE_DATA = {
   "as_of": "2026-11-13",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-14T16:59:40+00:00",
+  "fetched_at": "2026-11-14T21:23:16+00:00",
   "error": null,
   "pairs": [
    {
