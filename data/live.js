@@ -1,11 +1,47 @@
 window.LIVE_DATA = {
- "updated": "2026-11-14T21:22:46+00:00",
+ "updated": "2026-11-15T01:47:21+00:00",
  "news": [
   {
    "source": "Financial Times",
    "title": "Passengers face widespread disruption after US air traffic control outage",
    "url": "https://www.ft.com/content/f66f9811-59a2-4e52-a944-c7ed81dabc50?syn-25a6b1a6=1",
-   "published": "2026-11-14T21:02:31+00:00"
+   "published": "2026-11-14T23:32:08+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump\u2019s White House Lawyer on Subpoena Compliance: \u2018It Depends\u2019",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-14/trump-s-white-house-lawyer-on-subpoena-compliance-it-depends",
+   "published": "2026-11-14T23:04:15+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US air travel chaos exposes system held together by \u2018string and duct tape\u2019",
+   "url": "https://www.ft.com/content/9df17e1c-c77a-4f67-b5b4-1adb64bcd063?syn-25a6b1a6=1",
+   "published": "2026-11-14T22:57:26+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "SpaceX catches returning Starship rocket in breakthrough for Musk",
+   "url": "https://www.ft.com/content/ce7c8ab1-8337-4c32-8494-5142ec1697dd?syn-25a6b1a6=1",
+   "published": "2026-11-14T22:33:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "UK Government To Expand, Accelerate Youth Job Guarantee Program",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-14/uk-government-to-expand-accelerate-youth-job-guarantee-program",
+   "published": "2026-11-14T22:30:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "(Digital) SpaceX Catches Starship in Novel Landing",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-14/-digital-spacex-catches-starship-in-novel-landing",
+   "published": "2026-11-14T22:25:41+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Kushner Wants Direct Russia-Europe Talks in Ukraine Peace Push",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-14/kushner-wants-direct-russia-europe-talks-in-ukraine-peace-push",
+   "published": "2026-11-14T21:47:26+00:00"
   },
   {
    "source": "Bloomberg",
@@ -324,42 +360,6 @@ window.LIVE_DATA = {
    "title": "UK housing wealth owned by over-65s tops \u00a32.25tn",
    "url": "https://www.ft.com/content/85cddf9b-fd9d-4b4a-9f9f-e12961a8af98?syn-25a6b1a6=1",
    "published": "2026-11-14T05:00:27+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "How bonds got interesting again",
-   "url": "https://www.ft.com/content/3f89c87c-4bc4-40db-8c15-1957079917f3?syn-25a6b1a6=1",
-   "published": "2026-11-14T05:00:27+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "What Europe\u2019s rising public debt means for your portfolio",
-   "url": "https://www.ft.com/content/45684ea3-dba8-476b-8667-2cdbdb5dfd8d",
-   "published": "2026-11-14T05:00:17+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Composer Yudania G\u00f3mez Heredia\u2019s guide to Nuremberg",
-   "url": "https://www.ft.com/content/f86213c1-72a4-4928-bfa5-c2a80761f174",
-   "published": "2026-11-14T05:00:09+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The South African townships turning against the ANC",
-   "url": "https://www.ft.com/content/dbf8d003-aa1d-4f23-9702-45fcff4360fd?syn-25a6b1a6=1",
-   "published": "2026-11-14T05:00:08+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Martin Wolf on the US midterms: Trump loses. European populism lives on.",
-   "url": "https://www.ft.com/content/094acead-5c40-4609-87fd-f02b171eb42c?syn-25a6b1a6=1",
-   "published": "2026-11-14T05:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "China to Meet All New Power Demand With Clean Energy, CCTV Says",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-14/china-to-meet-all-new-power-demand-with-clean-energy-cctv-says",
-   "published": "2026-11-14T04:05:34+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 5.15
     }
    ],
-   "fetched_at": "2026-11-14T21:23:06+00:00",
+   "fetched_at": "2026-11-15T01:47:42+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1183,10 +1183,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-12",
    "change_1d_bp": 2.7,
    "history": [
-    {
-     "d": "2026-04-28",
-     "v": 3.1195622586
-    },
     {
      "d": "2026-04-29",
      "v": 3.142710173
@@ -1752,7 +1748,7 @@ window.LIVE_DATA = {
      "v": 3.3672459164
     }
    ],
-   "fetched_at": "2026-11-14T21:23:09+00:00",
+   "fetched_at": "2026-11-15T01:48:05+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -1763,10 +1759,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-11",
    "change_1d_bp": 1.4,
    "history": [
-    {
-     "d": "2026-04-28",
-     "v": 4.9493
-    },
     {
      "d": "2026-04-29",
      "v": 5.0053
@@ -2320,7 +2312,7 @@ window.LIVE_DATA = {
      "v": 5.2044
     }
    ],
-   "fetched_at": "2026-11-14T21:23:09+00:00",
+   "fetched_at": "2026-11-15T01:48:06+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2331,10 +2323,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-12",
    "change_1d_bp": 0.1,
    "history": [
-    {
-     "d": "2026-04-28",
-     "v": 2.468
-    },
     {
      "d": "2026-04-30",
      "v": 2.52
@@ -2860,7 +2848,7 @@ window.LIVE_DATA = {
      "v": 2.841
     }
    ],
-   "fetched_at": "2026-11-14T21:23:13+00:00",
+   "fetched_at": "2026-11-15T01:48:09+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3672,7 +3660,7 @@ window.LIVE_DATA = {
      "v": 3.78
     }
    ],
-   "fetched_at": "2026-11-14T21:23:14+00:00",
+   "fetched_at": "2026-11-15T01:48:09+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -3683,10 +3671,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-11",
    "change_1d_bp": 5.5,
    "history": [
-    {
-     "d": "2026-04-28",
-     "v": 5.028
-    },
     {
      "d": "2026-04-29",
      "v": 4.997
@@ -4244,7 +4228,7 @@ window.LIVE_DATA = {
      "v": 5.044
     }
    ],
-   "fetched_at": "2026-11-14T21:23:15+00:00",
+   "fetched_at": "2026-11-15T01:48:10+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4277,7 +4261,7 @@ window.LIVE_DATA = {
   "as_of": "2026-11-13",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-14T21:23:16+00:00",
+  "fetched_at": "2026-11-15T01:48:10+00:00",
   "error": null,
   "pairs": [
    {
