@@ -1,6 +1,54 @@
 window.LIVE_DATA = {
- "updated": "2026-11-21T17:23:10+00:00",
+ "updated": "2026-11-21T23:05:14+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "FDA Leadership Search Includes Cancer Care CEO, RFK Jr. Adviser",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/fda-leadership-search-includes-cancer-care-ceo-rfk-jr-adviser",
+   "published": "2026-11-21T21:59:01+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Violence erupts in Sinaloa after Mexico captures alleged drug trafficker",
+   "url": "https://www.ft.com/content/90a8d0bd-32c8-471a-8696-e95555e41b78?syn-25a6b1a6=1",
+   "published": "2026-11-21T21:28:05+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Dream of gas-powered vehicles falters in China\u2019s hydrogen capital",
+   "url": "https://www.ft.com/content/91d25e77-efa2-4ced-a9e1-92f53fa18e4d?syn-25a6b1a6=1",
+   "published": "2026-11-21T21:00:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump Orders Contractors to Get Signoff for Congress Queries",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/trump-orders-contractors-to-get-approval-for-congress-queries",
+   "published": "2026-11-21T18:41:20+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "EU raises prospect of \u2018no deal\u2019 at COP31",
+   "url": "https://www.ft.com/content/b3ba64e9-9482-4525-acc7-49825f3daace?syn-25a6b1a6=1",
+   "published": "2026-11-21T18:07:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Brazil\u2019s Jair Bolsonaro Admitted to ICU With Obstruction",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/brazil-s-jair-bolsonaro-admitted-to-icu-with-obstruction",
+   "published": "2026-11-21T17:51:36+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+   "url": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616?syn-25a6b1a6=1",
+   "published": "2026-11-21T17:21:36+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Anthropic Fails to Calm AI Jitters, Ditching the Kitchen for Thanksgiving",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-21/bloomberg-this-weekend-11-21-2026-video",
+   "published": "2026-11-21T17:01:32+00:00"
+  },
   {
    "source": "Financial Times",
    "title": "Alice Huang\u2019s links to the chip underworld",
@@ -21,7 +69,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Mexico Arrests Sinaloa Drug Kingpin on FBI\u2019s Most Wanted List",
+   "title": "Mexico Arrests Sinaloa Drug Kingpin on FBI Most Wanted List",
    "url": "https://www.bloomberg.com/news/articles/2026-11-21/mexico-arrests-sinaloa-drug-kingpin-on-fbi-s-most-wanted-list",
    "published": "2026-11-21T15:46:53+00:00"
   },
@@ -33,7 +81,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Goldman\u2019s SpaceX Pitch Helps Solve AI Debt Puzzle: Credit Weekly",
+   "title": "Goldman Sachs, Apollo Price $32 Billion SpaceX Bonds to Fund AI Chip Purchases",
    "url": "https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
    "published": "2026-11-21T15:31:22+00:00"
   },
@@ -141,7 +189,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Russia Says Cargo Ship Attacked By Drones in Gulf of Finland",
+   "title": "Russian Cargo Ship Attacked By Drones in Gulf of Finland",
    "url": "https://www.bloomberg.com/news/articles/2026-11-21/russia-says-cargo-ship-attacked-by-drones-in-gulf-of-finland",
    "published": "2026-11-21T11:44:46+00:00"
   },
@@ -215,6 +263,12 @@ window.LIVE_DATA = {
    "source": "Financial Times",
    "title": "Milburn\u2019s \u00a35.8bn youth employment plan rests on \u2018leap of faith\u2019",
    "url": "https://www.ft.com/content/41bcd148-4e1f-4071-940e-ba21dc3700df?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:45+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Miguel \u00c1ngel F\u00e9lix Gallardo, drug lord, 1946-2026",
+   "url": "https://www.ft.com/content/fbf39142-a256-4fa8-a689-e958d80112a4?syn-25a6b1a6=1",
    "published": "2026-11-21T05:00:45+00:00"
   },
   {
@@ -306,60 +360,6 @@ window.LIVE_DATA = {
    "title": "Builders bet on \u20ac620bn defence infrastructure boom in Europe",
    "url": "https://www.ft.com/content/b647fcba-e5e6-4ca2-8417-8c9146eac39e?syn-25a6b1a6=1",
    "published": "2026-11-21T05:00:07+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "When the music stopped for the Halifax",
-   "url": "https://www.ft.com/content/2006ed77-856d-441e-a877-5f8125b75e95?syn-25a6b1a6=1",
-   "published": "2026-11-21T05:00:07+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Martin Wolf on the US midterms: Could history help predict the next two years of US politics?",
-   "url": "https://www.ft.com/content/67adfdc6-4cf9-4f7b-b751-f631535862d8?syn-25a6b1a6=1",
-   "published": "2026-11-21T05:00:00+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Nvidia affair puts Chinese spies in spotlight",
-   "url": "https://www.ft.com/content/77a283dd-b7af-4e72-8d83-9b53ab86f3e0?syn-25a6b1a6=1",
-   "published": "2026-11-21T03:58:46+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "\u2018Sandpapergate\u2019 fallout gives Australian cricket a rough time",
-   "url": "https://www.ft.com/content/21e99fa9-325d-4294-a459-97393c0d107f?syn-25a6b1a6=1",
-   "published": "2026-11-21T01:11:23+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Vows To Tax US Companies Building Data Centers Abroad",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-21/balance-of-power-late-edition-11-20-2026-video",
-   "published": "2026-11-21T00:10:11+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Historic Market Selloff Deepens After Anthropic IPO",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-20/the-close-11-20-2026-video",
-   "published": "2026-11-20T23:54:51+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Gov. Lujan Grisham: 2028 Hopefuls Already Eyeing New Mexico",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-20/gov-grisham-2028-hopefuls-already-eyeing-new-mexico-video",
-   "published": "2026-11-20T23:35:05+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Sol Trujillo Says Latino Economic Growth Is an Undervalued Investment Opportunity",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-20/trujillo-says-latin-economic-growth-is-undervalued-video",
-   "published": "2026-11-20T23:33:21+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Rediker: AI Selloff Is a \u2018Healthy\u2019 Correction",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-20/rediker-ai-selloff-is-a-healthy-correction-video",
-   "published": "2026-11-20T23:28:59+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 4.92
     }
    ],
-   "fetched_at": "2026-11-21T17:23:29+00:00",
+   "fetched_at": "2026-11-21T23:05:32+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1756,7 +1756,7 @@ window.LIVE_DATA = {
      "v": 3.4415130227
     }
    ],
-   "fetched_at": "2026-11-21T17:23:30+00:00",
+   "fetched_at": "2026-11-21T23:05:35+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2328,7 +2328,7 @@ window.LIVE_DATA = {
      "v": 5.268
     }
    ],
-   "fetched_at": "2026-11-21T17:23:31+00:00",
+   "fetched_at": "2026-11-21T23:05:36+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2876,7 +2876,7 @@ window.LIVE_DATA = {
      "v": 2.87
     }
    ],
-   "fetched_at": "2026-11-21T17:23:33+00:00",
+   "fetched_at": "2026-11-21T23:05:38+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3688,7 +3688,7 @@ window.LIVE_DATA = {
      "v": 3.81
     }
    ],
-   "fetched_at": "2026-11-21T17:23:33+00:00",
+   "fetched_at": "2026-11-21T23:05:39+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4260,7 +4260,7 @@ window.LIVE_DATA = {
      "v": 5.08
     }
    ],
-   "fetched_at": "2026-11-21T17:23:34+00:00",
+   "fetched_at": "2026-11-21T23:05:39+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4293,7 +4293,7 @@ window.LIVE_DATA = {
   "as_of": "2026-11-20",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-21T17:23:35+00:00",
+  "fetched_at": "2026-11-21T23:05:40+00:00",
   "error": null,
   "pairs": [
    {
