@@ -1,6 +1,180 @@
 window.LIVE_DATA = {
- "updated": "2026-11-21T01:24:21+00:00",
+ "updated": "2026-11-21T09:38:23+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "How AI Is Forcing China to Reshape Industrial Policy",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/how-ai-is-forcing-china-to-reshape-industrial-policy",
+   "published": "2026-11-21T09:00:13+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Europe\u2019s Power Market Is Flashing a Warning to Its Economy",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/europe-s-power-market-is-flashing-a-warning-to-its-economy",
+   "published": "2026-11-21T09:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Odd Lots: How AI Reshaped Chinese Industrial Policy (Podcast)",
+   "url": "https://www.bloomberg.com/news/audio/2026-11-21/odd-lots-how-ai-reshaped-chinese-industrial-policy-podcast",
+   "published": "2026-11-21T09:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Italy\u2019s Webuild Completes Takeover of Construction Group Trevi",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/italy-s-webuild-completes-takeover-of-construction-group-trevi",
+   "published": "2026-11-21T08:42:34+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The dead hand of history weighs on Deutsche Bank",
+   "url": "https://www.ft.com/content/bfa66957-73d4-44f1-bea5-6b141c197920",
+   "published": "2026-11-21T06:32:26+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Burnham\u2019s Big Worry Isn\u2019t Brexit or Welfare, It\u2019s Trump and Iran",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/burnham-s-big-worry-isn-t-brexit-or-welfare-it-s-trump-and-iran",
+   "published": "2026-11-21T06:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Switzerland Prolongs Neutrality Soul-Searching With Weapons Vote",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/switzerland-prolongs-neutrality-soul-searching-with-weapons-vote",
+   "published": "2026-11-21T06:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "China\u2019s Top Planner Seeks Faster Construction of State Projects",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/china-s-top-planner-seeks-faster-construction-of-state-projects",
+   "published": "2026-11-21T05:24:06+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "China Military Bans SF Express From Procurement Over Misconduct",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/china-military-bans-sf-express-from-procurement-over-misconduct",
+   "published": "2026-11-21T05:00:48+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Milburn\u2019s \u00a35.8bn youth employment plan rests on \u2018leap of faith\u2019",
+   "url": "https://www.ft.com/content/41bcd148-4e1f-4071-940e-ba21dc3700df?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:45+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The manufacturing of novelty",
+   "url": "https://www.ft.com/content/99711b1a-3e54-4349-9c81-769cf7c96b97?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:36+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The chip war\u2019s next battleground",
+   "url": "https://www.ft.com/content/cd4ecaf3-0ded-4830-94a8-4d9c24098c07?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:36+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Good growth really is possible in every UK postcode",
+   "url": "https://www.ft.com/content/e8b3bcbc-ab31-408c-a8cb-5e1e6e0cac1e?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:36+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Oil shipped through Hormuz falls as Iranian strikes increase",
+   "url": "https://www.ft.com/content/5fbc2b9d-0360-4a1f-9e4a-3e86168cbbc5?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:35+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The \u2018Emperor of El Salvador\u2019 storms into Haiti",
+   "url": "https://www.ft.com/content/53d9f3ef-e0cc-4605-8203-180a97d0d404?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:35+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Tourist tax leaves Scouts facing \u00a31mn bill for camping trips",
+   "url": "https://www.ft.com/content/101e75db-97db-40e0-9897-d751aaf7f492?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:35+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US watchdogs pick a bad time to cut disclosure on executive pay",
+   "url": "https://www.ft.com/content/a8a45cf2-f096-4f33-8df5-46a689bde104?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:35+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "CVC claims accounting manipulation in \u20ac3bn Advent pastry ingredients deal",
+   "url": "https://www.ft.com/content/06999b01-07f1-44a1-8eab-a5d5e7ecd70f?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:26+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "A Turner masterpiece returns to Rome",
+   "url": "https://www.ft.com/content/de019b18-9dab-470f-bdc4-d44b7156a957",
+   "published": "2026-11-21T05:00:26+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The Bank of Mum and Dad has a \u2018Neets\u2019 problem",
+   "url": "https://www.ft.com/content/4cf7587f-a408-42af-9f8f-b3dd814db5c0?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:25+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The AI cyber threat is already here",
+   "url": "https://www.ft.com/content/3cf882c6-0be6-43f5-b01e-b6f765686c8b?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:16+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "How can investors succeed in markets today?",
+   "url": "https://www.ft.com/content/22b3765d-ff3d-4f07-8982-5a222dbb862e?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:16+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "An interior designer\u2019s guide to Kenmare, County Kerry",
+   "url": "https://www.ft.com/content/f719ae89-b343-4ae1-945c-6bd52411d90a",
+   "published": "2026-11-21T05:00:08+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Russia and Ukraine\u2019s drone war sends optical fibre prices soaring",
+   "url": "https://www.ft.com/content/339c3a72-bce5-44ed-bc6c-c8a8199cfb40?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:08+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Builders bet on \u20ac620bn defence infrastructure boom in Europe",
+   "url": "https://www.ft.com/content/b647fcba-e5e6-4ca2-8417-8c9146eac39e?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:07+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "When the music stopped for the Halifax",
+   "url": "https://www.ft.com/content/2006ed77-856d-441e-a877-5f8125b75e95?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:07+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Martin Wolf on the US midterms: Could history help predict the next two years of US politics?",
+   "url": "https://www.ft.com/content/67adfdc6-4cf9-4f7b-b751-f631535862d8?syn-25a6b1a6=1",
+   "published": "2026-11-21T05:00:00+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Nvidia affair puts Chinese spies in spotlight",
+   "url": "https://www.ft.com/content/77a283dd-b7af-4e72-8d83-9b53ab86f3e0?syn-25a6b1a6=1",
+   "published": "2026-11-21T03:58:46+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "\u2018Sandpapergate\u2019 fallout gives Australian cricket a rough time",
+   "url": "https://www.ft.com/content/21e99fa9-325d-4294-a459-97393c0d107f?syn-25a6b1a6=1",
+   "published": "2026-11-21T01:11:23+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "Trump Vows To Tax US Companies Building Data Centers Abroad",
@@ -186,180 +360,6 @@ window.LIVE_DATA = {
    "title": "Apple Working on Own AI Agent to Rival OpenAI and Anthropic",
    "url": "https://www.bloomberg.com/news/videos/2026-11-20/apple-working-on-own-ai-agent-to-rival-openai-anthropic-video",
    "published": "2026-11-20T21:12:52+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Grand Theft Auto VI smashes records with $3.8bn in sales",
-   "url": "https://www.ft.com/content/6648bce8-41fc-4542-8f24-ab37f8acd5d7?syn-25a6b1a6=1",
-   "published": "2026-11-20T21:05:48+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/crowdstrike-is-in-talks-to-buy-cybersecurity-firm-zscaler",
-   "published": "2026-11-20T21:05:11+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Swiss Farmers Set to Lose Voice in Government With New Minister",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/swiss-farmers-set-to-lose-voice-in-government-with-new-minister",
-   "published": "2026-11-20T20:52:09+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Bayer\u2019s $7.25 Billion Roundup Settlement Approved by Judge",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/bayer-s-7-25-billion-roundup-settlement-approved-by-us-judge",
-   "published": "2026-11-20T20:48:14+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Canadian Stocks Enter a Correction as Metals, Tech Slip",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/canadian-stocks-head-for-correction-as-metals-tech-push-lower",
-   "published": "2026-11-20T20:47:53+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Threatens to Tax Firms Building Data Centers Abroad: Full Presser",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-20/trump-vows-tax-on-building-data-centers-abroad-presser-video",
-   "published": "2026-11-20T20:26:31+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump considering new Iran strikes as US military warns of strain on forces",
-   "url": "https://www.ft.com/content/2daf570c-189a-4362-a128-828c520b902e",
-   "published": "2026-11-20T20:19:49+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Donald Trump threatens \u2018tremendous\u2019 tax on data centres built outside US",
-   "url": "https://www.ft.com/content/ae564e09-eb0d-42c6-b61f-50a4e61d0240?syn-25a6b1a6=1",
-   "published": "2026-11-20T20:17:29+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "General strike hits Italy as anger at Meloni grows",
-   "url": "https://www.ft.com/content/ced898eb-d752-414e-aeba-c85ce9717677?syn-25a6b1a6=1",
-   "published": "2026-11-20T20:00:42+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Burnham's Brexit reset",
-   "url": "https://www.ft.com/content/76543b3f-b669-42c8-9518-d67c967c6d5c?syn-25a6b1a6=1",
-   "published": "2026-11-20T19:51:12+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Wall Street Regulator Probing Nvidia\u2019s Accounting, Reuters Says",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/wall-street-regulator-probing-nvidia-s-accounting-reuters-says",
-   "published": "2026-11-20T19:48:49+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Apollo Enlists 13 Wall Street Banks for $9 Billion ADT Debt Deal",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/apollo-enlists-13-wall-street-banks-for-9-billion-adt-debt-deal",
-   "published": "2026-11-20T19:48:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Canada Stocks Eye Longest Losing Streak Since 2023 on Tech Rout",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/canada-stocks-eye-longest-losing-streak-since-2023-on-tech-rout",
-   "published": "2026-11-20T19:41:51+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Trump seeks Ukraine peace deal before January",
-   "url": "https://www.ft.com/content/6c1b8a64-35f9-4aba-8605-45a4abdce6b8?syn-25a6b1a6=1",
-   "published": "2026-11-20T19:32:15+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Defends Putin Ties as Russia Steps Up Ukraine Attacks",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-defends-ties-with-putin-as-russia-steps-up-ukraine-attacks",
-   "published": "2026-11-20T19:31:29+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "ETFs: High Conviction Through Novel Strategies",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-20/etfs-high-conviction-through-novel-strategies-video",
-   "published": "2026-11-20T19:29:35+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "How Tokenization Could Change the ETF Market",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-20/how-tokenization-could-change-the-etf-market-video",
-   "published": "2026-11-20T19:29:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Backs Lutnick After Senator\u2019s Criticism of Chip Smuggling",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-backs-lutnick-after-senator-s-criticism-of-chip-smuggling",
-   "published": "2026-11-20T19:24:17+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Kalshi\u2019s Novel Treasury Perps Hit Delays as Other Bets Expand",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/kalshi-s-novel-treasury-perps-hit-delays-as-other-bets-expand",
-   "published": "2026-11-20T19:21:38+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "ETFs Across the AI Ecosystem",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-20/etfs-across-the-ai-ecosystem-video",
-   "published": "2026-11-20T19:19:42+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Threatens to Tax Firms Building Data Centers Abroad",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-20/trump-floats-tax-on-firms-building-data-centers-abroad-video",
-   "published": "2026-11-20T19:09:32+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "It\u2019s tough out there",
-   "url": "https://www.ft.com/content/aa21ce02-f438-4aa2-820c-f4efbc46859f",
-   "published": "2026-11-20T18:57:31+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "\u2019Tis the season to be grateful to China",
-   "url": "https://www.ft.com/content/3f972ef6-f945-4139-a2d0-124a5bfdf71e?syn-25a6b1a6=1",
-   "published": "2026-11-20T18:57:07+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Burnham reopened the Brexit debate. He now sees the political dangers ahead",
-   "url": "https://www.ft.com/content/e90b4b48-ab43-4678-9f68-f571a77f0a64?syn-25a6b1a6=1",
-   "published": "2026-11-20T18:51:09+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Omers Private Capital Chief Exits to Lead Pension-Owned Teranet",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/omers-private-capital-chief-exits-to-lead-pension-owned-teranet",
-   "published": "2026-11-20T18:45:02+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Plays Down Tensions With Vance Over Iran War Critique",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-plays-down-tensions-with-vance-over-iran-war-critique",
-   "published": "2026-11-20T18:43:42+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Says Huang Should Return to Nvidia After \u2018Big Apology\u2019",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-20/trump-says-huang-should-return-as-nvidia-ceo-after-big-apology",
-   "published": "2026-11-20T18:38:33+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Fed\u2019s Cook Sees Growing Urgency to Tackle Inflation",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-20/fed-s-cook-sees-growing-urgency-to-tackle-inflation-video",
-   "published": "2026-11-20T18:25:07+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "UK universities relieved as EU tuition fees decision delayed until next year",
-   "url": "https://www.ft.com/content/77cb4ec6-4f03-4328-b566-0f1fd74b81ae?syn-25a6b1a6=1",
-   "published": "2026-11-20T18:19:48+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 4.92
     }
    ],
-   "fetched_at": "2026-11-21T01:24:39+00:00",
+   "fetched_at": "2026-11-21T09:38:43+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1756,7 +1756,7 @@ window.LIVE_DATA = {
      "v": 3.4415130227
     }
    ],
-   "fetched_at": "2026-11-21T01:24:41+00:00",
+   "fetched_at": "2026-11-21T09:38:44+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2328,7 +2328,7 @@ window.LIVE_DATA = {
      "v": 5.268
     }
    ],
-   "fetched_at": "2026-11-21T01:24:42+00:00",
+   "fetched_at": "2026-11-21T09:38:45+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2876,7 +2876,7 @@ window.LIVE_DATA = {
      "v": 2.87
     }
    ],
-   "fetched_at": "2026-11-21T01:24:44+00:00",
+   "fetched_at": "2026-11-21T09:38:48+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3688,7 +3688,7 @@ window.LIVE_DATA = {
      "v": 3.81
     }
    ],
-   "fetched_at": "2026-11-21T01:24:45+00:00",
+   "fetched_at": "2026-11-21T09:38:48+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4260,7 +4260,7 @@ window.LIVE_DATA = {
      "v": 5.08
     }
    ],
-   "fetched_at": "2026-11-21T01:24:45+00:00",
+   "fetched_at": "2026-11-21T09:38:49+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4293,7 +4293,7 @@ window.LIVE_DATA = {
   "as_of": "2026-11-20",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-21T01:24:46+00:00",
+  "fetched_at": "2026-11-21T09:38:50+00:00",
   "error": null,
   "pairs": [
    {
