@@ -1,6 +1,30 @@
 window.LIVE_DATA = {
- "updated": "2026-11-21T23:05:14+00:00",
+ "updated": "2026-11-22T03:03:22+00:00",
  "news": [
+  {
+   "source": "Financial Times",
+   "title": "India\u2019s $126bn insurance sector slams proposed commission cap",
+   "url": "https://www.ft.com/content/2e67313b-d6c5-4e62-bd50-14639fe5ef95?syn-25a6b1a6=1",
+   "published": "2026-11-22T01:30:02+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "ICE Arrest at Airport Prompts Outcry From Officials, Politicians",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-22/ice-arrest-at-airport-prompts-outcry-from-officials-politicians",
+   "published": "2026-11-22T01:12:26+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "China\u2019s $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-22/china-s-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet",
+   "published": "2026-11-22T00:00:00+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "COP31 negotiators try to break impasse after EU raises prospect of \u2018no deal\u2019",
+   "url": "https://www.ft.com/content/b3ba64e9-9482-4525-acc7-49825f3daace?syn-25a6b1a6=1",
+   "published": "2026-11-21T23:34:24+00:00"
+  },
   {
    "source": "Bloomberg",
    "title": "FDA Leadership Search Includes Cancer Care CEO, RFK Jr. Adviser",
@@ -24,12 +48,6 @@ window.LIVE_DATA = {
    "title": "Trump Orders Contractors to Get Signoff for Congress Queries",
    "url": "https://www.bloomberg.com/news/articles/2026-11-21/trump-orders-contractors-to-get-approval-for-congress-queries",
    "published": "2026-11-21T18:41:20+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "EU raises prospect of \u2018no deal\u2019 at COP31",
-   "url": "https://www.ft.com/content/b3ba64e9-9482-4525-acc7-49825f3daace?syn-25a6b1a6=1",
-   "published": "2026-11-21T18:07:02+00:00"
   },
   {
    "source": "Bloomberg",
@@ -342,24 +360,6 @@ window.LIVE_DATA = {
    "title": "How can investors succeed in markets today?",
    "url": "https://www.ft.com/content/22b3765d-ff3d-4f07-8982-5a222dbb862e?syn-25a6b1a6=1",
    "published": "2026-11-21T05:00:16+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "An interior designer\u2019s guide to Kenmare, County Kerry",
-   "url": "https://www.ft.com/content/f719ae89-b343-4ae1-945c-6bd52411d90a",
-   "published": "2026-11-21T05:00:08+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Russia and Ukraine\u2019s drone war sends optical fibre prices soaring",
-   "url": "https://www.ft.com/content/339c3a72-bce5-44ed-bc6c-c8a8199cfb40?syn-25a6b1a6=1",
-   "published": "2026-11-21T05:00:08+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Builders bet on \u20ac620bn defence infrastructure boom in Europe",
-   "url": "https://www.ft.com/content/b647fcba-e5e6-4ca2-8417-8c9146eac39e?syn-25a6b1a6=1",
-   "published": "2026-11-21T05:00:07+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 4.92
     }
    ],
-   "fetched_at": "2026-11-21T23:05:32+00:00",
+   "fetched_at": "2026-11-22T03:03:41+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1183,10 +1183,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-19",
    "change_1d_bp": 3.1,
    "history": [
-    {
-     "d": "2026-05-05",
-     "v": 3.1255068065
-    },
     {
      "d": "2026-05-06",
      "v": 3.048338757
@@ -1756,7 +1752,7 @@ window.LIVE_DATA = {
      "v": 3.4415130227
     }
    ],
-   "fetched_at": "2026-11-21T23:05:35+00:00",
+   "fetched_at": "2026-11-22T03:03:43+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -1767,10 +1763,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-18",
    "change_1d_bp": -8.4,
    "history": [
-    {
-     "d": "2026-05-05",
-     "v": 5.0201
-    },
     {
      "d": "2026-05-06",
      "v": 4.8932
@@ -2328,7 +2320,7 @@ window.LIVE_DATA = {
      "v": 5.268
     }
    ],
-   "fetched_at": "2026-11-21T23:05:36+00:00",
+   "fetched_at": "2026-11-22T03:03:44+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2876,7 +2868,7 @@ window.LIVE_DATA = {
      "v": 2.87
     }
    ],
-   "fetched_at": "2026-11-21T23:05:38+00:00",
+   "fetched_at": "2026-11-22T03:03:47+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3688,7 +3680,7 @@ window.LIVE_DATA = {
      "v": 3.81
     }
    ],
-   "fetched_at": "2026-11-21T23:05:39+00:00",
+   "fetched_at": "2026-11-22T03:03:47+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -3699,10 +3691,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-18",
    "change_1d_bp": -5.5,
    "history": [
-    {
-     "d": "2026-05-05",
-     "v": 4.974
-    },
     {
      "d": "2026-05-06",
      "v": 4.956
@@ -4260,7 +4248,7 @@ window.LIVE_DATA = {
      "v": 5.08
     }
    ],
-   "fetched_at": "2026-11-21T23:05:39+00:00",
+   "fetched_at": "2026-11-22T03:03:48+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4293,7 +4281,7 @@ window.LIVE_DATA = {
   "as_of": "2026-11-20",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-21T23:05:40+00:00",
+  "fetched_at": "2026-11-22T03:03:48+00:00",
   "error": null,
   "pairs": [
    {
