@@ -1,6 +1,114 @@
 window.LIVE_DATA = {
- "updated": "2026-11-22T19:28:22+00:00",
+ "updated": "2026-11-23T00:46:07+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "Treasuries' Negative Correlation to Stocks Is Back: State Street",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-23/why-treasuries-negative-correlation-to-stocks-is-back-video",
+   "published": "2026-11-23T00:30:45+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "UK Minister to Tell Business Public Control Is in Its Interest",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-23/uk-minister-to-tell-business-public-control-is-in-its-interest",
+   "published": "2026-11-23T00:01:00+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Jim O\u2019Neill calls for Burnham to overhaul property taxes",
+   "url": "https://www.ft.com/content/7151f7cb-58eb-43ce-844d-05cd62a985ba?syn-25a6b1a6=1",
+   "published": "2026-11-23T00:01:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Treasury Futures Fall as Rising Stock Futures Damp Haven Demand",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-22/treasury-futures-fall-as-rising-stock-futures-damp-haven-demand",
+   "published": "2026-11-22T23:59:06+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Latest Oil Market News and Analysis for Nov. 23",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-22/latest-oil-market-news-and-analysis-for-nov-23",
+   "published": "2026-11-22T23:06:06+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "US Stock Futures Gain in Volatile Trading After Tech-Driven Rout",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout",
+   "published": "2026-11-22T23:04:42+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "World's Biggest Warrants Market Is Fueled by Unusual Trading in Hong Kong",
+   "url": "https://www.bloomberg.com/graphics/hongkong-derivative-warrants-leverage-volume-ping-pong-trades/",
+   "published": "2026-11-22T23:00:17+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Gold Deluge Keeps China\u2019s $1 Trillion Trade Surplus in Check",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-22/gold-deluge-keeps-china-s-1-trillion-trade-surplus-in-check",
+   "published": "2026-11-22T23:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Live: Asia-Pacific Stocks, Currencies React After Nasdaq, S&P 500 Selloff",
+   "url": "https://www.bloomberg.com/news/live-blog/2026-11-22/asia-market-open",
+   "published": "2026-11-22T22:56:32+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Could history help predict the next two years of US politics? | Martin Wolf on the US midterms",
+   "url": "https://www.ft.com/video/06206392-4100-4aa2-86e7-e38e4ceb9138?syn-25a6b1a6=1",
+   "published": "2026-11-22T22:21:31+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "House Democrats to start new Congress with largest majority this century",
+   "url": "https://www.ft.com/content/9d2983a7-196d-4164-a0c1-e262f32fd8c9?syn-25a6b1a6=1",
+   "published": "2026-11-22T22:10:45+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "FirstFT: Scott Bessent refuses to rule out Jensen Huang\u2019s return to Nvidia",
+   "url": "https://www.ft.com/content/67014244-a737-4be5-ac81-97b77a6912ff?syn-25a6b1a6=1",
+   "published": "2026-11-22T22:07:25+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Nasdaq, S&P 500 Futures Bounce After Friday\u2019s Rout: Markets Wrap",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap",
+   "published": "2026-11-22T22:02:27+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Aussie Seen Rebounding Against Kiwi From Worst Month Since 2022",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-22/aussie-seen-rebounding-against-kiwi-from-worst-month-since-2022",
+   "published": "2026-11-22T21:16:37+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Dip Buyers Hesitate to Step In as Nasdaq 100 Nears a Bear Market",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-22/dip-buyers-hesitate-to-step-in-as-nasdaq-100-nears-a-bear-market",
+   "published": "2026-11-22T20:31:44+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Bond Market\u2019s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-22/bond-market-s-go-to-trade-for-fed-hikes-roiled-by-stocks-retreat",
+   "published": "2026-11-22T20:00:00+00:00"
+  },
+  {
+   "source": "The Economist",
+   "title": "How much more air can come out of the AI trade?",
+   "url": "https://www.economist.com/finance-and-economics/2026/11/22/how-much-more-air-can-come-out-of-the-ai-trade",
+   "published": "2026-11-22T19:44:21+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Delta flight delays add to concerns about US air travel systems",
+   "url": "https://www.ft.com/content/14566557-3f63-4eeb-b589-6cb1144dc918?syn-25a6b1a6=1",
+   "published": "2026-11-22T19:25:06+00:00"
+  },
   {
    "source": "Financial Times",
    "title": "Bessent refuses to rule out Huang\u2019s return to Nvidia",
@@ -33,7 +141,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Compass Plans to Move Main Listing to New York, FT Says",
+   "title": "Compass Plans to Move Main Listing to New York From London",
    "url": "https://www.bloomberg.com/news/articles/2026-11-22/compass-plans-to-move-primary-listing-from-london-to-ny-ft-says",
    "published": "2026-11-22T17:08:04+00:00"
   },
@@ -252,114 +360,6 @@ window.LIVE_DATA = {
    "title": "Did Anthropic and its bankers get a key call wrong after IPO?",
    "url": "https://www.ft.com/content/d501198c-14a4-4b96-8880-c3997545902e",
    "published": "2026-11-22T11:00:05+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Democrats will seek to unwind Trump\u2019s tax and tariff policies",
-   "url": "https://www.ft.com/content/8af97161-2ae0-4655-9f8b-a560f9227359?syn-25a6b1a6=1",
-   "published": "2026-11-22T11:00:05+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "From Squeezes to Meltdown, a Week of Mayhem Rocks Metals Markets",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-22/from-squeezes-to-meltdown-a-week-of-mayhem-rocks-metals-markets",
-   "published": "2026-11-22T11:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "S. Korea Rolls Out Phased Measures to Stabilize Stock Market",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-22/s-korea-rolls-out-phased-measures-to-stabilize-volatile-markets",
-   "published": "2026-11-22T10:16:45+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "UBS Capital Fight Enters Final Round as Lawmakers Resume Debate",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-22/ubs-capital-fight-enters-final-round-as-lawmakers-resume-debate",
-   "published": "2026-11-22T10:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Russian Attacks on Energy Cites Strain Ukraine Power Supply",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-22/russia-hits-ukrainian-energy-facilities-straining-power-supply",
-   "published": "2026-11-22T08:35:31+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "A rocky road to Irish unity",
-   "url": "https://www.ft.com/content/4d467ab8-00a7-4937-8775-30a42a00131f?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:14+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Argentina\u2019s borrowing costs jump as Milei\u2019s falling popularity rattles investors",
-   "url": "https://www.ft.com/content/f3ecede4-74a3-431a-89c5-a06fcd30812a?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:14+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Cheap Chinese ecommerce parcels flood the UK",
-   "url": "https://www.ft.com/content/2b2824e2-16b9-4621-85a0-7dad220644d5?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:14+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "How misinformation helped measles make its comeback",
-   "url": "https://www.ft.com/content/a71192b7-708c-4bd4-abb6-31c82113794a?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:14+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Burnham\u2019s EU dreams hampered by ministers\u2019 doubts",
-   "url": "https://www.ft.com/content/b3b86fe5-e7ac-4922-b45b-480ba1c88613?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:14+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Getting the UK\u2019s Neets into work is worth the cost",
-   "url": "https://www.ft.com/content/937a6804-e8b8-428d-bb8f-67f83fe874c5?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:14+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Napoleon\u2019s warning to Nvidia\u2019s Jensen Huang",
-   "url": "https://www.ft.com/content/f4a9e8ac-9ba2-40ac-8d27-8ce2b9639e2a?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Tech suppliers raise AI server prices up to 45% months after deals are signed",
-   "url": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Amazon\u2019s AI resistance: workers ready for battle over data centres",
-   "url": "https://www.ft.com/content/d194e93b-8d3c-42eb-85dd-46d58c4f2a80?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Private equity backers flag fresh concerns about sell-to-yourself deals",
-   "url": "https://www.ft.com/content/d299785f-dc83-4850-95b8-e08b9a643f98?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Khartoum goes on the offensive in Sudan war",
-   "url": "https://www.ft.com/content/90cec5dc-f699-4966-886d-6277cc289ed0?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The \u2018austere\u2019 conservative poised to lead Spain with the far right",
-   "url": "https://www.ft.com/content/cd179793-2880-4c4c-8bdd-9924b2eac12a?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Heathrow\u2019s biggest investor confident airport will build a third runway",
-   "url": "https://www.ft.com/content/5f83965d-e74d-4088-af9f-b59f2fa5e8f1?syn-25a6b1a6=1",
-   "published": "2026-11-22T05:00:06+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 4.92
     }
    ],
-   "fetched_at": "2026-11-22T19:28:40+00:00",
+   "fetched_at": "2026-11-23T00:46:28+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1183,10 +1183,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-19",
    "change_1d_bp": 3.1,
    "history": [
-    {
-     "d": "2026-05-06",
-     "v": 3.048338757
-    },
     {
      "d": "2026-05-07",
      "v": 3.0367988029
@@ -1752,7 +1748,7 @@ window.LIVE_DATA = {
      "v": 3.4415130227
     }
    ],
-   "fetched_at": "2026-11-22T19:28:44+00:00",
+   "fetched_at": "2026-11-23T00:46:31+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -1763,10 +1759,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-18",
    "change_1d_bp": -8.4,
    "history": [
-    {
-     "d": "2026-05-06",
-     "v": 4.8932
-    },
     {
      "d": "2026-05-07",
      "v": 4.8801
@@ -2320,7 +2312,7 @@ window.LIVE_DATA = {
      "v": 5.268
     }
    ],
-   "fetched_at": "2026-11-22T19:28:45+00:00",
+   "fetched_at": "2026-11-23T00:46:32+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2868,7 +2860,7 @@ window.LIVE_DATA = {
      "v": 2.87
     }
    ],
-   "fetched_at": "2026-11-22T19:28:48+00:00",
+   "fetched_at": "2026-11-23T00:46:34+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3680,7 +3672,7 @@ window.LIVE_DATA = {
      "v": 3.81
     }
    ],
-   "fetched_at": "2026-11-22T19:28:48+00:00",
+   "fetched_at": "2026-11-23T00:46:34+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -3691,10 +3683,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-18",
    "change_1d_bp": -5.5,
    "history": [
-    {
-     "d": "2026-05-06",
-     "v": 4.956
-    },
     {
      "d": "2026-05-07",
      "v": 4.926
@@ -4248,7 +4236,7 @@ window.LIVE_DATA = {
      "v": 5.08
     }
    ],
-   "fetched_at": "2026-11-22T19:28:49+00:00",
+   "fetched_at": "2026-11-23T00:46:35+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4281,7 +4269,7 @@ window.LIVE_DATA = {
   "as_of": "2026-11-20",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-22T19:28:49+00:00",
+  "fetched_at": "2026-11-23T00:46:36+00:00",
   "error": null,
   "pairs": [
    {
