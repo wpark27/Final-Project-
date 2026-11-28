@@ -1,6 +1,132 @@
 window.LIVE_DATA = {
- "updated": "2026-11-28T01:53:39+00:00",
+ "updated": "2026-11-28T10:13:40+00:00",
  "news": [
+  {
+   "source": "Bloomberg",
+   "title": "Australia\u2019s Center-Right Coalition Routs Labor in Victoria",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-28/liberal-nationals-set-to-win-australia-s-victoria-in-labor-rout",
+   "published": "2026-11-28T09:07:25+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Eisenkot Edging Closer to Leading Israel With Talks Progressing",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-28/eisenkot-edging-closer-to-leading-israel-with-talks-progressing",
+   "published": "2026-11-28T09:00:00+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "RBI Steps Up Gold Loan Scrutiny as Bullion Rout Signals Strain",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-28/rbi-steps-up-gold-loan-scrutiny-as-bullion-rout-signals-strain",
+   "published": "2026-11-28T06:39:08+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Burnham\u2019s Europe Plan Still Taking Shape as Brexit Rivals Circle",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-28/burnham-s-europe-plan-still-taking-shape-as-brexit-rivals-circle",
+   "published": "2026-11-28T06:00:00+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Iran hitting same ships twice to deter traffic from Strait of Hormuz",
+   "url": "https://www.ft.com/content/f9c4da80-cc2c-4b0b-b083-b7acd0337790?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:41+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US military repelled drones at RAF base",
+   "url": "https://www.ft.com/content/57795d58-2b9e-45cb-81e3-6c63aee434a4?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:41+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Row erupts over plan to make next NHS chief one of highest-paid civil servants",
+   "url": "https://www.ft.com/content/7167cdb4-d905-44ea-bee8-0d686e375fae?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:41+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "England\u2019s post-Brexit fishing windfall swept up by Dutch tycoon",
+   "url": "https://www.ft.com/content/13566b4a-e996-4029-829b-94fb89a76841?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:41+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "How to get more UK money into UK equity markets",
+   "url": "https://www.ft.com/content/71b43a99-b58e-492a-8227-9ea49bec9a5d?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:41+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The mathematicians living through an AI revolution",
+   "url": "https://www.ft.com/content/f27646d1-d8f2-4592-8d0e-bcce6c6da061?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:32+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Pedro S\u00e1nchez: the partisan warrior fighting to the last",
+   "url": "https://www.ft.com/content/ad9ff980-d165-42ef-8c74-4ff5acabe09a?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:32+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "\u2018Only in America\u2019 and other good lies",
+   "url": "https://www.ft.com/content/322f3ecd-f513-45aa-9b2f-adf63e104638?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:32+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "What\u2019s really behind the sex recession?",
+   "url": "https://www.ft.com/content/2771d3f4-f6c3-4a50-a8e7-24e0fa919648?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:32+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Sadiq Khan backs plan to pedestrianise London\u2019s Regent Street",
+   "url": "https://www.ft.com/content/605c45de-1cdc-43b6-85d1-59fda64f5bf0?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:32+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Falling student numbers will hit property markets all over the UK",
+   "url": "https://www.ft.com/content/12760b28-2a70-4671-985b-45e00746cc29",
+   "published": "2026-11-28T05:00:32+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Short cuts: Lufthansa\u2019s snarky clothing line and the \u2018world\u2019s southernmost\u2019 hotel",
+   "url": "https://www.ft.com/content/b792f63f-6363-4df0-8063-38417ef6db99?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:25+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Millions of pension scheme members eye growing UK plan surpluses",
+   "url": "https://www.ft.com/content/f1249918-b0f0-4db4-96f1-549fe94b51cd?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:25+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Five US multinationals pay more tax to Ireland than anywhere else",
+   "url": "https://www.ft.com/content/ec489542-0968-45d7-9dd7-985ad679f9b2?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:15+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "AI agents are coming for big business",
+   "url": "https://www.ft.com/content/c9de05b8-0916-436a-87fc-40337067b0d2?syn-25a6b1a6=1",
+   "published": "2026-11-28T05:00:14+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "What Happened to JFK-Era Intel Records?",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-28/disclosure-the-missing-jfk-era-defense-intel-records-video",
+   "published": "2026-11-28T04:24:26+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Copper thieves prey on Japan\u2019s ancient shrines in AI frenzy",
+   "url": "https://www.ft.com/content/98b72508-3d41-4f03-9a9a-bfb345e3a902?syn-25a6b1a6=1",
+   "published": "2026-11-28T01:01:26+00:00"
+  },
   {
    "source": "Financial Times",
    "title": "The Chinese car champion turning to police and nurse robots",
@@ -9,7 +135,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Taiwan Goes to Polls in Tight Local Elections as China Watches",
+   "title": "Taiwan Counts Votes in Close Local Elections as China Watches",
    "url": "https://www.bloomberg.com/news/articles/2026-11-28/taiwan-goes-to-polls-in-tight-local-elections-as-china-watches",
    "published": "2026-11-28T00:20:10+00:00"
   },
@@ -234,132 +360,6 @@ window.LIVE_DATA = {
    "title": "The Big Pressures Facing the Fed",
    "url": "https://www.bloomberg.com/news/newsletters/2026-11-27/the-big-pressures-facing-the-fed",
    "published": "2026-11-27T15:53:26+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Rains Ease El Ni\u00f1o Crop Fears in Brazil\u2019s Top Soybean Region",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/rains-ease-el-nino-crop-fears-in-brazil-s-top-soybean-region",
-   "published": "2026-11-27T15:42:01+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Russia set to criminalise sharing information about Ukrainian strikes",
-   "url": "https://www.ft.com/content/53a48a14-eadf-4fe3-bd33-9facd4c90266?syn-25a6b1a6=1",
-   "published": "2026-11-27T15:16:07+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "From Jobs to Jensen: tech\u2019s metamorphosis",
-   "url": "https://www.ft.com/content/5b10a0e6-aad6-403b-9f2e-23b5ca78897d",
-   "published": "2026-11-27T15:10:17+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Power Outages, Flood Risks Linger as Storm Leaves East Coast",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/dangerous-nor-easter-storm-triggers-widespread-power-outages",
-   "published": "2026-11-27T14:20:06+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Inflation and interest rates tracker: see how your country compares",
-   "url": "https://www.ft.com/content/088d3368-bb8b-4ff3-9df7-a7680d4d81b2?syn-25a6b1a6=1",
-   "published": "2026-11-27T13:39:05+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "The reforms the NHS needs (and those it doesn\u2019t)",
-   "url": "https://www.ft.com/content/901cc148-f3ed-460b-b2ed-8024f9ddff1d",
-   "published": "2026-11-27T13:27:45+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "EU weighs tighter export controls to prevent battery waste going to China",
-   "url": "https://www.ft.com/content/a8ecccda-f986-4ae9-9f45-9470d2be8c65?syn-25a6b1a6=1",
-   "published": "2026-11-27T13:26:26+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Brexit bear traps for Labour, Tories and Reform",
-   "url": "https://www.ft.com/content/8de00d12-8965-41e0-929a-76e80b1ada8e?syn-25a6b1a6=1",
-   "published": "2026-11-27T13:13:04+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Britain\u2019s Richest Families Cushion Themselves From Rising Taxes and Costs",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-27/richest-uk-families-cushion-themselves-from-rising-costs-video",
-   "published": "2026-11-27T12:52:25+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Nvidia Chips Turn Up at China Site Linked to Alice Huang",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-27/nvidia-chips-turn-up-at-china-site-linked-to-alice-huang-video",
-   "published": "2026-11-27T12:42:39+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Le Pen\u2019s Presidential Bid Hits Fresh Snag in Top Court Fight",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/le-pen-s-presidential-bid-hits-fresh-snag-in-top-court-fight",
-   "published": "2026-11-27T12:39:54+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "First principles to cling to when markets convulse",
-   "url": "https://www.ft.com/content/839c7d2c-adad-4e70-9abd-3cd5bdf5e09e?syn-25a6b1a6=1",
-   "published": "2026-11-27T12:32:08+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Former UK Supreme Court justice Jonathan Sumption: \u2018We never got back control\u2019",
-   "url": "https://www.ft.com/content/97f1dda5-2219-4e14-a716-569aab163e08?syn-25a6b1a6=1",
-   "published": "2026-11-27T12:30:04+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Here Are Some of the Key Lawmakers to Watch Heading Into 2027",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-11-27/here-are-some-of-the-key-lawmakers-to-watch-heading-into-2027",
-   "published": "2026-11-27T12:19:24+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Record temperature surge in November fuels extreme weather",
-   "url": "https://www.ft.com/content/738aaed8-7d4a-4321-aead-0f2bf71e286f?syn-25a6b1a6=1",
-   "published": "2026-11-27T12:13:22+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "London is playing a game of penthouse one-upmanship",
-   "url": "https://www.ft.com/content/55d25c66-4405-4698-8fc9-9516010bd7fb",
-   "published": "2026-11-27T12:00:05+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Trump Turns the Tide to Score Early Wins in Defamation Suits",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/trump-turns-the-tide-to-score-early-wins-in-defamation-suits",
-   "published": "2026-11-27T12:00:00+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Partners Respond to New Tariffs With Anger, Diplomacy",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-27/us-partners-respond-to-new-tariffs-with-anger-diplomacy-video",
-   "published": "2026-11-27T11:50:49+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Heathrow and Rosebank Disputes Threaten Burnham\u2019s Labour Unity",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/heathrow-and-rosebank-disputes-threaten-burnham-s-labour-unity",
-   "published": "2026-11-27T11:49:14+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "French economy shrinks 0.2% in third quarter",
-   "url": "https://www.ft.com/content/5325ace3-d69a-4686-acb6-2f06de6afd11?syn-25a6b1a6=1",
-   "published": "2026-11-27T11:38:30+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Russia Faces Surge in Unfulfilled Advances on State Contracts",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/russia-faces-surge-in-unfulfilled-advances-on-state-contracts",
-   "published": "2026-11-27T11:36:42+00:00"
   }
  ],
  "yields": {
@@ -1172,7 +1172,7 @@ window.LIVE_DATA = {
      "v": 4.94
     }
    ],
-   "fetched_at": "2026-11-28T01:53:58+00:00",
+   "fetched_at": "2026-11-28T10:14:00+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1756,7 +1756,7 @@ window.LIVE_DATA = {
      "v": 3.3053343107
     }
    ],
-   "fetched_at": "2026-11-28T01:54:00+00:00",
+   "fetched_at": "2026-11-28T10:14:01+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -2328,7 +2328,7 @@ window.LIVE_DATA = {
      "v": 5.0986
     }
    ],
-   "fetched_at": "2026-11-28T01:54:01+00:00",
+   "fetched_at": "2026-11-28T10:14:03+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2880,7 +2880,7 @@ window.LIVE_DATA = {
      "v": 2.704
     }
    ],
-   "fetched_at": "2026-11-28T01:54:04+00:00",
+   "fetched_at": "2026-11-28T10:14:04+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3692,7 +3692,7 @@ window.LIVE_DATA = {
      "v": 3.64
     }
    ],
-   "fetched_at": "2026-11-28T01:54:05+00:00",
+   "fetched_at": "2026-11-28T10:14:05+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -4264,7 +4264,7 @@ window.LIVE_DATA = {
      "v": 4.823
     }
    ],
-   "fetched_at": "2026-11-28T01:54:05+00:00",
+   "fetched_at": "2026-11-28T10:14:05+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4297,7 +4297,7 @@ window.LIVE_DATA = {
   "as_of": "2026-11-27",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-28T01:54:06+00:00",
+  "fetched_at": "2026-11-28T10:14:06+00:00",
   "error": null,
   "pairs": [
    {
