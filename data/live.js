@@ -1,6 +1,102 @@
 window.LIVE_DATA = {
- "updated": "2026-11-27T18:51:56+00:00",
+ "updated": "2026-11-28T01:53:39+00:00",
  "news": [
+  {
+   "source": "Financial Times",
+   "title": "The Chinese car champion turning to police and nurse robots",
+   "url": "https://www.ft.com/content/f83dd2dc-f51e-4151-9139-cf1918eb9d0a?syn-25a6b1a6=1",
+   "published": "2026-11-28T01:00:07+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Taiwan Goes to Polls in Tight Local Elections as China Watches",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-28/taiwan-goes-to-polls-in-tight-local-elections-as-china-watches",
+   "published": "2026-11-28T00:20:10+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "The  \u2018diehard separatist\u2019 shaking up Taipei\u2019s election",
+   "url": "https://www.ft.com/content/1953fdc7-b061-4a0c-86c5-5ffd00ebcec4?syn-25a6b1a6=1",
+   "published": "2026-11-27T23:50:03+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "South Africa\u2019s credit rating upgraded after years of economic stagnation",
+   "url": "https://www.ft.com/content/892ffe2f-1641-4e3d-b0d6-2693ca15cc95?syn-25a6b1a6=1",
+   "published": "2026-11-27T23:13:58+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "OpenAI countersues Apple for stealing trade secrets",
+   "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
+   "published": "2026-11-27T23:00:08+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "S&P cuts France outlook to negative",
+   "url": "https://www.ft.com/content/4e16110a-9604-4455-8557-4edece5df01a?syn-25a6b1a6=1",
+   "published": "2026-11-27T22:45:36+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Jailed Brazil Beach Soccer Star Drawn Into Russia-US Spy Dispute",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/jailed-brazil-beach-soccer-star-drawn-into-russia-us-spy-dispute",
+   "published": "2026-11-27T22:29:56+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Managing $300B for Ultra Wealthy Families: Masters in Business with Holly MacDonald",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-27/masters-in-business-with-holly-macdonald-video",
+   "published": "2026-11-27T22:14:41+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Hungary Credit Outlook Lifted by S&P on Budget and Euro Ambition",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/hungary-credit-outlook-lifted-by-s-p-on-budget-and-euro-ambition",
+   "published": "2026-11-27T21:19:31+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Mexican Airport Operator GAP Raises $398 Million for Fibra Trust",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/mexican-airport-operator-gap-raises-398-million-for-fibra-trust",
+   "published": "2026-11-27T21:05:05+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "S\u00e1nchez Seeks Unlikely Win With Plea for Spaniards to Go Vote",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/sanchez-seeks-unlikely-win-with-plea-for-spaniards-to-go-vote",
+   "published": "2026-11-27T20:24:01+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "US tech stocks rise in latest market swing",
+   "url": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1",
+   "published": "2026-11-27T20:08:09+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Meloni Seethes at Zelenskyy for Not Warning Her on Libya Strike",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/meloni-seethes-at-zelenskyy-for-not-warning-her-on-libya-strike",
+   "published": "2026-11-27T19:50:52+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Canada upholds law barring public sector workers from wearing religious symbols",
+   "url": "https://www.ft.com/content/240e1fe6-6c82-4d18-b73d-b0b52e7edae4?syn-25a6b1a6=1",
+   "published": "2026-11-27T19:33:28+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "New York Senate Majority Leader Andrea Stewart-Cousins Dies",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/new-york-senate-majority-leader-andrea-stewart-cousins-dies",
+   "published": "2026-11-27T19:07:22+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "Trump\u2019s AI Gambit Fuels Wild Thanksgiving Week on Wall Street",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/trump-s-ai-gambit-fuels-wild-thanksgiving-week-on-wall-street",
+   "published": "2026-11-27T18:43:36+00:00"
+  },
   {
    "source": "Financial Times",
    "title": "Trump\u2019s Nvidia intervention has a cost for US stocks",
@@ -9,15 +105,15 @@ window.LIVE_DATA = {
   },
   {
    "source": "Financial Times",
-   "title": "OpenAI countersues Apple for stealing trade secrets",
-   "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
-   "published": "2026-11-27T18:20:05+00:00"
-  },
-  {
-   "source": "Financial Times",
    "title": "AI and the decryption nightmare",
    "url": "https://www.ft.com/content/4114d053-de5e-46a5-8b46-758726abdcb7?syn-25a6b1a6=1",
    "published": "2026-11-27T18:18:27+00:00"
+  },
+  {
+   "source": "Financial Times",
+   "title": "Can AI crack encryption?",
+   "url": "https://www.ft.com/content/1a29e62d-b18d-4bad-937d-34f3eae0587a?syn-25a6b1a6=1",
+   "published": "2026-11-27T18:16:51+00:00"
   },
   {
    "source": "Financial Times",
@@ -44,12 +140,6 @@ window.LIVE_DATA = {
    "published": "2026-11-27T17:29:29+00:00"
   },
   {
-   "source": "Financial Times",
-   "title": "US tech stocks rise in latest market swing",
-   "url": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1",
-   "published": "2026-11-27T17:27:23+00:00"
-  },
-  {
    "source": "Bloomberg",
    "title": "Hong Kong Is Selling The City It Used To Be",
    "url": "https://www.bloomberg.com/news/videos/2026-11-27/hong-kong-is-selling-the-city-it-used-to-be-video",
@@ -60,6 +150,12 @@ window.LIVE_DATA = {
    "title": "Old Foes Unite to Return Cosmetics Tycoon as Johannesburg Mayor",
    "url": "https://www.bloomberg.com/news/articles/2026-11-27/old-foes-unite-to-return-cosmetics-tycoon-as-johannesburg-mayor",
    "published": "2026-11-27T17:12:24+00:00"
+  },
+  {
+   "source": "Bloomberg",
+   "title": "France Joins the Dutch in Opposing Proposed US Export Curbs",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/france-joins-the-dutch-in-opposing-proposed-us-export-curbs",
+   "published": "2026-11-27T17:06:00+00:00"
   },
   {
    "source": "Bloomberg",
@@ -93,7 +189,7 @@ window.LIVE_DATA = {
   },
   {
    "source": "Bloomberg",
-   "title": "Colombia Peso Stumbles as Mounting Risks Test Carry-Fueled Rally",
+   "title": "Colombia Peso Stumbles as Mounting Risks Test Rally",
    "url": "https://www.bloomberg.com/news/articles/2026-11-27/colombia-peso-stumbles-as-mounting-risks-test-carry-fueled-rally",
    "published": "2026-11-27T16:37:27+00:00"
   },
@@ -264,102 +360,6 @@ window.LIVE_DATA = {
    "title": "Russia Faces Surge in Unfulfilled Advances on State Contracts",
    "url": "https://www.bloomberg.com/news/articles/2026-11-27/russia-faces-surge-in-unfulfilled-advances-on-state-contracts",
    "published": "2026-11-27T11:36:42+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Japanese carmakers\u2019 sales collapse amid China market plunge",
-   "url": "https://www.ft.com/content/f627ff39-58e4-4def-8e79-794d3dc2996b?syn-25a6b1a6=1",
-   "published": "2026-11-27T11:31:30+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Hostility to immigration threatens Europe\u2019s future",
-   "url": "https://www.ft.com/content/cbfea4ac-ea67-46d2-b5a2-a36a0794b3fe?syn-25a6b1a6=1",
-   "published": "2026-11-27T11:16:10+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Altria\u2019s Interest in Imperial May Affect Its AB InBev Stake",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/altria-s-interest-in-imperial-may-also-affect-its-ab-inbev-stake",
-   "published": "2026-11-27T11:14:59+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Serbia\u2019s New Leadership Picks Academic to Run for President",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/new-serb-leadership-picks-academic-saicic-to-run-for-president",
-   "published": "2026-11-27T11:11:46+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "China Relations Loom Large Over Taiwan\u2019s Municipal Elections",
-   "url": "https://www.bloomberg.com/news/newsletters/2026-11-27/china-relations-loom-large-over-taiwan-s-municipal-elections",
-   "published": "2026-11-27T11:01:56+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Indonesia arrests three over alleged \u2018deep fried\u2019 market manipulation",
-   "url": "https://www.ft.com/content/50626b00-6d7b-47ac-b1f2-4b150ff9417e?syn-25a6b1a6=1",
-   "published": "2026-11-27T10:54:42+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "If we say the pay, let\u2019s mention the pension",
-   "url": "https://www.ft.com/content/bc44826f-2c9c-4f3e-a065-72e64d14ee84?syn-25a6b1a6=1",
-   "published": "2026-11-27T10:54:25+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Burundi Blocks Election Bid by Incumbent President\u2019s Main Rival",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/burundi-blocks-election-bid-by-incumbent-president-s-main-rival",
-   "published": "2026-11-27T10:53:53+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "92 Labour MPs call for Rosebank oilfield to be rejected",
-   "url": "https://www.ft.com/content/76befc28-cba3-4c9b-bdc3-cced4b304ab1?syn-25a6b1a6=1",
-   "published": "2026-11-27T10:21:13+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "S. Africa Open to Talks to Reset Relations With a Hostile US",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/south-africa-open-to-talks-to-reset-relations-with-a-hostile-us",
-   "published": "2026-11-27T09:56:20+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "Ladbrokes owner to settle Australia money laundering case",
-   "url": "https://www.ft.com/content/5fe8a858-6ed2-40f0-a0f3-e8742b7656aa?syn-25a6b1a6=1",
-   "published": "2026-11-27T09:51:44+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Modi Government to Revive Plan to Expand India\u2019s Parliament",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/modi-s-government-to-revive-plan-to-expand-india-s-parliament",
-   "published": "2026-11-27T09:43:30+00:00"
-  },
-  {
-   "source": "Financial Times",
-   "title": "How do you solve a problem like the Met?",
-   "url": "https://www.ft.com/content/c9aefc31-fedc-489a-8b77-0547d7f6f29f?syn-25a6b1a6=1",
-   "published": "2026-11-27T09:30:05+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "Isabella Weber's Vision for an Affordability Agenda",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-27/isabella-weber-s-vision-for-an-affordability-agenda-video",
-   "published": "2026-11-27T09:13:04+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "South Africa Top Court Clears Key Hurdles for Health-Plan Revamp",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/south-africa-top-court-clears-key-hurdles-for-health-plan-revamp",
-   "published": "2026-11-27T08:58:14+00:00"
-  },
-  {
-   "source": "Bloomberg",
-   "title": "US Stocks Rebound as Traders Pile Into Battered Tech Shares",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-27/us-stocks-set-to-bounce-as-risk-appetite-returns-after-holiday",
-   "published": "2026-11-27T07:56:20+00:00"
   }
  ],
  "yields": {
@@ -367,14 +367,10 @@ window.LIVE_DATA = {
    "country": "United States",
    "series": "US Treasury par yield curve, 10 Yr",
    "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates",
-   "value": 4.85,
-   "as_of": "2026-11-25",
-   "change_1d_bp": -6.0,
+   "value": 4.94,
+   "as_of": "2026-11-27",
+   "change_1d_bp": 9.0,
    "history": [
-    {
-     "d": "2026-02-10",
-     "v": 4.16
-    },
     {
      "d": "2026-02-11",
      "v": 4.18
@@ -1170,9 +1166,13 @@ window.LIVE_DATA = {
     {
      "d": "2026-11-25",
      "v": 4.85
+    },
+    {
+     "d": "2026-11-27",
+     "v": 4.94
     }
    ],
-   "fetched_at": "2026-11-27T18:52:15+00:00",
+   "fetched_at": "2026-11-28T01:53:58+00:00",
    "error": null
   },
   "European Central Bank": {
@@ -1183,10 +1183,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-26",
    "change_1d_bp": 4.6,
    "history": [
-    {
-     "d": "2026-05-11",
-     "v": 3.0796927017
-    },
     {
      "d": "2026-05-12",
      "v": 3.1495267074
@@ -1760,7 +1756,7 @@ window.LIVE_DATA = {
      "v": 3.3053343107
     }
    ],
-   "fetched_at": "2026-11-27T18:52:18+00:00",
+   "fetched_at": "2026-11-28T01:54:00+00:00",
    "error": null
   },
   "Bank of England (MPC)": {
@@ -1771,10 +1767,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-25",
    "change_1d_bp": -5.4,
    "history": [
-    {
-     "d": "2026-05-11",
-     "v": 4.9589
-    },
     {
      "d": "2026-05-12",
      "v": 5.0527
@@ -2336,7 +2328,7 @@ window.LIVE_DATA = {
      "v": 5.0986
     }
    ],
-   "fetched_at": "2026-11-27T18:52:19+00:00",
+   "fetched_at": "2026-11-28T01:54:01+00:00",
    "error": null
   },
   "Bank of Japan": {
@@ -2347,10 +2339,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-26",
    "change_1d_bp": -0.9,
    "history": [
-    {
-     "d": "2026-05-11",
-     "v": 2.527
-    },
     {
      "d": "2026-05-12",
      "v": 2.546
@@ -2892,7 +2880,7 @@ window.LIVE_DATA = {
      "v": 2.704
     }
    ],
-   "fetched_at": "2026-11-27T18:52:21+00:00",
+   "fetched_at": "2026-11-28T01:54:04+00:00",
    "error": null
   },
   "Bank of Canada": {
@@ -3704,7 +3692,7 @@ window.LIVE_DATA = {
      "v": 3.64
     }
    ],
-   "fetched_at": "2026-11-27T18:52:21+00:00",
+   "fetched_at": "2026-11-28T01:54:05+00:00",
    "error": null
   },
   "Reserve Bank of Australia": {
@@ -3715,10 +3703,6 @@ window.LIVE_DATA = {
    "as_of": "2026-11-25",
    "change_1d_bp": -2.4,
    "history": [
-    {
-     "d": "2026-05-11",
-     "v": 4.996
-    },
     {
      "d": "2026-05-12",
      "v": 5.036
@@ -4280,7 +4264,7 @@ window.LIVE_DATA = {
      "v": 4.823
     }
    ],
-   "fetched_at": "2026-11-27T18:52:22+00:00",
+   "fetched_at": "2026-11-28T01:54:05+00:00",
    "error": null
   },
   "Swiss National Bank": {
@@ -4313,7 +4297,7 @@ window.LIVE_DATA = {
   "as_of": "2026-11-27",
   "source": "ECB euro foreign exchange reference rates",
   "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
-  "fetched_at": "2026-11-27T18:52:23+00:00",
+  "fetched_at": "2026-11-28T01:54:06+00:00",
   "error": null,
   "pairs": [
    {
